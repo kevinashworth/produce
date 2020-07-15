@@ -1,0 +1,16 @@
+{
+  "name": "produce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "semistandard && node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^5.1.0",
+    "semistandard": "^14.2.2"
+  }
+}
