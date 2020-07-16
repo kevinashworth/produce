@@ -5,19 +5,17 @@
     "type": "New Media",
     "local": "Chicago",
     "startEndDates": "05/31/2020 - 07/24/2020",
-    "details": {
-      "signatoryName": "Complete Bull LLC",
-      "contractTitleName": "New Media Special Agreement",
-      "businessRepresentative": " Anny Edinchikyan",
-      "claimsRepresentative": "Emmy Ferguson",
-      "prodSubType": "Original Series",
-      "madeFor": "New Media - Special Agreement",
-      "market": "Other New Media",
-      "contributionPlan": "SAG",
-      "shootingLocations": [
-        "Dubuque, IA United States"
-      ]
-    }
+    "signatoryName": "Complete Bull LLC",
+    "contractTitleName": "New Media Special Agreement",
+    "businessRepresentative": "Anny Edinchikyan",
+    "claimsRepresentative": "Emmy Ferguson",
+    "prodSubType": "Original Series",
+    "madeFor": "New Media - Special Agreement",
+    "market": "Other New Media",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Dubuque, IA United States"
+    ]
   },
   {
     "id": "502655",
@@ -25,19 +23,17 @@
     "type": "Agnostic",
     "local": "Chicago",
     "startEndDates": "07/25/2020 - 07/26/2020",
-    "details": {
-      "signatoryName": "Spilled Ink Cinema, LLC.",
-      "contractTitleName": "Short Project Agreement",
-      "businessRepresentative": " Sanaa Sayyed",
-      "prodSubType": "Short Project Agreement",
-      "madeFor": "Not Applicable",
-      "market": "Not Applicable",
-      "contributionPlan": "SAG",
-      "shootingLocations": [
-        "Clive, IA",
-        "De Soto, IA"
-      ]
-    }
+    "signatoryName": "Spilled Ink Cinema, LLC.",
+    "contractTitleName": "Short Project Agreement",
+    "businessRepresentative": "Sanaa Sayyed",
+    "prodSubType": "Short Project Agreement",
+    "madeFor": "Not Applicable",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Clive, IA",
+      "De Soto, IA"
+    ]
   },
   {
     "id": "500297",
@@ -45,22 +41,20 @@
     "type": "Television Program",
     "local": "Chicago",
     "startEndDates": "11/11/2019 - 05/31/2021",
-    "details": {
-      "signatoryName": "Spiffy Entertainment, LLC",
-      "contractTitleName": "TV Programs",
-      "businessRepresentative": " Lisa Kyle",
-      "claimsRepresentative": "Kathy Byrne",
-      "prodSubType": "TV Series",
-      "madeFor": "Public TV",
-      "market": "Public TV",
-      "contributionPlan": "AFTRA",
-      "shootingLocations": [
-        "Chicago, IL United States"
-      ],
-      "alternateTitles": [
-        ""
-      ]
-    }
+    "signatoryName": "Spiffy Entertainment, LLC",
+    "contractTitleName": "TV Programs",
+    "businessRepresentative": "Lisa Kyle",
+    "claimsRepresentative": "Kathy Byrne",
+    "prodSubType": "TV Series",
+    "madeFor": "Public TV",
+    "market": "Public TV",
+    "contributionPlan": "AFTRA",
+    "shootingLocations": [
+      "Chicago, IL United States"
+    ],
+    "alternateTitles": [
+      ""
+    ]
   },
   {
     "id": "505578",
@@ -68,19 +62,17 @@
     "type": "Television",
     "local": "Chicago",
     "startEndDates": "09/14/2020 - 11/03/2020",
-    "details": {
-      "signatoryName": "Most of the Time, LLC",
-      "contractTitleName": "Television Independent Agreement",
-      "businessRepresentative": " Lisa Kyle",
-      "claimsRepresentative": "Kathy Byrne",
-      "prodSubType": "TV - Series",
-      "madeFor": "Pay TV",
-      "market": "Home Box Office",
-      "contributionPlan": "SAG",
-      "shootingLocations": [
-        "Chcago, IL United States"
-      ]
-    }
+    "signatoryName": "Most of the Time, LLC",
+    "contractTitleName": "Television Independent Agreement",
+    "businessRepresentative": "Lisa Kyle",
+    "claimsRepresentative": "Kathy Byrne",
+    "prodSubType": "TV - Series",
+    "madeFor": "Pay TV",
+    "market": "Home Box Office",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Chcago, IL United States"
+    ]
   },
   {
     "id": "506790",
@@ -88,18 +80,16 @@
     "type": "Agnostic",
     "local": "Chicago",
     "startEndDates": "07/13/2020 - 07/29/2020",
-    "details": {
-      "signatoryName": "GRAPH PAPER PRODUCTS LLC",
-      "contractTitleName": "Short Project Agreement",
-      "businessRepresentative": " Kathy Byrne",
-      "prodSubType": "Short Project Agreement",
-      "madeFor": "Not Applicable",
-      "market": "Not Applicable",
-      "contributionPlan": "SAG",
-      "shootingLocations": [
-        "Chicago, IL United States"
-      ]
-    }
+    "signatoryName": "GRAPH PAPER PRODUCTS LLC",
+    "contractTitleName": "Short Project Agreement",
+    "businessRepresentative": "Kathy Byrne",
+    "prodSubType": "Short Project Agreement",
+    "madeFor": "Not Applicable",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Chicago, IL United States"
+    ]
   },
   {
     "id": "505039",
@@ -107,18 +97,16 @@
     "type": "Agnostic",
     "local": "Chicago",
     "startEndDates": "07/29/2020 - 07/31/2020",
-    "details": {
-      "signatoryName": "MAB Crew Productions, LLC.",
-      "contractTitleName": "Short Project Agreement",
-      "businessRepresentative": " Sanaa Sayyed",
-      "prodSubType": "Short Project Agreement",
-      "madeFor": "Not Applicable",
-      "market": "Not Applicable",
-      "contributionPlan": "SAG",
-      "shootingLocations": [
-        "LaPorte, IN"
-      ]
-    }
+    "signatoryName": "MAB Crew Productions, LLC.",
+    "contractTitleName": "Short Project Agreement",
+    "businessRepresentative": "Sanaa Sayyed",
+    "prodSubType": "Short Project Agreement",
+    "madeFor": "Not Applicable",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "LaPorte, IN"
+    ]
   },
   {
     "id": "472235",
@@ -126,19 +114,17 @@
     "type": "New Media",
     "local": "Chicago",
     "startEndDates": "09/14/2018 - TBD",
-    "details": {
-      "signatoryName": "Joel Benjamin",
-      "contractTitleName": "New Media Agreement",
-      "businessRepresentative": " Joyce Grant",
-      "claimsRepresentative": "William Dreyer",
-      "prodSubType": "Original Other",
-      "madeFor": "New Media - Special Agreement-Animation",
-      "market": "Not Applicable",
-      "contributionPlan": "SAG",
-      "shootingLocations": [
-        "Chicago, IL United States"
-      ]
-    }
+    "signatoryName": "Joel Benjamin",
+    "contractTitleName": "New Media Agreement",
+    "businessRepresentative": "Joyce Grant",
+    "claimsRepresentative": "William Dreyer",
+    "prodSubType": "Original Other",
+    "madeFor": "New Media - Special Agreement-Animation",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Chicago, IL United States"
+    ]
   },
   {
     "id": "505717",
@@ -146,22 +132,20 @@
     "type": "Television",
     "local": "Chicago",
     "startEndDates": "10/05/2020 - 12/04/2020",
-    "details": {
-      "signatoryName": "Factual Productions, Inc.",
-      "contractTitleName": "Television AMPTP Agreement",
-      "businessRepresentative": " Lisa Kyle",
-      "claimsRepresentative": "Kathy Byrne",
-      "prodSubType": "TV - Series",
-      "madeFor": "Basic Cable",
-      "market": "Cartoon Network",
-      "contributionPlan": "SAG",
-      "shootingLocations": [
-        "Milwaukee, WI United States"
-      ],
-      "alternateTitles": [
-        ""
-      ]
-    }
+    "signatoryName": "Factual Productions, Inc.",
+    "contractTitleName": "Television AMPTP Agreement",
+    "businessRepresentative": "Lisa Kyle",
+    "claimsRepresentative": "Kathy Byrne",
+    "prodSubType": "TV - Series",
+    "madeFor": "Basic Cable",
+    "market": "Cartoon Network",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Milwaukee, WI United States"
+    ],
+    "alternateTitles": [
+      ""
+    ]
   },
   {
     "id": "475915",
@@ -169,19 +153,17 @@
     "type": "New Media",
     "local": "Chicago",
     "startEndDates": "10/24/2018 - TBD",
-    "details": {
-      "signatoryName": "Kristin Lantzy",
-      "contractTitleName": "New Media Agreement",
-      "businessRepresentative": " Kamau Talbott",
-      "claimsRepresentative": "Erica Santucci",
-      "prodSubType": "Original Series",
-      "madeFor": "New Media - Deferrable",
-      "market": "YouTube",
-      "contributionPlan": "SAG",
-      "shootingLocations": [
-        "chicago, IL United States"
-      ]
-    }
+    "signatoryName": "Kristin Lantzy",
+    "contractTitleName": "New Media Agreement",
+    "businessRepresentative": "Kamau Talbott",
+    "claimsRepresentative": "Erica Santucci",
+    "prodSubType": "Original Series",
+    "madeFor": "New Media - Deferrable",
+    "market": "YouTube",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "chicago, IL United States"
+    ]
   },
   {
     "id": "486284",
@@ -189,19 +171,17 @@
     "type": "New Media",
     "local": "Chicago",
     "startEndDates": "04/26/2019 - TBD",
-    "details": {
-      "signatoryName": "Manhunt Productions, Inc.",
-      "contractTitleName": "Television AMPTP Agreement",
-      "businessRepresentative": " Art Duarte",
-      "claimsRepresentative": "Kathy Byrne",
-      "prodSubType": "Original Series",
-      "madeFor": "New Media - High-Budget SVOD/Tier 1",
-      "market": "Other New Media",
-      "contributionPlan": "SAG",
-      "shootingLocations": [
-        "Pittsburgh, PA"
-      ]
-    }
+    "signatoryName": "Manhunt Productions, Inc.",
+    "contractTitleName": "Television AMPTP Agreement",
+    "businessRepresentative": "Art Duarte",
+    "claimsRepresentative": "Kathy Byrne",
+    "prodSubType": "Original Series",
+    "madeFor": "New Media - High-Budget SVOD/Tier 1",
+    "market": "Other New Media",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Pittsburgh, PA"
+    ]
   },
   {
     "id": "481589",
@@ -209,22 +189,20 @@
     "type": "Theatrical",
     "local": "Chicago",
     "startEndDates": "05/13/2019 - TBD",
-    "details": {
-      "signatoryName": "Enforcer Productions, LLC",
-      "contractTitleName": "Theatrical Independent Agreement",
-      "businessRepresentative": " Kiley Cristiano",
-      "claimsRepresentative": "Melissa Sexton",
-      "prodSubType": "Theatrical Regular",
-      "madeFor": "Theatrical Regular",
-      "market": "Not Applicable",
-      "contributionPlan": "SAG",
-      "shootingLocations": [
-        ", United Kingdom",
-        ", Morocco",
-        ", France",
-        "Chicago, IL United States"
-      ]
-    }
+    "signatoryName": "Enforcer Productions, LLC",
+    "contractTitleName": "Theatrical Independent Agreement",
+    "businessRepresentative": "Kiley Cristiano",
+    "claimsRepresentative": "Melissa Sexton",
+    "prodSubType": "Theatrical Regular",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      ", United Kingdom",
+      ", Morocco",
+      ", France",
+      "Chicago, IL United States"
+    ]
   },
   {
     "id": "504603",
@@ -232,18 +210,16 @@
     "type": "Agnostic",
     "local": "Chicago",
     "startEndDates": "06/30/2020 - 07/30/2020",
-    "details": {
-      "signatoryName": "Hometown E, LLC.",
-      "contractTitleName": "Short Project Agreement",
-      "businessRepresentative": " Sanaa Sayyed",
-      "prodSubType": "Short Project Agreement",
-      "madeFor": "Not Applicable",
-      "market": "Not Applicable",
-      "contributionPlan": "SAG",
-      "shootingLocations": [
-        "Branson, MO"
-      ]
-    }
+    "signatoryName": "Hometown E, LLC.",
+    "contractTitleName": "Short Project Agreement",
+    "businessRepresentative": "Sanaa Sayyed",
+    "prodSubType": "Short Project Agreement",
+    "madeFor": "Not Applicable",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Branson, MO"
+    ]
   },
   {
     "id": "494207",
@@ -251,20 +227,18 @@
     "type": "Theatrical",
     "local": "Chicago",
     "startEndDates": "02/18/2020 - TBD",
-    "details": {
-      "signatoryName": "Adobe Pictures, Inc.",
-      "contractTitleName": "Theatrical AMPTP Agreement",
-      "claimsRepresentative": "Sabina Sanchez",
-      "prodSubType": "Theatrical Regular",
-      "madeFor": "Theatrical Regular",
-      "market": "Not Applicable",
-      "contributionPlan": "SAG",
-      "shootingLocations": [
-        "Atlanta, GA",
-        "Chicago, IL United States",
-        "San Francsico, CA United States"
-      ]
-    }
+    "signatoryName": "Adobe Pictures, Inc.",
+    "contractTitleName": "Theatrical AMPTP Agreement",
+    "claimsRepresentative": "Sabina Sanchez",
+    "prodSubType": "Theatrical Regular",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Atlanta, GA",
+      "Chicago, IL United States",
+      "San Francsico, CA United States"
+    ]
   },
   {
     "id": "476522",
@@ -272,20 +246,18 @@
     "type": "New Media",
     "local": "Chicago",
     "startEndDates": "11/05/2018 - TBD",
-    "details": {
-      "signatoryName": "MINNIE PRODUCTIONS, LLC",
-      "contractTitleName": "New Media Agreement",
-      "businessRepresentative": " Kamau Talbott",
-      "bgClaimsRepresentative": "Toloria Milner",
-      "claimsRepresentative": "Deborah Wonder",
-      "prodSubType": "Original Series",
-      "madeFor": "New Media - Deferrable",
-      "market": "YouTube",
-      "contributionPlan": "SAG",
-      "shootingLocations": [
-        "chicago, IL United States"
-      ]
-    }
+    "signatoryName": "MINNIE PRODUCTIONS, LLC",
+    "contractTitleName": "New Media Agreement",
+    "businessRepresentative": "Kamau Talbott",
+    "bgClaimsRepresentative": "Toloria Milner",
+    "claimsRepresentative": "Deborah Wonder",
+    "prodSubType": "Original Series",
+    "madeFor": "New Media - Deferrable",
+    "market": "YouTube",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "chicago, IL United States"
+    ]
   },
   {
     "id": "492713",
@@ -293,20 +265,18 @@
     "type": "Television",
     "local": "Chicago",
     "startEndDates": "09/16/2019 - TBD",
-    "details": {
-      "signatoryName": "Run Pilot Productions (US) Inc.",
-      "contractTitleName": "Television Independent Agreement",
-      "businessRepresentative": " Lisa Kyle",
-      "claimsRepresentative": "William Dreyer",
-      "prodSubType": "TV - Series",
-      "madeFor": "Pay TV",
-      "market": "Home Box Office",
-      "contributionPlan": "SAG",
-      "shootingLocations": [
-        "Toronto, Canada",
-        "Chicago, IL"
-      ]
-    }
+    "signatoryName": "Run Pilot Productions (US) Inc.",
+    "contractTitleName": "Television Independent Agreement",
+    "businessRepresentative": "Lisa Kyle",
+    "claimsRepresentative": "William Dreyer",
+    "prodSubType": "TV - Series",
+    "madeFor": "Pay TV",
+    "market": "Home Box Office",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Toronto, Canada",
+      "Chicago, IL"
+    ]
   },
   {
     "id": "506464",
@@ -314,18 +284,16 @@
     "type": "Agnostic",
     "local": "Chicago",
     "startEndDates": "06/21/2020 - 12/31/2020",
-    "details": {
-      "signatoryName": "Lisa Rotiroti",
-      "contractTitleName": "Short Project Agreement",
-      "businessRepresentative": " Kathy Byrne",
-      "prodSubType": "Short Project Agreement",
-      "madeFor": "Not Applicable",
-      "market": "Not Applicable",
-      "contributionPlan": "SAG",
-      "shootingLocations": [
-        "Chicago, IL United States"
-      ]
-    }
+    "signatoryName": "Lisa Rotiroti",
+    "contractTitleName": "Short Project Agreement",
+    "businessRepresentative": "Kathy Byrne",
+    "prodSubType": "Short Project Agreement",
+    "madeFor": "Not Applicable",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Chicago, IL United States"
+    ]
   },
   {
     "id": "492753",
@@ -333,21 +301,19 @@
     "type": "Theatrical",
     "local": "Chicago",
     "startEndDates": "01/13/2020 - TBD",
-    "details": {
-      "signatoryName": "Warner Bros. Pictures Inc.",
-      "contractTitleName": "Theatrical AMPTP Agreement",
-      "claimsRepresentative": "Sabina Sanchez",
-      "prodSubType": "Theatrical Regular",
-      "madeFor": "Theatrical Regular",
-      "market": "Not Applicable",
-      "contributionPlan": "SAG",
-      "shootingLocations": [
-        "Chicago, IL United States",
-        ", United Kingdom"
-      ],
-      "alternateTitles": [
-        ""
-      ]
-    }
+    "signatoryName": "Warner Bros. Pictures Inc.",
+    "contractTitleName": "Theatrical AMPTP Agreement",
+    "claimsRepresentative": "Sabina Sanchez",
+    "prodSubType": "Theatrical Regular",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Chicago, IL United States",
+      ", United Kingdom"
+    ],
+    "alternateTitles": [
+      ""
+    ]
   }
 ]
