@@ -131,7 +131,15 @@ const handleDetails = (el) => {
     const detailsSelector = `#result-${id}.fulldetail.openDetail`;
 
     await page.click(clickSelector);
-    await page.waitForSelector(detailsAvailable);
+    try {
+      await page.waitForSelector(detailsAvailable);
+    } catch (e) {
+      console.groupCollapsed('waitForSelector error:')
+      console.error(e);
+      console.log(`error is for listing ${id}. loop should now continue.`);
+      console.groupEnd();
+      continue;
+    }
     const details = await page.$eval(detailsSelector, handleDetails);
     // eslint-disable-next-line
     // debugger;
