@@ -1,0 +1,95 @@
+[
+  {
+    "id": "494063",
+    "production": "Judas And The Black Messiah",
+    "type": "Theatrical",
+    "local": "Ohio-Pittsburgh",
+    "startEndDates": "10/21/2019 - TBD",
+    "signatoryName": "Red Zone Pictures, Inc.",
+    "contractTitleName": "Theatrical AMPTP Agreement",
+    "claimsRepresentative": "Sabina Sanchez",
+    "prodSubType": "Theatrical Regular",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Cleveland, OH United States"
+    ]
+  },
+  {
+    "id": "487985",
+    "production": "Ma Rainey'S Black Bottom",
+    "type": "Theatrical",
+    "local": "Ohio-Pittsburgh",
+    "startEndDates": "07/08/2019 - TBD",
+    "signatoryName": "Netflix Productions, LLC",
+    "contractTitleName": "Theatrical Independent Agreement",
+    "businessRepresentative": "Erin Cardillo",
+    "claimsRepresentative": "Melissa Sexton",
+    "prodSubType": "Theatrical Regular",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Pittsburgh, PA United States"
+    ]
+  },
+  {
+    "id": "492412",
+    "production": "Rust (19/20)",
+    "type": "Television",
+    "local": "Ohio-Pittsburgh",
+    "startEndDates": "03/05/2020 - 07/30/2020",
+    "signatoryName": "Platform One Media Productions, LLC",
+    "contractTitleName": "Television Independent Agreement",
+    "businessRepresentative": "Rebecca Knowlton",
+    "claimsRepresentative": "Billie Murphy",
+    "prodSubType": "TV - Series",
+    "madeFor": "Pay TV",
+    "market": "Showtime",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Pittsburgh, PA United States"
+    ],
+    "alternateTitles": [
+      "American Rust (19/20)",
+      "Rust (Yr 1)"
+    ]
+  },
+  {
+    "id": "481752",
+    "production": "Tamar Buys A Car",
+    "type": "Theatrical",
+    "local": "Ohio-Pittsburgh",
+    "startEndDates": "05/03/2019 - 09/24/2020",
+    "signatoryName": "Tamar Buys a Car LLC",
+    "contractTitleName": "Theatrical Independent Agreement",
+    "businessRepresentative": "Amanda Shapiro",
+    "claimsRepresentative": "Kathy Byrne",
+    "prodSubType": "Ultra Low Budget",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Circleville, OH United States"
+    ]
+  },
+  {
+    "id": "475921",
+    "production": "To Be Me...(Yr 1)",
+    "type": "New Media",
+    "local": "Ohio-Pittsburgh",
+    "startEndDates": "11/27/2018 - TBD",
+    "signatoryName": "Amanda Dash",
+    "contractTitleName": "New Media Agreement",
+    "businessRepresentative": "Joyce Grant",
+    "claimsRepresentative": "William Dreyer",
+    "prodSubType": "Original Series",
+    "madeFor": "New Media - Deferrable",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Pittsburgh, PA United States"
+    ]
+  }
+]

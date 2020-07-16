@@ -67,6 +67,10 @@ const LOCATION_SEARCH_BUTTON = '#edit-submit';
 //     value: 'BO'
 //   },
 //   {
+//     label: 'New Mexico',
+//     value: 'NM'
+//   },
+//   {
 //     label: 'New Orleans',
 //     value: 'LS'
 //   },
@@ -75,11 +79,23 @@ const LOCATION_SEARCH_BUTTON = '#edit-submit';
 //     value: 'NY'
 //   },
 //   {
+//     label: 'Ohio-Pittsburgh',
+//     value: 'OA'
+//   },
+//   {
 //     label: 'Philadelphia',
 //     value: 'PH'
+//   },
+//   {
+//     label: 'Portland',
+//     value: 'OR'
+//   },
+//   {
+//     label: 'San Diego',
+//     value: 'SD'
 //   }
 // ];
-const LOCATION = 'NV';
+const LOCATION = 'SD';
 const LISTINGS_AVAILABLE = '#production_listings_results #production_listings';
 const LISTINGS_SELECTOR = '#production_listings > [id^=row]';
 const OUTPUT_DIR = './output/'; // assumes we run `node src/index.js`
