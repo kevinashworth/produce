@@ -136,7 +136,13 @@ const handleDetails = (el) => {
     // eslint-disable-next-line
     // debugger;
     listing = { ...listing, ...details };
-    console.log('listing', i, ':', listing)
+
+    const outFile = './output/' + LOCATION + '/' + id + '.json';
+    fs.writeFile(outFile, JSON.stringify(listing, null, 2), (err) => {
+      if (err) throw err;
+      console.log(outFile, 'was saved:', listing);
+    });
+
     listings[i] = listing;
     await page.waitFor(50000);
   }

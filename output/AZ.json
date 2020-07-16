@@ -4,16 +4,20 @@
     "production": "Nameless Days, The",
     "type": "Theatrical",
     "local": "Arizona-Utah",
-    "startenddates": "11/27/2019 - 08/13/2020",
-    "details": {
-      "SignatoryName": "The Nameless Days, LLC",
-      "ContractTitleName": "Theatrical Independent Agreement",
-      "BusinessRepresentative": " Chanda Ulrich",
-      "ClaimsRepresentative": "Sabina Sanchez",
-      "ProdSubType": "Low Budget",
-      "MadeFor": "Theatrical Regular",
-      "Market": "Not Applicable",
-      "ContributionPlan": "SAG"
-    }
+    "startEndDates": "11/27/2019 - 08/13/2020",
+    "signatoryName": "The Nameless Days, LLC",
+    "contractTitleName": "Theatrical Independent Agreement",
+    "businessRepresentative": "Chanda Ulrich",
+    "claimsRepresentative": "Sabina Sanchez",
+    "prodSubType": "Low Budget",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Eureka, UT United States",
+      "Tooele, UT United States",
+      "VERNON, UT United States",
+      "Silver City, UT United States"
+    ]
   }
 ]
