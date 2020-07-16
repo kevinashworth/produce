@@ -23,8 +23,16 @@ const LOCATION_SEARCH_BUTTON = '#edit-submit';
 //     value: 'CH'
 //   },
 //   {
+//     label: 'Hawaii',
+//     value: 'HI'
+//   },
+//   {
 //     label: 'Los Angeles',
 //     value: 'LA'
+//   },
+//   {
+//     label: 'Miami',
+//     value: 'FL'
 //   },
 //   {
 //     label: 'New England',
@@ -37,9 +45,13 @@ const LOCATION_SEARCH_BUTTON = '#edit-submit';
 //   {
 //     label: 'New York',
 //     value: 'NY'
+//   },
+//   {
+//     label: 'Philadelphia',
+//     value: 'PH'
 //   }
 // ];
-const LOCATION = 'NY';
+const LOCATION = 'PH';
 const LISTINGS_AVAILABLE = '#production_listings_results #production_listings';
 const LISTINGS_SELECTOR = '#production_listings > [id^=row]';
 const OUTPUT_DIR = './output/'; // assumes we run `node src/index.js`
@@ -113,12 +125,13 @@ const handleDetails = (el) => {
 (async () => {
   mkdirp(OUTPUT_DIR + LOCATION).then(made => {
     if (made) {
-      console.log(`mkdirp made directories, starting with ${made}`)
+      console.log(`mkdirp made directories, starting with ${made}`);
     }
   });
 
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
+  console.log('Created page.');
   await page.setUserAgent(CONFIG.USER_AGENT);
   await page.setViewport({
     width: CONFIG.WIDTH,
@@ -130,6 +143,7 @@ const handleDetails = (el) => {
   await page.type(PASSWORD_SELECTOR, CREDENTIALS.password);
   await page.click(LOGIN_BUTTON_SELECTOR);
   await page.waitForNavigation();
+  console.log('Logged in to Production Listings.');
   await page.addScriptTag({
     url: 'https://cdn.jsdelivr.net/npm/lodash@4/lodash.min.js'
   });
@@ -137,10 +151,23 @@ const handleDetails = (el) => {
   await page.click(LOCATION_SEARCH_BUTTON);
   await page.waitForSelector(LISTINGS_AVAILABLE);
   const listings = await page.$$eval(LISTINGS_SELECTOR, handleListings);
-  
+  if (!listings) {
+    console.log('No listings for', LOCATION);
+  }
+  console.log('Going through', listings.length, 'listings.');
   for (let i = 0; i < listings.length; i++) {
     let listing = listings[i];
     const { id } = listing;
+    if (id === '0') {
+      const outFile = OUTPUT_DIR + LOCATION + '/' + id + '.json';
+      fs.writeFile(outFile, JSON.stringify(listing, null, 2), (err) => {
+        if (err) throw err;
+        console.log(outFile, 'was saved:', listing);
+      });  
+      await browser.close();
+      console.log('End of program.');
+      return;
+    }
     const clickSelector = `#click-${id}`;
     const detailsAvailable = `#result-${id}.fulldetail.openDetail ul`;
     const detailsSelector = `#result-${id}.fulldetail.openDetail`;
@@ -149,10 +176,11 @@ const handleDetails = (el) => {
     try {
       await page.waitForSelector(detailsAvailable);
     } catch (e) {
-      console.groupCollapsed('waitForSelector error:')
+      console.groupCollapsed('waitForSelector error:');
       console.error(e);
-      console.log(`error is for listing ${id}. loop should now continue.`);
+      console.log(`error is for listing ${id}.`);
       console.groupEnd();
+      console.log('For loop will now continue.');
       continue;
     }
     const details = await page.$eval(detailsSelector, handleDetails);
@@ -174,9 +202,10 @@ const handleDetails = (el) => {
   const outFile = OUTPUT_DIR + LOCATION + '.json';
   fs.writeFile(outFile, JSON.stringify(listings, null, 2), (err) => {
     if (err) throw err;
-    console.log(outFile, 'was saved!');
+    console.log(outFile, 'was saved.');
   });
 
   await page.waitFor(2000);
   await browser.close();
+  console.log('End of program.');
 })();

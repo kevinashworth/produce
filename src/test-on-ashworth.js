@@ -22,12 +22,12 @@ var puppeteer = require('puppeteer');
   for (let i = 0; i < divs.length; i++) {
     var randomSeconds = Math.floor(Math.random() * 20000) + 2000; // between 2 and 22 seconds, to appear human
     await page.waitFor(randomSeconds);
-  }  
+  }
 
   // eslint-disable-next-line
   // debugger;
   console.log(divCount);
-  var randomSeconds = Math.floor(Math.random() * 20000) + 2000; // between 2 and 22 seconds, to appear human
+  randomSeconds = Math.floor(Math.random() * 20000) + 2000; // between 2 and 22 seconds, to appear human
   await page.waitFor(randomSeconds);
   await browser.close();
 })();
