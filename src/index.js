@@ -93,9 +93,25 @@ const LOCATION_SEARCH_BUTTON = '#edit-submit';
 //   {
 //     label: 'San Diego',
 //     value: 'SD'
+//   },
+//   {
+//     label: 'San Francisco-NorCal',
+//     value: 'SF'
+//   },
+//   {
+//     label: 'Seattle',
+//     value: 'WA'
+//   },
+//   {
+//     label: 'Twin Cities',
+//     value: 'MN'
+//   },
+//   {
+//     label: 'Wash-Mid Atlantic',
+//     value: 'DC'
 //   }
 // ];
-const LOCATION = 'SD';
+const LOCATION = 'DC';
 const LISTINGS_AVAILABLE = '#production_listings_results #production_listings';
 const LISTINGS_SELECTOR = '#production_listings > [id^=row]';
 const OUTPUT_DIR = './output/'; // assumes we run `node src/index.js`

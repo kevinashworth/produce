@@ -1,0 +1,78 @@
+[
+  {
+    "id": "474795",
+    "production": "Ian'S Realm",
+    "type": "New Media",
+    "local": "Seattle",
+    "startEndDates": "10/05/2018 - TBD",
+    "signatoryName": "Firering Productions LLC",
+    "contractTitleName": "New Media Agreement",
+    "businessRepresentative": "Kamau Talbott",
+    "bgClaimsRepresentative": "Toloria Milner",
+    "claimsRepresentative": "Deborah Wonder",
+    "prodSubType": "Original Pilot",
+    "madeFor": "New Media - Deferrable",
+    "market": "YouTube",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Shoreline, WA United States"
+    ]
+  },
+  {
+    "id": "504829",
+    "production": "Three Busy Debras (20/21)",
+    "type": "Television",
+    "local": "Seattle",
+    "startEndDates": "08/01/2020 - 10/31/2020",
+    "signatoryName": "Alive And Kicking, Inc.",
+    "contractTitleName": "Television AMPTP Agreement",
+    "businessRepresentative": "Lisa Kyle",
+    "claimsRepresentative": "Chris Comte",
+    "prodSubType": "TV - Series",
+    "madeFor": "Basic Cable",
+    "market": "Cartoon Network",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Seattle, WA United States"
+    ]
+  },
+  {
+    "id": "480580",
+    "production": "Unseen Realm, The (2019)",
+    "type": "New Media",
+    "local": "Seattle",
+    "startEndDates": "02/16/2019 - TBD",
+    "signatoryName": "Faithlife Corporation",
+    "contractTitleName": "New Media Special Agreement",
+    "businessRepresentative": "Shay Davis",
+    "claimsRepresentative": "Billie Murphy",
+    "prodSubType": "Original Other",
+    "madeFor": "New Media - Special Agreement",
+    "market": "Other New Media",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Los Angeles, CA United States",
+      "Bellingham, WA United States"
+    ]
+  },
+  {
+    "id": "505756",
+    "production": "Zero Road",
+    "type": "Agnostic",
+    "local": "Seattle",
+    "startEndDates": "07/06/2020 - 07/25/2020",
+    "signatoryName": "CHANCE ENTERTAINMENT LLC",
+    "contractTitleName": "Agnostic Independent Agreement SAG-AFTRA",
+    "businessRepresentative": "Amanda Shapiro",
+    "claimsRepresentative": "Leif Larson",
+    "prodSubType": "Ultra Low Budget",
+    "madeFor": "Not Applicable",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Kallispell, MT United States",
+      "New York, NY United States",
+      "Philadelphia, PA United States"
+    ]
+  }
+]

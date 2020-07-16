@@ -1,0 +1,81 @@
+[
+  {
+    "id": "503580",
+    "production": "Holocaust And The United States, The (2020)",
+    "type": "Television Program",
+    "local": "Wash-Mid Atlantic",
+    "startEndDates": "10/10/2018 - TBD",
+    "signatoryName": "The Holocaust and the United States Film Project, LLC",
+    "contractTitleName": "TV Programs",
+    "businessRepresentative": "Lisa Kyle",
+    "claimsRepresentative": "Jane Love",
+    "prodSubType": "TV Program",
+    "madeFor": "Public TV",
+    "market": "Public TV",
+    "contributionPlan": "AFTRA",
+    "shootingLocations": [
+      "Washington, DC United States",
+      "New York, NY United States"
+    ]
+  },
+  {
+    "id": "506638",
+    "production": "Mission Unstoppable (20/21)",
+    "type": "Television Program",
+    "local": "Wash-Mid Atlantic",
+    "startEndDates": "07/01/2020 - 02/15/2021",
+    "signatoryName": "Mission Unstoppable, LLC",
+    "contractTitleName": "TV Programs",
+    "businessRepresentative": "Lisa Kyle",
+    "claimsRepresentative": "Billie Murphy",
+    "prodSubType": "TV Series",
+    "madeFor": "Broadcast Network",
+    "market": "CBS",
+    "contributionPlan": "AFTRA",
+    "shootingLocations": [
+      "Los Angeles,",
+      "Hawthorne, FL",
+      "Ft Pierce, FL",
+      "Homestead, FL",
+      "Towson, MD",
+      "Dallas, TX"
+    ]
+  },
+  {
+    "id": "473074",
+    "production": "Titillated The Series (Yr 1)",
+    "type": "New Media",
+    "local": "Wash-Mid Atlantic",
+    "startEndDates": "09/07/2018 - TBD",
+    "signatoryName": "lTruedmventertainment LLC",
+    "contractTitleName": "New Media Agreement",
+    "businessRepresentative": "Kamau Talbott",
+    "bgClaimsRepresentative": "Toloria Milner",
+    "claimsRepresentative": "Deborah Wonder",
+    "prodSubType": "Original Series",
+    "madeFor": "New Media - Deferrable",
+    "market": "YouTube",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Brandywine, MD United States"
+    ]
+  },
+  {
+    "id": "491348",
+    "production": "Without Remorse",
+    "type": "Theatrical",
+    "local": "Wash-Mid Atlantic",
+    "startEndDates": "09/30/2019 - TBD",
+    "signatoryName": "Paramount Overseas Productions, Inc.",
+    "contractTitleName": "Theatrical AMPTP Agreement",
+    "claimsRepresentative": "Sabina Sanchez",
+    "prodSubType": "Theatrical Regular",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Washington, DC United States",
+      "Berlin, Germany"
+    ]
+  }
+]
