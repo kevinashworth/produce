@@ -7,8 +7,29 @@ const PASSWORD_SELECTOR = '#edit-pass';
 const LOGIN_BUTTON_SELECTOR = '#sagaftra-login-button-submit';
 const LOCATION_SELECTOR = 'select#edit-location';
 const LOCATION_SEARCH_BUTTON = '#edit-submit';
-// const LOCATIONS = ['AZ', 'GA', 'CH', 'LA'];
-const LOCATION = 'CH';
+// const LOCATIONS = [
+//   {
+//     label: 'Los Angeles',
+//     value: 'LA'
+//   },
+//   {
+//     label: 'Atlanta',
+//     value: 'GA'
+//   },
+//   {
+//     label: 'Chicago',
+//     value: 'CH'
+//   },
+//   {
+//     label: 'Arizona-Utah',
+//     value: 'AZ'
+//   },
+//   {
+//     label: 'New England',
+//     value: 'BO'
+//   }
+// ];
+const LOCATION = 'LA';
 const LISTINGS_AVAILABLE = '#production_listings_results #production_listings';
 const LISTINGS_SELECTOR = '#production_listings > [id^=row]';
 
@@ -96,7 +117,7 @@ const handleDetails = (el) => {
   const listings = await page.$$eval(LISTINGS_SELECTOR, handleListings);
 
   for (let i = 0; i < listings.length; i++) {
-    const listing = listings[i];
+    let listing = listings[i];
     const { id } = listing;
     const clickSelector = `#click-${id}`;
     const detailsAvailable = `#result-${id}.fulldetail.openDetail ul`;
@@ -107,8 +128,10 @@ const handleDetails = (el) => {
     const details = await page.$eval(detailsSelector, handleDetails);
     // eslint-disable-next-line
     // debugger;
-    listings[i].details = details;
-    await page.waitFor(600);
+    listing = { ...listing, ...details };
+    console.log('listing', i, ':', listing)
+    listings[i] = listing;
+    await page.waitFor(50000);
   }
 
   const outFile = './output/' + LOCATION + '.json';

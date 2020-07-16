@@ -1,0 +1,113 @@
+[
+  {
+    "id": "506373",
+    "production": "Frontline: Fixing The Force",
+    "type": "Television Program",
+    "local": "New England",
+    "startEndDates": "07/01/2020 - 07/30/2020",
+    "signatoryName": "WGBH EDUCATIONAL FOUNDATION",
+    "contractTitleName": "TV Programs",
+    "claimsRepresentative": "Jessica Maher",
+    "prodSubType": "TV Program",
+    "madeFor": "Public TV",
+    "market": "Public TV",
+    "contributionPlan": "AFTRA",
+    "shootingLocations": [
+      "Boston, MA United States"
+    ]
+  },
+  {
+    "id": "486009",
+    "production": "Hubie Halloween",
+    "type": "Theatrical",
+    "local": "New England",
+    "startEndDates": "07/08/2019 - TBD",
+    "signatoryName": "Netflix Productions, LLC",
+    "contractTitleName": "Theatrical Independent Agreement",
+    "businessRepresentative": "Kiley Cristiano",
+    "claimsRepresentative": "Melissa Sexton",
+    "prodSubType": "Theatrical Regular",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Boston, MA United States"
+    ]
+  },
+  {
+    "id": "497991",
+    "production": "Mnemosyne",
+    "type": "Theatrical",
+    "local": "New England",
+    "startEndDates": "12/07/2019 - 07/31/2020",
+    "signatoryName": "B Bros Productions, LLC",
+    "contractTitleName": "Theatrical Independent Agreement",
+    "businessRepresentative": "Amanda Shapiro",
+    "claimsRepresentative": "Pearl Brady",
+    "prodSubType": "Ultra Low Budget",
+    "madeFor": "TH - Other",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      ", ME United States",
+      ", NH United States",
+      ", NY United States"
+    ]
+  },
+  {
+    "id": "491931",
+    "production": "Nova/Beyond The Elements",
+    "type": "Television Program",
+    "local": "New England",
+    "startEndDates": "07/19/2019 - TBD",
+    "signatoryName": "WGBH EDUCATIONAL FOUNDATION",
+    "contractTitleName": "TV Programs",
+    "prodSubType": "TV Program",
+    "madeFor": "Public TV",
+    "market": "Public TV",
+    "contributionPlan": "AFTRA",
+    "shootingLocations": [
+      "Boston, MA"
+    ]
+  },
+  {
+    "id": "505911",
+    "production": "Royal Holiday (2020)",
+    "type": "Television",
+    "local": "New England",
+    "startEndDates": "07/07/2020 - 07/29/2020",
+    "signatoryName": "Royal Productions, LLC",
+    "contractTitleName": "Television Independent Agreement",
+    "businessRepresentative": "Rose Magcalas",
+    "claimsRepresentative": "Jessica Maher",
+    "prodSubType": "TV - Movie",
+    "madeFor": "Basic Cable",
+    "market": "Hallmark Channel",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Putnam, CT United States"
+    ]
+  },
+  {
+    "id": "469009",
+    "production": "Spenser Confidential",
+    "type": "Theatrical",
+    "local": "New England",
+    "startEndDates": "09/24/2018 - TBD",
+    "signatoryName": "Little Lord Productions, LLC",
+    "contractTitleName": "Theatrical Independent Agreement",
+    "businessRepresentative": "Lilliana Barzaga",
+    "claimsRepresentative": "Melissa Sexton",
+    "prodSubType": "Theatrical Regular",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Boston, MA United States"
+    ],
+    "alternateTitles": [
+      "Wonderland",
+      "Spenser: Confidential"
+    ]
+  }
+]
