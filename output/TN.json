@@ -1,0 +1,92 @@
+[
+  {
+    "id": "494443",
+    "production": "2019 Artists Of The Year (2019)",
+    "type": "Television Program",
+    "local": "Nashville",
+    "startEndDates": "10/16/2019 - TBD",
+    "signatoryName": "COMMERCE STREET PRODUCTIONS INC",
+    "contractTitleName": "TV Programs",
+    "businessRepresentative": "Rebecca Knowlton",
+    "claimsRepresentative": "Handy Rivera",
+    "prodSubType": "Award Show",
+    "madeFor": "Basic Cable",
+    "market": "CMT",
+    "contributionPlan": "AFTRA",
+    "shootingLocations": [
+      "Nashville, TN United States"
+    ]
+  },
+  {
+    "id": "485936",
+    "production": "2019 Cmt Music Awards",
+    "type": "Television Program",
+    "local": "Nashville",
+    "startEndDates": "06/05/2019 - TBD",
+    "signatoryName": "COMMERCE STREET PRODUCTIONS INC",
+    "contractTitleName": "TV Programs",
+    "businessRepresentative": "Rebecca Knowlton",
+    "claimsRepresentative": "Handy Rivera",
+    "prodSubType": "Award Show",
+    "madeFor": "Basic Cable",
+    "market": "CMT",
+    "contributionPlan": "AFTRA",
+    "shootingLocations": [
+      "Nashville, TN United States"
+    ]
+  },
+  {
+    "id": "495512",
+    "production": "Dark, The (Yr 1)",
+    "type": "New Media",
+    "local": "Nashville",
+    "startEndDates": "10/21/2019 - TBD",
+    "signatoryName": "Rossetti Sports Holdings, LLC",
+    "contractTitleName": "New Media Agreement",
+    "businessRepresentative": "Joyce Grant",
+    "claimsRepresentative": "Emmy Ferguson",
+    "prodSubType": "Original Series",
+    "madeFor": "New Media - Deferrable",
+    "market": "Other New Media",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      ", KY United States"
+    ]
+  },
+  {
+    "id": "496302",
+    "production": "Shelter From The Storm",
+    "type": "Theatrical",
+    "local": "Nashville",
+    "startEndDates": "10/25/2019 - TBD",
+    "signatoryName": "Lucas Hames",
+    "contractTitleName": "Student Agreement",
+    "businessRepresentative": "Leslie Krensky",
+    "claimsRepresentative": "Leslie Krensky",
+    "prodSubType": "Student",
+    "madeFor": "TH - Other",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Nashville, TN"
+    ]
+  },
+  {
+    "id": "495890",
+    "production": "This Is 20 (19/20)",
+    "type": "New Media",
+    "local": "Nashville",
+    "startEndDates": "11/01/2019 - TBD",
+    "signatoryName": "Hope Karwoski",
+    "contractTitleName": "New Media Agreement",
+    "businessRepresentative": "Anny Edinchikyan",
+    "claimsRepresentative": "William Dreyer",
+    "prodSubType": "Original Series",
+    "madeFor": "New Media - Deferrable",
+    "market": "Instagram",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Nashville, TN United States"
+    ]
+  }
+]

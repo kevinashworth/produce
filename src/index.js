@@ -47,6 +47,22 @@ const LOCATION_SEARCH_BUTTON = '#edit-submit';
 //     value: 'FL'
 //   },
 //   {
+//     label: 'Michigan',
+//     value: 'DE'
+//   },
+//   {
+//     label: 'Missouri Valley',
+//     value: 'MKN'
+//   },
+//   {
+//     label: 'Nashville',
+//     value: 'TN'
+//   },
+//   {
+//     label: 'Nevada',
+//     value: 'NV'
+//   },
+//   {
 //     label: 'New England',
 //     value: 'BO'
 //   },
@@ -63,7 +79,7 @@ const LOCATION_SEARCH_BUTTON = '#edit-submit';
 //     value: 'PH'
 //   }
 // ];
-const LOCATION = 'HU';
+const LOCATION = 'NV';
 const LISTINGS_AVAILABLE = '#production_listings_results #production_listings';
 const LISTINGS_SELECTOR = '#production_listings > [id^=row]';
 const OUTPUT_DIR = './output/'; // assumes we run `node src/index.js`
