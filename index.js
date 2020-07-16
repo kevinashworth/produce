@@ -1,5 +1,6 @@
 const puppeteer = require('puppeteer');
 const fs = require('fs');
+const mkdirp = require('mkdirp');
 const CREDENTIALS = require('./credentials.js');
 
 const USERNAME_SELECTOR = '#edit-name';
@@ -100,6 +101,12 @@ const handleDetails = (el) => {
 };
 
 (async () => {
+  mkdirp('./output/' + LOCATION).then(made => {
+    if (made) {
+      console.log(`mkdirp made directories, starting with ${made}`)
+    }
+  });
+
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
   // page.on('console', msg => console.log('page.log:', msg.text()));

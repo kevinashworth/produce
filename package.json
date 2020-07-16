@@ -12,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "lodash": "^4.17.19",
+    "mkdirp": "^1.0.4",
     "puppeteer": "^5.1.0",
     "semistandard": "^14.2.2"
   },
