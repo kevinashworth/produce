@@ -8,7 +8,7 @@ const USERNAME_SELECTOR = '#edit-name';
 const PASSWORD_SELECTOR = '#edit-pass';
 const LOGIN_BUTTON_SELECTOR = '#sagaftra-login-button-submit';
 const LOCATION_SELECTOR = 'select#edit-location';
-const LOCATION_SEARCH_BUTTON = '#edit-submit';
+const SEARCH_BUTTON = '#edit-submit';
 // const LOCATIONS = [
 //   {
 //     label: 'Atlanta',
@@ -208,7 +208,7 @@ const handleDetails = (el) => {
     url: 'https://cdn.jsdelivr.net/npm/lodash@4/lodash.min.js'
   });
   await page.select(LOCATION_SELECTOR, LOCATION);
-  await page.click(LOCATION_SEARCH_BUTTON);
+  await page.click(SEARCH_BUTTON);
   await page.waitForSelector(LISTINGS_AVAILABLE);
   const listings = await page.$$eval(LISTINGS_SELECTOR, handleListings);
   if (!listings) {
@@ -223,7 +223,7 @@ const handleDetails = (el) => {
       fs.writeFile(outFile, JSON.stringify(listing, null, 2), (err) => {
         if (err) throw err;
         console.log(outFile, 'was saved:', listing);
-      });  
+      });
       await browser.close();
       console.log('End of program.');
       return;
