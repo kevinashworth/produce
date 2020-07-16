@@ -122,7 +122,7 @@ const handleDetails = (el) => {
   await page.click(LOCATION_SEARCH_BUTTON);
   await page.waitForSelector(LISTINGS_AVAILABLE);
   const listings = await page.$$eval(LISTINGS_SELECTOR, handleListings);
-
+  
   for (let i = 0; i < listings.length; i++) {
     let listing = listings[i];
     const { id } = listing;
@@ -152,7 +152,8 @@ const handleDetails = (el) => {
     });
 
     listings[i] = listing;
-    await page.waitFor(50000);
+    var randomSeconds = Math.floor(Math.random() * 4000) + 1000; // between 1 and 5 seconds, to appear human
+    await page.waitFor(randomSeconds);
   }
 
   const outFile = './output/' + LOCATION + '.json';
@@ -164,17 +165,3 @@ const handleDetails = (el) => {
   await page.waitFor(2000);
   await browser.close();
 })();
-
-// handle locations first
-// const locations = [];
-// if (children[children.length - 2].innerText.indexOf('Shooting Locations') === 0) {
-//   const items = Array.from(children[children.length - 1].children);
-//   items.forEach(location => {
-//     locations.push(location.innerText);
-//     console.log('locations:', locations);
-//   })
-// }
-// results.locations = locations;
-// // remove locations before proceeding
-// children.pop();
-// children.pop();
