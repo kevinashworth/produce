@@ -7,7 +7,7 @@ var puppeteer = require('puppeteer');
     devtools: true
   });
   const page = await browser.newPage();
-  page.on('console', msg => console.log('CONSOLE LOG:', msg.text()));
+  page.on('console', msg => console.log('page.log:', msg.text()));
   await page.goto('http://www.kevinashworth.com/');
   await page.addScriptTag({
     url: 'https://cdn.jsdelivr.net/npm/lodash@4/lodash.min.js'
@@ -16,9 +16,18 @@ var puppeteer = require('puppeteer');
     console.log(_.camelCase('DivCount:'), divs.length);
     return divs.length;
   });
+  const divs = await page.$$eval('div', (divs) => {
+    return divs;
+  });
+  for (let i = 0; i < divs.length; i++) {
+    var randomSeconds = Math.floor(Math.random() * 20000) + 2000; // between 2 and 22 seconds, to appear human
+    await page.waitFor(randomSeconds);
+  }  
+
   // eslint-disable-next-line
   // debugger;
   console.log(divCount);
-  await page.waitFor(20000);
+  var randomSeconds = Math.floor(Math.random() * 20000) + 2000; // between 2 and 22 seconds, to appear human
+  await page.waitFor(randomSeconds);
   await browser.close();
 })();
