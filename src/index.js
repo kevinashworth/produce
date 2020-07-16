@@ -2,6 +2,7 @@ const puppeteer = require('puppeteer');
 const fs = require('fs');
 const mkdirp = require('mkdirp');
 const CREDENTIALS = require('./credentials.js');
+const CONFIG = require('./config.js');
 
 const USERNAME_SELECTOR = '#edit-name';
 const PASSWORD_SELECTOR = '#edit-pass';
@@ -10,29 +11,38 @@ const LOCATION_SELECTOR = 'select#edit-location';
 const LOCATION_SEARCH_BUTTON = '#edit-submit';
 // const LOCATIONS = [
 //   {
-//     label: 'Los Angeles',
-//     value: 'LA'
-//   },
-//   {
 //     label: 'Atlanta',
 //     value: 'GA'
-//   },
-//   {
-//     label: 'Chicago',
-//     value: 'CH'
 //   },
 //   {
 //     label: 'Arizona-Utah',
 //     value: 'AZ'
 //   },
 //   {
+//     label: 'Chicago',
+//     value: 'CH'
+//   },
+//   {
+//     label: 'Los Angeles',
+//     value: 'LA'
+//   },
+//   {
 //     label: 'New England',
 //     value: 'BO'
+//   },
+//   {
+//     label: 'New Orleans',
+//     value: 'LS'
+//   },
+//   {
+//     label: 'New York',
+//     value: 'NY'
 //   }
 // ];
-const LOCATION = 'LA';
+const LOCATION = 'NY';
 const LISTINGS_AVAILABLE = '#production_listings_results #production_listings';
 const LISTINGS_SELECTOR = '#production_listings > [id^=row]';
+const OUTPUT_DIR = './output/'; // assumes we run `node src/index.js`
 
 const handleListings = (results) => {
   return results.map(listing => {
@@ -101,7 +111,7 @@ const handleDetails = (el) => {
 };
 
 (async () => {
-  mkdirp('./output/' + LOCATION).then(made => {
+  mkdirp(OUTPUT_DIR + LOCATION).then(made => {
     if (made) {
       console.log(`mkdirp made directories, starting with ${made}`)
     }
@@ -109,6 +119,11 @@ const handleDetails = (el) => {
 
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
+  await page.setUserAgent(CONFIG.USER_AGENT);
+  await page.setViewport({
+    width: CONFIG.WIDTH,
+    height: CONFIG.HEIGHT
+  });
   // page.on('console', msg => console.log('page.log:', msg.text()));
   await page.goto('https://www.sagaftra.org/contracts-industry-resources/production-listings');
   await page.type(USERNAME_SELECTOR, CREDENTIALS.username);
@@ -145,7 +160,7 @@ const handleDetails = (el) => {
     // debugger;
     listing = { ...listing, ...details };
 
-    const outFile = './output/' + LOCATION + '/' + id + '.json';
+    const outFile = OUTPUT_DIR + LOCATION + '/' + id + '.json';
     fs.writeFile(outFile, JSON.stringify(listing, null, 2), (err) => {
       if (err) throw err;
       console.log(outFile, 'was saved:', listing);
@@ -156,7 +171,7 @@ const handleDetails = (el) => {
     await page.waitFor(randomSeconds);
   }
 
-  const outFile = './output/' + LOCATION + '.json';
+  const outFile = OUTPUT_DIR + LOCATION + '.json';
   fs.writeFile(outFile, JSON.stringify(listings, null, 2), (err) => {
     if (err) throw err;
     console.log(outFile, 'was saved!');
