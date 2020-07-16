@@ -31,7 +31,7 @@ const PRODTYPE_SELECTOR = 'select#edit-prodtype';
 //     value: 'TH'
 //   }
 // ]
-const PRODTYPE = 'AG';
+const PRODTYPE = 'NMA';
 const LISTINGS_AVAILABLE = '#production_listings_results #production_listings';
 const LISTINGS_SELECTOR = '#production_listings > [id^=row]';
 const OUTPUT_DIR = './output/'; // assumes we run `node src/prodtype.js`
@@ -175,7 +175,7 @@ const handleDetails = (el) => {
     });
 
     listings[i] = listing;
-    var randomSeconds = Math.floor(Math.random() * 4000) + 1000; // between 1 and 5 seconds, to appear human
+    var randomSeconds = Math.floor(Math.random() * 4500) + 3000; // between 3 and 7.5 seconds
     await page.waitFor(randomSeconds);
   }
 
