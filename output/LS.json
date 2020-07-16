@@ -1,0 +1,98 @@
+[
+  {
+    "id": "472297",
+    "production": "Body Cam",
+    "type": "Theatrical",
+    "local": "New Orleans",
+    "startEndDates": "08/28/2018 - TBD",
+    "signatoryName": "Government Issue LLC",
+    "contractTitleName": "Theatrical AMPTP Agreement",
+    "claimsRepresentative": "Sabina Sanchez",
+    "prodSubType": "Theatrical Regular",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "New Orleans, LA United States"
+    ]
+  },
+  {
+    "id": "474159",
+    "production": "El Camino: A Breaking Bad Movie",
+    "type": "New Media",
+    "local": "New Orleans",
+    "startEndDates": "11/08/2018 - TBD",
+    "signatoryName": "Vinton Productions, Inc.",
+    "contractTitleName": "Television AMPTP Agreement",
+    "businessRepresentative": "Rose Magcalas",
+    "claimsRepresentative": "Silvia Gerber",
+    "prodSubType": "Original Other",
+    "madeFor": "New Media - High-Budget SVOD/Tier 1",
+    "market": "Netflix",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "New Orleans, LA",
+      ", NM United States"
+    ],
+    "alternateTitles": [
+      "Greenbrier (2018)",
+      "Greenbrier",
+      "Greenbriar",
+      "El Camino"
+    ]
+  },
+  {
+    "id": "484050",
+    "production": "Free Rayshawn (19/20)",
+    "type": "New Media",
+    "local": "New Orleans",
+    "startEndDates": "04/22/2019 - TBD",
+    "signatoryName": "YANDR Productions LLC",
+    "contractTitleName": "Television AMPTP Agreement",
+    "businessRepresentative": "Rose Magcalas",
+    "claimsRepresentative": "Handy Rivera",
+    "prodSubType": "Original Series",
+    "madeFor": "New Media - High-Budget SVOD/Tier 1",
+    "market": "Other New Media",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "New Orleans, LA United States"
+    ]
+  },
+  {
+    "id": "473102",
+    "production": "On Becoming A God In Central Florida (18/19)",
+    "type": "New Media",
+    "local": "New Orleans",
+    "startEndDates": "10/01/2018 - TBD",
+    "signatoryName": "YANDR Productions LLC",
+    "contractTitleName": "Television AMPTP Agreement",
+    "businessRepresentative": "Rose Magcalas",
+    "claimsRepresentative": "Handy Rivera",
+    "prodSubType": "Original Series",
+    "madeFor": "New Media - High-Budget SVOD/Tier 1",
+    "market": "YouTube Premium",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "New Orleans, LA United States"
+    ]
+  },
+  {
+    "id": "493228",
+    "production": "Reminiscence",
+    "type": "Theatrical",
+    "local": "New Orleans",
+    "startEndDates": "10/28/2019 - TBD",
+    "signatoryName": "Chime Productions, LLC",
+    "contractTitleName": "Theatrical AMPTP Agreement",
+    "claimsRepresentative": "Sabina Sanchez",
+    "prodSubType": "Theatrical Regular",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Miami, FL United States",
+      "New orleans, LA United States"
+    ]
+  }
+]
