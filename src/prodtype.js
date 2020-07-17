@@ -178,7 +178,7 @@ const handleDetails = (el) => {
     var randomSeconds = Math.floor(Math.random() * 4500) + 3000; // between 3 and 7.5 seconds
     await page.waitFor(randomSeconds);
   }
-
+  console.log('Finished with', listings.length, 'listings.');
   const outFile = OUTPUT_DIR + PRODTYPE + '.json';
   fs.writeFile(outFile, JSON.stringify(listings, null, 2), (err) => {
     if (err) throw err;
