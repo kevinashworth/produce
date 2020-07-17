@@ -1,0 +1,1317 @@
+[
+  {
+    "id": "498216",
+    "production": "37 Weeks",
+    "type": "Theatrical",
+    "local": "Los Angeles",
+    "startEndDates": "12/15/2019 - 12/15/2020",
+    "signatoryName": "2Hands Productions, LLC",
+    "contractTitleName": "Theatrical Independent Agreement",
+    "businessRepresentative": "Tawanda Lewis Duck",
+    "claimsRepresentative": "Sabina Sanchez",
+    "prodSubType": "Ultra Low Budget",
+    "madeFor": "TH - Other",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Los Angeles, CA United States"
+    ]
+  },
+  {
+    "id": "397823",
+    "production": "Abruptio",
+    "type": "Theatrical",
+    "local": "Los Angeles",
+    "startEndDates": "08/05/2020 - 08/07/2020",
+    "signatoryName": "HellBent Pictures LLC",
+    "contractTitleName": "Theatrical Independent Agreement",
+    "businessRepresentative": "Oliver Bundy",
+    "claimsRepresentative": "Sabina Sanchez",
+    "prodSubType": "Low Budget Modified",
+    "madeFor": "TH - Other",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Los Angeles, CA United States",
+      "San Diego, CA United States",
+      "Orange County, CA United States"
+    ]
+  },
+  {
+    "id": "474755",
+    "production": "Annabelle Comes Home",
+    "type": "Theatrical",
+    "local": "Los Angeles",
+    "startEndDates": "10/15/2018 - TBD",
+    "signatoryName": "Mutiny Pictures Inc.",
+    "contractTitleName": "Theatrical AMPTP Agreement",
+    "claimsRepresentative": "Tawanda Lewis Duck",
+    "prodSubType": "Theatrical Regular",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      ",",
+      "Los angeles, CA United States"
+    ],
+    "alternateTitles": [
+      ""
+    ]
+  },
+  {
+    "id": "502037",
+    "production": "B2",
+    "type": "Theatrical",
+    "local": "Los Angeles",
+    "startEndDates": "09/07/2020 - TBD",
+    "signatoryName": "Thunderstruck Productions, LLC",
+    "contractTitleName": "Theatrical Netflix Agreement",
+    "businessRepresentative": "Anna Pogosyan",
+    "claimsRepresentative": "Melissa Sexton",
+    "prodSubType": "Theatrical Regular",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Los Angeles, CA United States",
+      "Unspecified, United Kingdom"
+    ]
+  },
+  {
+    "id": "487091",
+    "production": "Babysitter'S Guide To Monster Hunting",
+    "type": "Theatrical",
+    "local": "Los Angeles",
+    "startEndDates": "08/29/2019 - TBD",
+    "signatoryName": "Briarcliff Productions, LLC",
+    "contractTitleName": "Theatrical Independent Agreement",
+    "businessRepresentative": "Kiley Cristiano",
+    "claimsRepresentative": "Melissa Sexton",
+    "prodSubType": "Theatrical Regular",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Vancouver, Canada"
+    ]
+  },
+  {
+    "id": "475840",
+    "production": "Birds Of Prey",
+    "type": "Theatrical",
+    "local": "Los Angeles",
+    "startEndDates": "01/14/2019 - TBD",
+    "signatoryName": "Warner Bros. Pictures Inc.",
+    "contractTitleName": "Theatrical AMPTP Agreement",
+    "bgClaimsRepresentative": "Toloria Milner",
+    "claimsRepresentative": "Sabina Sanchez",
+    "prodSubType": "Theatrical Regular",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Los Angeles, CA United States"
+    ],
+    "alternateTitles": [
+      "Fox Force Five",
+      "Birds Of Prey (Robbie)",
+      "Birds Of Prey (& The Fantabulous Emancipation Of One Harley Quinn)"
+    ]
+  },
+  {
+    "id": "486004",
+    "production": "Blonde",
+    "type": "Theatrical",
+    "local": "Los Angeles",
+    "startEndDates": "07/08/2019 - TBD",
+    "signatoryName": "Brunette Productions, LLC",
+    "contractTitleName": "Theatrical Independent Agreement",
+    "businessRepresentative": "Kiley Cristiano",
+    "bgClaimsRepresentative": "Toloria Milner",
+    "claimsRepresentative": "Melissa Sexton",
+    "prodSubType": "Theatrical Regular",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Los Angeles, CA United States"
+    ]
+  },
+  {
+    "id": "472297",
+    "production": "Body Cam",
+    "type": "Theatrical",
+    "local": "New Orleans",
+    "startEndDates": "08/28/2018 - TBD",
+    "signatoryName": "Government Issue LLC",
+    "contractTitleName": "Theatrical AMPTP Agreement",
+    "claimsRepresentative": "Sabina Sanchez",
+    "prodSubType": "Theatrical Regular",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "New Orleans, LA United States"
+    ]
+  },
+  {
+    "id": "505701",
+    "production": "California Christmas",
+    "type": "Theatrical",
+    "local": "Los Angeles",
+    "startEndDates": "07/05/2020 - 07/31/2020",
+    "signatoryName": "KIKI MOVIE LLC",
+    "contractTitleName": "Theatrical Independent Agreement",
+    "businessRepresentative": "Oliver Bundy",
+    "claimsRepresentative": "Melissa Sexton",
+    "prodSubType": "Low Budget",
+    "madeFor": "TH - Other",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Petaluma, CA United States"
+    ]
+  },
+  {
+    "id": "475490",
+    "production": "Cats",
+    "type": "Theatrical",
+    "local": "Los Angeles",
+    "startEndDates": "10/29/2018 - TBD",
+    "signatoryName": "Memory Films LLC",
+    "contractTitleName": "Theatrical AMPTP Agreement",
+    "claimsRepresentative": "Melissa Sexton",
+    "prodSubType": "Theatrical Regular",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "London, United Kingdom"
+    ]
+  },
+  {
+    "id": "494843",
+    "production": "Clouds",
+    "type": "Theatrical",
+    "local": "Los Angeles",
+    "startEndDates": "10/21/2019 - TBD",
+    "signatoryName": "Random Pictures Inc.",
+    "contractTitleName": "Theatrical AMPTP Agreement",
+    "claimsRepresentative": "Sabina Sanchez",
+    "prodSubType": "Theatrical Regular",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Montreal, Canada"
+    ]
+  },
+  {
+    "id": "490853",
+    "production": "Coming 2 America",
+    "type": "Theatrical",
+    "local": "Atlanta",
+    "startEndDates": "08/19/2019 - TBD",
+    "signatoryName": "Paramount Worldwide Productions Inc.",
+    "contractTitleName": "Theatrical AMPTP Agreement",
+    "claimsRepresentative": "Sabina Sanchez",
+    "prodSubType": "Theatrical Regular",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Atlanta, GA United States"
+    ]
+  },
+  {
+    "id": "485450",
+    "production": "Conjuring, The: The Devil Made Me Do It",
+    "type": "Theatrical",
+    "local": "Atlanta",
+    "startEndDates": "06/03/2019 - TBD",
+    "signatoryName": "Kiki Tree Pictures Inc.",
+    "contractTitleName": "Theatrical AMPTP Agreement",
+    "claimsRepresentative": "Sabina Sanchez",
+    "prodSubType": "Theatrical Regular",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Atlanta, GA United States"
+    ],
+    "alternateTitles": [
+      "Conjuring 3, The",
+      "Conjuring: The Devil Made Me Do It",
+      "Devil Made Me Do It, The",
+      "Conjuring 3, The: The Devil Made Me Do It"
+    ]
+  },
+  {
+    "id": "488950",
+    "production": "Cruella",
+    "type": "Theatrical",
+    "local": "Los Angeles",
+    "startEndDates": "06/15/2020 - 05/15/2021",
+    "signatoryName": "Running Rabbits Productions, Inc.",
+    "contractTitleName": "Theatrical AMPTP Agreement",
+    "claimsRepresentative": "Melissa Sexton",
+    "prodSubType": "Theatrical Regular",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      ", United Kingdom"
+    ]
+  },
+  {
+    "id": "480298",
+    "production": "Da 5 Bloods",
+    "type": "Theatrical",
+    "local": "Los Angeles",
+    "startEndDates": "03/18/2019 - TBD",
+    "signatoryName": "Prospect Street Productions, LLC",
+    "contractTitleName": "Theatrical Independent Agreement",
+    "businessRepresentative": "Lilliana Barzaga",
+    "claimsRepresentative": "Melissa Sexton",
+    "prodSubType": "Theatrical Regular",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      ", Thailand",
+      ", Viet Nam"
+    ],
+    "alternateTitles": [
+      ""
+    ]
+  },
+  {
+    "id": "471936",
+    "production": "Doctor Sleep",
+    "type": "Theatrical",
+    "local": "Atlanta",
+    "startEndDates": "09/24/2018 - TBD",
+    "signatoryName": "S &amp; K Pictures, Inc.",
+    "contractTitleName": "Theatrical AMPTP Agreement",
+    "claimsRepresentative": "Tawanda Lewis Duck",
+    "prodSubType": "Theatrical Regular",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Atlanta, GA United States"
+    ],
+    "alternateTitles": [
+      "Dr. Sleep",
+      "Dr Sleep"
+    ]
+  },
+  {
+    "id": "470447",
+    "production": "Dora And The Lost City Of Gold",
+    "type": "Theatrical",
+    "local": "Los Angeles",
+    "startEndDates": "08/06/2018 - TBD",
+    "signatoryName": "Paramount Overseas Productions, Inc.",
+    "contractTitleName": "Theatrical AMPTP Agreement",
+    "claimsRepresentative": "Sabina Sanchez",
+    "prodSubType": "Theatrical Regular",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      ", Australia"
+    ],
+    "alternateTitles": [
+      "Dora The Explorer",
+      "Dora & The Lost City Of Gold"
+    ]
+  },
+  {
+    "id": "470697",
+    "production": "Dreamland",
+    "type": "Theatrical",
+    "local": " ",
+    "startEndDates": "08/20/2018 - TBD",
+    "signatoryName": "Wei Qian",
+    "contractTitleName": "Student Agreement",
+    "businessRepresentative": "Aniela Coveleski",
+    "prodSubType": "Student",
+    "madeFor": "TH - Other",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "New York,"
+    ]
+  },
+  {
+    "id": "479798",
+    "production": "Dune",
+    "type": "Theatrical",
+    "local": "Los Angeles",
+    "startEndDates": "08/03/2020 - 08/25/2020",
+    "signatoryName": "Legendary Features Productions US, LLC",
+    "contractTitleName": "Theatrical Independent Agreement",
+    "businessRepresentative": "Anna Pogosyan",
+    "claimsRepresentative": "Sabina Sanchez",
+    "prodSubType": "Theatrical Regular",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Budapest, Hungary"
+    ],
+    "alternateTitles": [
+      "Dune (Chalamet/Zendaya)",
+      "Royalty",
+      "Dune: Th Remake"
+    ]
+  },
+  {
+    "id": "486671",
+    "production": "El Dorado",
+    "type": "Theatrical",
+    "local": "Atlanta",
+    "startEndDates": "09/09/2019 - TBD",
+    "signatoryName": "S &amp; K Pictures, Inc.",
+    "contractTitleName": "Theatrical AMPTP Agreement",
+    "claimsRepresentative": "Sabina Sanchez",
+    "prodSubType": "Theatrical Regular",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Atlanta, GA United States"
+    ]
+  },
+  {
+    "id": "472300",
+    "production": "Final Thoughts",
+    "type": "Theatrical",
+    "local": " ",
+    "startEndDates": "08/23/2018 - TBD",
+    "signatoryName": "Julian Tizian",
+    "contractTitleName": "Student Agreement",
+    "businessRepresentative": "Aniela Coveleski",
+    "prodSubType": "Student",
+    "madeFor": "TH - Other",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Fairfield,"
+    ]
+  },
+  {
+    "id": "480129",
+    "production": "Fool'S Day",
+    "type": "Theatrical",
+    "local": "Los Angeles",
+    "startEndDates": "01/17/2019 - TBD",
+    "signatoryName": "Mutiny Pictures Inc.",
+    "contractTitleName": "Theatrical AMPTP Agreement",
+    "claimsRepresentative": "Tawanda Lewis Duck",
+    "prodSubType": "Theatrical Regular",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "los angeles, CA United States"
+    ]
+  },
+  {
+    "id": "486009",
+    "production": "Hubie Halloween",
+    "type": "Theatrical",
+    "local": "New England",
+    "startEndDates": "07/08/2019 - TBD",
+    "signatoryName": "Netflix Productions, LLC",
+    "contractTitleName": "Theatrical Independent Agreement",
+    "businessRepresentative": "Kiley Cristiano",
+    "claimsRepresentative": "Melissa Sexton",
+    "prodSubType": "Theatrical Regular",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Boston, MA United States"
+    ]
+  },
+  {
+    "id": "492798",
+    "production": "Infinite",
+    "type": "Theatrical",
+    "local": "Los Angeles",
+    "startEndDates": "08/23/2019 - TBD",
+    "signatoryName": "Paramount Pictures Corporation",
+    "contractTitleName": "Theatrical AMPTP Agreement",
+    "claimsRepresentative": "Sabina Sanchez",
+    "prodSubType": "Theatrical Regular",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      ", Mexico",
+      ", United Kingdom"
+    ]
+  },
+  {
+    "id": "494063",
+    "production": "Judas And The Black Messiah",
+    "type": "Theatrical",
+    "local": "Ohio-Pittsburgh",
+    "startEndDates": "10/21/2019 - TBD",
+    "signatoryName": "Red Zone Pictures, Inc.",
+    "contractTitleName": "Theatrical AMPTP Agreement",
+    "claimsRepresentative": "Sabina Sanchez",
+    "prodSubType": "Theatrical Regular",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Cleveland, OH United States"
+    ]
+  },
+  {
+    "id": "471933",
+    "production": "Just Mercy",
+    "type": "Theatrical",
+    "local": "Atlanta",
+    "startEndDates": "09/05/2018 - TBD",
+    "signatoryName": "Kiki Tree Pictures Inc.",
+    "contractTitleName": "Theatrical AMPTP Agreement",
+    "claimsRepresentative": "Tawanda Lewis Duck",
+    "prodSubType": "Theatrical Regular",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Atlanta, GA United States"
+    ]
+  },
+  {
+    "id": "495038",
+    "production": "Kat King",
+    "type": "Theatrical",
+    "local": "Los Angeles",
+    "startEndDates": "02/03/2020 - TBD",
+    "signatoryName": "Stress Less Productions Inc.",
+    "contractTitleName": "Theatrical AMPTP Agreement",
+    "claimsRepresentative": "Sabina Sanchez",
+    "prodSubType": "Theatrical Regular",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      ", Australia"
+    ]
+  },
+  {
+    "id": "501502",
+    "production": "Killers Of The Flower Moon",
+    "type": "Theatrical",
+    "local": "Dallas-Fort Worth",
+    "startEndDates": "03/16/2020 - TBD",
+    "signatoryName": "Paramount Pictures Corporation",
+    "contractTitleName": "Theatrical AMPTP Agreement",
+    "claimsRepresentative": "Sabina Sanchez",
+    "prodSubType": "Theatrical Regular",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Bartlesville, OK United States"
+    ]
+  },
+  {
+    "id": "471105",
+    "production": "Laundromat, The",
+    "type": "Theatrical",
+    "local": "Los Angeles",
+    "startEndDates": "10/15/2018 - TBD",
+    "signatoryName": "Rinse &amp; Spin Productions, LLC",
+    "contractTitleName": "Theatrical Independent Agreement",
+    "businessRepresentative": "Lilliana Barzaga",
+    "bgClaimsRepresentative": "Toloria Milner",
+    "claimsRepresentative": "Tawanda Lewis Duck",
+    "prodSubType": "Theatrical Regular",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Los Angeles, CA United States",
+      ", PR United States",
+      "Hong Kong, China",
+      "Key West, FL",
+      "Miami, FL"
+    ]
+  },
+  {
+    "id": "475422",
+    "production": "Limited Partners",
+    "type": "Theatrical",
+    "local": "Atlanta",
+    "startEndDates": "10/29/2018 - TBD",
+    "signatoryName": "Paramount Worldwide Productions Inc.",
+    "contractTitleName": "Theatrical AMPTP Agreement",
+    "claimsRepresentative": "Sabina Sanchez",
+    "prodSubType": "Theatrical Regular",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Atlanta, GA United States"
+    ]
+  },
+  {
+    "id": "487203",
+    "production": "Little Mermaid, The",
+    "type": "Theatrical",
+    "local": "Los Angeles",
+    "startEndDates": "04/18/2019 - 06/30/2022",
+    "signatoryName": "King Triton Productions, Inc.",
+    "contractTitleName": "Theatrical AMPTP Agreement",
+    "claimsRepresentative": "Melissa Sexton",
+    "prodSubType": "Theatrical Regular",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      ", United Kingdom"
+    ],
+    "alternateTitles": [
+      ""
+    ]
+  },
+  {
+    "id": "490854",
+    "production": "Little Things, The",
+    "type": "Theatrical",
+    "local": "Los Angeles",
+    "startEndDates": "09/23/2019 - TBD",
+    "signatoryName": "Warner Bros. Pictures Inc.",
+    "contractTitleName": "Theatrical AMPTP Agreement",
+    "bgClaimsRepresentative": "Toloria Milner",
+    "claimsRepresentative": "Sabina Sanchez",
+    "prodSubType": "Theatrical Regular",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Los Angeles, CA United States"
+    ]
+  },
+  {
+    "id": "487985",
+    "production": "Ma Rainey'S Black Bottom",
+    "type": "Theatrical",
+    "local": "Ohio-Pittsburgh",
+    "startEndDates": "07/08/2019 - TBD",
+    "signatoryName": "Netflix Productions, LLC",
+    "contractTitleName": "Theatrical Independent Agreement",
+    "businessRepresentative": "Erin Cardillo",
+    "claimsRepresentative": "Melissa Sexton",
+    "prodSubType": "Theatrical Regular",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Pittsburgh, PA United States"
+    ]
+  },
+  {
+    "id": "491058",
+    "production": "Mank",
+    "type": "Theatrical",
+    "local": "Los Angeles",
+    "startEndDates": "11/11/2019 - TBD",
+    "signatoryName": "Netflix Productions, LLC",
+    "contractTitleName": "Theatrical Netflix Agreement",
+    "businessRepresentative": "Erin Cardillo",
+    "bgClaimsRepresentative": "Toloria Milner",
+    "claimsRepresentative": "Melissa Sexton",
+    "prodSubType": "Theatrical Regular",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Los Angeles, CA United States"
+    ]
+  },
+  {
+    "id": "497991",
+    "production": "Mnemosyne",
+    "type": "Theatrical",
+    "local": "New York",
+    "startEndDates": "12/07/2019 - 07/31/2020",
+    "signatoryName": "B Bros Productions, LLC",
+    "contractTitleName": "Theatrical Independent Agreement",
+    "businessRepresentative": "Amanda Shapiro",
+    "claimsRepresentative": "Pearl Brady",
+    "prodSubType": "Ultra Low Budget",
+    "madeFor": "TH - Other",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      ", ME United States",
+      ", NH United States",
+      ", NY United States"
+    ]
+  },
+  {
+    "id": "482649",
+    "production": "Monster Problems",
+    "type": "Theatrical",
+    "local": "Los Angeles",
+    "startEndDates": "03/19/2019 - TBD",
+    "signatoryName": "Paramount Pictures Corporation",
+    "contractTitleName": "Theatrical AMPTP Agreement",
+    "claimsRepresentative": "Sabina Sanchez",
+    "prodSubType": "Theatrical Regular",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Brisbane, Australia"
+    ]
+  },
+  {
+    "id": "493153",
+    "production": "Mortal Kombat",
+    "type": "Theatrical",
+    "local": "Los Angeles",
+    "startEndDates": "09/20/2019 - TBD",
+    "signatoryName": "Lennox House Pictures Inc.",
+    "contractTitleName": "Theatrical AMPTP Agreement",
+    "claimsRepresentative": "Sabina Sanchez",
+    "prodSubType": "Theatrical Regular",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      ", Australia"
+    ]
+  },
+  {
+    "id": "505107",
+    "production": "Mux, The",
+    "type": "Theatrical",
+    "local": "Los Angeles",
+    "startEndDates": "06/01/2019 - 09/30/2020",
+    "signatoryName": "OBSCURISCOPIC FILMS LIMITED",
+    "contractTitleName": "Theatrical Independent Agreement",
+    "businessRepresentative": "Mariana Alves",
+    "claimsRepresentative": "Sabina Sanchez",
+    "prodSubType": "Theatrical Regular",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "London, UK United Kingdom",
+      "Los Angeles, CA United States"
+    ]
+  },
+  {
+    "id": "489693",
+    "production": "Nameless Days, The",
+    "type": "Theatrical",
+    "local": "Arizona-Utah",
+    "startEndDates": "11/27/2019 - 08/13/2020",
+    "signatoryName": "The Nameless Days, LLC",
+    "contractTitleName": "Theatrical Independent Agreement",
+    "businessRepresentative": "Chanda Ulrich",
+    "claimsRepresentative": "Sabina Sanchez",
+    "prodSubType": "Low Budget",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Eureka, UT United States",
+      "Tooele, UT United States",
+      "VERNON, UT United States",
+      "Silver City, UT United States"
+    ]
+  },
+  {
+    "id": "490848",
+    "production": "News Of The World",
+    "type": "Theatrical",
+    "local": "New Mexico",
+    "startEndDates": "06/03/2019 - 07/25/2020",
+    "signatoryName": "Front Page News LLC",
+    "contractTitleName": "Theatrical AMPTP Agreement",
+    "claimsRepresentative": "Melissa Sexton",
+    "prodSubType": "Theatrical Regular",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Santa Fe, NM United States"
+    ]
+  },
+  {
+    "id": "469354",
+    "production": "Obituarist, The",
+    "type": "Theatrical",
+    "local": "Los Angeles",
+    "startEndDates": "08/02/2018 - TBD",
+    "signatoryName": "Shannan Reeve",
+    "contractTitleName": "Short Film Agreement",
+    "businessRepresentative": "Chanda Ulrich",
+    "claimsRepresentative": "Chanda Ulrich",
+    "prodSubType": "Short Film",
+    "madeFor": "TH - Other",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Los Angeles, CA United States"
+    ]
+  },
+  {
+    "id": "481589",
+    "production": "Old Guard, The",
+    "type": "Theatrical",
+    "local": "Los Angeles",
+    "startEndDates": "05/13/2019 - TBD",
+    "signatoryName": "Enforcer Productions, LLC",
+    "contractTitleName": "Theatrical Independent Agreement",
+    "businessRepresentative": "Kiley Cristiano",
+    "claimsRepresentative": "Melissa Sexton",
+    "prodSubType": "Theatrical Regular",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      ", United Kingdom",
+      ", Morocco",
+      ", France",
+      "Chicago, IL United States"
+    ]
+  },
+  {
+    "id": "504341",
+    "production": "Peter Pan And Wendy",
+    "type": "Theatrical",
+    "local": "Los Angeles",
+    "startEndDates": "04/17/2020 - 08/21/2020",
+    "signatoryName": "Skull Rock Productions, Inc.",
+    "contractTitleName": "Theatrical AMPTP Agreement",
+    "claimsRepresentative": "Melissa Sexton",
+    "prodSubType": "Theatrical Regular",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Vancouver, BC Canada",
+      "Burbank, CA United States"
+    ]
+  },
+  {
+    "id": "494207",
+    "production": "Project Ice Cream",
+    "type": "Theatrical",
+    "local": "San Francisco-NorCal",
+    "startEndDates": "02/18/2020 - TBD",
+    "signatoryName": "Adobe Pictures, Inc.",
+    "contractTitleName": "Theatrical AMPTP Agreement",
+    "claimsRepresentative": "Sabina Sanchez",
+    "prodSubType": "Theatrical Regular",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Atlanta, GA",
+      "Chicago, IL United States",
+      "San Francsico, CA United States"
+    ]
+  },
+  {
+    "id": "494635",
+    "production": "Real Superheroes, The",
+    "type": "Theatrical",
+    "local": "New York",
+    "startEndDates": "10/20/2019 - 10/20/2020",
+    "signatoryName": "Alpha Core Consulting LLC",
+    "contractTitleName": "Theatrical Independent Agreement",
+    "businessRepresentative": "Amanda Shapiro",
+    "bgClaimsRepresentative": "Brian Godshall",
+    "claimsRepresentative": "Brian Godshall",
+    "prodSubType": "TH - Documentary",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "New York City, NY United States"
+    ]
+  },
+  {
+    "id": "484231",
+    "production": "Rebecca",
+    "type": "Theatrical",
+    "local": "Los Angeles",
+    "startEndDates": "06/03/2019 - TBD",
+    "signatoryName": "Magnificent Productions Limited",
+    "contractTitleName": "Theatrical Independent Agreement",
+    "businessRepresentative": "Kiley Cristiano",
+    "claimsRepresentative": "Melissa Sexton",
+    "prodSubType": "Theatrical Regular",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      ", United Kingdom"
+    ]
+  },
+  {
+    "id": "493228",
+    "production": "Reminiscence",
+    "type": "Theatrical",
+    "local": "New Orleans",
+    "startEndDates": "10/28/2019 - TBD",
+    "signatoryName": "Chime Productions, LLC",
+    "contractTitleName": "Theatrical AMPTP Agreement",
+    "claimsRepresentative": "Sabina Sanchez",
+    "prodSubType": "Theatrical Regular",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Miami, FL United States",
+      "New orleans, LA United States"
+    ]
+  },
+  {
+    "id": "488770",
+    "production": "Richard Jewell",
+    "type": "Theatrical",
+    "local": "Atlanta",
+    "startEndDates": "06/24/2019 - TBD",
+    "signatoryName": "Kiki Tree Pictures Inc.",
+    "contractTitleName": "Theatrical AMPTP Agreement",
+    "claimsRepresentative": "Sabina Sanchez",
+    "prodSubType": "Theatrical Regular",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Atlanta, GA United States"
+    ],
+    "alternateTitles": [
+      ""
+    ]
+  },
+  {
+    "id": "470444",
+    "production": "Rocketman",
+    "type": "Theatrical",
+    "local": "Los Angeles",
+    "startEndDates": "08/02/2018 - TBD",
+    "signatoryName": "Paramount Overseas Productions, Inc.",
+    "contractTitleName": "Theatrical AMPTP Agreement",
+    "claimsRepresentative": "Sabina Sanchez",
+    "prodSubType": "Theatrical Regular",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      ", United Kingdom"
+    ]
+  },
+  {
+    "id": "505607",
+    "production": "Sam",
+    "type": "Theatrical",
+    "local": "Los Angeles",
+    "startEndDates": "06/03/2019 - 03/31/2023",
+    "signatoryName": "SAM Productions LLC",
+    "contractTitleName": "Theatrical AMPTP Agreement",
+    "claimsRepresentative": "Melissa Sexton",
+    "prodSubType": "Theatrical - Animated",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Paris, France",
+      "Los Angeles, CA United States"
+    ]
+  },
+  {
+    "id": "482483",
+    "production": "Scoob!",
+    "type": "Theatrical",
+    "local": "Los Angeles",
+    "startEndDates": "02/18/2019 - TBD",
+    "signatoryName": "WAG Pictures Inc.",
+    "contractTitleName": "Theatrical AMPTP Agreement",
+    "claimsRepresentative": "Tawanda Lewis Duck",
+    "prodSubType": "Theatrical - Animated",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "los angeles, CA United States"
+    ],
+    "alternateTitles": [
+      "Scoob",
+      "Scooby-Doo",
+      "S.C.O.O.B.",
+      "Scooby Doo",
+      "Scooby!"
+    ]
+  },
+  {
+    "id": "486315",
+    "production": "Sesame Street",
+    "type": "Theatrical",
+    "local": "New York",
+    "startEndDates": "03/02/2020 - TBD",
+    "signatoryName": "Warner Bros. Pictures Inc.",
+    "contractTitleName": "Theatrical AMPTP Agreement",
+    "claimsRepresentative": "Sabina Sanchez",
+    "prodSubType": "Theatrical Regular",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "New York, NY United States"
+    ]
+  },
+  {
+    "id": "496302",
+    "production": "Shelter From The Storm",
+    "type": "Theatrical",
+    "local": "Nashville",
+    "startEndDates": "10/25/2019 - TBD",
+    "signatoryName": "Lucas Hames",
+    "contractTitleName": "Student Agreement",
+    "businessRepresentative": "Leslie Krensky",
+    "claimsRepresentative": "Leslie Krensky",
+    "prodSubType": "Student",
+    "madeFor": "TH - Other",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Nashville, TN"
+    ]
+  },
+  {
+    "id": "504087",
+    "production": "Shrunk",
+    "type": "Theatrical",
+    "local": "Atlanta",
+    "startEndDates": "06/22/2020 - 09/01/2020",
+    "signatoryName": "Walt Disney Pictures",
+    "contractTitleName": "Theatrical AMPTP Agreement",
+    "claimsRepresentative": "Melissa Sexton",
+    "prodSubType": "Theatrical Regular",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Atlanta, GA United States"
+    ]
+  },
+  {
+    "id": "500960",
+    "production": "Shut In",
+    "type": "Theatrical",
+    "local": "Los Angeles",
+    "startEndDates": "03/01/2020 - TBD",
+    "signatoryName": "New Line Productions, Inc.",
+    "contractTitleName": "Theatrical AMPTP Agreement",
+    "claimsRepresentative": "Sabina Sanchez",
+    "prodSubType": "Theatrical Regular",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Los Angeles, CA United States"
+    ]
+  },
+  {
+    "id": "506079",
+    "production": "Social Distance",
+    "type": "Theatrical",
+    "local": "Los Angeles",
+    "startEndDates": "07/16/2020 - 08/03/2020",
+    "signatoryName": "Social Distance LLC",
+    "contractTitleName": "Theatrical Independent Agreement",
+    "businessRepresentative": "Johnathan Vu",
+    "claimsRepresentative": "Sabina Sanchez",
+    "prodSubType": "Low Budget",
+    "madeFor": "TH - Other",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Placer County, CA United States"
+    ]
+  },
+  {
+    "id": "470086",
+    "production": "Sonic The Hedgehog",
+    "type": "Theatrical",
+    "local": "Los Angeles",
+    "startEndDates": "07/30/2018 - TBD",
+    "signatoryName": "Hedgehog Films Inc.",
+    "contractTitleName": "Theatrical AMPTP Agreement",
+    "claimsRepresentative": "Sabina Sanchez",
+    "prodSubType": "Theatrical Regular",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Vancouver, Canada"
+    ],
+    "alternateTitles": [
+      "Sonic The Hedgehog",
+      "Casino Nights"
+    ]
+  },
+  {
+    "id": "487446",
+    "production": "Space Jam 2",
+    "type": "Theatrical",
+    "local": "Los Angeles",
+    "startEndDates": "06/17/2019 - TBD",
+    "signatoryName": "Warner Bros. Pictures Inc.",
+    "contractTitleName": "Theatrical AMPTP Agreement",
+    "claimsRepresentative": "Sabina Sanchez",
+    "prodSubType": "Theatrical Regular",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Los Angeles, CA United States"
+    ]
+  },
+  {
+    "id": "496897",
+    "production": "Spell",
+    "type": "Theatrical",
+    "local": "Los Angeles",
+    "startEndDates": "11/04/2019 - TBD",
+    "signatoryName": "Paramount Overseas Productions, Inc.",
+    "contractTitleName": "Theatrical AMPTP Agreement",
+    "claimsRepresentative": "Sabina Sanchez",
+    "prodSubType": "Theatrical Regular",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Cape town, South Africa"
+    ]
+  },
+  {
+    "id": "469009",
+    "production": "Spenser Confidential",
+    "type": "Theatrical",
+    "local": "New England",
+    "startEndDates": "09/24/2018 - TBD",
+    "signatoryName": "Little Lord Productions, LLC",
+    "contractTitleName": "Theatrical Independent Agreement",
+    "businessRepresentative": "Lilliana Barzaga",
+    "claimsRepresentative": "Melissa Sexton",
+    "prodSubType": "Theatrical Regular",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Boston, MA United States"
+    ],
+    "alternateTitles": [
+      "Wonderland",
+      "Spenser: Confidential"
+    ]
+  },
+  {
+    "id": "481752",
+    "production": "Tamar Buys A Car",
+    "type": "Theatrical",
+    "local": "Ohio-Pittsburgh",
+    "startEndDates": "05/03/2019 - 09/24/2020",
+    "signatoryName": "Tamar Buys a Car LLC",
+    "contractTitleName": "Theatrical Independent Agreement",
+    "businessRepresentative": "Amanda Shapiro",
+    "claimsRepresentative": "Kathy Byrne",
+    "prodSubType": "Ultra Low Budget",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Circleville, OH United States"
+    ]
+  },
+  {
+    "id": "489280",
+    "production": "There'S Someone Inside Your House",
+    "type": "Theatrical",
+    "local": "Los Angeles",
+    "startEndDates": "08/26/2019 - TBD",
+    "signatoryName": "Jaywalk Productions, LLC",
+    "contractTitleName": "Theatrical Independent Agreement",
+    "businessRepresentative": "Erin Cardillo",
+    "claimsRepresentative": "Melissa Sexton",
+    "prodSubType": "Theatrical Regular",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Vancouver, Canada"
+    ]
+  },
+  {
+    "id": "489621",
+    "production": "Tom And Jerry",
+    "type": "Theatrical",
+    "local": "New York",
+    "startEndDates": "06/17/2019 - TBD",
+    "signatoryName": "Redemption Pictures, Inc",
+    "contractTitleName": "Theatrical AMPTP Agreement",
+    "claimsRepresentative": "Sabina Sanchez",
+    "prodSubType": "Theatrical Regular",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      ", United Kingdom",
+      "new york, NY United States"
+    ]
+  },
+  {
+    "id": "492283",
+    "production": "Untitled Graham King Project",
+    "type": "Theatrical",
+    "local": "Los Angeles",
+    "startEndDates": "01/01/2020 - TBD",
+    "signatoryName": "Silhouette Pictures, LLC",
+    "contractTitleName": "Theatrical Netflix Agreement",
+    "businessRepresentative": "Anna Pogosyan",
+    "claimsRepresentative": "Melissa Sexton",
+    "prodSubType": "Theatrical Regular",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Vancouver, Canada"
+    ]
+  },
+  {
+    "id": "492753",
+    "production": "Vengeance",
+    "type": "Theatrical",
+    "local": "Los Angeles",
+    "startEndDates": "01/13/2020 - TBD",
+    "signatoryName": "Warner Bros. Pictures Inc.",
+    "contractTitleName": "Theatrical AMPTP Agreement",
+    "claimsRepresentative": "Sabina Sanchez",
+    "prodSubType": "Theatrical Regular",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Chicago, IL United States",
+      ", United Kingdom"
+    ],
+    "alternateTitles": [
+      ""
+    ]
+  },
+  {
+    "id": "473577",
+    "production": "Way Back, The",
+    "type": "Theatrical",
+    "local": "Los Angeles",
+    "startEndDates": "10/22/2018 - TBD",
+    "signatoryName": "Warner Bros. Pictures Inc.",
+    "contractTitleName": "Theatrical AMPTP Agreement",
+    "claimsRepresentative": "Tawanda Lewis Duck",
+    "prodSubType": "Theatrical Regular",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "los angeles, CA United States"
+    ],
+    "alternateTitles": [
+      "Has-Been, The",
+      "Has Been, The",
+      "Torrance",
+      "Finding The Way Back"
+    ]
+  },
+  {
+    "id": "506945",
+    "production": "What The Funk",
+    "type": "Theatrical",
+    "local": "New York",
+    "startEndDates": "07/06/2020 - TBD",
+    "signatoryName": "NF Voices, LLC",
+    "contractTitleName": "Theatrical Netflix Agreement",
+    "businessRepresentative": "Anna Pogosyan",
+    "claimsRepresentative": "Melissa Sexton",
+    "prodSubType": "Theatrical - Animated",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "New York, NY United States"
+    ]
+  },
+  {
+    "id": "491570",
+    "production": "White Tiger, The",
+    "type": "Theatrical",
+    "local": "Los Angeles",
+    "startEndDates": "10/21/2019 - TBD",
+    "signatoryName": "Pivot Pictures, LLC",
+    "contractTitleName": "Theatrical Netflix Agreement",
+    "businessRepresentative": "Erin Cardillo",
+    "claimsRepresentative": "Melissa Sexton",
+    "prodSubType": "Theatrical Regular",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      ", India"
+    ]
+  },
+  {
+    "id": "482948",
+    "production": "Witches, The",
+    "type": "Theatrical",
+    "local": "Atlanta",
+    "startEndDates": "04/29/2019 - TBD",
+    "signatoryName": "Redemption Pictures, Inc",
+    "contractTitleName": "Theatrical AMPTP Agreement",
+    "claimsRepresentative": "Sabina Sanchez",
+    "prodSubType": "Theatrical Regular",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      ", AL United States",
+      ", GA United States"
+    ],
+    "alternateTitles": [
+      "Witches, The: Remake",
+      "Witches, The (Hathaway)"
+    ]
+  },
+  {
+    "id": "491348",
+    "production": "Without Remorse",
+    "type": "Theatrical",
+    "local": "Los Angeles",
+    "startEndDates": "09/30/2019 - TBD",
+    "signatoryName": "Paramount Overseas Productions, Inc.",
+    "contractTitleName": "Theatrical AMPTP Agreement",
+    "claimsRepresentative": "Sabina Sanchez",
+    "prodSubType": "Theatrical Regular",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Washington, DC United States",
+      "Berlin, Germany"
+    ]
+  }
+]
