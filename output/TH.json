@@ -286,6 +286,24 @@
     ]
   },
   {
+    "id": "506366",
+    "production": "Devil'S Light, The",
+    "type": "Theatrical",
+    "local": "Los Angeles",
+    "startEndDates": "07/21/2020 - 09/10/2020",
+    "signatoryName": "CATX Exorcism 12 Productions, Inc.",
+    "contractTitleName": "Theatrical Independent Agreement",
+    "businessRepresentative": "Anna Pogosyan",
+    "claimsRepresentative": "Sabina Sanchez",
+    "prodSubType": "Theatrical Regular",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Sofia, BG Bulgaria"
+    ]
+  },
+  {
     "id": "471936",
     "production": "Doctor Sleep",
     "type": "Theatrical",
@@ -520,6 +538,24 @@
     "contributionPlan": "SAG",
     "shootingLocations": [
       "Bartlesville, OK United States"
+    ]
+  },
+  {
+    "id": "506672",
+    "production": "Kiss Comes Last, The",
+    "type": "Theatrical",
+    "local": "Los Angeles",
+    "startEndDates": "07/21/2020 - 07/24/2020",
+    "signatoryName": "Paul Petschek",
+    "contractTitleName": "Student Agreement",
+    "businessRepresentative": "Tawanda Lewis Duck",
+    "claimsRepresentative": "Melissa Sexton",
+    "prodSubType": "Student",
+    "madeFor": "TH - Other",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Los Angeles, CA United States"
     ]
   },
   {
@@ -785,6 +821,26 @@
       ", Morocco",
       ", France",
       "Chicago, IL United States"
+    ]
+  },
+  {
+    "id": "290983",
+    "production": "Olive",
+    "type": "Theatrical",
+    "local": "San Francisco-NorCal",
+    "startEndDates": "08/01/2020 - 08/01/2020",
+    "signatoryName": "Olive Picture, LLC",
+    "contractTitleName": "Theatrical Independent Agreement",
+    "businessRepresentative": "Oliver Bundy",
+    "claimsRepresentative": "Sabina Sanchez",
+    "prodSubType": "Low Budget Modified",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "San Francisco, CA United States",
+      "Marin, CA United States",
+      "Carmel, CA United States"
     ]
   },
   {
