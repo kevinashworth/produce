@@ -71,6 +71,24 @@
     ]
   },
   {
+    "id": "506981",
+    "production": "Adam Devine'S Secret Tiger Shark Lair (2020)",
+    "type": "Television Program",
+    "local": "Los Angeles",
+    "startEndDates": "07/19/2020 - 07/23/2020",
+    "signatoryName": "355 Productions, LLC",
+    "contractTitleName": "TV Programs",
+    "businessRepresentative": "Lisa Kyle",
+    "claimsRepresentative": "Silvia Gerber",
+    "prodSubType": "Special",
+    "madeFor": "Basic Cable",
+    "market": "Discovery",
+    "contributionPlan": "AFTRA",
+    "shootingLocations": [
+      "Nassaue, HI"
+    ]
+  },
+  {
     "id": "489174",
     "production": "Alice In Wonderland (Pilot)",
     "type": "Television",
@@ -440,6 +458,24 @@
     ]
   },
   {
+    "id": "507438",
+    "production": "Black Hole, The (Pilot)",
+    "type": "Television",
+    "local": "Los Angeles",
+    "startEndDates": "09/07/2020 - 10/02/2020",
+    "signatoryName": "SBI Media, LLC",
+    "contractTitleName": "Basic Cable Agreement for Animated Motion Pictures",
+    "businessRepresentative": "Lisa Kyle",
+    "claimsRepresentative": "Billie Murphy",
+    "prodSubType": "TV - Animated Pilot",
+    "madeFor": "Basic Cable",
+    "market": "Syfy Channel",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Burbank, CA United States"
+    ]
+  },
+  {
     "id": "469102",
     "production": "Black Monday (18/19)",
     "type": "Television",
@@ -777,6 +813,25 @@
     ]
   },
   {
+    "id": "506332",
+    "production": "Dear Christmas (2020)",
+    "type": "Television",
+    "local": "Los Angeles",
+    "startEndDates": "07/20/2020 - 08/07/2020",
+    "signatoryName": "Christmas Reservations Inc.",
+    "contractTitleName": "Television Independent Agreement",
+    "businessRepresentative": "Art Duarte",
+    "claimsRepresentative": "Silvia Gerber",
+    "prodSubType": "TV - Movie",
+    "madeFor": "Basic Cable",
+    "market": "Lifetime",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Incline Village, NV",
+      "Reno, NV"
+    ]
+  },
+  {
     "id": "496727",
     "production": "Decisiones",
     "type": "Television",
@@ -828,6 +883,24 @@
     "contributionPlan": "AFTRA",
     "shootingLocations": [
       "New York, NY United States"
+    ]
+  },
+  {
+    "id": "507303",
+    "production": "Don'T Waste Your Pretty (Mow)",
+    "type": "Television",
+    "local": "Atlanta",
+    "startEndDates": "07/21/2020 - 08/10/2020",
+    "signatoryName": "Druid Hills Productions LLC",
+    "contractTitleName": "Television Independent Agreement",
+    "businessRepresentative": "Art Duarte",
+    "claimsRepresentative": "Melissa Goodman",
+    "prodSubType": "TV - Movie",
+    "madeFor": "Basic Cable",
+    "market": "Other",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Hiram, GA United States"
     ]
   },
   {
@@ -888,6 +961,24 @@
     "contributionPlan": "AFTRA",
     "shootingLocations": [
       "Atlanta, GA United States"
+    ]
+  },
+  {
+    "id": "490492",
+    "production": "Empire (19/20)",
+    "type": "Television",
+    "local": "Los Angeles",
+    "startEndDates": "07/17/2019 - 09/24/2020",
+    "signatoryName": "Twentieth Century Fox Film Corporation",
+    "contractTitleName": "Television AMPTP Agreement",
+    "businessRepresentative": "Erin Cardillo",
+    "claimsRepresentative": "Kathy Byrne",
+    "prodSubType": "TV - Series",
+    "madeFor": "Broadcast Network",
+    "market": "FOX",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Chicago, IL United States"
     ]
   },
   {
@@ -2335,28 +2426,6 @@
     ]
   },
   {
-    "id": "469097",
-    "production": "S.W.A.T. (18/19)",
-    "type": "Television",
-    "local": "Los Angeles",
-    "startEndDates": "07/18/2018 - TBD",
-    "signatoryName": "Topanga Productions, Inc.",
-    "contractTitleName": "Television AMPTP Agreement",
-    "businessRepresentative": "Rose Magcalas",
-    "bgClaimsRepresentative": "Donna Reed",
-    "claimsRepresentative": "Silvia Gerber",
-    "prodSubType": "TV - Series",
-    "madeFor": "Broadcast Network",
-    "market": "CBS",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "Los Angeles, CA United States"
-    ],
-    "alternateTitles": [
-      ""
-    ]
-  },
-  {
     "id": "481207",
     "production": "Saratoga",
     "type": "Television",
@@ -2749,6 +2818,24 @@
       "Burbank, CA United States",
       "Bay City, TX United States",
       "Sugarland, TX United States"
+    ]
+  },
+  {
+    "id": "506472",
+    "production": "Voice, The (20/21)",
+    "type": "Television Program",
+    "local": "Los Angeles",
+    "startEndDates": "08/03/2020 - 12/19/2020",
+    "signatoryName": "208 Productions, LLC",
+    "contractTitleName": "TV Programs",
+    "businessRepresentative": "Rose Magcalas",
+    "claimsRepresentative": "Billie Murphy",
+    "prodSubType": "TV Program",
+    "madeFor": "Broadcast Network",
+    "market": "NBC",
+    "contributionPlan": "AFTRA",
+    "shootingLocations": [
+      "Universal City, CA United States"
     ]
   },
   {

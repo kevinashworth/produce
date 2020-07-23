@@ -31,13 +31,13 @@ const PRODTYPE_SELECTOR = 'select#edit-prodtype';
 //     value: 'TH'
 //   }
 // ]
-const PRODTYPE = 'AG';
+const PRODTYPE = 'TV';
 const LISTINGS_AVAILABLE = '#production_listings_results #production_listings';
 const LISTINGS_SELECTOR = '#production_listings > [id^=row]';
 const OUTPUT_DIR = './output/'; // assumes we run `node src/prodtype.js`
 
 const handleListings = (results) => {
-  const sortedTitleResults = results.map(listing => {
+  return results.map(listing => {
     const [id] = listing.id.match(/\d+/g);
     return {
       id,
@@ -47,8 +47,6 @@ const handleListings = (results) => {
       startEndDates: listing.children[4].innerText
     };
   });
-  const sortedIdResults = sortedTitleResults.sort((a, b) => a.id.localeCompare(b.id))
-  return sortedIdResults;
 };
 
 const handleDetails = (el) => {
