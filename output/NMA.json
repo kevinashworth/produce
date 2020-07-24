@@ -871,25 +871,6 @@
     ]
   },
   {
-    "id": "470343",
-    "production": "Charlie",
-    "type": "New Media",
-    "local": "Los Angeles",
-    "startEndDates": "07/21/2018 - TBD",
-    "signatoryName": "Marishka Phillips",
-    "contractTitleName": "New Media Agreement",
-    "businessRepresentative": "Kamau Talbott",
-    "bgClaimsRepresentative": "Toloria Milner",
-    "claimsRepresentative": "Deborah Wonder",
-    "prodSubType": "Original Pilot",
-    "madeFor": "New Media - Deferrable",
-    "market": "YouTube",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "los angeles, CA"
-    ]
-  },
-  {
     "id": "471654",
     "production": "Cheer Up, Charlie (Yr 1)",
     "type": "New Media",
@@ -1154,7 +1135,7 @@
     "signatoryName": "Robin Red Breast Inc.",
     "contractTitleName": "High Budget New Media Animation Agreement",
     "businessRepresentative": "Joyce Grant",
-    "claimsRepresentative": "Deborah Wonder",
+    "claimsRepresentative": "Emmy Ferguson",
     "prodSubType": "Original Series",
     "madeFor": "New Media - High-Budget SVOD/Tier 2",
     "market": "Amazon",
@@ -1254,25 +1235,6 @@
     ]
   },
   {
-    "id": "469917",
-    "production": "Dearly Departed",
-    "type": "New Media",
-    "local": "Los Angeles",
-    "startEndDates": "07/17/2018 - TBD",
-    "signatoryName": "Dreaming Tree Foundation",
-    "contractTitleName": "New Media Agreement",
-    "businessRepresentative": "Kamau Talbott",
-    "bgClaimsRepresentative": "Toloria Milner",
-    "claimsRepresentative": "Deborah Wonder",
-    "prodSubType": "Original Pilot",
-    "madeFor": "New Media - Deferrable",
-    "market": "YouTube",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "los angeles, CA United States"
-    ]
-  },
-  {
     "id": "473137",
     "production": "Delivery Guy",
     "type": "New Media",
@@ -1315,12 +1277,12 @@
     "local": "Los Angeles",
     "startEndDates": "11/12/2018 - TBD",
     "signatoryName": "Unforeseen Productions, Inc.",
-    "contractTitleName": "New Media Agreement",
-    "businessRepresentative": "Shay Davis",
+    "contractTitleName": "New Media Animation Agreement",
+    "businessRepresentative": "Rose Magcalas",
     "claimsRepresentative": "Billie Murphy",
     "prodSubType": "Original Series",
     "madeFor": "New Media - Special Agreement-Animation",
-    "market": "Not Applicable",
+    "market": "Amazon",
     "contributionPlan": "SAG",
     "shootingLocations": [
       "Burbank, CA United States"
@@ -1593,25 +1555,6 @@
     ]
   },
   {
-    "id": "470237",
-    "production": "Eye In Big Trouble In Little Chinatown, The (Yr 1)",
-    "type": "New Media",
-    "local": "Los Angeles",
-    "startEndDates": "07/20/2018 - TBD",
-    "signatoryName": "Keith Brooks",
-    "contractTitleName": "New Media Agreement",
-    "businessRepresentative": "Kamau Talbott",
-    "bgClaimsRepresentative": "Toloria Milner",
-    "claimsRepresentative": "Deborah Wonder",
-    "prodSubType": "Original Series",
-    "madeFor": "New Media - Deferrable",
-    "market": "YouTube",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "los angeles, CA United States"
-    ]
-  },
-  {
     "id": "471602",
     "production": "F'D (Another Effing Web Series) (Yr 2)",
     "type": "New Media",
@@ -1625,25 +1568,6 @@
     "prodSubType": "Original Series",
     "madeFor": "New Media - Deferrable",
     "market": "Other New Media",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "los angeles, CA"
-    ]
-  },
-  {
-    "id": "470345",
-    "production": "Faded",
-    "type": "New Media",
-    "local": "Los Angeles",
-    "startEndDates": "07/23/2018 - TBD",
-    "signatoryName": "Eugene Kim",
-    "contractTitleName": "New Media Agreement",
-    "businessRepresentative": "Kamau Talbott",
-    "bgClaimsRepresentative": "Toloria Milner",
-    "claimsRepresentative": "Deborah Wonder",
-    "prodSubType": "Original Pilot",
-    "madeFor": "New Media - Deferrable",
-    "market": "YouTube",
     "contributionPlan": "SAG",
     "shootingLocations": [
       "los angeles, CA"
@@ -1784,25 +1708,6 @@
     "contributionPlan": "SAG",
     "shootingLocations": [
       "Los Angeles, CA United States"
-    ]
-  },
-  {
-    "id": "469432",
-    "production": "Foreign Nationals",
-    "type": "New Media",
-    "local": "Los Angeles",
-    "startEndDates": "07/20/2018 - TBD",
-    "signatoryName": "Joel Quinones",
-    "contractTitleName": "New Media Agreement",
-    "businessRepresentative": "Kamau Talbott",
-    "bgClaimsRepresentative": "Toloria Milner",
-    "claimsRepresentative": "Deborah Wonder",
-    "prodSubType": "Original Pilot",
-    "madeFor": "New Media - Special Agreement",
-    "market": "Youtube",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "New York, NY United States"
     ]
   },
   {
@@ -1948,24 +1853,6 @@
     "contributionPlan": "SAG",
     "shootingLocations": [
       "Los Angeles, CA United States"
-    ]
-  },
-  {
-    "id": "500023",
-    "production": "Gloop World (19/20)",
-    "type": "New Media",
-    "local": "Los Angeles",
-    "startEndDates": "10/12/2019 - 07/18/2020",
-    "signatoryName": "Buddy X, LLC",
-    "contractTitleName": "New Media Animation Agreement",
-    "businessRepresentative": "Kamau Talbott",
-    "claimsRepresentative": "Deborah Wonder",
-    "prodSubType": "Original Series",
-    "madeFor": "New Media - Special Agreement",
-    "market": "Other New Media",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "Burbank, CA United States"
     ]
   },
   {
@@ -2132,24 +2019,6 @@
     "contributionPlan": "SAG",
     "shootingLocations": [
       "Chicago, IL United States"
-    ]
-  },
-  {
-    "id": "501137",
-    "production": "High School Musical - The Series (20/21)",
-    "type": "New Media",
-    "local": "Los Angeles",
-    "startEndDates": "02/19/2020 - 07/19/2020",
-    "signatoryName": "Salty Pictures, Inc.",
-    "contractTitleName": "Television AMPTP Agreement",
-    "businessRepresentative": "Art Duarte",
-    "claimsRepresentative": "Deborah Wonder",
-    "prodSubType": "Original Series",
-    "madeFor": "New Media - High-Budget SVOD/Tier 2",
-    "market": "Other New Media",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "Salt Lake City, UT United States"
     ]
   },
   {
@@ -2408,7 +2277,7 @@
     "startEndDates": "07/01/2019 - TBD",
     "signatoryName": "Dusty Comet Productions, LLC",
     "contractTitleName": "New Media Independent HBSVOD Agreement",
-    "businessRepresentative": "Kiley Cristiano",
+    "businessRepresentative": "Anny Edinchikyan",
     "bgClaimsRepresentative": "Toloria Milner",
     "claimsRepresentative": "Emmy Ferguson",
     "prodSubType": "Original Series",
@@ -3346,24 +3215,6 @@
     ]
   },
   {
-    "id": "469872",
-    "production": "October Lull",
-    "type": "New Media",
-    "local": " ",
-    "startEndDates": "07/20/2018 - TBD",
-    "signatoryName": "GREETINGS MEDIA LLC",
-    "contractTitleName": "New Media Agreement",
-    "businessRepresentative": "Kiley Cristiano",
-    "claimsRepresentative": "Erica Santucci",
-    "prodSubType": "Original Other",
-    "madeFor": "New Media - Special Agreement",
-    "market": "DirecTV Now",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "New York, NY"
-    ]
-  },
-  {
     "id": "473102",
     "production": "On Becoming A God In Central Florida (18/19)",
     "type": "New Media",
@@ -3382,25 +3233,6 @@
     ]
   },
   {
-    "id": "470344",
-    "production": "Only Woman In The World, The",
-    "type": "New Media",
-    "local": "Los Angeles",
-    "startEndDates": "07/21/2018 - TBD",
-    "signatoryName": "THE ONLY WOMAN IN THE WORLD LLC",
-    "contractTitleName": "New Media Agreement",
-    "businessRepresentative": "Kamau Talbott",
-    "bgClaimsRepresentative": "Toloria Milner",
-    "claimsRepresentative": "Deborah Wonder",
-    "prodSubType": "Original Pilot",
-    "madeFor": "New Media - Deferrable",
-    "market": "YouTube",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "los angeles, CA United States"
-    ]
-  },
-  {
     "id": "470998",
     "production": "Operator (18/19)",
     "type": "New Media",
@@ -3414,24 +3246,6 @@
     "prodSubType": "Original Series",
     "madeFor": "New Media - Deferrable",
     "market": "YouTube",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "Los Angeles, CA United States"
-    ]
-  },
-  {
-    "id": "469677",
-    "production": "Outerbounds, The",
-    "type": "New Media",
-    "local": "Los Angeles",
-    "startEndDates": "07/18/2018 - TBD",
-    "signatoryName": "Picrow, Inc.",
-    "contractTitleName": "New Media Agreement",
-    "businessRepresentative": "Joyce Grant",
-    "claimsRepresentative": "Deborah Wonder",
-    "prodSubType": "Original Other",
-    "madeFor": "New Media - Special Agreement",
-    "market": "Amazon",
     "contributionPlan": "SAG",
     "shootingLocations": [
       "Los Angeles, CA United States"
@@ -3483,8 +3297,8 @@
     "startEndDates": "06/01/2019 - TBD",
     "signatoryName": "The Pepper Project Pilot Inc.",
     "contractTitleName": "New Media Agreement",
-    "businessRepresentative": "Kamau Talbott",
-    "claimsRepresentative": "Erica Santucci",
+    "businessRepresentative": "Joyce Grant",
+    "claimsRepresentative": "William Dreyer",
     "prodSubType": "Original Series",
     "madeFor": "New Media - Deferrable",
     "market": "Other New Media",
@@ -3693,25 +3507,6 @@
     "contributionPlan": "SAG",
     "shootingLocations": [
       "Los Angeles, CA United States"
-    ]
-  },
-  {
-    "id": "470339",
-    "production": "Public Relations",
-    "type": "New Media",
-    "local": "Los Angeles",
-    "startEndDates": "07/21/2018 - TBD",
-    "signatoryName": "Thomas Stewart",
-    "contractTitleName": "New Media Agreement",
-    "businessRepresentative": "Kamau Talbott",
-    "bgClaimsRepresentative": "Toloria Milner",
-    "claimsRepresentative": "Deborah Wonder",
-    "prodSubType": "Original Pilot",
-    "madeFor": "New Media - Deferrable",
-    "market": "YouTube",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "los angeles, CA United States"
     ]
   },
   {
@@ -4569,25 +4364,6 @@
     ]
   },
   {
-    "id": "470090",
-    "production": "Tale Of Two Sisters, A",
-    "type": "New Media",
-    "local": "Los Angeles",
-    "startEndDates": "07/21/2018 - TBD",
-    "signatoryName": "TEA TIME PRODUCTIONS",
-    "contractTitleName": "New Media Agreement",
-    "businessRepresentative": "Kamau Talbott",
-    "bgClaimsRepresentative": "Toloria Milner",
-    "claimsRepresentative": "Deborah Wonder",
-    "prodSubType": "Original Pilot",
-    "madeFor": "New Media - Deferrable",
-    "market": "YouTube",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "los angeles, CA United States"
-    ]
-  },
-  {
     "id": "444741",
     "production": "Taste",
     "type": "New Media",
@@ -5223,25 +4999,6 @@
       "Spring Green, WI United States",
       "Chicago, IL United States",
       "Milwaukee, WI United States"
-    ]
-  },
-  {
-    "id": "470342",
-    "production": "Yana'S World (Yr 1)",
-    "type": "New Media",
-    "local": "Los Angeles",
-    "startEndDates": "07/23/2018 - TBD",
-    "signatoryName": "Yana Zinovyeva",
-    "contractTitleName": "New Media Agreement",
-    "businessRepresentative": "Kamau Talbott",
-    "bgClaimsRepresentative": "Toloria Milner",
-    "claimsRepresentative": "Deborah Wonder",
-    "prodSubType": "Original Series",
-    "madeFor": "New Media - Deferrable",
-    "market": "YouTube",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "los angeles, CA United States"
     ]
   },
   {
