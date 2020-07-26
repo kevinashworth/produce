@@ -111,7 +111,7 @@ const SEARCH_BUTTON = '#edit-submit';
 //     value: 'DC'
 //   }
 // ];
-const LOCATION = 'DC';
+const LOCATION = 'LA';
 const LISTINGS_AVAILABLE = '#production_listings_results #production_listings';
 const LISTINGS_SELECTOR = '#production_listings > [id^=row]';
 const OUTPUT_DIR = './output/'; // assumes we run `node src/index.js`
