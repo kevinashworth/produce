@@ -71,24 +71,6 @@
     ]
   },
   {
-    "id": "506981",
-    "production": "Adam Devine'S Secret Tiger Shark Lair (2020)",
-    "type": "Television Program",
-    "local": "Los Angeles",
-    "startEndDates": "07/19/2020 - 07/23/2020",
-    "signatoryName": "355 Productions, LLC",
-    "contractTitleName": "TV Programs",
-    "businessRepresentative": "Lisa Kyle",
-    "claimsRepresentative": "Silvia Gerber",
-    "prodSubType": "Special",
-    "madeFor": "Basic Cable",
-    "market": "Discovery",
-    "contributionPlan": "AFTRA",
-    "shootingLocations": [
-      "Nassaue, HI"
-    ]
-  },
-  {
     "id": "489174",
     "production": "Alice In Wonderland (Pilot)",
     "type": "Television",
@@ -422,6 +404,24 @@
     ]
   },
   {
+    "id": "507694",
+    "production": "Big Brother (20/21)",
+    "type": "Television Program",
+    "local": "Los Angeles",
+    "startEndDates": "08/05/2020 - 10/28/2020",
+    "signatoryName": "OUR HOUSE PRODUCTIONS INC",
+    "contractTitleName": "TV Programs",
+    "businessRepresentative": "Lisa Kyle",
+    "claimsRepresentative": "Billie Murphy",
+    "prodSubType": "TV Series",
+    "madeFor": "Broadcast Network",
+    "market": "CBS",
+    "contributionPlan": "AFTRA",
+    "shootingLocations": [
+      "Studio City, CA United States"
+    ]
+  },
+  {
     "id": "470620",
     "production": "Big City Greens (18/19)",
     "type": "Television",
@@ -563,6 +563,26 @@
     "contributionPlan": "AFTRA",
     "shootingLocations": [
       "Weston, CT United States"
+    ]
+  },
+  {
+    "id": "507529",
+    "production": "Breaking Bobby Bones (20/21)",
+    "type": "Television Program",
+    "local": "Los Angeles",
+    "startEndDates": "08/03/2020 - 01/31/2021",
+    "signatoryName": "355 Productions, LLC",
+    "contractTitleName": "TV Programs",
+    "businessRepresentative": "Lisa Kyle",
+    "claimsRepresentative": "Silvia Gerber",
+    "prodSubType": "TV Series",
+    "madeFor": "Basic Cable",
+    "contributionPlan": "AFTRA",
+    "shootingLocations": [
+      "Various, CA United States"
+    ],
+    "alternateTitles": [
+      ""
     ]
   },
   {
@@ -1227,7 +1247,7 @@
     "local": "Los Angeles",
     "startEndDates": "06/19/2019 - TBD",
     "signatoryName": "Topanga Productions, Inc.",
-    "contractTitleName": "Television Independent Agreement",
+    "contractTitleName": "Television AMPTP Agreement",
     "businessRepresentative": "Rose Magcalas",
     "claimsRepresentative": "Silvia Gerber",
     "prodSubType": "TV - Series",
@@ -1640,24 +1660,6 @@
     "contributionPlan": "AFTRA",
     "shootingLocations": [
       "New York, NY United States"
-    ]
-  },
-  {
-    "id": "501924",
-    "production": "Mayans Mc (20/21)",
-    "type": "Television Program",
-    "local": "Los Angeles",
-    "startEndDates": "04/01/2020 - 07/28/2020",
-    "signatoryName": "Pacific 21 Entertainment Group, Inc.",
-    "contractTitleName": "TV Programs",
-    "businessRepresentative": "Art Duarte",
-    "claimsRepresentative": "Billie Murphy",
-    "prodSubType": "TV Series",
-    "madeFor": "Basic Cable",
-    "market": "FX",
-    "contributionPlan": "AFTRA",
-    "shootingLocations": [
-      "Los Angeles, CA United States"
     ]
   },
   {
@@ -2329,24 +2331,6 @@
     ]
   },
   {
-    "id": "505911",
-    "production": "Royal Holiday (2020)",
-    "type": "Television",
-    "local": "New England",
-    "startEndDates": "07/07/2020 - 07/29/2020",
-    "signatoryName": "Royal Productions, LLC",
-    "contractTitleName": "Television Independent Agreement",
-    "businessRepresentative": "Rose Magcalas",
-    "claimsRepresentative": "Jessica Maher",
-    "prodSubType": "TV - Movie",
-    "madeFor": "Basic Cable",
-    "market": "Hallmark Channel",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "Putnam, CT United States"
-    ]
-  },
-  {
     "id": "489966",
     "production": "Rugrats (19/20)",
     "type": "Television Program",
@@ -2498,23 +2482,6 @@
     ]
   },
   {
-    "id": "467929",
-    "production": "Story Of Cool (Yr 1)",
-    "type": "Television Program",
-    "local": "Los Angeles",
-    "startEndDates": "07/25/2018 - TBD",
-    "signatoryName": "Verite Entertainment LLC",
-    "contractTitleName": "TV Programs",
-    "businessRepresentative": "Joyce Grant",
-    "claimsRepresentative": "Billie Murphy",
-    "prodSubType": "TV Series",
-    "madeFor": "Basic Cable",
-    "contributionPlan": "AFTRA",
-    "shootingLocations": [
-      "Los Angeles, CA United States"
-    ]
-  },
-  {
     "id": "483597",
     "production": "Story Of Us (Pilot)",
     "type": "Television",
@@ -2591,24 +2558,6 @@
     ]
   },
   {
-    "id": "496257",
-    "production": "Talk, The (19/20)",
-    "type": "Television Program",
-    "local": "Los Angeles",
-    "startEndDates": "09/09/2019 - 07/29/2020",
-    "signatoryName": "CBS STUDIOS INC.",
-    "contractTitleName": "TV Programs",
-    "businessRepresentative": "Rebecca Knowlton",
-    "claimsRepresentative": "Billie Murphy",
-    "prodSubType": "TV Series",
-    "madeFor": "Broadcast Network",
-    "market": "CBS",
-    "contributionPlan": "AFTRA",
-    "shootingLocations": [
-      "Studio City, CA United States"
-    ]
-  },
-  {
     "id": "504408",
     "production": "Teen Titans Go! (20/21)",
     "type": "Television",
@@ -2630,6 +2579,23 @@
     ]
   },
   {
+    "id": "507274",
+    "production": "Thinking About Water (2020)",
+    "type": "Television Program",
+    "local": "Los Angeles",
+    "startEndDates": "08/01/2020 - 08/31/2020",
+    "signatoryName": "355 Productions, LLC",
+    "contractTitleName": "TV Programs",
+    "businessRepresentative": "Lisa Kyle",
+    "claimsRepresentative": "Billie Murphy",
+    "prodSubType": "Special",
+    "madeFor": "Basic Cable",
+    "contributionPlan": "AFTRA",
+    "shootingLocations": [
+      "Los Angelees, CA United States"
+    ]
+  },
+  {
     "id": "474697",
     "production": "This Functional Family (Pilot)",
     "type": "Television",
@@ -2645,24 +2611,6 @@
     "contributionPlan": "SAG",
     "shootingLocations": [
       "Los Angeles, CA United States"
-    ]
-  },
-  {
-    "id": "504829",
-    "production": "Three Busy Debras (20/21)",
-    "type": "Television",
-    "local": "Seattle",
-    "startEndDates": "08/01/2020 - 10/31/2020",
-    "signatoryName": "Alive And Kicking, Inc.",
-    "contractTitleName": "Television AMPTP Agreement",
-    "businessRepresentative": "Lisa Kyle",
-    "claimsRepresentative": "Chris Comte",
-    "prodSubType": "TV - Series",
-    "madeFor": "Basic Cable",
-    "market": "Cartoon Network",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "Seattle, WA United States"
     ]
   },
   {
@@ -2699,24 +2647,6 @@
     "contributionPlan": "SAG",
     "shootingLocations": [
       "Burbank, CA United States"
-    ]
-  },
-  {
-    "id": "503498",
-    "production": "Ultimate Surfer, The (20/21)",
-    "type": "Television Program",
-    "local": "Los Angeles",
-    "startEndDates": "07/06/2020 - 07/28/2020",
-    "signatoryName": "Project X Productions, LLC",
-    "contractTitleName": "TV Programs",
-    "businessRepresentative": "Art Duarte",
-    "claimsRepresentative": "Silvia Gerber",
-    "prodSubType": "TV Series",
-    "madeFor": "Broadcast Network",
-    "market": "ABC",
-    "contributionPlan": "AFTRA",
-    "shootingLocations": [
-      "Lemoore, CA United States"
     ]
   },
   {
