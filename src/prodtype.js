@@ -18,7 +18,7 @@ const LISTINGS_AVAILABLE = '#production_listings_results #production_listings';
 const LISTINGS_SELECTOR = '#production_listings > [id^=row]';
 const OUTPUT_DIR = './output/prodtype/'; // assumes we run `node src/prodtype.js`
 
-const PRODTYPE = 'TV';
+const PRODTYPE = 'TH';
 
 const handleListings = (results) => {
   return results.map(listing => {
