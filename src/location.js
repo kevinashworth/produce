@@ -16,9 +16,9 @@ const LOCATION_SELECTOR = 'select#edit-location';
 const SEARCH_BUTTON = '#edit-submit';
 const LISTINGS_AVAILABLE = '#production_listings_results #production_listings';
 const LISTINGS_SELECTOR = '#production_listings > [id^=row]';
-const OUTPUT_DIR = './output/'; // assumes we run `node src/index.js`
+const OUTPUT_DIR = './output/location/'; // assumes we run `node src/index.js`
 
-const LOCATION = 'HU';
+const LOCATION = 'NV';
 
 const handleListings = (results) => {
   return results.map(listing => {

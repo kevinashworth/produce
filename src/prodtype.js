@@ -16,7 +16,7 @@ const SEARCH_BUTTON = '#edit-submit';
 const PRODTYPE_SELECTOR = 'select#edit-prodtype';
 const LISTINGS_AVAILABLE = '#production_listings_results #production_listings';
 const LISTINGS_SELECTOR = '#production_listings > [id^=row]';
-const OUTPUT_DIR = './output/'; // assumes we run `node src/prodtype.js`
+const OUTPUT_DIR = './output/prodtype/'; // assumes we run `node src/prodtype.js`
 
 const PRODTYPE = 'TV';
 
