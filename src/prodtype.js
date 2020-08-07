@@ -1,7 +1,11 @@
-const puppeteer = require('puppeteer');
-const fs = require('fs');
-const mkdirp = require('mkdirp');
 const chalk = require('chalk');
+const fs = require('fs');
+const glob = require('glob');
+const _ = require('lodash');
+const mkdirp = require('mkdirp');
+const path = require('path');
+const puppeteer = require('puppeteer');
+
 const error = chalk.bold.red;
 const success = chalk.bold.green;
 const verbose = chalk.bold.yellow;
@@ -87,9 +91,17 @@ const handleDetails = (el) => {
 };
 
 (async () => {
+  let existingFiles = null;
   mkdirp(OUTPUT_DIR + PRODTYPE).then(made => {
     if (made) {
-      console.log(verbose(`mkdirp made directories, starting with ${made}`));
+      console.log(verbose(`made directories, starting with ${made}`));
+    } else {
+      glob(OUTPUT_DIR + PRODTYPE + "/*.json", null, function (err, files) {
+        if (err) throw err;
+        existingFiles = files.map((file) => path.basename(file)).sort();
+        console.log(verbose('existingFiles:'));
+        console.log(existingFiles);
+      })
     }
   });
 
@@ -108,9 +120,9 @@ const handleDetails = (el) => {
   await page.click(LOGIN_BUTTON_SELECTOR);
   await page.waitForNavigation();
   console.log(success('Logged in to Production Listings.'));
-  await page.addScriptTag({
-    url: 'https://cdn.jsdelivr.net/npm/lodash@4/lodash.min.js'
-  });
+  // await page.addScriptTag({
+  //   url: 'https://cdn.jsdelivr.net/npm/lodash@4/lodash.min.js'
+  // });
   await page.select(PRODTYPE_SELECTOR, PRODTYPE);
   await page.click(SEARCH_BUTTON);
   await page.waitForSelector(LISTINGS_AVAILABLE);
@@ -118,56 +130,71 @@ const handleDetails = (el) => {
   if (!listings) {
     console.log(error('No listings for', PRODTYPE));
   }
-  console.log(verbose('Going through', listings.length, 'listings.'));
-  for (let i = 0; i < listings.length; i++) {
-    let listing = listings[i];
-    const { id } = listing;
-    if (id === '0') {
-      const outFile = OUTPUT_DIR + PRODTYPE + '/' + id + '.json';
-      fs.writeFile(outFile, JSON.stringify(listing, null, 2), (err) => {
-        if (err) throw err;
-        console.log(outFile, 'was saved:', listing);
-      });
-      await browser.close();
-      console.log(success('End of program.'));
-      return;
-    }
-    const clickSelector = `#click-${id}`;
-    const detailsAvailable = `#result-${id}.fulldetail.openDetail ul`;
-    const detailsSelector = `#result-${id}.fulldetail.openDetail`;
 
-    await page.click(clickSelector);
-    try {
-      await page.waitForSelector(detailsAvailable);
-    } catch (e) {
-      console.groupCollapsed(error('waitForSelector error:'));
-      console.error(e);
-      console.log(`error is for listing ${id}.`);
-      console.groupEnd();
-      console.log(verbose('For loop will now continue.'));
-      continue;
-    }
-    const details = await page.$eval(detailsSelector, handleDetails);
-    // eslint-disable-next-line
-    // debugger;
-    listing = { ...listing, ...details };
-
-    const outFile = OUTPUT_DIR + PRODTYPE + '/' + id + '.json';
-    fs.writeFile(outFile, JSON.stringify(listing, null, 2), (err) => {
-      if (err) throw err;
-      console.log(verbose(outFile, 'was saved:') + listing);
-    });
-
-    listings[i] = listing;
-    var randomSeconds = Math.floor(Math.random() * 4500) + 3000; // between 3 and 7.5 seconds
-    await page.waitFor(randomSeconds);
-  }
-  console.log(success('Finished with', listings.length, 'listings.'));
-  const outFile = OUTPUT_DIR + PRODTYPE + '.json';
-  fs.writeFile(outFile, JSON.stringify(listings, null, 2), (err) => {
-    if (err) throw err;
-    console.log(success(outFile, 'was saved.'));
+  // if (existingFiles.length) {
+  const listingsArray = listings.map((listing) => listing.id + '.json').sort();
+  console.log(verbose('listingsArray:'));
+  console.log(listingsArray);
+  // find files only in existingFiles, move to archive
+  const toArchive = _.difference(existingFiles, listingsArray);
+  console.log(verbose('toArchive:'));
+  console.log(toArchive);
+  const listingsToHandle = _.remove(listings, (n) => {
+    _.indexOf(toArchive,
   });
+  console.log(verbose('toHandle:'));
+  console.log(toHandle);
+
+  // console.log(verbose('Going through', listings.length, 'listings.'));
+  // for (let i = 0; i < listings.length; i++) {
+  //   let listing = listings[i];
+  //   const { id } = listing;
+  //   if (id === '0') {
+  //     const outFile = OUTPUT_DIR + PRODTYPE + '/' + id + '.json';
+  //     fs.writeFile(outFile, JSON.stringify(listing, null, 2), (err) => {
+  //       if (err) throw err;
+  //       console.log(outFile, 'was saved:', JSON.stringify(listing, null, 2));
+  //     });
+  //     await browser.close();
+  //     console.log(success('End of program.'));
+  //     return;
+  //   }
+  //   const clickSelector = `#click-${id}`;
+  //   const detailsAvailable = `#result-${id}.fulldetail.openDetail ul`;
+  //   const detailsSelector = `#result-${id}.fulldetail.openDetail`;
+
+  //   await page.click(clickSelector);
+  //   try {
+  //     await page.waitForSelector(detailsAvailable);
+  //   } catch (e) {
+  //     console.groupCollapsed(error('waitForSelector error:'));
+  //     console.error(e);
+  //     console.log(`error is for listing ${id}.`);
+  //     console.groupEnd();
+  //     console.log(verbose('For loop will now continue.'));
+  //     continue;
+  //   }
+  //   const details = await page.$eval(detailsSelector, handleDetails);
+  //   // eslint-disable-next-line
+  //   // debugger;
+  //   listing = { ...listing, ...details };
+
+  //   const outFile = OUTPUT_DIR + PRODTYPE + '/' + id + '.json';
+  //   fs.writeFile(outFile, JSON.stringify(listing, null, 2), (err) => {
+  //     if (err) throw err;
+  //     console.log(verbose(outFile, 'was saved:') + listing);
+  //   });
+
+  //   listings[i] = listing;
+  //   var randomSeconds = Math.floor(Math.random() * 4500) + 3000; // between 3 and 7.5 seconds
+  //   await page.waitFor(randomSeconds);
+  // }
+  // console.log(success('Finished with', listings.length, 'listings.'));
+  // const outFile = OUTPUT_DIR + PRODTYPE + '.json';
+  // fs.writeFile(outFile, JSON.stringify(listings, null, 2), (err) => {
+  //   if (err) throw err;
+  //   console.log(success(outFile, 'was saved.'));
+  // });
 
   await page.waitFor(2000);
   await browser.close();

@@ -12,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "chalk": "^4.1.0",
+    "glob": "^7.1.6",
     "lodash": "^4.17.19",
     "mkdirp": "^1.0.4",
     "puppeteer": "^5.1.0",
