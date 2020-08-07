@@ -1,6 +1,11 @@
 const puppeteer = require('puppeteer');
 const fs = require('fs');
 const mkdirp = require('mkdirp');
+const chalk = require('chalk');
+const error = chalk.bold.red;
+const success = chalk.bold.green;
+const verbose = chalk.bold.yellow;
+
 const CREDENTIALS = require('./credentials.js');
 const CONFIG = require('./config.js');
 
@@ -9,32 +14,11 @@ const PASSWORD_SELECTOR = '#edit-pass';
 const LOGIN_BUTTON_SELECTOR = '#sagaftra-login-button-submit';
 const SEARCH_BUTTON = '#edit-submit';
 const PRODTYPE_SELECTOR = 'select#edit-prodtype';
-// const PRODTYPES = [
-//   {
-//     label: 'All',
-//     value: 'ALL'
-//   },
-//   {
-//     label: 'Agnostic',
-//     value: 'AG'
-//   },
-//   {
-//     label: 'New Media',
-//     value: 'NMA'
-//   },
-//   {
-//     label: 'Television',
-//     value: 'TV'
-//   },
-//   {
-//     label: 'Theatrical',
-//     value: 'TH'
-//   }
-// ]
-const PRODTYPE = 'TV';
 const LISTINGS_AVAILABLE = '#production_listings_results #production_listings';
 const LISTINGS_SELECTOR = '#production_listings > [id^=row]';
 const OUTPUT_DIR = './output/'; // assumes we run `node src/prodtype.js`
+
+const PRODTYPE = 'TV';
 
 const handleListings = (results) => {
   return results.map(listing => {
@@ -82,7 +66,7 @@ const handleDetails = (el) => {
             });
             results.alternateTitles = alternateTitles;
           } else {
-            console.log('Why are we here?!');
+            console.error('Why are we here?!');
           }
           // important next two lines
           i++;
@@ -105,13 +89,13 @@ const handleDetails = (el) => {
 (async () => {
   mkdirp(OUTPUT_DIR + PRODTYPE).then(made => {
     if (made) {
-      console.log(`mkdirp made directories, starting with ${made}`);
+      console.log(verbose(`mkdirp made directories, starting with ${made}`));
     }
   });
 
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
-  console.log('Created page.');
+  console.log(verbose('Created page.'));
   await page.setUserAgent(CONFIG.USER_AGENT);
   await page.setViewport({
     width: CONFIG.WIDTH,
@@ -123,7 +107,7 @@ const handleDetails = (el) => {
   await page.type(PASSWORD_SELECTOR, CREDENTIALS.password);
   await page.click(LOGIN_BUTTON_SELECTOR);
   await page.waitForNavigation();
-  console.log('Logged in to Production Listings.');
+  console.log(success('Logged in to Production Listings.'));
   await page.addScriptTag({
     url: 'https://cdn.jsdelivr.net/npm/lodash@4/lodash.min.js'
   });
@@ -132,9 +116,9 @@ const handleDetails = (el) => {
   await page.waitForSelector(LISTINGS_AVAILABLE);
   const listings = await page.$$eval(LISTINGS_SELECTOR, handleListings);
   if (!listings) {
-    console.log('No listings for', PRODTYPE);
+    console.log(error('No listings for', PRODTYPE));
   }
-  console.log('Going through', listings.length, 'listings.');
+  console.log(verbose('Going through', listings.length, 'listings.'));
   for (let i = 0; i < listings.length; i++) {
     let listing = listings[i];
     const { id } = listing;
@@ -145,7 +129,7 @@ const handleDetails = (el) => {
         console.log(outFile, 'was saved:', listing);
       });
       await browser.close();
-      console.log('End of program.');
+      console.log(success('End of program.'));
       return;
     }
     const clickSelector = `#click-${id}`;
@@ -156,11 +140,11 @@ const handleDetails = (el) => {
     try {
       await page.waitForSelector(detailsAvailable);
     } catch (e) {
-      console.groupCollapsed('waitForSelector error:');
+      console.groupCollapsed(error('waitForSelector error:'));
       console.error(e);
       console.log(`error is for listing ${id}.`);
       console.groupEnd();
-      console.log('For loop will now continue.');
+      console.log(verbose('For loop will now continue.'));
       continue;
     }
     const details = await page.$eval(detailsSelector, handleDetails);
@@ -171,21 +155,21 @@ const handleDetails = (el) => {
     const outFile = OUTPUT_DIR + PRODTYPE + '/' + id + '.json';
     fs.writeFile(outFile, JSON.stringify(listing, null, 2), (err) => {
       if (err) throw err;
-      console.log(outFile, 'was saved:', listing);
+      console.log(verbose(outFile, 'was saved:') + listing);
     });
 
     listings[i] = listing;
     var randomSeconds = Math.floor(Math.random() * 4500) + 3000; // between 3 and 7.5 seconds
     await page.waitFor(randomSeconds);
   }
-  console.log('Finished with', listings.length, 'listings.');
+  console.log(success('Finished with', listings.length, 'listings.'));
   const outFile = OUTPUT_DIR + PRODTYPE + '.json';
   fs.writeFile(outFile, JSON.stringify(listings, null, 2), (err) => {
     if (err) throw err;
-    console.log(outFile, 'was saved.');
+    console.log(success(outFile, 'was saved.'));
   });
 
   await page.waitFor(2000);
   await browser.close();
-  console.log('End of program.');
+  console.log(verbose('End of program.'));
 })();

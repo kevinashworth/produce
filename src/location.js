@@ -1,120 +1,24 @@
 const puppeteer = require('puppeteer');
 const fs = require('fs');
 const mkdirp = require('mkdirp');
-const CREDENTIALS = require('./credentials.js');
+const chalk = require('chalk');
+const error = chalk.bold.red;
+const success = chalk.bold.green;
+const verbose = chalk.bold.yellow;
+
 const CONFIG = require('./config.js');
+const CREDENTIALS = require('./credentials.js');
 
 const USERNAME_SELECTOR = '#edit-name';
 const PASSWORD_SELECTOR = '#edit-pass';
 const LOGIN_BUTTON_SELECTOR = '#sagaftra-login-button-submit';
 const LOCATION_SELECTOR = 'select#edit-location';
 const SEARCH_BUTTON = '#edit-submit';
-// const LOCATIONS = [
-//   {
-//     label: 'Atlanta',
-//     value: 'GA'
-//   },
-//   {
-//     label: 'Arizona-Utah',
-//     value: 'AZ'
-//   },
-//   {
-//     label: 'Chicago',
-//     value: 'CH'
-//   },
-//   {
-//     label: 'Colorado',
-//     value: 'CO'
-//   },
-//   {
-//     label: 'Dallas-Fort Worth',
-//     value: 'TX'
-//   },
-//   {
-//     label: 'Hawaii',
-//     value: 'HI'
-//   },
-//   {
-//     label: 'Houston-Austin',
-//     value: 'HU'
-//   },
-//   {
-//     label: 'Los Angeles',
-//     value: 'LA'
-//   },
-//   {
-//     label: 'Miami',
-//     value: 'FL'
-//   },
-//   {
-//     label: 'Michigan',
-//     value: 'DE'
-//   },
-//   {
-//     label: 'Missouri Valley',
-//     value: 'MKN'
-//   },
-//   {
-//     label: 'Nashville',
-//     value: 'TN'
-//   },
-//   {
-//     label: 'Nevada',
-//     value: 'NV'
-//   },
-//   {
-//     label: 'New England',
-//     value: 'BO'
-//   },
-//   {
-//     label: 'New Mexico',
-//     value: 'NM'
-//   },
-//   {
-//     label: 'New Orleans',
-//     value: 'LS'
-//   },
-//   {
-//     label: 'New York',
-//     value: 'NY'
-//   },
-//   {
-//     label: 'Ohio-Pittsburgh',
-//     value: 'OA'
-//   },
-//   {
-//     label: 'Philadelphia',
-//     value: 'PH'
-//   },
-//   {
-//     label: 'Portland',
-//     value: 'OR'
-//   },
-//   {
-//     label: 'San Diego',
-//     value: 'SD'
-//   },
-//   {
-//     label: 'San Francisco-NorCal',
-//     value: 'SF'
-//   },
-//   {
-//     label: 'Seattle',
-//     value: 'WA'
-//   },
-//   {
-//     label: 'Twin Cities',
-//     value: 'MN'
-//   },
-//   {
-//     label: 'Wash-Mid Atlantic',
-//     value: 'DC'
-//   }
-// ];
-const LOCATION = 'LA';
 const LISTINGS_AVAILABLE = '#production_listings_results #production_listings';
 const LISTINGS_SELECTOR = '#production_listings > [id^=row]';
 const OUTPUT_DIR = './output/'; // assumes we run `node src/index.js`
+
+const LOCATION = 'HU';
 
 const handleListings = (results) => {
   return results.map(listing => {
@@ -185,13 +89,13 @@ const handleDetails = (el) => {
 (async () => {
   mkdirp(OUTPUT_DIR + LOCATION).then(made => {
     if (made) {
-      console.log(`mkdirp made directories, starting with ${made}`);
+      console.log(verbose(`mkdirp made directories, starting with ${made}`));
     }
   });
 
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
-  console.log('Created page.');
+  console.log(verbose('Created page.'));
   await page.setUserAgent(CONFIG.USER_AGENT);
   await page.setViewport({
     width: CONFIG.WIDTH,
@@ -203,7 +107,7 @@ const handleDetails = (el) => {
   await page.type(PASSWORD_SELECTOR, CREDENTIALS.password);
   await page.click(LOGIN_BUTTON_SELECTOR);
   await page.waitForNavigation();
-  console.log('Logged in to Production Listings.');
+  console.log(verbose('Logged in to Production Listings.'));
   await page.addScriptTag({
     url: 'https://cdn.jsdelivr.net/npm/lodash@4/lodash.min.js'
   });
@@ -212,9 +116,9 @@ const handleDetails = (el) => {
   await page.waitForSelector(LISTINGS_AVAILABLE);
   const listings = await page.$$eval(LISTINGS_SELECTOR, handleListings);
   if (!listings) {
-    console.log('No listings for', LOCATION);
+    console.log(error('No listings for', LOCATION));
   }
-  console.log('Going through', listings.length, 'listings.');
+  console.log(verbose('Going through', listings.length, 'listings.'));
   for (let i = 0; i < listings.length; i++) {
     let listing = listings[i];
     const { id } = listing;
@@ -222,10 +126,10 @@ const handleDetails = (el) => {
       const outFile = OUTPUT_DIR + LOCATION + '/' + id + '.json';
       fs.writeFile(outFile, JSON.stringify(listing, null, 2), (err) => {
         if (err) throw err;
-        console.log(outFile, 'was saved:', listing);
+        console.log(success(outFile, 'was saved:'), listing);
       });
       await browser.close();
-      console.log('End of program.');
+      console.log(success('End of program.'));
       return;
     }
     const clickSelector = `#click-${id}`;
@@ -236,11 +140,11 @@ const handleDetails = (el) => {
     try {
       await page.waitForSelector(detailsAvailable);
     } catch (e) {
-      console.groupCollapsed('waitForSelector error:');
+      console.groupCollapsed(error('waitForSelector error:'));
       console.error(e);
       console.log(`error is for listing ${id}.`);
       console.groupEnd();
-      console.log('For loop will now continue.');
+      console.log(verbose('For loop will now continue.'));
       continue;
     }
     const details = await page.$eval(detailsSelector, handleDetails);
@@ -251,7 +155,7 @@ const handleDetails = (el) => {
     const outFile = OUTPUT_DIR + LOCATION + '/' + id + '.json';
     fs.writeFile(outFile, JSON.stringify(listing, null, 2), (err) => {
       if (err) throw err;
-      console.log(outFile, 'was saved:', listing);
+      console.log(success(outFile, 'was saved:'), listing);
     });
 
     listings[i] = listing;
@@ -262,10 +166,10 @@ const handleDetails = (el) => {
   const outFile = OUTPUT_DIR + LOCATION + '.json';
   fs.writeFile(outFile, JSON.stringify(listings, null, 2), (err) => {
     if (err) throw err;
-    console.log(outFile, 'was saved.');
+    console.log(success(outFile, 'was saved.'));
   });
 
   await page.waitFor(2000);
   await browser.close();
-  console.log('End of program.');
+  console.log(verbose('End of program.'));
 })();

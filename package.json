@@ -5,12 +5,13 @@
   "main": "index.js",
   "scripts": {
     "start": "semistandard && ndb index.js",
-    "test": "semistandard && ndb node test.js"
+    "test": "semistandard"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "chalk": "^4.1.0",
     "lodash": "^4.17.19",
     "mkdirp": "^1.0.4",
     "puppeteer": "^5.1.0",
@@ -18,5 +19,10 @@
   },
   "devDependencies": {
     "ndb": "^1.1.5"
+  },
+  "semistandard": {
+    "globals": [
+      "_"
+    ]
   }
 }
