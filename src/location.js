@@ -18,7 +18,7 @@ const LISTINGS_AVAILABLE = '#production_listings_results #production_listings';
 const LISTINGS_SELECTOR = '#production_listings > [id^=row]';
 const OUTPUT_DIR = './output/location/'; // assumes we run `node src/index.js`
 
-const LOCATION = 'NV';
+const LOCATION = 'LS';
 
 const handleListings = (results) => {
   return results.map(listing => {
