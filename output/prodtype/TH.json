@@ -18,26 +18,6 @@
     ]
   },
   {
-    "id": "397823",
-    "production": "Abruptio",
-    "type": "Theatrical",
-    "local": "Los Angeles",
-    "startEndDates": "08/05/2020 - 08/07/2020",
-    "signatoryName": "HellBent Pictures LLC",
-    "contractTitleName": "Theatrical Independent Agreement",
-    "businessRepresentative": "Oliver Bundy",
-    "claimsRepresentative": "Sabina Sanchez",
-    "prodSubType": "Low Budget Modified",
-    "madeFor": "TH - Other",
-    "market": "Not Applicable",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "Los Angeles, CA United States",
-      "San Diego, CA United States",
-      "Orange County, CA United States"
-    ]
-  },
-  {
     "id": "474755",
     "production": "Annabelle Comes Home",
     "type": "Theatrical",
@@ -349,7 +329,7 @@
     "production": "Dotty And Soul",
     "type": "Theatrical",
     "local": "Dallas-Fort Worth",
-    "startEndDates": "02/22/2020 - 08/07/2020",
+    "startEndDates": "02/22/2020 - 08/31/2020",
     "signatoryName": "Footprint Film 5 LLC",
     "contractTitleName": "Theatrical Independent Agreement",
     "businessRepresentative": "Chanda Ulrich",
@@ -577,6 +557,11 @@
     "contributionPlan": "SAG",
     "shootingLocations": [
       "Cleveland, OH United States"
+    ],
+    "alternateTitles": [
+      "Jesus Was My Homeboy",
+      "Untitled Fred Hampton Project, The",
+      "Judas & The Black Messiah"
     ]
   },
   {
@@ -743,6 +728,24 @@
     "contributionPlan": "SAG",
     "shootingLocations": [
       "Los Angeles, CA United States"
+    ]
+  },
+  {
+    "id": "507158",
+    "production": "Monday Mourning",
+    "type": "Theatrical",
+    "local": "Los Angeles",
+    "startEndDates": "08/09/2020 - 08/10/2020",
+    "signatoryName": "Dustin Thomas Kahia",
+    "contractTitleName": "Student Agreement",
+    "businessRepresentative": "Tawanda Lewis Duck",
+    "claimsRepresentative": "Melissa Sexton",
+    "prodSubType": "Student",
+    "madeFor": "TH - Other",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "San Diego, CA United States"
     ]
   },
   {
