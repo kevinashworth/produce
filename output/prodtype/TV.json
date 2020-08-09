@@ -494,6 +494,24 @@
     ]
   },
   {
+    "id": "508010",
+    "production": "Black-Ish (20/21)",
+    "type": "Television Program",
+    "local": "Los Angeles",
+    "startEndDates": "08/10/2020 - TBD",
+    "signatoryName": "ABC Studios",
+    "contractTitleName": "TV Programs",
+    "businessRepresentative": "Art Duarte",
+    "claimsRepresentative": "Silvia Gerber",
+    "prodSubType": "TV Series",
+    "madeFor": "Broadcast Network",
+    "market": "ABC",
+    "contributionPlan": "AFTRA",
+    "shootingLocations": [
+      "Los Angeles, CA United States"
+    ]
+  },
+  {
     "id": "499726",
     "production": "Blaze And The Monster Machines (19/20)",
     "type": "Television Program",
@@ -622,24 +640,6 @@
     ]
   },
   {
-    "id": "507313",
-    "production": "Cash At Your Door (Non-Airing Presentation)",
-    "type": "Television Program",
-    "local": "New York",
-    "startEndDates": "08/12/2020 - 08/13/2020",
-    "signatoryName": "Something Amazing Productions, LLC",
-    "contractTitleName": "TV Programs",
-    "businessRepresentative": "Lisa Kyle",
-    "claimsRepresentative": "Stephane Adam",
-    "prodSubType": "TV Program",
-    "madeFor": "Basic Cable",
-    "market": "Bravo",
-    "contributionPlan": "AFTRA",
-    "shootingLocations": [
-      "New York, NY United States"
-    ]
-  },
-  {
     "id": "505328",
     "production": "Celebrity Show Off (20/21)",
     "type": "Television Program",
@@ -655,23 +655,6 @@
     "contributionPlan": "AFTRA",
     "shootingLocations": [
       "Los Angeles, CA United States"
-    ]
-  },
-  {
-    "id": "507990",
-    "production": "Chicago Shakespeare In The Parks",
-    "type": "Television Program",
-    "local": "Chicago",
-    "startEndDates": "08/04/2020 - 08/05/2020",
-    "signatoryName": "WINDOW TO THE WORLD (WTTW)",
-    "contractTitleName": "TV Staff",
-    "businessRepresentative": "Kathy Byrne",
-    "prodSubType": "Special",
-    "madeFor": "Public TV",
-    "market": "Public TV",
-    "contributionPlan": "AFTRA",
-    "shootingLocations": [
-      "Chicago, IL United States"
     ]
   },
   {
@@ -731,6 +714,25 @@
     "contributionPlan": "SAG",
     "shootingLocations": [
       "Various, UT United States"
+    ]
+  },
+  {
+    "id": "507636",
+    "production": "Chucky (20/21)",
+    "type": "Television",
+    "local": "Los Angeles",
+    "startEndDates": "10/26/2020 - 04/14/2021",
+    "signatoryName": "Universal Content Productions LLC",
+    "contractTitleName": "Television AMPTP Agreement",
+    "businessRepresentative": "Joyce Grant",
+    "bgClaimsRepresentative": "Alice Vosmek",
+    "claimsRepresentative": "Alice Vosmek",
+    "prodSubType": "TV - Series",
+    "madeFor": "Basic Cable",
+    "market": "Syfy Channel",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Toronto, Canada"
     ]
   },
   {
@@ -825,6 +827,24 @@
     ]
   },
   {
+    "id": "507777",
+    "production": "Dancing With The Stars (20/21)",
+    "type": "Television Program",
+    "local": "Los Angeles",
+    "startEndDates": "08/24/2020 - 11/23/2020",
+    "signatoryName": "Lime Grove Productions, LLC",
+    "contractTitleName": "TV Programs",
+    "businessRepresentative": "Art Duarte",
+    "claimsRepresentative": "Billie Murphy",
+    "prodSubType": "TV Series",
+    "madeFor": "Broadcast Network",
+    "market": "ABC",
+    "contributionPlan": "AFTRA",
+    "shootingLocations": [
+      "Los Angeles, CA United States"
+    ]
+  },
+  {
     "id": "495770",
     "production": "Dc Super Hero Girls (19/20)",
     "type": "Television",
@@ -861,25 +881,6 @@
     ],
     "alternateTitles": [
       ""
-    ]
-  },
-  {
-    "id": "506332",
-    "production": "Dear Christmas (2020)",
-    "type": "Television",
-    "local": "Los Angeles",
-    "startEndDates": "07/20/2020 - 08/07/2020",
-    "signatoryName": "Christmas Reservations Inc.",
-    "contractTitleName": "Television Independent Agreement",
-    "businessRepresentative": "Art Duarte",
-    "claimsRepresentative": "Silvia Gerber",
-    "prodSubType": "TV - Movie",
-    "madeFor": "Basic Cable",
-    "market": "Lifetime",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "Incline Village, NV",
-      "Reno, NV"
     ]
   },
   {
@@ -1107,6 +1108,24 @@
     ]
   },
   {
+    "id": "491037",
+    "production": "Family Feud (2018-2021)",
+    "type": "Television Program",
+    "local": "Atlanta",
+    "startEndDates": "03/02/2019 - TBD",
+    "signatoryName": "WANDERLUST PRODUCTIONS INC",
+    "contractTitleName": "TV Programs",
+    "businessRepresentative": "Art Duarte",
+    "claimsRepresentative": "Billie Murphy",
+    "prodSubType": "TV Series",
+    "madeFor": "Syndication",
+    "market": "Syndication",
+    "contributionPlan": "AFTRA",
+    "shootingLocations": [
+      "Atlanta, GA"
+    ]
+  },
+  {
     "id": "498510",
     "production": "Final Space (20/21)",
     "type": "Television",
@@ -1216,24 +1235,6 @@
     "contributionPlan": "SAG",
     "shootingLocations": [
       "Burbank, CA United States"
-    ]
-  },
-  {
-    "id": "473936",
-    "production": "Goldbergs, The (18/19)",
-    "type": "Television Program",
-    "local": "Los Angeles",
-    "startEndDates": "08/06/2018 - TBD",
-    "signatoryName": "REMOTE BROADCASTING INC",
-    "contractTitleName": "TV Programs",
-    "businessRepresentative": "Rose Magcalas",
-    "claimsRepresentative": "Silvia Gerber",
-    "prodSubType": "TV Series",
-    "madeFor": "Broadcast Network",
-    "market": "ABC",
-    "contributionPlan": "AFTRA",
-    "shootingLocations": [
-      "Los Angeles, CA United States"
     ]
   },
   {
@@ -1730,6 +1731,24 @@
     ]
   },
   {
+    "id": "508171",
+    "production": "Middlemost Post (20/21)",
+    "type": "Television Program",
+    "local": "Los Angeles",
+    "startEndDates": "07/08/2020 - TBD",
+    "signatoryName": "Nickelodeon Animation Studios, Inc.",
+    "contractTitleName": "TV Programs",
+    "businessRepresentative": "Lisa Kyle",
+    "claimsRepresentative": "Billie Murphy",
+    "prodSubType": "TV Series",
+    "madeFor": "Basic Cable",
+    "market": "Nickelodeon",
+    "contributionPlan": "AFTRA",
+    "shootingLocations": [
+      "Burbank,, CA United States"
+    ]
+  },
+  {
     "id": "507787",
     "production": "Million Little Things, A (20/21)",
     "type": "Television",
@@ -1827,6 +1846,25 @@
       "Muppet Babies Adventures (S3)",
       "Muppet Babies Adventures (20/21)",
       "Muppet Babies: Reboot (Yr 3)"
+    ]
+  },
+  {
+    "id": "508126",
+    "production": "Ncis: Los Angeles (20/21)",
+    "type": "Television",
+    "local": "Los Angeles",
+    "startEndDates": "09/03/2020 - 04/24/2021",
+    "signatoryName": "CBS Studios Inc.",
+    "contractTitleName": "Television AMPTP Agreement",
+    "businessRepresentative": "Lisa Kyle",
+    "bgClaimsRepresentative": "Toloria Milner",
+    "claimsRepresentative": "Billie Murphy",
+    "prodSubType": "TV - Series",
+    "madeFor": "Broadcast Network",
+    "market": "CBS",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Los Angeles, CA United States"
     ]
   },
   {
@@ -2080,6 +2118,42 @@
     "contributionPlan": "AFTRA",
     "shootingLocations": [
       "Los Angeles, CA United States"
+    ]
+  },
+  {
+    "id": "508174",
+    "production": "Patrick Star Show, The (20/21)",
+    "type": "Television Program",
+    "local": "Los Angeles",
+    "startEndDates": "07/29/2020 - TBD",
+    "signatoryName": "Nickelodeon Animation Studios, Inc.",
+    "contractTitleName": "TV Programs",
+    "businessRepresentative": "Lisa Kyle",
+    "claimsRepresentative": "Billie Murphy",
+    "prodSubType": "TV Series",
+    "madeFor": "Basic Cable",
+    "market": "Nickelodeon",
+    "contributionPlan": "AFTRA",
+    "shootingLocations": [
+      "Burbank, CA United States"
+    ]
+  },
+  {
+    "id": "508173",
+    "production": "Pj Sparkleton (Pilot)",
+    "type": "Television Program",
+    "local": "Los Angeles",
+    "startEndDates": "07/01/2020 - TBD",
+    "signatoryName": "Nickelodeon Animation Studios, Inc.",
+    "contractTitleName": "TV Programs",
+    "businessRepresentative": "Lisa Kyle",
+    "claimsRepresentative": "Billie Murphy",
+    "prodSubType": "TV - Pilot",
+    "madeFor": "Basic Cable",
+    "market": "Nickelodeon",
+    "contributionPlan": "AFTRA",
+    "shootingLocations": [
+      "Burbank, CA United States"
     ]
   },
   {
@@ -2418,6 +2492,24 @@
     ]
   },
   {
+    "id": "508019",
+    "production": "Saints And Sinners (20/21)",
+    "type": "Television",
+    "local": "Atlanta",
+    "startEndDates": "08/10/2020 - 09/28/2020",
+    "signatoryName": "Saints &amp; Sinners Series LLC",
+    "contractTitleName": "Television Independent Agreement",
+    "businessRepresentative": "Art Duarte",
+    "claimsRepresentative": "Melissa Goodman",
+    "prodSubType": "TV - Series",
+    "madeFor": "Basic Cable",
+    "market": "Other",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Hiram, GA United States"
+    ]
+  },
+  {
     "id": "481207",
     "production": "Saratoga",
     "type": "Television",
@@ -2569,6 +2661,24 @@
     ]
   },
   {
+    "id": "508075",
+    "production": "Supermarket Sweep (20/21)",
+    "type": "Television Program",
+    "local": "Los Angeles",
+    "startEndDates": "07/31/2020 - 08/11/2020",
+    "signatoryName": "BLUE ORBIT PRODUCTIONS INC.",
+    "contractTitleName": "TV Programs",
+    "businessRepresentative": "Lisa Kyle",
+    "claimsRepresentative": "Silvia Gerber",
+    "prodSubType": "TV Series",
+    "madeFor": "Broadcast Network",
+    "market": "ABC",
+    "contributionPlan": "AFTRA",
+    "shootingLocations": [
+      "Los Angeles, CA United States"
+    ]
+  },
+  {
     "id": "489967",
     "production": "Supermighties (Pilot)",
     "type": "Television Program",
@@ -2636,6 +2746,24 @@
     "madeFor": "Basic Cable",
     "market": "Disney Ch",
     "contributionPlan": "AFTRA",
+    "shootingLocations": [
+      "Los Angeles, CA United States"
+    ]
+  },
+  {
+    "id": "508162",
+    "production": "T.O.T.S. (19/20)",
+    "type": "Television",
+    "local": "Los Angeles",
+    "startEndDates": "07/07/2019 - 04/03/2021",
+    "signatoryName": "Robin Red Breast Inc.",
+    "contractTitleName": "Basic Cable Agreement for Animated Motion Pictures",
+    "businessRepresentative": "Art Duarte",
+    "claimsRepresentative": "Silvia Gerber",
+    "prodSubType": "TV - Animated Series",
+    "madeFor": "Basic Cable",
+    "market": "Other",
+    "contributionPlan": "SAG",
     "shootingLocations": [
       "Los Angeles, CA United States"
     ]
@@ -2848,6 +2976,24 @@
     ]
   },
   {
+    "id": "507320",
+    "production": "Weakest Link (20/21)",
+    "type": "Television Program",
+    "local": "Los Angeles",
+    "startEndDates": "08/28/2020 - 09/03/2020",
+    "signatoryName": "Lime Grove Productions, LLC",
+    "contractTitleName": "TV Programs",
+    "businessRepresentative": "Art Duarte",
+    "claimsRepresentative": "Billie Murphy",
+    "prodSubType": "TV Series",
+    "madeFor": "Broadcast Network",
+    "market": "NBC",
+    "contributionPlan": "AFTRA",
+    "shootingLocations": [
+      "Los Angeles, CA United States"
+    ]
+  },
+  {
     "id": "507405",
     "production": "Welcome Home Christmas (2020)",
     "type": "Television",
@@ -2864,6 +3010,24 @@
     "shootingLocations": [
       "Nashville, TN United States",
       ","
+    ]
+  },
+  {
+    "id": "508090",
+    "production": "Wheel Of Fortune (20/21)",
+    "type": "Television Program",
+    "local": "Los Angeles",
+    "startEndDates": "08/05/2020 - 06/21/2021",
+    "signatoryName": "QUADRA PRODUCTIONS INC. (CA)",
+    "contractTitleName": "TV Programs",
+    "businessRepresentative": "Rose Magcalas",
+    "claimsRepresentative": "Silvia Gerber",
+    "prodSubType": "TV Series",
+    "madeFor": "Syndication",
+    "market": "Syndication",
+    "contributionPlan": "AFTRA",
+    "shootingLocations": [
+      "Culver City, CA United States"
     ]
   },
   {
