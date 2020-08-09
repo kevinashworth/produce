@@ -23,7 +23,7 @@ const PRODTYPE_SELECTOR = 'select#edit-prodtype';
 const LISTINGS_AVAILABLE = '#production_listings_results #production_listings';
 const LISTINGS_SELECTOR = '#production_listings > [id^=row]';
 
-const PRODTYPE = 'TH';
+const PRODTYPE = 'AG';
 const OUTPUT_DIR = `./output/prodtype/${PRODTYPE}`; // assumes we run `node src/prodtype.js`
 
 const handleListings = (nodeListArray) => {
@@ -84,7 +84,7 @@ const handleDetails = (detailsElement) => {
 
 (async () => {
   const starttime = new Date();
-  console.log(verbose(starttime));
+  console.log('Start time:', starttime);
 
   let existingFiles = null;
   mkdirp(OUTPUT_DIR + '/archive').then(made => {
@@ -196,14 +196,13 @@ const handleDetails = (detailsElement) => {
     fs.writeFile(outFile, JSON.stringify(listing, null, 2), (err) => {
       if (err) throw err;
       const timestamp = new Date().toLocaleTimeString();
-      console.log(verbose(`${i} -`, timestamp));
-      console.log(verbose(outFile, 'was saved:'));
+      console.log(verbose(`${i} of ${listings.length} at ${timestamp}, ${outFile} was saved:`));
       console.log(listing);
     });
 
     // add details back in to listings array for writing to an all-in-one file
     listings[i] = listing;
-    var randomSeconds = Math.floor(Math.random() * 9500) + 3000; // between 3 and 12.5 seconds
+    var randomSeconds = Math.floor(Math.random() * 7000) + 3000; // 3 to 10 seconds
     await page.waitFor(randomSeconds);
   }
 
@@ -217,7 +216,7 @@ const handleDetails = (detailsElement) => {
   await page.waitFor(1500);
   await browser.close();
   const stoptime = new Date();
-  console.log(verbose(stoptime));
+  console.log('Stop time:', stoptime);
   const duration = Math.floor((stoptime - starttime) / 1000);
-  console.log(verbose(`Program took ${duration} seconds. End of program.`));
+  console.log(`Program took ${duration} seconds.`);
 })();
