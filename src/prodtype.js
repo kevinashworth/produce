@@ -22,12 +22,12 @@ const SEARCH_BUTTON = '#edit-submit';
 const PRODTYPE_SELECTOR = 'select#edit-prodtype';
 const LISTINGS_AVAILABLE = '#production_listings_results #production_listings';
 const LISTINGS_SELECTOR = '#production_listings > [id^=row]';
-const OUTPUT_DIR = './output/prodtype/'; // assumes we run `node src/prodtype.js`
 
-const PRODTYPE = 'TH';
+const PRODTYPE = 'TV';
+const OUTPUT_DIR = `./output/prodtype/${PRODTYPE}`; // assumes we run `node src/prodtype.js`
 
-const handleListings = (results) => {
-  return results.map(listing => {
+const handleListings = (nodeListArray) => {
+  return nodeListArray.map(listing => {
     const [id] = listing.id.match(/\d+/g);
     return {
       id,
@@ -39,72 +39,64 @@ const handleListings = (results) => {
   });
 };
 
-const handleDetails = (el) => {
+const handleDetails = (detailsElement) => {
   const results = {};
   const shootingLocations = [];
   const alternateTitles = [];
-  const children = Array.from(el.children);
-
-  // last child is always an empty 'P' tagName
-  children.pop();
+  const children = Array.from(detailsElement.children);
+  children.pop(); // last child is always an empty 'p' tag
 
   for (let i = 0; i < children.length; i++) {
     const child = children[i];
-    if (!child.children[0]) {
-      console.log('This child has no children:', child);
-    } else {
-      // first deal separately with possible two-parters (shootingLocations, alternateTitles)
+    if (child.children[0]) {
+      // first, deal with two-parters here (shootingLocations, alternateTitles)
       if (i < children.length - 1) {
         const nextChild = children[i + 1];
         const nextChildren = nextChild && nextChild.children && Array.from(nextChild.children);
         if (nextChildren && nextChildren[0] && nextChildren[0].tagName === 'LI') {
-          console.log('nextChildren[0] LI:', nextChildren[0].innerText);
           if (child.innerText.indexOf('Shooting Locations') === 0) {
             nextChildren.forEach(location => {
               shootingLocations.push(location.innerText);
-              console.log('shootingLocations:', shootingLocations);
             });
             results.shootingLocations = shootingLocations;
           } else if (child.innerText.indexOf('Alternate Titles') === 0) {
             nextChildren.forEach(title => {
               alternateTitles.push(title.innerText);
-              console.log('alternateTitles:', alternateTitles);
             });
             results.alternateTitles = alternateTitles;
-          } else {
-            console.log('Why are we here?!');
           }
           // important next two lines
           i++;
           continue;
         }
       }
-      // now process the other one-parters
+      // else, deal with one-parters
       const name = child.children[0].innerText.replace(/\W/g, '');
       const nameKey = _.camelCase(name);
       const nameFull = child.innerHTML;
       const nameSpan = child.children[0].outerHTML;
       const nameValue = nameFull.substring(nameSpan.length).trim();
       results[nameKey] = nameValue;
-      console.log('results:', results);
     }
   }
   return results;
 };
 
 (async () => {
+  let timestamp = new Date();
+  console.log(verbose(timestamp));
+
   let existingFiles = null;
-  mkdirp(OUTPUT_DIR + PRODTYPE).then(made => {
+  mkdirp(OUTPUT_DIR + '/archive').then(made => {
     if (made) {
       console.log(verbose(`made directories, starting with ${made}`));
-    } else {
-      glob(OUTPUT_DIR + PRODTYPE + '/*.json', null, function (err, files) {
-        if (err) throw err;
-        existingFiles = files.map(file => path.basename(file)).sort();
-        console.log(verbose('existingFiles:'));
-        console.log(existingFiles); // expect ['123456.json', '234567.json', etc.]
-      });
     }
+  });
+  glob(OUTPUT_DIR + '/*.json', null, function (err, files) {
+    if (err) throw err;
+    existingFiles = files.map(file => path.basename(file)).sort();
+    console.log(verbose('existingFiles:'));
+    console.log(existingFiles); // expect ['123456.json', '234567.json', etc.]
   });
 
   const browser = await puppeteer.launch();
@@ -141,18 +133,17 @@ const handleDetails = (el) => {
   console.log(toArchive);
   if (toArchive.length > 0) {
     toArchive.forEach((file) => {
-      const fromPath = OUTPUT_DIR + PRODTYPE + '/' + file;
-      const toPath = OUTPUT_DIR + PRODTYPE + '/archive/' + file;
+      const fromPath = OUTPUT_DIR + '/' + file;
+      const toPath = OUTPUT_DIR + '/archive/' + file;
       fs.rename(fromPath, toPath, (err) => {
         if (err) {
           console.log(error('File moving error:'));
           console.log(err);
         } else {
-          console.log("Moved file '%s' to '%s'.", fromPath, toPath);
+          console.log(verbose("Moved file '%s' to '%s'.", fromPath, toPath));
         }
       });
     });
-
     // remove archive files before going thru listings (`remove` mutates `listings`)
     remove(listings, (listing) => {
       return (toArchive.indexOf(listing.id + '.json') > -1);
@@ -164,10 +155,10 @@ const handleDetails = (el) => {
     let listing = listings[i];
     const { id } = listing;
     if (id === '0') {
-      const outFile = OUTPUT_DIR + PRODTYPE + '/' + id + '.json';
+      const outFile = OUTPUT_DIR + '/zero.json';
       fs.writeFile(outFile, JSON.stringify(listing, null, 2), (err) => {
         if (err) throw err;
-        console.log(outFile, 'was saved:', JSON.stringify(listing, null, 2));
+        console.log(verbose(outFile, 'got saved.'));
       });
       await browser.close();
       console.log(success('End of program.'));
@@ -176,24 +167,38 @@ const handleDetails = (el) => {
     const clickSelector = `#click-${id}`;
     const detailsAvailable = `#result-${id}.fulldetail.openDetail ul`;
     const detailsSelector = `#result-${id}.fulldetail.openDetail`;
-
-    await page.click(clickSelector);
     try {
-      await page.waitForSelector(detailsAvailable);
+      await page.click(clickSelector);
     } catch (e) {
-      console.groupCollapsed(error('waitForSelector error:'));
-      console.error(e);
-      console.log(`Error is for listing ${id}.`);
-      console.groupEnd();
+      console.log(error(`page.click error, ${id}:`));
+      console.log(e);
       console.log(verbose('The `for` loop will now continue.'));
       continue;
     }
-    const details = await page.$eval(detailsSelector, handleDetails);
-    listing = { ...listing, ...details };
-    const outFile = OUTPUT_DIR + PRODTYPE + '/' + id + '.json';
+    try {
+      await page.waitForSelector(detailsAvailable);
+    } catch (e) {
+      console.log(error(`page.waitForSelector error, ${id}:`));
+      console.log(e);
+      console.log(verbose('The `for` loop will now continue.'));
+      continue;
+    }
+    try {
+      const details = await page.$eval(detailsSelector, handleDetails);
+      listing = { ...listing, ...details };
+    } catch (e) {
+      console.log(error(`page.$eval error, ${id}:`));
+      console.log(e);
+      console.log(verbose('The `for` loop will now continue.'));
+      continue;
+    }
+    const outFile = OUTPUT_DIR + '/' + id + '.json';
     fs.writeFile(outFile, JSON.stringify(listing, null, 2), (err) => {
       if (err) throw err;
-      console.log(verbose(outFile, 'was saved:'), listing);
+      const timestamp = new Date().toLocaleTimeString();
+      console.log(success(timestamp, '[', i, ']'));
+      console.log(verbose(outFile, 'was saved:'));
+      console.log(listing);
     });
 
     // add details back in to listings array for writing to an all-in-one file
@@ -201,14 +206,17 @@ const handleDetails = (el) => {
     var randomSeconds = Math.floor(Math.random() * 9500) + 3000; // between 3 and 12.5 seconds
     await page.waitFor(randomSeconds);
   }
+
   console.log(success('Finished with', listings.length, 'listings.'));
-  const outFile = OUTPUT_DIR + PRODTYPE + '.json';
+  const outFile = OUTPUT_DIR + '.json';
   fs.writeFile(outFile, JSON.stringify(listings, null, 2), (err) => {
     if (err) throw err;
-    console.log(success(outFile, 'was saved.'));
+    console.log(success(outFile, 'has been saved.'));
   });
 
-  await page.waitFor(2000);
+  await page.waitFor(1500);
   await browser.close();
   console.log(verbose('End of program.'));
+  timestamp = new Date();
+  console.log(verbose(timestamp));
 })();
