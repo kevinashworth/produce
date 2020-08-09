@@ -23,7 +23,7 @@ const PRODTYPE_SELECTOR = 'select#edit-prodtype';
 const LISTINGS_AVAILABLE = '#production_listings_results #production_listings';
 const LISTINGS_SELECTOR = '#production_listings > [id^=row]';
 
-const PRODTYPE = 'TV';
+const PRODTYPE = 'TH';
 const OUTPUT_DIR = `./output/prodtype/${PRODTYPE}`; // assumes we run `node src/prodtype.js`
 
 const handleListings = (nodeListArray) => {
@@ -83,20 +83,20 @@ const handleDetails = (detailsElement) => {
 };
 
 (async () => {
-  let timestamp = new Date();
-  console.log(verbose(timestamp));
+  const starttime = new Date();
+  console.log(verbose(starttime));
 
   let existingFiles = null;
   mkdirp(OUTPUT_DIR + '/archive').then(made => {
     if (made) {
-      console.log(verbose(`made directories, starting with ${made}`));
+      console.log(verbose(`mkdirp ${made}`));
     }
   });
   glob(OUTPUT_DIR + '/*.json', null, function (err, files) {
     if (err) throw err;
     existingFiles = files.map(file => path.basename(file)).sort();
-    console.log(verbose('existingFiles:'));
-    console.log(existingFiles); // expect ['123456.json', '234567.json', etc.]
+    console.log(verbose(`${existingFiles.length} existing files on disk:`));
+    console.log(existingFiles);
   });
 
   const browser = await puppeteer.launch();
@@ -126,10 +126,10 @@ const handleDetails = (detailsElement) => {
 
   // find the files that are only in existingFiles, will move to archive
   const listingsIds = listings.map((listing) => listing.id + '.json').sort();
-  console.log(verbose('listingsIds:'));
+  console.log(verbose(`${listingsIds.length} listings on page:`));
   console.log(listingsIds);
   const toArchive = difference(existingFiles, listingsIds);
-  console.log(verbose('toArchive:'));
+  console.log(verbose(`${toArchive.length} being moved to archive:`));
   console.log(toArchive);
   if (toArchive.length > 0) {
     toArchive.forEach((file) => {
@@ -140,7 +140,7 @@ const handleDetails = (detailsElement) => {
           console.log(error('File moving error:'));
           console.log(err);
         } else {
-          console.log(verbose("Moved file '%s' to '%s'.", fromPath, toPath));
+          console.log('Moved "%s" to "%s".', fromPath, toPath);
         }
       });
     });
@@ -150,7 +150,7 @@ const handleDetails = (detailsElement) => {
     });
   }
 
-  console.log(verbose('Going through', listings.length, 'listings.'));
+  console.log(verbose(`${listings.length} listings to process:`));
   for (let i = 0; i < listings.length; i++) {
     let listing = listings[i];
     const { id } = listing;
@@ -172,7 +172,7 @@ const handleDetails = (detailsElement) => {
     } catch (e) {
       console.log(error(`page.click error, ${id}:`));
       console.log(e);
-      console.log(verbose('The `for` loop will now continue.'));
+      console.log('The "for" loop will now continue.');
       continue;
     }
     try {
@@ -180,7 +180,7 @@ const handleDetails = (detailsElement) => {
     } catch (e) {
       console.log(error(`page.waitForSelector error, ${id}:`));
       console.log(e);
-      console.log(verbose('The `for` loop will now continue.'));
+      console.log('The "for" loop will now continue.');
       continue;
     }
     try {
@@ -189,14 +189,14 @@ const handleDetails = (detailsElement) => {
     } catch (e) {
       console.log(error(`page.$eval error, ${id}:`));
       console.log(e);
-      console.log(verbose('The `for` loop will now continue.'));
+      console.log('The "for" loop will now continue.');
       continue;
     }
     const outFile = OUTPUT_DIR + '/' + id + '.json';
     fs.writeFile(outFile, JSON.stringify(listing, null, 2), (err) => {
       if (err) throw err;
       const timestamp = new Date().toLocaleTimeString();
-      console.log(success(timestamp, '[', i, ']'));
+      console.log(verbose(`${i} -`, timestamp));
       console.log(verbose(outFile, 'was saved:'));
       console.log(listing);
     });
@@ -216,7 +216,8 @@ const handleDetails = (detailsElement) => {
 
   await page.waitFor(1500);
   await browser.close();
-  console.log(verbose('End of program.'));
-  timestamp = new Date();
-  console.log(verbose(timestamp));
+  const stoptime = new Date();
+  console.log(verbose(stoptime));
+  const duration = Math.floor((stoptime - starttime) / 1000);
+  console.log(verbose(`Program took ${duration} seconds. End of program.`));
 })();
