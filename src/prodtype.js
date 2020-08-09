@@ -23,7 +23,7 @@ const PRODTYPE_SELECTOR = 'select#edit-prodtype';
 const LISTINGS_AVAILABLE = '#production_listings_results #production_listings';
 const LISTINGS_SELECTOR = '#production_listings > [id^=row]';
 
-const PRODTYPE = 'AG';
+const PRODTYPE = 'NMA';
 const OUTPUT_DIR = `./output/prodtype/${PRODTYPE}`; // assumes we run `node src/prodtype.js`
 
 const handleListings = (nodeListArray) => {
@@ -129,25 +129,28 @@ const handleDetails = (detailsElement) => {
   console.log(verbose(`${listingsIds.length} listings on page:`));
   console.log(listingsIds);
   const toArchive = difference(existingFiles, listingsIds);
-  console.log(verbose(`${toArchive.length} being moved to archive:`));
-  console.log(toArchive);
   if (toArchive.length > 0) {
-    toArchive.forEach((file) => {
+    console.log(verbose(`${toArchive.length} being moved to archive:`));
+    console.log(toArchive);
+    for (let i = 0; i < toArchive.length; i++) {
+      const file = toArchive[i];
       const fromPath = OUTPUT_DIR + '/' + file;
       const toPath = OUTPUT_DIR + '/archive/' + file;
       fs.rename(fromPath, toPath, (err) => {
         if (err) {
-          console.log(error('File moving error:'));
+          console.log(error(`${fromPath} fs.rename error:`));
           console.log(err);
         } else {
-          console.log('Moved "%s" to "%s".', fromPath, toPath);
+          console.log('Moved %s to %s', fromPath, toPath);
         }
       });
-    });
+    }
     // remove archive files before going thru listings (`remove` mutates `listings`)
     remove(listings, (listing) => {
       return (toArchive.indexOf(listing.id + '.json') > -1);
     });
+  } else {
+    console.log(verbose('There are no files to archive.'));
   }
 
   console.log(verbose(`${listings.length} listings to process:`));
@@ -196,7 +199,7 @@ const handleDetails = (detailsElement) => {
     fs.writeFile(outFile, JSON.stringify(listing, null, 2), (err) => {
       if (err) throw err;
       const timestamp = new Date().toLocaleTimeString();
-      console.log(verbose(`${i} of ${listings.length} at ${timestamp}, ${outFile} was saved:`));
+      console.log(verbose(`${i} of ${listings.length} at ${timestamp} ${outFile} was saved:`));
       console.log(listing);
     });
 
