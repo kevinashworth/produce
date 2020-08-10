@@ -26,7 +26,8 @@ const LISTINGS_SELECTOR = '#production_listings > [id^=row]';
 const PRODTYPE = 'NMA';
 const OUTPUT_DIR = `./output/prodtype/${PRODTYPE}`; // assumes we run `node src/prodtype.js`
 
-const handleListings = (nodeListArray) => {
+// reminder: runs in browser context
+const handleListingsPageFn = (nodeListArray) => {
   return nodeListArray.map(listing => {
     const [id] = listing.id.match(/\d+/g);
     return {
@@ -39,7 +40,8 @@ const handleListings = (nodeListArray) => {
   });
 };
 
-const handleDetails = (detailsElement) => {
+// reminder: runs in browser context
+const handleDetailsPageFn = (detailsElement) => {
   const results = {};
   const shootingLocations = [];
   const alternateTitles = [];
@@ -83,8 +85,8 @@ const handleDetails = (detailsElement) => {
 };
 
 (async () => {
-  const starttime = new Date();
-  console.log('Start time:', starttime);
+  const timeStart = new Date();
+  console.log('Start time:', timeStart);
 
   let existingFiles = null;
   mkdirp(OUTPUT_DIR + '/archive').then(made => {
@@ -119,7 +121,7 @@ const handleDetails = (detailsElement) => {
   await page.select(PRODTYPE_SELECTOR, PRODTYPE);
   await page.click(SEARCH_BUTTON);
   await page.waitForSelector(LISTINGS_AVAILABLE);
-  var listings = await page.$$eval(LISTINGS_SELECTOR, handleListings);
+  var listings = await page.$$eval(LISTINGS_SELECTOR, handleListingsPageFn);
   if (!listings) {
     console.log(error('No listings for', PRODTYPE));
   }
@@ -136,14 +138,8 @@ const handleDetails = (detailsElement) => {
       const file = toArchive[i];
       const fromPath = OUTPUT_DIR + '/' + file;
       const toPath = OUTPUT_DIR + '/archive/' + file;
-      fs.rename(fromPath, toPath, (err) => {
-        if (err) {
-          console.log(error(`${fromPath} fs.rename error:`));
-          console.log(err);
-        } else {
-          console.log('Moved %s to %s', fromPath, toPath);
-        }
-      });
+      fs.renameSync(fromPath, toPath);
+      console.log('Moved %s to %s', fromPath, toPath);
     }
     // remove archive files before going thru listings (`remove` mutates `listings`)
     remove(listings, (listing) => {
@@ -187,7 +183,7 @@ const handleDetails = (detailsElement) => {
       continue;
     }
     try {
-      const details = await page.$eval(detailsSelector, handleDetails);
+      const details = await page.$eval(detailsSelector, handleDetailsPageFn);
       listing = { ...listing, ...details };
     } catch (e) {
       console.log(error(`page.$eval error, ${id}:`));
@@ -198,8 +194,9 @@ const handleDetails = (detailsElement) => {
     const outFile = OUTPUT_DIR + '/' + id + '.json';
     fs.writeFile(outFile, JSON.stringify(listing, null, 2), (err) => {
       if (err) throw err;
-      const timestamp = new Date().toLocaleTimeString();
-      console.log(verbose(`${i} of ${listings.length} at ${timestamp} ${outFile} was saved:`));
+      const timeWrite = new Date();
+      const duration = Math.floor((timeWrite - timeStart) / 1000);
+      console.log(verbose(`${i} of ${listings.length} (${duration} s) ${outFile} was saved:`));
       console.log(listing);
     });
 
@@ -218,8 +215,8 @@ const handleDetails = (detailsElement) => {
 
   await page.waitFor(1500);
   await browser.close();
-  const stoptime = new Date();
-  console.log('Stop time:', stoptime);
-  const duration = Math.floor((stoptime - starttime) / 1000);
+  const timeStop = new Date();
+  console.log('Stop time:', timeStop);
+  const duration = Math.floor((timeStop - timeStart) / 1000);
   console.log(`Program took ${duration} seconds.`);
 })();

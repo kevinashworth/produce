@@ -126,7 +126,7 @@ const handleDetails = (el) => {
       const outFile = OUTPUT_DIR + LOCATION + '/' + id + '.json';
       fs.writeFile(outFile, JSON.stringify(listing, null, 2), (err) => {
         if (err) throw err;
-        console.log(success(outFile, 'was saved:'), listing);
+        console.log(verbose(outFile, 'got saved.'));
       });
       await browser.close();
       console.log(success('End of program.'));
