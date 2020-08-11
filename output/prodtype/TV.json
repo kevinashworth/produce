@@ -640,6 +640,25 @@
     ]
   },
   {
+    "id": "507313",
+    "production": "Cash At Your Door (Non-Airing Presentation)",
+    "type": "Television Program",
+    "local": "New York",
+    "startEndDates": "08/12/2020 - 08/13/2020",
+    "signatoryName": "Something Amazing Productions, LLC",
+    "contractTitleName": "TV Programs",
+    "businessRepresentative": "Lisa Kyle",
+    "bgClaimsRepresentative": "Alice Vosmek",
+    "claimsRepresentative": "Alice Vosmek",
+    "prodSubType": "TV Program",
+    "madeFor": "Basic Cable",
+    "market": "Bravo",
+    "contributionPlan": "AFTRA",
+    "shootingLocations": [
+      "New York, NY United States"
+    ]
+  },
+  {
     "id": "505328",
     "production": "Celebrity Show Off (20/21)",
     "type": "Television Program",
@@ -938,24 +957,6 @@
     ]
   },
   {
-    "id": "507303",
-    "production": "Don'T Waste Your Pretty (Mow)",
-    "type": "Television",
-    "local": "Atlanta",
-    "startEndDates": "07/21/2020 - 08/10/2020",
-    "signatoryName": "Druid Hills Productions LLC",
-    "contractTitleName": "Television Independent Agreement",
-    "businessRepresentative": "Art Duarte",
-    "claimsRepresentative": "Melissa Goodman",
-    "prodSubType": "TV - Movie",
-    "madeFor": "Basic Cable",
-    "market": "Other",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "Hiram, GA United States"
-    ]
-  },
-  {
     "id": "500297",
     "production": "Donkey Hodie (19/21)",
     "type": "Television Program",
@@ -995,24 +996,6 @@
     ],
     "alternateTitles": [
       ""
-    ]
-  },
-  {
-    "id": "506120",
-    "production": "Dwight In Shining Armor (20/21)",
-    "type": "Television Program",
-    "local": "Atlanta",
-    "startEndDates": "07/13/2020 - TBD",
-    "signatoryName": "DISA Series LLC",
-    "contractTitleName": "TV Programs",
-    "businessRepresentative": "Lisa Kyle",
-    "claimsRepresentative": "Melissa Goodman",
-    "prodSubType": "TV Series",
-    "madeFor": "Public TV",
-    "market": "Public TV",
-    "contributionPlan": "AFTRA",
-    "shootingLocations": [
-      "Atlanta, GA United States"
     ]
   },
   {
@@ -1064,44 +1047,6 @@
     "prodSubType": "TV - Animated Series",
     "madeFor": "Basic Cable",
     "market": "Other",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "Los Angeles, CA United States"
-    ]
-  },
-  {
-    "id": "502975",
-    "production": "Exterminate All The Brutes (2020)",
-    "type": "Television Program",
-    "local": " ",
-    "startEndDates": "07/20/2020 - 08/08/2020",
-    "signatoryName": "IANYN, LLC",
-    "contractTitleName": "TV Programs",
-    "businessRepresentative": "Lisa Kyle",
-    "claimsRepresentative": "William Dreyer",
-    "prodSubType": "Mini-Series",
-    "madeFor": "Pay TV",
-    "market": "HBO",
-    "contributionPlan": "AFTRA",
-    "shootingLocations": [
-      ", Dominican Republic",
-      "Paris, France",
-      ","
-    ]
-  },
-  {
-    "id": "469070",
-    "production": "Fam (18/19)",
-    "type": "Television",
-    "local": "Los Angeles",
-    "startEndDates": "08/09/2018 - TBD",
-    "signatoryName": "Kapital Productions, LLC.",
-    "contractTitleName": "Television AMPTP Agreement",
-    "businessRepresentative": "Rebecca Knowlton",
-    "claimsRepresentative": "Billie Murphy",
-    "prodSubType": "TV - Series",
-    "madeFor": "Broadcast Network",
-    "market": "CBS",
     "contributionPlan": "SAG",
     "shootingLocations": [
       "Los Angeles, CA United States"
@@ -1876,7 +1821,8 @@
     "signatoryName": "Skyline Productions, Inc.",
     "contractTitleName": "TV Programs",
     "businessRepresentative": "Lisa Kyle",
-    "claimsRepresentative": "William Dreyer",
+    "bgClaimsRepresentative": "David Lotz",
+    "claimsRepresentative": "David Lotz",
     "prodSubType": "Special",
     "madeFor": "Pay TV",
     "market": "HBO",
@@ -2790,23 +2736,6 @@
     ]
   },
   {
-    "id": "507274",
-    "production": "Thinking About Water (2020)",
-    "type": "Television Program",
-    "local": "Los Angeles",
-    "startEndDates": "08/01/2020 - 08/31/2020",
-    "signatoryName": "355 Productions, LLC",
-    "contractTitleName": "TV Programs",
-    "businessRepresentative": "Lisa Kyle",
-    "claimsRepresentative": "Billie Murphy",
-    "prodSubType": "Special",
-    "madeFor": "Basic Cable",
-    "contributionPlan": "AFTRA",
-    "shootingLocations": [
-      "Los Angelees, CA United States"
-    ]
-  },
-  {
     "id": "474697",
     "production": "This Functional Family (Pilot)",
     "type": "Television",
@@ -2840,6 +2769,24 @@
     "contributionPlan": "SAG",
     "shootingLocations": [
       "Burbank, CA United States"
+    ]
+  },
+  {
+    "id": "507177",
+    "production": "Tuca & Bertie (20/21)",
+    "type": "Television",
+    "local": "Los Angeles",
+    "startEndDates": "06/01/2020 - 05/14/2021",
+    "signatoryName": "T&amp;B PRODUCTIONS LLC",
+    "contractTitleName": "Basic Cable Agreement for Animated Motion Pictures",
+    "businessRepresentative": "Lisa Kyle",
+    "claimsRepresentative": "Emmy Ferguson",
+    "prodSubType": "TV - Animated Series",
+    "madeFor": "Basic Cable",
+    "market": "Comedy Central",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Los Angeles, CA United States"
     ]
   },
   {
