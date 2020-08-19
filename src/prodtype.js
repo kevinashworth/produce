@@ -195,7 +195,7 @@ const handleDetailsPageFn = (detailsElement) => {
       if (err) throw err;
       const timeWrite = new Date();
       const duration = Math.floor((timeWrite - timeStart) / 1000);
-      console.log(verbose(`${i} of ${listings.length} (${duration} s) ${outFile} was saved:`));
+      console.log(verbose(`${i + 1} of ${listings.length} (${duration} s) ${outFile} was saved:`));
       console.log(listing);
     });
 
