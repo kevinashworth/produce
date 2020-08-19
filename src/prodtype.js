@@ -23,7 +23,7 @@ const PRODTYPE_SELECTOR = 'select#edit-prodtype';
 const LISTINGS_AVAILABLE = '#production_listings_results #production_listings';
 const LISTINGS_SELECTOR = '#production_listings > [id^=row]';
 
-const PRODTYPE = 'TH';
+const PRODTYPE = 'NMA';
 const OUTPUT_DIR = `./output/prodtype/${PRODTYPE}`; // assumes we run `node src/prodtype.js`
 
 // reminder: runs in browser context
