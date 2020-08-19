@@ -22,7 +22,7 @@ const LOCATION_SELECTOR = 'select#edit-location';
 const LISTINGS_AVAILABLE = '#production_listings_results #production_listings';
 const LISTINGS_SELECTOR = '#production_listings > [id^=row]';
 
-const LOCATION = 'NM';
+const LOCATION = 'TX';
 const OUTPUT_DIR = `./output/location/${LOCATION}`; // assumes we run `node src/location.js`
 
 // reminder: runs in browser context
