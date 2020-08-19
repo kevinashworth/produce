@@ -1,5 +1,24 @@
 [
   {
+    "id": "507561",
+    "production": "51st State",
+    "type": "Agnostic",
+    "local": "Wash-Mid Atlantic",
+    "startEndDates": "08/16/2020 - 08/23/2020",
+    "signatoryName": "Washington Drama Society Inc",
+    "contractTitleName": "Agnostic Independent Agreement SAG-AFTRA",
+    "businessRepresentative": "Anna Pogosyan",
+    "claimsRepresentative": "Emmy Ferguson",
+    "prodSubType": "Ultra Low Budget",
+    "madeFor": "Not Applicable",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Washington, DC United States",
+      "Washington, DC United States"
+    ]
+  },
+  {
     "id": "457850",
     "production": "55 Minutes",
     "type": "Agnostic",
@@ -54,6 +73,24 @@
     ]
   },
   {
+    "id": "502609",
+    "production": "Becoming",
+    "type": "Agnostic",
+    "local": "Los Angeles",
+    "startEndDates": "08/22/2020 - 08/24/2020",
+    "signatoryName": "CarlySullivan, LLC",
+    "contractTitleName": "Short Project Agreement",
+    "businessRepresentative": "Sara Lissner",
+    "claimsRepresentative": "Silvia Gerber",
+    "prodSubType": "Short Project Agreement",
+    "madeFor": "Not Applicable",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Los Angeles, CA United States"
+    ]
+  },
+  {
     "id": "471736",
     "production": "Beneath The Surface",
     "type": "Agnostic",
@@ -72,58 +109,57 @@
     ]
   },
   {
-    "id": "503809",
-    "production": "Cupid For Christmas, A",
-    "type": "Agnostic",
-    "local": "Wash-Mid Atlantic",
-    "startEndDates": "07/25/2020 - 08/11/2020",
-    "signatoryName": "Cupid, LLC",
-    "contractTitleName": "Agnostic Independent Agreement SAG-AFTRA",
-    "businessRepresentative": "Oliver Bundy",
-    "claimsRepresentative": "Melissa Sexton",
-    "prodSubType": "Ultra Low Budget",
-    "madeFor": "Not Applicable",
-    "market": "Not Applicable",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "Winchester, VA United States"
-    ]
-  },
-  {
-    "id": "507212",
-    "production": "Dagger",
+    "id": "507977",
+    "production": "Caddy, The",
     "type": "Agnostic",
     "local": "Los Angeles",
-    "startEndDates": "08/02/2020 - 08/15/2020",
-    "signatoryName": "Will Chase",
+    "startEndDates": "08/15/2020 - 08/20/2020",
+    "signatoryName": "Jonathan Levit",
     "contractTitleName": "Short Project Agreement",
-    "businessRepresentative": "Miranda Wilcox",
+    "businessRepresentative": "Tawanda Lewis Duck",
     "claimsRepresentative": "Silvia Gerber",
     "prodSubType": "Short Project Agreement",
     "madeFor": "Not Applicable",
     "market": "Not Applicable",
     "contributionPlan": "SAG",
     "shootingLocations": [
-      "Los Angeles, CA United States",
       "Los Angeles, CA United States"
     ]
   },
   {
-    "id": "506715",
-    "production": "Dead In The Water",
+    "id": "503896",
+    "production": "Catch The Bullet",
     "type": "Agnostic",
     "local": "Los Angeles",
-    "startEndDates": "07/26/2020 - 08/16/2020",
-    "signatoryName": "Killer Weekend LLC",
+    "startEndDates": "08/18/2020 - 09/06/2020",
+    "signatoryName": "Feifer Worldwide, Inc.",
     "contractTitleName": "Agnostic Independent Agreement SAG-AFTRA",
-    "businessRepresentative": "Miranda Wilcox",
-    "claimsRepresentative": "Emmy Ferguson",
-    "prodSubType": "Ultra Low Budget",
+    "businessRepresentative": "Oliver Bundy",
+    "claimsRepresentative": "Melissa Sexton",
+    "prodSubType": "Moderate Low Budget",
     "madeFor": "Not Applicable",
     "market": "Not Applicable",
     "contributionPlan": "SAG",
     "shootingLocations": [
-      "Florence, OR United States"
+      "Los Angeles, CA United States"
+    ]
+  },
+  {
+    "id": "507596",
+    "production": "Dark Blue",
+    "type": "Agnostic",
+    "local": "Los Angeles",
+    "startEndDates": "08/19/2020 - 08/22/2020",
+    "signatoryName": "SANCTUARY CONTENT, INC.",
+    "contractTitleName": "Short Project Agreement",
+    "businessRepresentative": "Andrea Barnett",
+    "claimsRepresentative": "Emmy Ferguson",
+    "prodSubType": "Short Project Agreement",
+    "madeFor": "Not Applicable",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Summit County, UT United States"
     ]
   },
   {
@@ -165,51 +201,16 @@
     ]
   },
   {
-    "id": "503968",
-    "production": "Elegy",
-    "type": "Agnostic",
-    "local": "New York",
-    "startEndDates": "08/08/2020 - 08/13/2020",
-    "signatoryName": "John Flynn",
-    "contractTitleName": "Short Project Agreement",
-    "businessRepresentative": "Amanda Shapiro",
-    "claimsRepresentative": "Leif Larson",
-    "prodSubType": "Short Project Agreement",
-    "madeFor": "Not Applicable",
-    "market": "Not Applicable",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "New York, NY United States"
-    ]
-  },
-  {
-    "id": "505139",
-    "production": "Everything Stays",
-    "type": "Agnostic",
-    "local": "Chicago",
-    "startEndDates": "08/06/2020 - 08/11/2020",
-    "signatoryName": "Cole Bacani",
-    "contractTitleName": "Short Project Agreement",
-    "businessRepresentative": "Kathy Byrne",
-    "prodSubType": "Short Project Agreement",
-    "madeFor": "Not Applicable",
-    "market": "Not Applicable",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "Naperville, IL"
-    ]
-  },
-  {
-    "id": "506658",
-    "production": "Evil At The Door",
+    "id": "505494",
+    "production": "Every Man For Himself",
     "type": "Agnostic",
     "local": "Los Angeles",
-    "startEndDates": "08/10/2020 - 08/13/2020",
-    "signatoryName": "MRP Entertainment LLC",
-    "contractTitleName": "Short Project Agreement",
-    "businessRepresentative": "Miranda Wilcox",
-    "claimsRepresentative": "Emmy Ferguson",
-    "prodSubType": "Short Project Agreement",
+    "startEndDates": "08/18/2020 - 09/08/2020",
+    "signatoryName": "EVERY MAN MOVIE LLC",
+    "contractTitleName": "Agnostic Independent Agreement SAG-AFTRA",
+    "businessRepresentative": "Oliver Bundy",
+    "claimsRepresentative": "Melissa Sexton",
+    "prodSubType": "Ultra Low Budget",
     "madeFor": "Not Applicable",
     "market": "Not Applicable",
     "contributionPlan": "SAG",
@@ -218,21 +219,21 @@
     ]
   },
   {
-    "id": "507954",
-    "production": "Extreme",
+    "id": "508150",
+    "production": "Finding Remo",
     "type": "Agnostic",
-    "local": "Miami",
-    "startEndDates": "08/08/2020 - 08/09/2020",
-    "signatoryName": "Extreme Movie, LLC",
+    "local": "Los Angeles",
+    "startEndDates": "09/01/2020 - 09/03/2020",
+    "signatoryName": "Corey Rieger",
     "contractTitleName": "Short Project Agreement",
-    "businessRepresentative": "Leslie Krensky",
-    "claimsRepresentative": "Leslie Krensky",
+    "businessRepresentative": "Sara Lissner",
+    "claimsRepresentative": "Emmy Ferguson",
     "prodSubType": "Short Project Agreement",
     "madeFor": "Not Applicable",
     "market": "Not Applicable",
     "contributionPlan": "SAG",
     "shootingLocations": [
-      "Ponte Vedra, FL"
+      "Seattle, WA United States"
     ]
   },
   {
@@ -255,15 +256,50 @@
     ]
   },
   {
-    "id": "507476",
-    "production": "Gayme On",
+    "id": "507978",
+    "production": "Forced Out Sizzle Reel",
+    "type": "Agnostic",
+    "local": "Chicago",
+    "startEndDates": "08/22/2020 - 09/25/2020",
+    "signatoryName": "Creamy Pea Productions LLC",
+    "contractTitleName": "Short Project Agreement",
+    "businessRepresentative": "Kathy Byrne",
+    "prodSubType": "Short Project Agreement",
+    "madeFor": "Not Applicable",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Wilmette, IL United States"
+    ]
+  },
+  {
+    "id": "507281",
+    "production": "Frank",
     "type": "Agnostic",
     "local": "Los Angeles",
-    "startEndDates": "07/27/2020 - 08/10/2020",
-    "signatoryName": "Rander Adams",
+    "startEndDates": "08/20/2020 - 08/21/2020",
+    "signatoryName": "Christine Fox",
     "contractTitleName": "Short Project Agreement",
-    "businessRepresentative": "Joyce Grant",
-    "claimsRepresentative": "Emmy Ferguson",
+    "businessRepresentative": "Tawanda Lewis Duck",
+    "claimsRepresentative": "Silvia Gerber",
+    "prodSubType": "Short Project Agreement",
+    "madeFor": "Not Applicable",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Los Angeles, CA United States"
+    ]
+  },
+  {
+    "id": "508252",
+    "production": "Glitch",
+    "type": "Agnostic",
+    "local": "Los Angeles",
+    "startEndDates": "08/18/2020 - 08/21/2020",
+    "signatoryName": "Elysian Fields Entertainment, LLC",
+    "contractTitleName": "Short Project Agreement",
+    "businessRepresentative": "Andrea Barnett",
+    "claimsRepresentative": "Silvia Gerber",
     "prodSubType": "Short Project Agreement",
     "madeFor": "Not Applicable",
     "market": "Not Applicable",
@@ -310,6 +346,25 @@
     ]
   },
   {
+    "id": "507254",
+    "production": "Half Lives",
+    "type": "Agnostic",
+    "local": "New Orleans",
+    "startEndDates": "08/22/2020 - TBD",
+    "signatoryName": "HALF LIVES, LLC",
+    "contractTitleName": "Agnostic Independent Agreement SAG-AFTRA",
+    "businessRepresentative": "Joyce Grant",
+    "claimsRepresentative": "Emmy Ferguson",
+    "prodSubType": "Ultra Low Budget",
+    "madeFor": "Not Applicable",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Holden, LA United States",
+      "Holden, LA United States"
+    ]
+  },
+  {
     "id": "472626",
     "production": "Hangry",
     "type": "Agnostic",
@@ -328,47 +383,29 @@
     ]
   },
   {
-    "id": "507904",
-    "production": "Hit 'Em On The Blackside",
+    "id": "499972",
+    "production": "Help Wanted",
     "type": "Agnostic",
     "local": "Chicago",
-    "startEndDates": "08/07/2020 - 08/10/2020",
-    "signatoryName": "Congo Square Theatre Company",
+    "startEndDates": "08/21/2020 - 08/25/2020",
+    "signatoryName": "Right Brain Cinema, LLC.",
     "contractTitleName": "Short Project Agreement",
-    "businessRepresentative": "Kathy Byrne",
+    "businessRepresentative": "Sanaa Sayyed",
     "prodSubType": "Short Project Agreement",
     "madeFor": "Not Applicable",
     "market": "Not Applicable",
     "contributionPlan": "SAG",
     "shootingLocations": [
-      "Chicago, IL United States"
+      "Detroit, MI"
     ]
   },
   {
-    "id": "506275",
-    "production": "Inheritance, The",
-    "type": "Agnostic",
-    "local": "Atlanta",
-    "startEndDates": "07/18/2020 - 08/11/2020",
-    "signatoryName": "Inheritance The Film LLC",
-    "contractTitleName": "Agnostic Independent Agreement SAG-AFTRA",
-    "businessRepresentative": "Johnathan Vu",
-    "claimsRepresentative": "Emmy Ferguson",
-    "prodSubType": "Moderate Low Budget",
-    "madeFor": "Not Applicable",
-    "market": "Not Applicable",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "Columbus, GA United States"
-    ]
-  },
-  {
-    "id": "507343",
-    "production": "Ins And Outs",
+    "id": "504277",
+    "production": "Hit Or Miss",
     "type": "Agnostic",
     "local": "Los Angeles",
-    "startEndDates": "08/01/2020 - 08/18/2020",
-    "signatoryName": "Roger Udwin",
+    "startEndDates": "08/19/2020 - 08/23/2020",
+    "signatoryName": "Kenneth Breslin",
     "contractTitleName": "Short Project Agreement",
     "businessRepresentative": "Joyce Grant",
     "claimsRepresentative": "Emmy Ferguson",
@@ -377,8 +414,25 @@
     "market": "Not Applicable",
     "contributionPlan": "SAG",
     "shootingLocations": [
-      "Los Angeles, CA United States",
-      "Pasadena, CA United States"
+      "Los Angeles, CA United States"
+    ]
+  },
+  {
+    "id": "507590",
+    "production": "Into The Water",
+    "type": "Agnostic",
+    "local": "New York",
+    "startEndDates": "08/19/2020 - 08/22/2020",
+    "signatoryName": "Al Kocyigit",
+    "contractTitleName": "Short Project Agreement",
+    "businessRepresentative": "Amanda Shapiro",
+    "claimsRepresentative": "Leif Larson",
+    "prodSubType": "Short Project Agreement",
+    "madeFor": "Not Applicable",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Shohola, PA United States"
     ]
   },
   {
@@ -400,23 +454,6 @@
     ]
   },
   {
-    "id": "507700",
-    "production": "Karen",
-    "type": "Agnostic",
-    "local": "Chicago",
-    "startEndDates": "08/12/2020 - 08/13/2020",
-    "signatoryName": "David Tarleton",
-    "contractTitleName": "Short Project Agreement",
-    "businessRepresentative": "Kathy Byrne",
-    "prodSubType": "Short Project Agreement",
-    "madeFor": "Not Applicable",
-    "market": "Not Applicable",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "Chicago, IL United States"
-    ]
-  },
-  {
     "id": "473413",
     "production": "Keep Going, Joon",
     "type": "Agnostic",
@@ -432,24 +469,6 @@
     "contributionPlan": "SAG",
     "shootingLocations": [
       "Manhattan, NY United States"
-    ]
-  },
-  {
-    "id": "506840",
-    "production": "Kings Of L.A.",
-    "type": "Agnostic",
-    "local": "Los Angeles",
-    "startEndDates": "08/01/2020 - 08/12/2020",
-    "signatoryName": "Bullz Eye Productions, LLC",
-    "contractTitleName": "Agnostic Independent Agreement SAG-AFTRA",
-    "businessRepresentative": "Anna Pogosyan",
-    "claimsRepresentative": "Melissa Sexton",
-    "prodSubType": "Ultra Low Budget",
-    "madeFor": "Not Applicable",
-    "market": "Not Applicable",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "Los Angeles, CA United States"
     ]
   },
   {
@@ -489,25 +508,6 @@
     ]
   },
   {
-    "id": "507340",
-    "production": "Language Lessons",
-    "type": "Agnostic",
-    "local": "Los Angeles",
-    "startEndDates": "08/04/2020 - 08/11/2020",
-    "signatoryName": "A History in Trauma LLC",
-    "contractTitleName": "Agnostic Independent Agreement SAG-AFTRA",
-    "businessRepresentative": "Miranda Wilcox",
-    "claimsRepresentative": "Melissa Sexton",
-    "prodSubType": "Ultra Low Budget",
-    "madeFor": "Not Applicable",
-    "market": "Not Applicable",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "Los Angeles, CA United States",
-      "Los Angeles, CA United States"
-    ]
-  },
-  {
     "id": "504412",
     "production": "Lantern'S Lane",
     "type": "Agnostic",
@@ -523,6 +523,24 @@
     "contributionPlan": "SAG",
     "shootingLocations": [
       "Los Angeles, CA United States"
+    ]
+  },
+  {
+    "id": "508602",
+    "production": "Let'S Talk About Dimensions",
+    "type": "Agnostic",
+    "local": "Atlanta",
+    "startEndDates": "08/20/2020 - 08/25/2020",
+    "signatoryName": "Suspended License Productions Inc",
+    "contractTitleName": "Short Project Agreement",
+    "businessRepresentative": "Jess Speaker",
+    "claimsRepresentative": "Jess Speaker",
+    "prodSubType": "Short Project Agreement",
+    "madeFor": "Not Applicable",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Atlanta, GA"
     ]
   },
   {
@@ -545,32 +563,50 @@
     ]
   },
   {
-    "id": "507374",
-    "production": "Ma?Z(?)Ld",
+    "id": "507829",
+    "production": "Life-Lie",
     "type": "Agnostic",
-    "local": "Los Angeles",
-    "startEndDates": "08/13/2020 - 08/13/2020",
-    "signatoryName": "Daniel Prikazsky",
+    "local": "New York",
+    "startEndDates": "08/12/2020 - 12/10/2020",
+    "signatoryName": "RADIO DRAMA NETWORK, INC.",
+    "contractTitleName": "Agnostic Independent Agreement SAG-AFTRA",
+    "businessRepresentative": "Leif Larson",
+    "claimsRepresentative": "Pamela Diaz",
+    "prodSubType": "Ultra Low Budget",
+    "madeFor": "Not Applicable",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "New York, NY United States"
+    ]
+  },
+  {
+    "id": "508645",
+    "production": "Loretta And Will",
+    "type": "Agnostic",
+    "local": "New England",
+    "startEndDates": "08/20/2020 - 08/30/2020",
+    "signatoryName": "Donna Sorbello",
     "contractTitleName": "Short Project Agreement",
-    "businessRepresentative": "Miranda Wilcox",
-    "claimsRepresentative": "Silvia Gerber",
+    "businessRepresentative": "Jessica Maher",
+    "claimsRepresentative": "Jessica Maher",
     "prodSubType": "Short Project Agreement",
     "madeFor": "Not Applicable",
     "market": "Not Applicable",
     "contributionPlan": "SAG",
     "shootingLocations": [
-      "Los Angeles, CA United States"
+      "Boston, MA"
     ]
   },
   {
-    "id": "492549",
-    "production": "Magic Trick, The",
+    "id": "507867",
+    "production": "Mad World",
     "type": "Agnostic",
     "local": "Los Angeles",
-    "startEndDates": "08/12/2020 - 08/14/2020",
-    "signatoryName": "Jay Lee",
+    "startEndDates": "08/17/2020 - 08/25/2020",
+    "signatoryName": "Lauri Kokoefer",
     "contractTitleName": "Short Project Agreement",
-    "businessRepresentative": "Jay Adelino",
+    "businessRepresentative": "Anna Pogosyan",
     "claimsRepresentative": "Emmy Ferguson",
     "prodSubType": "Short Project Agreement",
     "madeFor": "Not Applicable",
@@ -581,21 +617,21 @@
     ]
   },
   {
-    "id": "507451",
-    "production": "Mediator",
+    "id": "507814",
+    "production": "Mooney",
     "type": "Agnostic",
-    "local": "Atlanta",
-    "startEndDates": "07/27/2020 - 08/09/2020",
-    "signatoryName": "Mediator Film LLC",
-    "contractTitleName": "Agnostic Independent Agreement SAG-AFTRA",
+    "local": "New York",
+    "startEndDates": "08/17/2020 - 08/23/2020",
+    "signatoryName": "Callum Adams",
+    "contractTitleName": "Short Project Agreement",
     "businessRepresentative": "Amanda Shapiro",
-    "claimsRepresentative": "Leif Larson",
-    "prodSubType": "Ultra Low Budget",
+    "claimsRepresentative": "Pamela Diaz",
+    "prodSubType": "Short Project Agreement",
     "madeFor": "Not Applicable",
     "market": "Not Applicable",
     "contributionPlan": "SAG",
     "shootingLocations": [
-      "Barnesville, GA United States"
+      "New York, NY United States"
     ]
   },
   {
@@ -635,57 +671,57 @@
     ]
   },
   {
-    "id": "507634",
-    "production": "Palimpsest",
-    "type": "Agnostic",
-    "local": "New York",
-    "startEndDates": "08/14/2020 - 08/16/2020",
-    "signatoryName": "Laura Kornegay",
-    "contractTitleName": "Short Project Agreement",
-    "businessRepresentative": "Amanda Shapiro",
-    "claimsRepresentative": "Leif Larson",
-    "prodSubType": "Short Project Agreement",
-    "madeFor": "Not Applicable",
-    "market": "Not Applicable",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "New York, NY United States"
-    ]
-  },
-  {
-    "id": "507789",
-    "production": "Pod Thread, The",
-    "type": "Agnostic",
-    "local": "New York",
-    "startEndDates": "08/16/2020 - 08/16/2020",
-    "signatoryName": "Stephen Oradesky",
-    "contractTitleName": "Short Project Agreement",
-    "businessRepresentative": "Amanda Shapiro",
-    "claimsRepresentative": "Leif Larson",
-    "prodSubType": "Short Project Agreement",
-    "madeFor": "Not Applicable",
-    "market": "Not Applicable",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "Flushing, NY United States"
-    ]
-  },
-  {
-    "id": "471426",
-    "production": "Randy'S Lyin'",
+    "id": "497499",
+    "production": "North Star Tv: Owen And Jess",
     "type": "Agnostic",
     "local": "Los Angeles",
-    "startEndDates": "08/18/2018 - TBD",
-    "signatoryName": "Staci Fletcher",
+    "startEndDates": "12/09/2019 - 09/19/2020",
+    "signatoryName": "Twenty2 Films Inc.",
     "contractTitleName": "Short Project Agreement",
-    "businessRepresentative": "Erin Cardillo",
-    "claimsRepresentative": "Billie Murphy",
+    "businessRepresentative": "Tawanda Lewis Duck",
+    "claimsRepresentative": "Emmy Ferguson",
     "prodSubType": "Short Project Agreement",
     "madeFor": "Not Applicable",
     "market": "Not Applicable",
     "contributionPlan": "SAG",
     "shootingLocations": [
-      "North Hollywood, CA United States"
+      "Los Angeles, CA United States"
+    ]
+  },
+  {
+    "id": "507725",
+    "production": "Punch",
+    "type": "Agnostic",
+    "local": "Los Angeles",
+    "startEndDates": "08/17/2020 - 08/31/2020",
+    "signatoryName": "The School of Night",
+    "contractTitleName": "Short Project Agreement",
+    "businessRepresentative": "Chanda Ulrich",
+    "claimsRepresentative": "Silvia Gerber",
+    "prodSubType": "Short Project Agreement",
+    "madeFor": "Not Applicable",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Los Angeles, CA United States"
+    ]
+  },
+  {
+    "id": "507993",
+    "production": "Question What You Know",
+    "type": "Agnostic",
+    "local": "Los Angeles",
+    "startEndDates": "08/20/2020 - 08/21/2020",
+    "signatoryName": "Amira Francis",
+    "contractTitleName": "Short Project Agreement",
+    "businessRepresentative": "Tawanda Lewis Duck",
+    "claimsRepresentative": "Silvia Gerber",
+    "prodSubType": "Short Project Agreement",
+    "madeFor": "Not Applicable",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Los Angeles, CA United States"
     ]
   },
   {
@@ -726,6 +762,24 @@
     ]
   },
   {
+    "id": "508540",
+    "production": "Scorekeeper",
+    "type": "Agnostic",
+    "local": "Atlanta",
+    "startEndDates": "08/26/2020 - 08/30/2020",
+    "signatoryName": "Creative Force Films LLC",
+    "contractTitleName": "Short Project Agreement",
+    "businessRepresentative": "Jess Speaker",
+    "claimsRepresentative": "Jess Speaker",
+    "prodSubType": "Short Project Agreement",
+    "madeFor": "Not Applicable",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Atlanta, GA"
+    ]
+  },
+  {
     "id": "507103",
     "production": "Searching For Toby",
     "type": "Agnostic",
@@ -741,26 +795,6 @@
     "contributionPlan": "SAG",
     "shootingLocations": [
       "Los Angeles, CA United States"
-    ]
-  },
-  {
-    "id": "506833",
-    "production": "Shoebox, The",
-    "type": "Agnostic",
-    "local": "Los Angeles",
-    "startEndDates": "08/01/2020 - 08/09/2020",
-    "signatoryName": "InglewoodFilms LLC",
-    "contractTitleName": "Short Project Agreement",
-    "businessRepresentative": "Tawanda Lewis Duck",
-    "claimsRepresentative": "Emmy Ferguson",
-    "prodSubType": "Short Project Agreement",
-    "madeFor": "Not Applicable",
-    "market": "Not Applicable",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "West Jordan, UT United States",
-      "West Valley City, UT United States",
-      "Salt Lake City, UT United States"
     ]
   },
   {
@@ -818,20 +852,21 @@
     ]
   },
   {
-    "id": "507747",
-    "production": "Subordinate",
+    "id": "507284",
+    "production": "Such A Nice Girl Too",
     "type": "Agnostic",
-    "local": "Chicago",
-    "startEndDates": "08/14/2020 - 08/15/2020",
-    "signatoryName": "Leslie Sheppard",
+    "local": "New York",
+    "startEndDates": "08/16/2020 - 09/17/2020",
+    "signatoryName": "Artless Media, LLC",
     "contractTitleName": "Short Project Agreement",
-    "businessRepresentative": "Kathy Byrne",
+    "businessRepresentative": "Amanda Shapiro",
+    "claimsRepresentative": "Leif Larson",
     "prodSubType": "Short Project Agreement",
     "madeFor": "Not Applicable",
     "market": "Not Applicable",
     "contributionPlan": "SAG",
     "shootingLocations": [
-      "chicago, IL United States"
+      "New York, NY United States"
     ]
   },
   {
@@ -850,6 +885,23 @@
     "contributionPlan": "SAG",
     "shootingLocations": [
       "Greater Palm Springs, CA United States"
+    ]
+  },
+  {
+    "id": "506953",
+    "production": "The Quarantine Diaries 2: On Hold",
+    "type": "Agnostic",
+    "local": "Chicago",
+    "startEndDates": "07/23/2020 - 08/23/2020",
+    "signatoryName": "Barbara Silberstein",
+    "contractTitleName": "Short Project Agreement",
+    "businessRepresentative": "Kathy Byrne",
+    "prodSubType": "Short Project Agreement",
+    "madeFor": "Not Applicable",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Chicago, IL United States"
     ]
   },
   {
@@ -889,6 +941,25 @@
     ]
   },
   {
+    "id": "506139",
+    "production": "Those Who Walk Away",
+    "type": "Agnostic",
+    "local": "Chicago",
+    "startEndDates": "08/30/2020 - 09/12/2020",
+    "signatoryName": "One Shot Ltd.",
+    "contractTitleName": "Agnostic Independent Agreement SAG-AFTRA",
+    "businessRepresentative": "Amanda Shapiro",
+    "claimsRepresentative": "Leif Larson",
+    "prodSubType": "Ultra Low Budget",
+    "madeFor": "Not Applicable",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Chillicothe, IL United States",
+      "Chillicothe, IL United States"
+    ]
+  },
+  {
     "id": "504546",
     "production": "Tuning It Out",
     "type": "Agnostic",
@@ -907,33 +978,34 @@
     ]
   },
   {
-    "id": "507616",
-    "production": "Untitled Project",
+    "id": "507520",
+    "production": "Unidentified Objects",
     "type": "Agnostic",
-    "local": "Atlanta",
-    "startEndDates": "08/07/2020 - 08/16/2020",
-    "signatoryName": "M3K Unlimited Productions LLC",
-    "contractTitleName": "Short Project Agreement",
-    "businessRepresentative": "Joyce Grant",
-    "claimsRepresentative": "Emmy Ferguson",
-    "prodSubType": "Short Project Agreement",
+    "local": "New England",
+    "startEndDates": "08/11/2020 - 08/28/2020",
+    "signatoryName": "UNIDENTIFIED OBJECTS FILM, LLC",
+    "contractTitleName": "Agnostic Independent Agreement SAG-AFTRA",
+    "businessRepresentative": "Amanda Shapiro",
+    "claimsRepresentative": "Jessica Maher",
+    "prodSubType": "Ultra Low Budget",
     "madeFor": "Not Applicable",
     "market": "Not Applicable",
     "contributionPlan": "SAG",
     "shootingLocations": [
-      "Atlanta, GA United States"
+      "unspecified, ME United States",
+      "Unspecified, ME United States"
     ]
   },
   {
-    "id": "505984",
-    "production": "Vesper",
+    "id": "505645",
+    "production": "Unknown Episode 1: Geraldine Washington",
     "type": "Agnostic",
     "local": "Los Angeles",
-    "startEndDates": "08/10/2020 - 08/16/2020",
-    "signatoryName": "The Knights Young LLC",
+    "startEndDates": "08/14/2020 - 08/20/2020",
+    "signatoryName": "Kendra Hill",
     "contractTitleName": "Short Project Agreement",
-    "businessRepresentative": "Oliver Bundy",
-    "claimsRepresentative": "Emmy Ferguson",
+    "businessRepresentative": "Joyce Grant",
+    "claimsRepresentative": "Silvia Gerber",
     "prodSubType": "Short Project Agreement",
     "madeFor": "Not Applicable",
     "market": "Not Applicable",
@@ -962,6 +1034,24 @@
     ]
   },
   {
+    "id": "508154",
+    "production": "Watchers",
+    "type": "Agnostic",
+    "local": "Los Angeles",
+    "startEndDates": "08/28/2020 - 08/28/2020",
+    "signatoryName": "Leslee Crisman",
+    "contractTitleName": "Short Project Agreement",
+    "businessRepresentative": "Sara Lissner",
+    "claimsRepresentative": "Emmy Ferguson",
+    "prodSubType": "Short Project Agreement",
+    "madeFor": "Not Applicable",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Van Nuys, CA United States"
+    ]
+  },
+  {
     "id": "506218",
     "production": "We Nation",
     "type": "Agnostic",
@@ -977,6 +1067,24 @@
     "contributionPlan": "SAG",
     "shootingLocations": [
       "Portland, OR United States"
+    ]
+  },
+  {
+    "id": "507773",
+    "production": "Weekend, The",
+    "type": "Agnostic",
+    "local": "Los Angeles",
+    "startEndDates": "08/20/2020 - 08/31/2020",
+    "signatoryName": "mentalounge",
+    "contractTitleName": "Agnostic Independent Agreement SAG-AFTRA",
+    "businessRepresentative": "Rose Magcalas",
+    "claimsRepresentative": "Melissa Sexton",
+    "prodSubType": "Ultra Low Budget",
+    "madeFor": "Not Applicable",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Denver, CO United States"
     ]
   },
   {
@@ -1017,6 +1125,25 @@
     ]
   },
   {
+    "id": "505858",
+    "production": "Wrong Reasons (2020)",
+    "type": "Agnostic",
+    "local": "Los Angeles",
+    "startEndDates": "08/23/2020 - 09/27/2020",
+    "signatoryName": "Gun To A Knife Fight, LLC",
+    "contractTitleName": "Agnostic Independent Agreement SAG-AFTRA",
+    "businessRepresentative": "Rose Magcalas",
+    "claimsRepresentative": "Melissa Sexton",
+    "prodSubType": "Ultra Low Budget",
+    "madeFor": "Not Applicable",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Los Angeles, CA United States",
+      "Idyllwild, CA United States"
+    ]
+  },
+  {
     "id": "507523",
     "production": "Young Nurse",
     "type": "Agnostic",
@@ -1024,7 +1151,7 @@
     "startEndDates": "08/05/2020 - 08/24/2020",
     "signatoryName": "Tyler Friesen",
     "contractTitleName": "Short Project Agreement",
-    "businessRepresentative": "Miranda Wilcox",
+    "businessRepresentative": "Rebecca Knowlton",
     "claimsRepresentative": "Silvia Gerber",
     "prodSubType": "Short Project Agreement",
     "madeFor": "Not Applicable",
