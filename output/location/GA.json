@@ -113,6 +113,24 @@
     ]
   },
   {
+    "id": "503407",
+    "production": "Creepshow (20/21)",
+    "type": "New Media",
+    "local": "Atlanta",
+    "startEndDates": "08/03/2020 - 10/01/2020",
+    "signatoryName": "Has Season Two Inc.",
+    "contractTitleName": "New Media Special Agreement",
+    "businessRepresentative": "Rose Magcalas",
+    "claimsRepresentative": "Melissa Goodman",
+    "prodSubType": "Original Series",
+    "madeFor": "New Media - Special Agreement",
+    "market": "Other New Media",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Atlanta, GA United States"
+    ]
+  },
+  {
     "id": "471936",
     "production": "Doctor Sleep",
     "type": "Theatrical",
@@ -120,7 +138,7 @@
     "startEndDates": "09/24/2018 - TBD",
     "signatoryName": "S &amp; K Pictures, Inc.",
     "contractTitleName": "Theatrical AMPTP Agreement",
-    "claimsRepresentative": "Tawanda Lewis Duck",
+    "claimsRepresentative": "Sabina Sanchez",
     "prodSubType": "Theatrical Regular",
     "madeFor": "Theatrical Regular",
     "market": "Not Applicable",
@@ -131,24 +149,6 @@
     "alternateTitles": [
       "Dr. Sleep",
       "Dr Sleep"
-    ]
-  },
-  {
-    "id": "506393",
-    "production": "Double Kidnapped",
-    "type": "Agnostic",
-    "local": "Atlanta",
-    "startEndDates": "07/12/2020 - 07/30/2020",
-    "signatoryName": "Feifer Worldwide, Inc.",
-    "contractTitleName": "Agnostic Independent Agreement SAG-AFTRA",
-    "businessRepresentative": "Oliver Bundy",
-    "claimsRepresentative": "Melissa Sexton",
-    "prodSubType": "Moderate Low Budget",
-    "madeFor": "Not Applicable",
-    "market": "Not Applicable",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "unspecified, GA United States"
     ]
   },
   {
@@ -173,24 +173,6 @@
     ]
   },
   {
-    "id": "506120",
-    "production": "Dwight In Shining Armor (20/21)",
-    "type": "Television Program",
-    "local": "Atlanta",
-    "startEndDates": "07/13/2020 - TBD",
-    "signatoryName": "DISA Series LLC",
-    "contractTitleName": "TV Programs",
-    "businessRepresentative": "Lisa Kyle",
-    "claimsRepresentative": "Melissa Goodman",
-    "prodSubType": "TV Series",
-    "madeFor": "Public TV",
-    "market": "Public TV",
-    "contributionPlan": "AFTRA",
-    "shootingLocations": [
-      "Atlanta, GA United States"
-    ]
-  },
-  {
     "id": "486671",
     "production": "El Dorado",
     "type": "Theatrical",
@@ -205,6 +187,24 @@
     "contributionPlan": "SAG",
     "shootingLocations": [
       "Atlanta, GA United States"
+    ]
+  },
+  {
+    "id": "491037",
+    "production": "Family Feud (2018-2021)",
+    "type": "Television Program",
+    "local": "Atlanta",
+    "startEndDates": "03/02/2019 - TBD",
+    "signatoryName": "WANDERLUST PRODUCTIONS INC",
+    "contractTitleName": "TV Programs",
+    "businessRepresentative": "Art Duarte",
+    "claimsRepresentative": "Billie Murphy",
+    "prodSubType": "TV Series",
+    "madeFor": "Syndication",
+    "market": "Syndication",
+    "contributionPlan": "AFTRA",
+    "shootingLocations": [
+      "Atlanta, GA"
     ]
   },
   {
@@ -261,6 +261,24 @@
     ]
   },
   {
+    "id": "508602",
+    "production": "Let'S Talk About Dimensions",
+    "type": "Agnostic",
+    "local": "Atlanta",
+    "startEndDates": "08/20/2020 - 08/25/2020",
+    "signatoryName": "Suspended License Productions Inc",
+    "contractTitleName": "Short Project Agreement",
+    "businessRepresentative": "Jess Speaker",
+    "claimsRepresentative": "Jess Speaker",
+    "prodSubType": "Short Project Agreement",
+    "madeFor": "Not Applicable",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Atlanta, GA"
+    ]
+  },
+  {
     "id": "475422",
     "production": "Limited Partners",
     "type": "Theatrical",
@@ -278,22 +296,23 @@
     ]
   },
   {
-    "id": "506056",
-    "production": "Message From Brianna, A",
-    "type": "Agnostic",
+    "id": "505566",
+    "production": "My Dad The Bounty Hunter (20/21)",
+    "type": "New Media",
     "local": "Atlanta",
-    "startEndDates": "06/18/2020 - 07/24/2020",
-    "signatoryName": "Between The Linez Productions, LLC",
-    "contractTitleName": "Agnostic Independent Agreement SAG-AFTRA",
-    "businessRepresentative": "Amanda Shapiro",
-    "claimsRepresentative": "David Fazekas",
-    "prodSubType": "Ultra Low Budget",
-    "madeFor": "Not Applicable",
-    "market": "Not Applicable",
+    "startEndDates": "06/01/2020 - TBD",
+    "signatoryName": "Netflix Animation, LLC",
+    "contractTitleName": "New Media Animation Agreement",
+    "businessRepresentative": "Anny Edinchikyan",
+    "claimsRepresentative": "Emmy Ferguson",
+    "prodSubType": "Original Series",
+    "madeFor": "New Media - High-Budget SVOD/Tier 2",
+    "market": "Netflix",
     "contributionPlan": "SAG",
     "shootingLocations": [
-      "unspecified, NJ United States",
-      "Atlanta, GA United States"
+      ", CA United States",
+      ", NY United States",
+      ", GA United States"
     ]
   },
   {
@@ -317,23 +336,42 @@
     ]
   },
   {
-    "id": "505566",
-    "production": "My Dad The Bounty Hunter (20/21)",
+    "id": "507880",
+    "production": "Nonessentials, The (20/21)",
     "type": "New Media",
     "local": "Atlanta",
-    "startEndDates": "06/01/2020 - TBD",
-    "signatoryName": "Netflix Animation, LLC",
-    "contractTitleName": "New Media Animation Agreement",
-    "businessRepresentative": "Anny Edinchikyan",
-    "claimsRepresentative": "Emmy Ferguson",
+    "startEndDates": "08/23/2020 - 09/13/2020",
+    "signatoryName": "FUGITIVE SISTER PRODUCTIONS LLC",
+    "contractTitleName": "New Media Agreement",
+    "businessRepresentative": "Rose Magcalas",
+    "claimsRepresentative": "Billie Murphy",
     "prodSubType": "Original Series",
-    "madeFor": "New Media - High-Budget SVOD/Tier 2",
+    "madeFor": "New Media - Special Agreement",
+    "market": "Other New Media",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      ",",
+      "Los Angeles, CA United States",
+      "New York, NY United States",
+      "Atlanta, GA United States"
+    ]
+  },
+  {
+    "id": "508242",
+    "production": "Outer Banks (20/21)",
+    "type": "New Media",
+    "local": "Atlanta",
+    "startEndDates": "08/30/2020 - 02/19/2021",
+    "signatoryName": "Narrow Isle Productions, LLC",
+    "contractTitleName": "New Media Netflix Agreement",
+    "businessRepresentative": "Sara Lissner",
+    "claimsRepresentative": "Melissa Goodman",
+    "prodSubType": "Original Series",
+    "madeFor": "New Media - High-Budget SVOD/Tier 1",
     "market": "Netflix",
     "contributionPlan": "SAG",
     "shootingLocations": [
-      ", CA United States",
-      ", NY United States",
-      ", GA United States"
+      "unspecified, SC United States"
     ]
   },
   {
@@ -414,6 +452,42 @@
     ]
   },
   {
+    "id": "508019",
+    "production": "Saints & Sinners (20/21)",
+    "type": "Television",
+    "local": "Atlanta",
+    "startEndDates": "08/10/2020 - 09/28/2020",
+    "signatoryName": "Saints &amp; Sinners Series LLC",
+    "contractTitleName": "Television Independent Agreement",
+    "businessRepresentative": "Art Duarte",
+    "claimsRepresentative": "Melissa Goodman",
+    "prodSubType": "TV - Series",
+    "madeFor": "Basic Cable",
+    "market": "Other",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Hiram, GA United States"
+    ]
+  },
+  {
+    "id": "508540",
+    "production": "Scorekeeper",
+    "type": "Agnostic",
+    "local": "Atlanta",
+    "startEndDates": "08/26/2020 - 08/30/2020",
+    "signatoryName": "Creative Force Films LLC",
+    "contractTitleName": "Short Project Agreement",
+    "businessRepresentative": "Jess Speaker",
+    "claimsRepresentative": "Jess Speaker",
+    "prodSubType": "Short Project Agreement",
+    "madeFor": "Not Applicable",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Atlanta, GA"
+    ]
+  },
+  {
     "id": "504087",
     "production": "Shrunk",
     "type": "Theatrical",
@@ -447,24 +521,6 @@
     "contributionPlan": "SAG",
     "shootingLocations": [
       "Dunwoody, GA United States"
-    ]
-  },
-  {
-    "id": "501898",
-    "production": "Vacation Friends (2020)",
-    "type": "New Media",
-    "local": "Atlanta",
-    "startEndDates": "03/03/2020 - TBD",
-    "signatoryName": "Twentieth Century Fox Film Corporation",
-    "contractTitleName": "Television AMPTP Agreement",
-    "businessRepresentative": "Art Duarte",
-    "claimsRepresentative": "Melissa Goodman",
-    "prodSubType": "Original Other",
-    "madeFor": "New Media - High-Budget SVOD/Tier 1",
-    "market": "Hulu",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "Atlanta, GA United States"
     ]
   },
   {
