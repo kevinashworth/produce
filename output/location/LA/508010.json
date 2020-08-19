@@ -1,18 +1,18 @@
 {
-  "id": "502624",
-  "production": "Good Trouble (20/21)",
+  "id": "508010",
+  "production": "Black-Ish (20/21)",
   "type": "Television Program",
   "local": "Los Angeles",
-  "startEndDates": "09/08/2020 - 11/25/2020",
-  "signatoryName": "Hop, Skip &amp; Jump Productions, Inc",
+  "startEndDates": "08/10/2020 - TBD",
+  "signatoryName": "ABC Studios",
   "contractTitleName": "TV Programs",
   "businessRepresentative": "Art Duarte",
   "claimsRepresentative": "Silvia Gerber",
   "prodSubType": "TV Series",
-  "madeFor": "Basic Cable",
-  "market": "ABC Family Channel",
+  "madeFor": "Broadcast Network",
+  "market": "ABC",
   "contributionPlan": "AFTRA",
   "shootingLocations": [
-    "Burbank, CA United States"
+    "Los Angeles, CA United States"
   ]
 }

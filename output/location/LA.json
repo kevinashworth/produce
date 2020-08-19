@@ -18,43 +18,6 @@
     ]
   },
   {
-    "id": "505784",
-    "production": "10 Minutes - A Virtual Feature Film (2020)",
-    "type": "New Media",
-    "local": "Los Angeles",
-    "startEndDates": "06/16/2020 - 08/01/2020",
-    "signatoryName": "African Cowboy LLC",
-    "contractTitleName": "New Media Agreement",
-    "businessRepresentative": "Rose Magcalas",
-    "claimsRepresentative": "Billie Murphy",
-    "prodSubType": "Original Other",
-    "madeFor": "New Media - Deferrable",
-    "market": "Other New Media",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      ",",
-      ","
-    ]
-  },
-  {
-    "id": "506380",
-    "production": "12 Days To Love (2020)",
-    "type": "Television",
-    "local": "Los Angeles",
-    "startEndDates": "07/13/2020 - 08/02/2020",
-    "signatoryName": "Twelve Days Pictures, Inc",
-    "contractTitleName": "Television Independent Agreement",
-    "businessRepresentative": "Rose Magcalas",
-    "claimsRepresentative": "Emmy Ferguson",
-    "prodSubType": "TV - Movie",
-    "madeFor": "Basic Cable",
-    "market": "Hallmark Channel",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "Winnipeg, Canada"
-    ]
-  },
-  {
     "id": "485188",
     "production": "2nd Civil War (2019)",
     "type": "New Media",
@@ -109,6 +72,24 @@
     ]
   },
   {
+    "id": "503252",
+    "production": "55th Annual Academy Of Country Music Awards (2020)",
+    "type": "Television Program",
+    "local": "Los Angeles",
+    "startEndDates": "09/16/2020 - 09/16/2020",
+    "signatoryName": "dick clark productions, llc",
+    "contractTitleName": "TV Programs",
+    "businessRepresentative": "Lisa Kyle",
+    "claimsRepresentative": "Jenna Dosch",
+    "prodSubType": "Award Show",
+    "madeFor": "Broadcast Network",
+    "market": "CBS",
+    "contributionPlan": "AFTRA",
+    "shootingLocations": [
+      "Nashville, TN United States"
+    ]
+  },
+  {
     "id": "474146",
     "production": "Absentia (18/19)",
     "type": "Television Program",
@@ -141,24 +122,6 @@
     "contributionPlan": "SAG",
     "shootingLocations": [
       "Los Angeles, CA United States"
-    ]
-  },
-  {
-    "id": "469883",
-    "production": "Adulting With Jane (18/19)",
-    "type": "New Media",
-    "local": "Los Angeles",
-    "startEndDates": "08/18/2018 - 07/30/2020",
-    "signatoryName": "Jennifer Paul LLC",
-    "contractTitleName": "New Media Agreement",
-    "businessRepresentative": "Kamau Talbott",
-    "claimsRepresentative": "Erica Santucci",
-    "prodSubType": "Original Series",
-    "madeFor": "New Media - Deferrable",
-    "market": "Other New Media",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "New York, NY United States"
     ]
   },
   {
@@ -234,25 +197,6 @@
     ]
   },
   {
-    "id": "470946",
-    "production": "Alina",
-    "type": "New Media",
-    "local": "Los Angeles",
-    "startEndDates": "08/02/2018 - TBD",
-    "signatoryName": "Atlanta Theatre Club, LLC",
-    "contractTitleName": "New Media Agreement",
-    "businessRepresentative": "Kamau Talbott",
-    "bgClaimsRepresentative": "Toloria Milner",
-    "claimsRepresentative": "Deborah Wonder",
-    "prodSubType": "Original Pilot",
-    "madeFor": "New Media - Deferrable",
-    "market": "YouTube",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "los angeles, CA United States"
-    ]
-  },
-  {
     "id": "505835",
     "production": "All In Washington (2020)",
     "type": "Television Program",
@@ -267,25 +211,6 @@
     "contributionPlan": "AFTRA",
     "shootingLocations": [
       "Varioius, United States"
-    ]
-  },
-  {
-    "id": "470948",
-    "production": "Allegedly",
-    "type": "New Media",
-    "local": "Los Angeles",
-    "startEndDates": "07/31/2018 - TBD",
-    "signatoryName": "Old Man Henry Productions, LLC",
-    "contractTitleName": "New Media Agreement",
-    "businessRepresentative": "Kamau Talbott",
-    "bgClaimsRepresentative": "Toloria Milner",
-    "claimsRepresentative": "Deborah Wonder",
-    "prodSubType": "Original Pilot",
-    "madeFor": "New Media - Deferrable",
-    "market": "YouTube",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "los angeles, CA United States"
     ]
   },
   {
@@ -343,24 +268,6 @@
     ]
   },
   {
-    "id": "504333",
-    "production": "American Boogeyman - Ted Bundy",
-    "type": "Agnostic",
-    "local": "Los Angeles",
-    "startEndDates": "07/20/2020 - 08/03/2020",
-    "signatoryName": "ABTB, LLC",
-    "contractTitleName": "Agnostic Independent Agreement SAG-AFTRA",
-    "businessRepresentative": "Oliver Bundy",
-    "claimsRepresentative": "Emmy Ferguson",
-    "prodSubType": "Ultra Low Budget",
-    "madeFor": "Not Applicable",
-    "market": "Not Applicable",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "Los Angeles, CA United States"
-    ]
-  },
-  {
     "id": "501160",
     "production": "American Horror Story (20/21)",
     "type": "Television",
@@ -394,25 +301,6 @@
     "contributionPlan": "SAG",
     "shootingLocations": [
       "Burbank, CA United States"
-    ]
-  },
-  {
-    "id": "471181",
-    "production": "Angel Of Vine, The (Yr 1)",
-    "type": "New Media",
-    "local": "Los Angeles",
-    "startEndDates": "08/06/2018 - TBD",
-    "signatoryName": "O'Farrell Enterprises, LLC",
-    "contractTitleName": "New Media Agreement",
-    "businessRepresentative": "Kamau Talbott",
-    "bgClaimsRepresentative": "Toloria Milner",
-    "claimsRepresentative": "Deborah Wonder",
-    "prodSubType": "Original Podcast",
-    "madeFor": "New Media - Deferrable",
-    "market": "Other New Media",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "los angeles, CA United States"
     ]
   },
   {
@@ -453,25 +341,6 @@
     ],
     "alternateTitles": [
       ""
-    ]
-  },
-  {
-    "id": "471180",
-    "production": "Annunciation",
-    "type": "New Media",
-    "local": "Los Angeles",
-    "startEndDates": "08/06/2018 - TBD",
-    "signatoryName": "Global Village, INC.",
-    "contractTitleName": "New Media Agreement",
-    "businessRepresentative": "Kamau Talbott",
-    "bgClaimsRepresentative": "Toloria Milner",
-    "claimsRepresentative": "Deborah Wonder",
-    "prodSubType": "Original Other",
-    "madeFor": "New Media - Deferrable",
-    "market": "YouTube",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "los angeles, CA United States"
     ]
   },
   {
@@ -682,25 +551,6 @@
     ]
   },
   {
-    "id": "469328",
-    "production": "Artista Obscura",
-    "type": "New Media",
-    "local": "Los Angeles",
-    "startEndDates": "07/24/2018 - TBD",
-    "signatoryName": "Rhyan Wins Big L.L.C.",
-    "contractTitleName": "New Media Agreement",
-    "businessRepresentative": "Kamau Talbott",
-    "bgClaimsRepresentative": "Toloria Milner",
-    "claimsRepresentative": "Deborah Wonder",
-    "prodSubType": "Original Pilot",
-    "madeFor": "New Media - Special Agreement",
-    "market": "Youtube",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "los angeles, CA United States"
-    ]
-  },
-  {
     "id": "504466",
     "production": "At Home Learning (2020)",
     "type": "Television Program",
@@ -810,6 +660,24 @@
     ]
   },
   {
+    "id": "507420",
+    "production": "Bachelorette, The (20/21)",
+    "type": "Television Program",
+    "local": "Los Angeles",
+    "startEndDates": "07/18/2020 - 08/29/2020",
+    "signatoryName": "NZK PRODUCTIONS, INC.",
+    "contractTitleName": "TV Programs",
+    "businessRepresentative": "Lisa Kyle",
+    "claimsRepresentative": "Emmy Ferguson",
+    "prodSubType": "TV Series",
+    "madeFor": "Broadcast Network",
+    "market": "ABC",
+    "contributionPlan": "AFTRA",
+    "shootingLocations": [
+      "La Quinta, CA United States"
+    ]
+  },
+  {
     "id": "494013",
     "production": "Balance Of The Force",
     "type": "New Media",
@@ -844,6 +712,42 @@
     "contributionPlan": "SAG",
     "shootingLocations": [
       "burbank, CA United States"
+    ]
+  },
+  {
+    "id": "508581",
+    "production": "Batwoman (20/21)",
+    "type": "Television",
+    "local": "Los Angeles",
+    "startEndDates": "09/03/2020 - 05/10/2021",
+    "signatoryName": "NS Pictures, Inc.",
+    "contractTitleName": "Television AMPTP Agreement",
+    "businessRepresentative": "Lisa Kyle",
+    "claimsRepresentative": "Emmy Ferguson",
+    "prodSubType": "TV - Series",
+    "madeFor": "Broadcast Non-Network (WB/UPN/CW)",
+    "market": "The CW",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Vancouver, Canada"
+    ]
+  },
+  {
+    "id": "502609",
+    "production": "Becoming",
+    "type": "Agnostic",
+    "local": "Los Angeles",
+    "startEndDates": "08/22/2020 - 08/24/2020",
+    "signatoryName": "CarlySullivan, LLC",
+    "contractTitleName": "Short Project Agreement",
+    "businessRepresentative": "Sara Lissner",
+    "claimsRepresentative": "Silvia Gerber",
+    "prodSubType": "Short Project Agreement",
+    "madeFor": "Not Applicable",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Los Angeles, CA United States"
     ]
   },
   {
@@ -919,21 +823,21 @@
     ]
   },
   {
-    "id": "470620",
-    "production": "Big City Greens (18/19)",
-    "type": "Television",
+    "id": "507694",
+    "production": "Big Brother (20/21)",
+    "type": "Television Program",
     "local": "Los Angeles",
-    "startEndDates": "07/31/2018 - TBD",
-    "signatoryName": "Walt Disney Pictures",
-    "contractTitleName": "Basic Cable Agreement for Animated Motion Pictures",
-    "businessRepresentative": "Art Duarte",
-    "claimsRepresentative": "Deborah Wonder",
-    "prodSubType": "TV - Animated Series",
-    "madeFor": "Basic Cable",
-    "market": "The Disney Channel",
-    "contributionPlan": "SAG",
+    "startEndDates": "08/05/2020 - 10/28/2020",
+    "signatoryName": "OUR HOUSE PRODUCTIONS INC",
+    "contractTitleName": "TV Programs",
+    "businessRepresentative": "Lisa Kyle",
+    "claimsRepresentative": "Billie Murphy",
+    "prodSubType": "TV Series",
+    "madeFor": "Broadcast Network",
+    "market": "CBS",
+    "contributionPlan": "AFTRA",
     "shootingLocations": [
-      "Burbank, CA United States"
+      "Studio City, CA United States"
     ]
   },
   {
@@ -1034,6 +938,24 @@
     ]
   },
   {
+    "id": "507438",
+    "production": "Black Hole, The (Pilot)",
+    "type": "Television",
+    "local": "Los Angeles",
+    "startEndDates": "09/07/2020 - 10/02/2020",
+    "signatoryName": "SBI Media, LLC",
+    "contractTitleName": "Basic Cable Agreement for Animated Motion Pictures",
+    "businessRepresentative": "Lisa Kyle",
+    "claimsRepresentative": "Billie Murphy",
+    "prodSubType": "TV - Animated Pilot",
+    "madeFor": "Basic Cable",
+    "market": "Syfy Channel",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Burbank, CA United States"
+    ]
+  },
+  {
     "id": "469102",
     "production": "Black Monday (18/19)",
     "type": "Television",
@@ -1065,6 +987,24 @@
     "madeFor": "Pay TV",
     "market": "Showtime",
     "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Los Angeles, CA United States"
+    ]
+  },
+  {
+    "id": "508010",
+    "production": "Black-Ish (20/21)",
+    "type": "Television Program",
+    "local": "Los Angeles",
+    "startEndDates": "08/10/2020 - TBD",
+    "signatoryName": "ABC Studios",
+    "contractTitleName": "TV Programs",
+    "businessRepresentative": "Art Duarte",
+    "claimsRepresentative": "Silvia Gerber",
+    "prodSubType": "TV Series",
+    "madeFor": "Broadcast Network",
+    "market": "ABC",
+    "contributionPlan": "AFTRA",
     "shootingLocations": [
       "Los Angeles, CA United States"
     ]
@@ -1198,25 +1138,6 @@
     ]
   },
   {
-    "id": "469984",
-    "production": "Boy Culture (Yr 1)",
-    "type": "New Media",
-    "local": "Los Angeles",
-    "startEndDates": "08/11/2018 - TBD",
-    "signatoryName": "Boy Culture 2 LLC",
-    "contractTitleName": "New Media Agreement",
-    "businessRepresentative": "Joyce Grant",
-    "bgClaimsRepresentative": "Toloria Milner",
-    "claimsRepresentative": "Silvia Gerber",
-    "prodSubType": "Original Series",
-    "madeFor": "New Media - Deferrable",
-    "market": "Other New Media",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "Los Angeles, CA United States"
-    ]
-  },
-  {
     "id": "486115",
     "production": "Boys, The (19/20)",
     "type": "New Media",
@@ -1268,6 +1189,26 @@
     "contributionPlan": "SAG",
     "shootingLocations": [
       "Chicago, IL United States"
+    ]
+  },
+  {
+    "id": "507529",
+    "production": "Breaking Bobby Bones (20/21)",
+    "type": "Television Program",
+    "local": "Los Angeles",
+    "startEndDates": "08/03/2020 - 01/31/2021",
+    "signatoryName": "355 Productions, LLC",
+    "contractTitleName": "TV Programs",
+    "businessRepresentative": "Lisa Kyle",
+    "claimsRepresentative": "Silvia Gerber",
+    "prodSubType": "TV Series",
+    "madeFor": "Basic Cable",
+    "contributionPlan": "AFTRA",
+    "shootingLocations": [
+      "Various, CA United States"
+    ],
+    "alternateTitles": [
+      ""
     ]
   },
   {
@@ -1325,6 +1266,23 @@
     ]
   },
   {
+    "id": "508201",
+    "production": "Bullet Train",
+    "type": "Theatrical",
+    "local": "Los Angeles",
+    "startEndDates": "08/10/2020 - 01/29/2021",
+    "signatoryName": "Back Breaker Films, Inc.",
+    "contractTitleName": "Theatrical AMPTP Agreement",
+    "claimsRepresentative": "Sabina Sanchez",
+    "prodSubType": "Theatrical Regular",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Los Angeles, CA United States"
+    ]
+  },
+  {
     "id": "472106",
     "production": "Cabin Stay, The",
     "type": "New Media",
@@ -1344,77 +1302,41 @@
     ]
   },
   {
-    "id": "505701",
-    "production": "California Christmas",
-    "type": "Theatrical",
+    "id": "507977",
+    "production": "Caddy, The",
+    "type": "Agnostic",
     "local": "Los Angeles",
-    "startEndDates": "07/05/2020 - 07/31/2020",
-    "signatoryName": "KIKI MOVIE LLC",
-    "contractTitleName": "Theatrical Independent Agreement",
-    "businessRepresentative": "Oliver Bundy",
-    "claimsRepresentative": "Melissa Sexton",
-    "prodSubType": "Low Budget",
-    "madeFor": "TH - Other",
+    "startEndDates": "08/15/2020 - 08/20/2020",
+    "signatoryName": "Jonathan Levit",
+    "contractTitleName": "Short Project Agreement",
+    "businessRepresentative": "Tawanda Lewis Duck",
+    "claimsRepresentative": "Silvia Gerber",
+    "prodSubType": "Short Project Agreement",
+    "madeFor": "Not Applicable",
     "market": "Not Applicable",
     "contributionPlan": "SAG",
-    "shootingLocations": [
-      "Petaluma, CA United States"
-    ]
-  },
-  {
-    "id": "471179",
-    "production": "Can You Take My Picture",
-    "type": "New Media",
-    "local": "Los Angeles",
-    "startEndDates": "08/06/2018 - TBD",
-    "signatoryName": "Anne Montavon",
-    "contractTitleName": "New Media Agreement",
-    "businessRepresentative": "Kamau Talbott",
-    "bgClaimsRepresentative": "Toloria Milner",
-    "claimsRepresentative": "Deborah Wonder",
-    "prodSubType": "Original Other",
-    "madeFor": "New Media - Deferrable",
-    "market": "Other New Media",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "los angeles, CA United States"
-    ]
-  },
-  {
-    "id": "502227",
-    "production": "Card Sharks (20/21)",
-    "type": "Television Program",
-    "local": "Los Angeles",
-    "startEndDates": "07/07/2020 - 07/15/2020",
-    "signatoryName": "BLUE ORBIT PRODUCTIONS INC.",
-    "contractTitleName": "TV Programs",
-    "businessRepresentative": "Lisa Kyle",
-    "claimsRepresentative": "Billie Murphy",
-    "prodSubType": "TV Series",
-    "madeFor": "Broadcast Network",
-    "market": "ABC",
-    "contributionPlan": "AFTRA",
     "shootingLocations": [
       "Los Angeles, CA United States"
     ]
   },
   {
-    "id": "470881",
-    "production": "Carl",
+    "id": "489911",
+    "production": "Carnival Row (Yr 2)",
     "type": "New Media",
     "local": "Los Angeles",
-    "startEndDates": "08/11/2018 - TBD",
-    "signatoryName": "Dylan Boom",
-    "contractTitleName": "New Media Agreement",
+    "startEndDates": "09/30/2019 - TBD",
+    "signatoryName": "Carnival Row Productions, LLC",
+    "contractTitleName": "Television AMPTP Agreement",
     "businessRepresentative": "Joyce Grant",
-    "bgClaimsRepresentative": "Toloria Milner",
-    "claimsRepresentative": "Silvia Gerber",
-    "prodSubType": "Original Other",
-    "madeFor": "New Media - Deferrable",
-    "market": "Other New Media",
+    "bgClaimsRepresentative": "Louis Hemphill",
+    "claimsRepresentative": "Emmy Ferguson",
+    "prodSubType": "Original Series",
+    "madeFor": "New Media - High-Budget SVOD/Tier 1",
+    "market": "Amazon",
     "contributionPlan": "SAG",
     "shootingLocations": [
-      "Lancaster, CA United States"
+      "Prague, CR Czechia",
+      "Croatia, CO Croatia"
     ]
   },
   {
@@ -1454,21 +1376,39 @@
     ]
   },
   {
-    "id": "506355",
-    "production": "Casimir Barnaby Teaches Sleeping",
+    "id": "506076",
+    "production": "Cat Burglar (2020)",
+    "type": "New Media",
+    "local": "Los Angeles",
+    "startEndDates": "11/01/2020 - 10/31/2020",
+    "signatoryName": "Netflix Animation, LLC",
+    "contractTitleName": "High Budget New Media Animation Agreement",
+    "businessRepresentative": "Lisa Kyle",
+    "claimsRepresentative": "Emmy Ferguson",
+    "prodSubType": "Original Other",
+    "madeFor": "New Media - High-Budget SVOD/Tier 1",
+    "market": "Netflix",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Los Angeles, CA United States"
+    ]
+  },
+  {
+    "id": "503896",
+    "production": "Catch The Bullet",
     "type": "Agnostic",
     "local": "Los Angeles",
-    "startEndDates": "07/04/2020 - 07/31/2020",
-    "signatoryName": "Dallas White",
-    "contractTitleName": "Short Project Agreement",
-    "businessRepresentative": "Joyce Grant",
-    "claimsRepresentative": "Emmy Ferguson",
-    "prodSubType": "Short Project Agreement",
+    "startEndDates": "08/18/2020 - 09/06/2020",
+    "signatoryName": "Feifer Worldwide, Inc.",
+    "contractTitleName": "Agnostic Independent Agreement SAG-AFTRA",
+    "businessRepresentative": "Oliver Bundy",
+    "claimsRepresentative": "Melissa Sexton",
+    "prodSubType": "Moderate Low Budget",
     "madeFor": "Not Applicable",
     "market": "Not Applicable",
     "contributionPlan": "SAG",
     "shootingLocations": [
-      "Sherman Oaks, CA United States"
+      "Los Angeles, CA United States"
     ]
   },
   {
@@ -1504,25 +1444,6 @@
     "contributionPlan": "AFTRA",
     "shootingLocations": [
       "Los Angeles, CA United States"
-    ]
-  },
-  {
-    "id": "470343",
-    "production": "Charlie",
-    "type": "New Media",
-    "local": "Los Angeles",
-    "startEndDates": "07/21/2018 - TBD",
-    "signatoryName": "Marishka Phillips",
-    "contractTitleName": "New Media Agreement",
-    "businessRepresentative": "Kamau Talbott",
-    "bgClaimsRepresentative": "Toloria Milner",
-    "claimsRepresentative": "Deborah Wonder",
-    "prodSubType": "Original Pilot",
-    "madeFor": "New Media - Deferrable",
-    "market": "YouTube",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "los angeles, CA"
     ]
   },
   {
@@ -1581,6 +1502,24 @@
     ]
   },
   {
+    "id": "506864",
+    "production": "Christmas Concert, The (2020)",
+    "type": "Television",
+    "local": "Los Angeles",
+    "startEndDates": "08/03/2020 - 08/21/2020",
+    "signatoryName": "3483, Inc.",
+    "contractTitleName": "Television Independent Agreement",
+    "businessRepresentative": "Art Duarte",
+    "claimsRepresentative": "Silvia Gerber",
+    "prodSubType": "TV - Movie",
+    "madeFor": "Basic Cable",
+    "market": "Hallmark Channel",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Various, UT United States"
+    ]
+  },
+  {
     "id": "484749",
     "production": "Chronicles Of Wallace Sprague, Dog Psychiatrist",
     "type": "New Media",
@@ -1614,6 +1553,43 @@
     "contributionPlan": "SAG",
     "shootingLocations": [
       "Los Angeles, CA United States"
+    ]
+  },
+  {
+    "id": "507636",
+    "production": "Chucky (20/21)",
+    "type": "Television",
+    "local": "Los Angeles",
+    "startEndDates": "10/26/2020 - 04/14/2021",
+    "signatoryName": "Universal Content Productions LLC",
+    "contractTitleName": "Television AMPTP Agreement",
+    "businessRepresentative": "Joyce Grant",
+    "bgClaimsRepresentative": "Alice Vosmek",
+    "claimsRepresentative": "Alice Vosmek",
+    "prodSubType": "TV - Series",
+    "madeFor": "Basic Cable",
+    "market": "Syfy Channel",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Toronto, Canada"
+    ]
+  },
+  {
+    "id": "507943",
+    "production": "Cinderella Story: Star Struck, A (2020)",
+    "type": "Television",
+    "local": "Los Angeles",
+    "startEndDates": "08/31/2020 - 09/28/2020",
+    "signatoryName": "Warner Specialty Productions Inc.",
+    "contractTitleName": "Television AMPTP Agreement",
+    "businessRepresentative": "Lisa Kyle",
+    "claimsRepresentative": "Emmy Ferguson",
+    "prodSubType": "TV - Made For Video",
+    "madeFor": "Home Video / DVD",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Vancouver, Canada"
     ]
   },
   {
@@ -1651,28 +1627,6 @@
     "contributionPlan": "SAG",
     "shootingLocations": [
       "los angeles, CA United States"
-    ]
-  },
-  {
-    "id": "485518",
-    "production": "Close Enough (19/20)",
-    "type": "Television",
-    "local": "Los Angeles",
-    "startEndDates": "04/15/2019 - 07/31/2020",
-    "signatoryName": "Cartoon Network Studios, Inc.",
-    "contractTitleName": "Basic Cable Agreement for Animated Motion Pictures",
-    "businessRepresentative": "Lisa Kyle",
-    "claimsRepresentative": "Emmy Ferguson",
-    "prodSubType": "TV - Animated Series",
-    "madeFor": "Basic Cable",
-    "market": "Turner Broadcasting - System",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "Atlanta, GA",
-      "Burbank, CA United States"
-    ],
-    "alternateTitles": [
-      ""
     ]
   },
   {
@@ -1745,24 +1699,6 @@
     "contributionPlan": "SAG",
     "shootingLocations": [
       "Los Angles, CA United States"
-    ]
-  },
-  {
-    "id": "506013",
-    "production": "Color Box",
-    "type": "Agnostic",
-    "local": "Los Angeles",
-    "startEndDates": "07/06/2020 - 07/31/2020",
-    "signatoryName": "IMC Media LLC",
-    "contractTitleName": "Agnostic Independent Agreement SAG-AFTRA",
-    "businessRepresentative": "Oliver Bundy",
-    "claimsRepresentative": "Sabina Sanchez",
-    "prodSubType": "Moderate Low Budget Diversity",
-    "madeFor": "Not Applicable",
-    "market": "Not Applicable",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "Los Angeles, CA United States"
     ]
   },
   {
@@ -1839,23 +1775,6 @@
     ]
   },
   {
-    "id": "485020",
-    "production": "Crawl",
-    "type": "Theatrical",
-    "local": "Los Angeles",
-    "startEndDates": "07/16/2018 - TBD",
-    "signatoryName": "Paramount Pictures Corporation",
-    "contractTitleName": "Theatrical AMPTP Agreement",
-    "claimsRepresentative": "Sabina Sanchez",
-    "prodSubType": "Theatrical Regular",
-    "madeFor": "Theatrical Regular",
-    "market": "Not Applicable",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      ", Serbia"
-    ]
-  },
-  {
     "id": "495397",
     "production": "Critical Role (19/20)",
     "type": "New Media",
@@ -1864,7 +1783,7 @@
     "signatoryName": "Robin Red Breast Inc.",
     "contractTitleName": "High Budget New Media Animation Agreement",
     "businessRepresentative": "Joyce Grant",
-    "claimsRepresentative": "Deborah Wonder",
+    "claimsRepresentative": "Emmy Ferguson",
     "prodSubType": "Original Series",
     "madeFor": "New Media - High-Budget SVOD/Tier 2",
     "market": "Amazon",
@@ -1901,7 +1820,7 @@
     "businessRepresentative": "Erin Cardillo",
     "claimsRepresentative": "Emmy Ferguson",
     "prodSubType": "Original Series",
-    "madeFor": "New Media - High-Budget SVOD/Tier 1",
+    "madeFor": "New Media - Negotiable",
     "market": "Netflix",
     "contributionPlan": "SAG",
     "shootingLocations": [
@@ -1946,6 +1865,42 @@
     "contributionPlan": "SAG",
     "shootingLocations": [
       "Los Angeles, CA United States"
+    ]
+  },
+  {
+    "id": "507777",
+    "production": "Dancing With The Stars (20/21)",
+    "type": "Television Program",
+    "local": "Los Angeles",
+    "startEndDates": "08/24/2020 - 11/23/2020",
+    "signatoryName": "Lime Grove Productions, LLC",
+    "contractTitleName": "TV Programs",
+    "businessRepresentative": "Art Duarte",
+    "claimsRepresentative": "Billie Murphy",
+    "prodSubType": "TV Series",
+    "madeFor": "Broadcast Network",
+    "market": "ABC",
+    "contributionPlan": "AFTRA",
+    "shootingLocations": [
+      "Los Angeles, CA United States"
+    ]
+  },
+  {
+    "id": "507596",
+    "production": "Dark Blue",
+    "type": "Agnostic",
+    "local": "Los Angeles",
+    "startEndDates": "08/19/2020 - 08/22/2020",
+    "signatoryName": "SANCTUARY CONTENT, INC.",
+    "contractTitleName": "Short Project Agreement",
+    "businessRepresentative": "Andrea Barnett",
+    "claimsRepresentative": "Emmy Ferguson",
+    "prodSubType": "Short Project Agreement",
+    "madeFor": "Not Applicable",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Summit County, UT United States"
     ]
   },
   {
@@ -2024,40 +1979,41 @@
     ]
   },
   {
-    "id": "469917",
-    "production": "Dearly Departed",
-    "type": "New Media",
+    "id": "507839",
+    "production": "Deadly Love Letter",
+    "type": "Agnostic",
     "local": "Los Angeles",
-    "startEndDates": "07/17/2018 - TBD",
-    "signatoryName": "Dreaming Tree Foundation",
-    "contractTitleName": "New Media Agreement",
-    "businessRepresentative": "Kamau Talbott",
-    "bgClaimsRepresentative": "Toloria Milner",
-    "claimsRepresentative": "Deborah Wonder",
-    "prodSubType": "Original Pilot",
-    "madeFor": "New Media - Deferrable",
-    "market": "YouTube",
+    "startEndDates": "08/09/2020 - 08/24/2020",
+    "signatoryName": "Ninth Love Letter LLC",
+    "contractTitleName": "Agnostic Independent Agreement SAG-AFTRA",
+    "businessRepresentative": "Oliver Bundy",
+    "claimsRepresentative": "Melissa Sexton",
+    "prodSubType": "Moderate Low Budget",
+    "madeFor": "Not Applicable",
+    "market": "Not Applicable",
     "contributionPlan": "SAG",
     "shootingLocations": [
-      "los angeles, CA United States"
+      "Los Angeles, CA United States",
+      "Big Bear, CA United States",
+      "San Bernadino, CA United States"
     ]
   },
   {
-    "id": "473137",
-    "production": "Delivery Guy",
-    "type": "New Media",
+    "id": "506366",
+    "production": "Devil'S Light, The",
+    "type": "Theatrical",
     "local": "Los Angeles",
-    "startEndDates": "08/06/2018 - TBD",
-    "signatoryName": "Christopher Pecchenino",
-    "contractTitleName": "New Media Agreement",
-    "businessRepresentative": "Erin Cardillo",
-    "claimsRepresentative": "Billie Murphy",
-    "prodSubType": "Original Other",
-    "madeFor": "New Media - Deferrable",
-    "market": "YouTube",
+    "startEndDates": "07/21/2020 - 09/10/2020",
+    "signatoryName": "CATX Exorcism 12 Productions, Inc.",
+    "contractTitleName": "Theatrical Independent Agreement",
+    "businessRepresentative": "Anna Pogosyan",
+    "claimsRepresentative": "Sabina Sanchez",
+    "prodSubType": "Theatrical Regular",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
     "contributionPlan": "SAG",
     "shootingLocations": [
-      "Los Angeles, CA United States"
+      "Sofia, BG Bulgaria"
     ]
   },
   {
@@ -2085,12 +2041,12 @@
     "local": "Los Angeles",
     "startEndDates": "11/12/2018 - TBD",
     "signatoryName": "Unforeseen Productions, Inc.",
-    "contractTitleName": "New Media Agreement",
-    "businessRepresentative": "Shay Davis",
+    "contractTitleName": "New Media Animation Agreement",
+    "businessRepresentative": "Rose Magcalas",
     "claimsRepresentative": "Billie Murphy",
     "prodSubType": "Original Series",
     "madeFor": "New Media - Special Agreement-Animation",
-    "market": "Not Applicable",
+    "market": "Amazon",
     "contributionPlan": "SAG",
     "shootingLocations": [
       "Burbank, CA United States"
@@ -2115,24 +2071,22 @@
     ]
   },
   {
-    "id": "470447",
-    "production": "Dora And The Lost City Of Gold",
+    "id": "501731",
+    "production": "Don'T Breathe Again",
     "type": "Theatrical",
     "local": "Los Angeles",
-    "startEndDates": "08/06/2018 - TBD",
-    "signatoryName": "Paramount Overseas Productions, Inc.",
-    "contractTitleName": "Theatrical AMPTP Agreement",
+    "startEndDates": "07/21/2020 - 10/10/2020",
+    "signatoryName": "DB2 Productions, LLC",
+    "contractTitleName": "Theatrical Independent Agreement",
+    "businessRepresentative": "Anna Pogosyan",
     "claimsRepresentative": "Sabina Sanchez",
     "prodSubType": "Theatrical Regular",
     "madeFor": "Theatrical Regular",
     "market": "Not Applicable",
     "contributionPlan": "SAG",
     "shootingLocations": [
-      ", Australia"
-    ],
-    "alternateTitles": [
-      "Dora The Explorer",
-      "Dora & The Lost City Of Gold"
+      "Detroit, MI United States",
+      "Belgrade, Serbia"
     ]
   },
   {
@@ -2154,25 +2108,6 @@
     ]
   },
   {
-    "id": "470438",
-    "production": "Doxxed (Yr 1)",
-    "type": "New Media",
-    "local": "Los Angeles",
-    "startEndDates": "07/24/2018 - TBD",
-    "signatoryName": "Elaine Loh",
-    "contractTitleName": "New Media Agreement",
-    "businessRepresentative": "Kamau Talbott",
-    "bgClaimsRepresentative": "Toloria Milner",
-    "claimsRepresentative": "Deborah Wonder",
-    "prodSubType": "Original Series",
-    "madeFor": "New Media - Deferrable",
-    "market": "YouTube",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "los angeles, CA United States"
-    ]
-  },
-  {
     "id": "472178",
     "production": "Dr. Slither'S Fun Dungeon (Yr 1)",
     "type": "New Media",
@@ -2191,25 +2126,6 @@
     ]
   },
   {
-    "id": "470883",
-    "production": "Draftsville 18/19",
-    "type": "New Media",
-    "local": "Los Angeles",
-    "startEndDates": "07/31/2018 - TBD",
-    "signatoryName": "Tiny City Productions, Inc.",
-    "contractTitleName": "New Media Agreement",
-    "businessRepresentative": "Kamau Talbott",
-    "bgClaimsRepresentative": "Toloria Milner",
-    "claimsRepresentative": "Deborah Wonder",
-    "prodSubType": "Original Series",
-    "madeFor": "New Media - Deferrable",
-    "market": "YouTube",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "los angeles, CA United States"
-    ]
-  },
-  {
     "id": "503499",
     "production": "Dropout, The (2020)",
     "type": "New Media",
@@ -2222,25 +2138,6 @@
     "prodSubType": "Original Other",
     "madeFor": "New Media - High-Budget SVOD/Tier 1",
     "market": "Hulu",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "Los Angeles, CA United States"
-    ]
-  },
-  {
-    "id": "470888",
-    "production": "Dry Spell",
-    "type": "New Media",
-    "local": "Los Angeles",
-    "startEndDates": "07/31/2018 - TBD",
-    "signatoryName": "AFT, LLC",
-    "contractTitleName": "New Media Agreement",
-    "businessRepresentative": "Joyce Grant",
-    "bgClaimsRepresentative": "Toloria Milner",
-    "claimsRepresentative": "Silvia Gerber",
-    "prodSubType": "Original Other",
-    "madeFor": "New Media - Deferrable",
-    "market": "Other New Media",
     "contributionPlan": "SAG",
     "shootingLocations": [
       "Los Angeles, CA United States"
@@ -2295,39 +2192,42 @@
     ]
   },
   {
-    "id": "504181",
-    "production": "Entergalactic (20/21)",
-    "type": "New Media",
+    "id": "507162",
+    "production": "Ellen'S Game Of Games (20/21)",
+    "type": "Television Program",
     "local": "Los Angeles",
-    "startEndDates": "05/04/2020 - 07/31/2020",
-    "signatoryName": "Netflix Animation, LLC",
-    "contractTitleName": "High Budget New Media Animation Agreement",
-    "businessRepresentative": "Anny Edinchikyan",
+    "startEndDates": "08/24/2020 - 09/03/2020",
+    "signatoryName": "ADRIAN COURT PRODUCTIONS INC",
+    "contractTitleName": "TV Programs",
+    "businessRepresentative": "Lisa Kyle",
     "claimsRepresentative": "Emmy Ferguson",
-    "prodSubType": "Original Series",
-    "madeFor": "New Media - High-Budget SVOD/Tier 1",
-    "market": "Netflix",
-    "contributionPlan": "SAG",
+    "prodSubType": "TV Series",
+    "madeFor": "Broadcast Network",
+    "market": "NBC",
+    "contributionPlan": "AFTRA",
     "shootingLocations": [
       "Los Angeles, CA United States"
+    ],
+    "alternateTitles": [
+      ""
     ]
   },
   {
-    "id": "471603",
-    "production": "Eternity (Pilot)",
-    "type": "New Media",
+    "id": "490492",
+    "production": "Empire (19/20)",
+    "type": "Television",
     "local": "Los Angeles",
-    "startEndDates": "08/11/2018 - TBD",
-    "signatoryName": "John Severin",
-    "contractTitleName": "New Media Agreement",
-    "businessRepresentative": "Kamau Talbott",
-    "claimsRepresentative": "Deborah Wonder",
-    "prodSubType": "Original Pilot",
-    "madeFor": "New Media - Deferrable",
-    "market": "Other New Media",
+    "startEndDates": "07/17/2019 - 09/24/2020",
+    "signatoryName": "Twentieth Century Fox Film Corporation",
+    "contractTitleName": "Television AMPTP Agreement",
+    "businessRepresentative": "Erin Cardillo",
+    "claimsRepresentative": "Kathy Byrne",
+    "prodSubType": "TV - Series",
+    "madeFor": "Broadcast Network",
+    "market": "FOX",
     "contributionPlan": "SAG",
     "shootingLocations": [
-      "los angeles, CA United States"
+      "Chicago, IL United States"
     ]
   },
   {
@@ -2385,6 +2285,24 @@
     ]
   },
   {
+    "id": "505494",
+    "production": "Every Man For Himself",
+    "type": "Agnostic",
+    "local": "Los Angeles",
+    "startEndDates": "08/18/2020 - 09/08/2020",
+    "signatoryName": "EVERY MAN MOVIE LLC",
+    "contractTitleName": "Agnostic Independent Agreement SAG-AFTRA",
+    "businessRepresentative": "Oliver Bundy",
+    "claimsRepresentative": "Melissa Sexton",
+    "prodSubType": "Ultra Low Budget",
+    "madeFor": "Not Applicable",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Los Angeles, CA United States"
+    ]
+  },
+  {
     "id": "477845",
     "production": "Exeter (19/20)",
     "type": "New Media",
@@ -2424,63 +2342,6 @@
     ]
   },
   {
-    "id": "470237",
-    "production": "Eye In Big Trouble In Little Chinatown, The (Yr 1)",
-    "type": "New Media",
-    "local": "Los Angeles",
-    "startEndDates": "07/20/2018 - TBD",
-    "signatoryName": "Keith Brooks",
-    "contractTitleName": "New Media Agreement",
-    "businessRepresentative": "Kamau Talbott",
-    "bgClaimsRepresentative": "Toloria Milner",
-    "claimsRepresentative": "Deborah Wonder",
-    "prodSubType": "Original Series",
-    "madeFor": "New Media - Deferrable",
-    "market": "YouTube",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "los angeles, CA United States"
-    ]
-  },
-  {
-    "id": "471602",
-    "production": "F'D (Another Effing Web Series) (Yr 2)",
-    "type": "New Media",
-    "local": "Los Angeles",
-    "startEndDates": "08/04/2018 - TBD",
-    "signatoryName": "Carly Otte",
-    "contractTitleName": "New Media Agreement",
-    "businessRepresentative": "Kamau Talbott",
-    "bgClaimsRepresentative": "Toloria Milner",
-    "claimsRepresentative": "Deborah Wonder",
-    "prodSubType": "Original Series",
-    "madeFor": "New Media - Deferrable",
-    "market": "Other New Media",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "los angeles, CA"
-    ]
-  },
-  {
-    "id": "470345",
-    "production": "Faded",
-    "type": "New Media",
-    "local": "Los Angeles",
-    "startEndDates": "07/23/2018 - TBD",
-    "signatoryName": "Eugene Kim",
-    "contractTitleName": "New Media Agreement",
-    "businessRepresentative": "Kamau Talbott",
-    "bgClaimsRepresentative": "Toloria Milner",
-    "claimsRepresentative": "Deborah Wonder",
-    "prodSubType": "Original Pilot",
-    "madeFor": "New Media - Deferrable",
-    "market": "YouTube",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "los angeles, CA"
-    ]
-  },
-  {
     "id": "498047",
     "production": "Fairfax (19/20)",
     "type": "New Media",
@@ -2496,6 +2357,25 @@
     "contributionPlan": "SAG",
     "shootingLocations": [
       "Los Angeles, CA United States"
+    ]
+  },
+  {
+    "id": "507139",
+    "production": "Fall, The",
+    "type": "Theatrical",
+    "local": "Los Angeles",
+    "startEndDates": "07/30/2020 - 08/21/2020",
+    "signatoryName": "Fall Movie Productions Inc",
+    "contractTitleName": "Theatrical Independent Agreement",
+    "businessRepresentative": "Chanda Ulrich",
+    "claimsRepresentative": "Sabina Sanchez",
+    "prodSubType": "Low Budget Affirmative Action",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "San Bernardino, CA United States",
+      "Los Angeles County, CA United States"
     ]
   },
   {
@@ -2515,24 +2395,6 @@
     "contributionPlan": "SAG",
     "shootingLocations": [
       "Altadena, CA United States"
-    ]
-  },
-  {
-    "id": "469070",
-    "production": "Fam (18/19)",
-    "type": "Television",
-    "local": "Los Angeles",
-    "startEndDates": "08/09/2018 - TBD",
-    "signatoryName": "Kapital Productions, LLC.",
-    "contractTitleName": "Television AMPTP Agreement",
-    "businessRepresentative": "Rebecca Knowlton",
-    "claimsRepresentative": "Billie Murphy",
-    "prodSubType": "TV - Series",
-    "madeFor": "Broadcast Network",
-    "market": "CBS",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "Los Angeles, CA United States"
     ]
   },
   {
@@ -2569,6 +2431,24 @@
     "contributionPlan": "SAG",
     "shootingLocations": [
       "Los Angeles, CA United States"
+    ]
+  },
+  {
+    "id": "508150",
+    "production": "Finding Remo",
+    "type": "Agnostic",
+    "local": "Los Angeles",
+    "startEndDates": "09/01/2020 - 09/03/2020",
+    "signatoryName": "Corey Rieger",
+    "contractTitleName": "Short Project Agreement",
+    "businessRepresentative": "Sara Lissner",
+    "claimsRepresentative": "Emmy Ferguson",
+    "prodSubType": "Short Project Agreement",
+    "madeFor": "Not Applicable",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Seattle, WA United States"
     ]
   },
   {
@@ -2667,28 +2547,6 @@
     ]
   },
   {
-    "id": "469358",
-    "production": "For All Mankind (18/19)",
-    "type": "New Media",
-    "local": "Los Angeles",
-    "startEndDates": "08/13/2018 - TBD",
-    "signatoryName": "MESQUITE PRODUCTIONS INC",
-    "contractTitleName": "Television AMPTP Agreement",
-    "businessRepresentative": "Rose Magcalas",
-    "bgClaimsRepresentative": "Toloria Milner",
-    "claimsRepresentative": "Silvia Gerber",
-    "prodSubType": "Original Series",
-    "madeFor": "New Media - High-Budget SVOD/Tier 3",
-    "market": "Other New Media",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "Los Angeles, CA United States"
-    ],
-    "alternateTitles": [
-      ""
-    ]
-  },
-  {
     "id": "491494",
     "production": "For All Mankind (19/20)",
     "type": "New Media",
@@ -2704,25 +2562,6 @@
     "contributionPlan": "SAG",
     "shootingLocations": [
       "Los Angeles, CA United States"
-    ]
-  },
-  {
-    "id": "469432",
-    "production": "Foreign Nationals",
-    "type": "New Media",
-    "local": "Los Angeles",
-    "startEndDates": "07/20/2018 - TBD",
-    "signatoryName": "Joel Quinones",
-    "contractTitleName": "New Media Agreement",
-    "businessRepresentative": "Kamau Talbott",
-    "bgClaimsRepresentative": "Toloria Milner",
-    "claimsRepresentative": "Deborah Wonder",
-    "prodSubType": "Original Pilot",
-    "madeFor": "New Media - Special Agreement",
-    "market": "Youtube",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "New York, NY United States"
     ]
   },
   {
@@ -2759,6 +2598,24 @@
     "contributionPlan": "SAG",
     "shootingLocations": [
       "los angeles, CA United States"
+    ]
+  },
+  {
+    "id": "507281",
+    "production": "Frank",
+    "type": "Agnostic",
+    "local": "Los Angeles",
+    "startEndDates": "08/20/2020 - 08/21/2020",
+    "signatoryName": "Christine Fox",
+    "contractTitleName": "Short Project Agreement",
+    "businessRepresentative": "Tawanda Lewis Duck",
+    "claimsRepresentative": "Silvia Gerber",
+    "prodSubType": "Short Project Agreement",
+    "madeFor": "Not Applicable",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Los Angeles, CA United States"
     ]
   },
   {
@@ -2857,6 +2714,24 @@
     ]
   },
   {
+    "id": "501958",
+    "production": "Geechee",
+    "type": "Theatrical",
+    "local": "Los Angeles",
+    "startEndDates": "03/10/2020 - 08/23/2020",
+    "signatoryName": "Geechee Productions, Inc.",
+    "contractTitleName": "Theatrical Independent Agreement",
+    "businessRepresentative": "Johnathan Vu",
+    "claimsRepresentative": "Melissa Sexton",
+    "prodSubType": "Theatrical Regular",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Santo Domingo, Dominican Republic"
+    ]
+  },
+  {
     "id": "506049",
     "production": "Ghee Happy (20/21)",
     "type": "New Media",
@@ -2893,29 +2768,47 @@
     ]
   },
   {
-    "id": "500023",
-    "production": "Gloop World (19/20)",
+    "id": "508268",
+    "production": "Ghost Tape Podcast (Podcast - 20/21)",
     "type": "New Media",
     "local": "Los Angeles",
-    "startEndDates": "10/12/2019 - 07/18/2020",
-    "signatoryName": "Buddy X, LLC",
-    "contractTitleName": "New Media Animation Agreement",
-    "businessRepresentative": "Kamau Talbott",
-    "claimsRepresentative": "Deborah Wonder",
-    "prodSubType": "Original Series",
+    "startEndDates": "08/14/2020 - 08/31/2020",
+    "signatoryName": "Ghost Tape, LLC",
+    "contractTitleName": "New Media Agreement",
+    "businessRepresentative": "Sara Lissner",
+    "claimsRepresentative": "Emmy Ferguson",
+    "prodSubType": "Original Podcast",
     "madeFor": "New Media - Special Agreement",
     "market": "Other New Media",
     "contributionPlan": "SAG",
     "shootingLocations": [
-      "Burbank, CA United States"
+      "Los Angeles, CA United States"
     ]
   },
   {
-    "id": "473936",
-    "production": "Goldbergs, The (18/19)",
+    "id": "508252",
+    "production": "Glitch",
+    "type": "Agnostic",
+    "local": "Los Angeles",
+    "startEndDates": "08/18/2020 - 08/21/2020",
+    "signatoryName": "Elysian Fields Entertainment, LLC",
+    "contractTitleName": "Short Project Agreement",
+    "businessRepresentative": "Andrea Barnett",
+    "claimsRepresentative": "Silvia Gerber",
+    "prodSubType": "Short Project Agreement",
+    "madeFor": "Not Applicable",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Los Angeles, CA United States"
+    ]
+  },
+  {
+    "id": "507958",
+    "production": "Goldbergs, The (20/21)",
     "type": "Television Program",
     "local": "Los Angeles",
-    "startEndDates": "08/06/2018 - TBD",
+    "startEndDates": "08/05/2020 - TBD",
     "signatoryName": "REMOTE BROADCASTING INC",
     "contractTitleName": "TV Programs",
     "businessRepresentative": "Rose Magcalas",
@@ -2925,7 +2818,7 @@
     "market": "ABC",
     "contributionPlan": "AFTRA",
     "shootingLocations": [
-      "Los Angeles, CA United States"
+      "Los ANgeles, CA United States"
     ]
   },
   {
@@ -2935,7 +2828,7 @@
     "local": "Los Angeles",
     "startEndDates": "06/19/2019 - TBD",
     "signatoryName": "Topanga Productions, Inc.",
-    "contractTitleName": "Television Independent Agreement",
+    "contractTitleName": "Television AMPTP Agreement",
     "businessRepresentative": "Rose Magcalas",
     "claimsRepresentative": "Silvia Gerber",
     "prodSubType": "TV - Series",
@@ -2947,11 +2840,30 @@
     ]
   },
   {
+    "id": "507291",
+    "production": "Good Side Of Bad (2020)",
+    "type": "Agnostic",
+    "local": "Los Angeles",
+    "startEndDates": "08/06/2020 - 08/25/2020",
+    "signatoryName": "Good Side of Bad LLC",
+    "contractTitleName": "Agnostic Independent Agreement SAG-AFTRA",
+    "businessRepresentative": "Rose Magcalas",
+    "claimsRepresentative": "Sabina Sanchez",
+    "prodSubType": "Ultra Low Budget",
+    "madeFor": "Not Applicable",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      ",",
+      "Coeur D'Alene, ID United States"
+    ]
+  },
+  {
     "id": "502624",
     "production": "Good Trouble (20/21)",
     "type": "Television Program",
     "local": "Los Angeles",
-    "startEndDates": "03/09/2020 - 11/25/2020",
+    "startEndDates": "09/08/2020 - 11/25/2020",
     "signatoryName": "Hop, Skip &amp; Jump Productions, Inc",
     "contractTitleName": "TV Programs",
     "businessRepresentative": "Art Duarte",
@@ -3003,25 +2915,6 @@
     ]
   },
   {
-    "id": "471176",
-    "production": "Greenwood Avenue",
-    "type": "New Media",
-    "local": "Los Angeles",
-    "startEndDates": "08/04/2018 - TBD",
-    "signatoryName": "Edemame Films, LLC",
-    "contractTitleName": "New Media Agreement",
-    "businessRepresentative": "Kamau Talbott",
-    "bgClaimsRepresentative": "Toloria Milner",
-    "claimsRepresentative": "Deborah Wonder",
-    "prodSubType": "Original Series",
-    "madeFor": "New Media - Deferrable",
-    "market": "Other New Media",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "los angeles, CA United States"
-    ]
-  },
-  {
     "id": "471621",
     "production": "Grow The Fuck Up (18/19)",
     "type": "New Media",
@@ -3035,6 +2928,24 @@
     "prodSubType": "Original Series",
     "madeFor": "New Media - Deferrable",
     "market": "Other New Media",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Los Angeles, CA United States"
+    ]
+  },
+  {
+    "id": "507951",
+    "production": "Guardian",
+    "type": "Agnostic",
+    "local": "Los Angeles",
+    "startEndDates": "08/15/2020 - 08/20/2020",
+    "signatoryName": "Christy Lee Hughes",
+    "contractTitleName": "Short Project Agreement",
+    "businessRepresentative": "Anna Pogosyan",
+    "claimsRepresentative": "Silvia Gerber",
+    "prodSubType": "Short Project Agreement",
+    "madeFor": "Not Applicable",
+    "market": "Not Applicable",
     "contributionPlan": "SAG",
     "shootingLocations": [
       "Los Angeles, CA United States"
@@ -3131,22 +3042,21 @@
     ]
   },
   {
-    "id": "470553",
-    "production": "Hello, Say",
-    "type": "New Media",
+    "id": "506494",
+    "production": "Harlow",
+    "type": "Theatrical",
     "local": "Los Angeles",
-    "startEndDates": "07/26/2018 - TBD",
-    "signatoryName": "PADUA HILLS PLAYWRIGHT'S WORKSHOP/FESTIVAL",
-    "contractTitleName": "New Media Agreement",
-    "businessRepresentative": "Kamau Talbott",
-    "bgClaimsRepresentative": "Toloria Milner",
-    "claimsRepresentative": "Deborah Wonder",
-    "prodSubType": "Original Pilot",
-    "madeFor": "New Media - Deferrable",
-    "market": "YouTube",
+    "startEndDates": "08/03/2020 - 10/07/2020",
+    "signatoryName": "Legendary Features Productions US, LLC",
+    "contractTitleName": "Theatrical Independent Agreement",
+    "businessRepresentative": "Anna Pogosyan",
+    "claimsRepresentative": "Sabina Sanchez",
+    "prodSubType": "Theatrical Regular",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
     "contributionPlan": "SAG",
     "shootingLocations": [
-      "los angeles, CA United States"
+      "Sofia, BG Bulgaria"
     ]
   },
   {
@@ -3168,21 +3078,21 @@
     ]
   },
   {
-    "id": "501137",
-    "production": "High School Musical - The Series (20/21)",
-    "type": "New Media",
+    "id": "504277",
+    "production": "Hit Or Miss",
+    "type": "Agnostic",
     "local": "Los Angeles",
-    "startEndDates": "02/19/2020 - 07/19/2020",
-    "signatoryName": "Salty Pictures, Inc.",
-    "contractTitleName": "Television AMPTP Agreement",
-    "businessRepresentative": "Art Duarte",
-    "claimsRepresentative": "Deborah Wonder",
-    "prodSubType": "Original Series",
-    "madeFor": "New Media - High-Budget SVOD/Tier 2",
-    "market": "Other New Media",
+    "startEndDates": "08/19/2020 - 08/23/2020",
+    "signatoryName": "Kenneth Breslin",
+    "contractTitleName": "Short Project Agreement",
+    "businessRepresentative": "Joyce Grant",
+    "claimsRepresentative": "Emmy Ferguson",
+    "prodSubType": "Short Project Agreement",
+    "madeFor": "Not Applicable",
+    "market": "Not Applicable",
     "contributionPlan": "SAG",
     "shootingLocations": [
-      "Salt Lake City, UT United States"
+      "Los Angeles, CA United States"
     ]
   },
   {
@@ -3204,25 +3114,6 @@
     ]
   },
   {
-    "id": "471599",
-    "production": "Hot Wings",
-    "type": "New Media",
-    "local": "Los Angeles",
-    "startEndDates": "07/28/2018 - TBD",
-    "signatoryName": "Colleen Labella",
-    "contractTitleName": "New Media Agreement",
-    "businessRepresentative": "Kamau Talbott",
-    "bgClaimsRepresentative": "Toloria Milner",
-    "claimsRepresentative": "Deborah Wonder",
-    "prodSubType": "Original Pilot",
-    "madeFor": "New Media - Deferrable",
-    "market": "Other New Media",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "los angeles, CA United States"
-    ]
-  },
-  {
     "id": "504383",
     "production": "Housebroken (20/21)",
     "type": "Television Program",
@@ -3236,6 +3127,24 @@
     "madeFor": "Broadcast Network",
     "market": "FOX",
     "contributionPlan": "AFTRA",
+    "shootingLocations": [
+      "Los Angeles, CA United States"
+    ]
+  },
+  {
+    "id": "507850",
+    "production": "Human Resources (20/21)",
+    "type": "New Media",
+    "local": "Los Angeles",
+    "startEndDates": "08/15/2020 - 01/31/2021",
+    "signatoryName": "NF Voices, LLC",
+    "contractTitleName": "New Media Netflix Agreement",
+    "businessRepresentative": "Lisa Kyle",
+    "claimsRepresentative": "Emmy Ferguson",
+    "prodSubType": "Original Series",
+    "madeFor": "New Media - High-Budget SVOD/Tier 2",
+    "market": "Netflix",
+    "contributionPlan": "SAG",
     "shootingLocations": [
       "Los Angeles, CA United States"
     ]
@@ -3426,41 +3335,43 @@
     ]
   },
   {
-    "id": "470536",
-    "production": "Interview, The",
-    "type": "New Media",
+    "id": "508182",
+    "production": "Interns Of The Nsa (20/21)",
+    "type": "Television Program",
     "local": "Los Angeles",
-    "startEndDates": "07/28/2018 - TBD",
-    "signatoryName": "Karl Hass",
-    "contractTitleName": "New Media Agreement",
-    "businessRepresentative": "Kamau Talbott",
-    "bgClaimsRepresentative": "Toloria Milner",
-    "claimsRepresentative": "Deborah Wonder",
-    "prodSubType": "Original Pilot",
-    "madeFor": "New Media - Deferrable",
-    "market": "YouTube",
-    "contributionPlan": "SAG",
+    "startEndDates": "08/24/2020 - 10/01/2020",
+    "signatoryName": "OCP Television, LLC",
+    "contractTitleName": "TV Programs",
+    "businessRepresentative": "Lisa Kyle",
+    "claimsRepresentative": "Billie Murphy",
+    "prodSubType": "TV Series",
+    "madeFor": "Basic Cable",
+    "market": "Tru TV",
+    "contributionPlan": "AFTRA",
     "shootingLocations": [
-      "los angeles, CA"
+      "Hollywood, CA United States"
     ]
   },
   {
-    "id": "471604",
-    "production": "Jack Marshall Can'T Do This (Yr 2)",
+    "id": "489194",
+    "production": "Into The Dark (19/20)",
     "type": "New Media",
     "local": "Los Angeles",
-    "startEndDates": "08/11/2018 - TBD",
-    "signatoryName": "Josh Cobb",
-    "contractTitleName": "New Media Agreement",
-    "businessRepresentative": "Kamau Talbott",
+    "startEndDates": "07/18/2019 - 09/30/2020",
+    "signatoryName": "BH Dozen 1, LLC",
+    "contractTitleName": "Television Independent Agreement",
+    "businessRepresentative": "Lisa Kyle",
     "bgClaimsRepresentative": "Toloria Milner",
-    "claimsRepresentative": "Deborah Wonder",
+    "claimsRepresentative": "Silvia Gerber",
     "prodSubType": "Original Series",
-    "madeFor": "New Media - Deferrable",
-    "market": "Other New Media",
+    "madeFor": "New Media - Negotiable",
+    "market": "Hulu",
     "contributionPlan": "SAG",
     "shootingLocations": [
-      "los angeles, CA United States"
+      "Los Angeles, CA United States"
+    ],
+    "alternateTitles": [
+      ""
     ]
   },
   {
@@ -3490,7 +3401,7 @@
     "startEndDates": "07/01/2019 - TBD",
     "signatoryName": "Dusty Comet Productions, LLC",
     "contractTitleName": "New Media Independent HBSVOD Agreement",
-    "businessRepresentative": "Kiley Cristiano",
+    "businessRepresentative": "Anny Edinchikyan",
     "bgClaimsRepresentative": "Toloria Milner",
     "claimsRepresentative": "Emmy Ferguson",
     "prodSubType": "Original Series",
@@ -3630,6 +3541,42 @@
     ]
   },
   {
+    "id": "507056",
+    "production": "Knights Of Swing",
+    "type": "Agnostic",
+    "local": "Los Angeles",
+    "startEndDates": "08/03/2020 - 08/27/2020",
+    "signatoryName": "The Knights of Swing, LLC",
+    "contractTitleName": "Agnostic Independent Agreement SAG-AFTRA",
+    "businessRepresentative": "Joyce Grant",
+    "claimsRepresentative": "Emmy Ferguson",
+    "prodSubType": "Moderate Low Budget",
+    "madeFor": "Not Applicable",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Pomona, CA United States"
+    ]
+  },
+  {
+    "id": "503698",
+    "production": "Knocking",
+    "type": "Agnostic",
+    "local": "Los Angeles",
+    "startEndDates": "08/10/2020 - 09/04/2020",
+    "signatoryName": "3AM LLC",
+    "contractTitleName": "Agnostic Independent Agreement SAG-AFTRA",
+    "businessRepresentative": "Johnathan Vu",
+    "claimsRepresentative": "Melissa Sexton",
+    "prodSubType": "Moderate Low Budget Diversity",
+    "madeFor": "Not Applicable",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Los Angeles, CA United States"
+    ]
+  },
+  {
     "id": "479133",
     "production": "L.A.'S Finest (18/19)",
     "type": "New Media",
@@ -3656,41 +3603,21 @@
     ]
   },
   {
-    "id": "507124",
-    "production": "Lake Pond",
+    "id": "504412",
+    "production": "Lantern'S Lane",
     "type": "Agnostic",
     "local": "Los Angeles",
-    "startEndDates": "07/14/2020 - 07/16/2020",
-    "signatoryName": "Brian Reilly",
-    "contractTitleName": "Short Project Agreement",
-    "businessRepresentative": "Miranda Wilcox",
-    "claimsRepresentative": "Emmy Ferguson",
-    "prodSubType": "Short Project Agreement",
+    "startEndDates": "07/27/2020 - 08/19/2020",
+    "signatoryName": "LANTERN'S LANE GFY, LLC",
+    "contractTitleName": "Agnostic Independent Agreement SAG-AFTRA",
+    "businessRepresentative": "Tawanda Lewis Duck",
+    "claimsRepresentative": "Sabina Sanchez",
+    "prodSubType": "Ultra Low Budget",
     "madeFor": "Not Applicable",
     "market": "Not Applicable",
     "contributionPlan": "SAG",
     "shootingLocations": [
-      "Brooklyn, NY United States",
-      "Leyard, CT United States"
-    ]
-  },
-  {
-    "id": "471178",
-    "production": "Landing Home",
-    "type": "New Media",
-    "local": "Los Angeles",
-    "startEndDates": "08/05/2018 - TBD",
-    "signatoryName": "Douglas Taurel",
-    "contractTitleName": "New Media Agreement",
-    "businessRepresentative": "Kamau Talbott",
-    "bgClaimsRepresentative": "Toloria Milner",
-    "claimsRepresentative": "Deborah Wonder",
-    "prodSubType": "Original Series",
-    "madeFor": "New Media - Deferrable",
-    "market": "YouTube",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "los angeles, CA United States"
+      "Los Angeles, CA United States"
     ]
   },
   {
@@ -3771,25 +3698,6 @@
     ]
   },
   {
-    "id": "470516",
-    "production": "Layers",
-    "type": "New Media",
-    "local": "Los Angeles",
-    "startEndDates": "07/30/2018 - TBD",
-    "signatoryName": "Sean Freeland",
-    "contractTitleName": "New Media Agreement",
-    "businessRepresentative": "Kamau Talbott",
-    "bgClaimsRepresentative": "Toloria Milner",
-    "claimsRepresentative": "Deborah Wonder",
-    "prodSubType": "Original Pilot",
-    "madeFor": "New Media - Deferrable",
-    "market": "YouTube",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "los angeles, CA United States"
-    ]
-  },
-  {
     "id": "499244",
     "production": "League Of Their Own, A (Pilot)",
     "type": "New Media",
@@ -3808,22 +3716,22 @@
     ]
   },
   {
-    "id": "471177",
-    "production": "Ledge, The",
-    "type": "New Media",
+    "id": "507788",
+    "production": "Life Ain'T Like The Movies",
+    "type": "Agnostic",
     "local": "Los Angeles",
-    "startEndDates": "08/04/2018 - TBD",
-    "signatoryName": "Brothers Four Productions, Inc.",
-    "contractTitleName": "New Media Agreement",
-    "businessRepresentative": "Kamau Talbott",
-    "bgClaimsRepresentative": "Toloria Milner",
-    "claimsRepresentative": "Deborah Wonder",
-    "prodSubType": "Original Other",
-    "madeFor": "New Media - Deferrable",
-    "market": "YouTube",
+    "startEndDates": "08/10/2020 - 08/21/2020",
+    "signatoryName": "Robert Butler",
+    "contractTitleName": "Agnostic Independent Agreement SAG-AFTRA",
+    "businessRepresentative": "Tawanda Lewis Duck",
+    "claimsRepresentative": "Sabina Sanchez",
+    "prodSubType": "Ultra Low Budget",
+    "madeFor": "Not Applicable",
+    "market": "Not Applicable",
     "contributionPlan": "SAG",
     "shootingLocations": [
-      "los angeles, CA United States"
+      "Los Angeles, CA United States",
+      "Detroit, MI United States"
     ]
   },
   {
@@ -3839,6 +3747,24 @@
     "prodSubType": "TV - Pilot",
     "madeFor": "TV - Other",
     "market": "Other",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Los Angeles, CA United States"
+    ]
+  },
+  {
+    "id": "491547",
+    "production": "Limited Edition (19/20)",
+    "type": "New Media",
+    "local": "Los Angeles",
+    "startEndDates": "08/31/2020 - 09/04/2020",
+    "signatoryName": "James Mueller",
+    "contractTitleName": "New Media Agreement",
+    "businessRepresentative": "Joyce Grant",
+    "claimsRepresentative": "Silvia Gerber",
+    "prodSubType": "Original Series",
+    "madeFor": "New Media - Deferrable",
+    "market": "Other New Media",
     "contributionPlan": "SAG",
     "shootingLocations": [
       "Los Angeles, CA United States"
@@ -3938,43 +3864,6 @@
     ]
   },
   {
-    "id": "506221",
-    "production": "Lola",
-    "type": "Agnostic",
-    "local": "Los Angeles",
-    "startEndDates": "07/11/2020 - 07/26/2020",
-    "signatoryName": "Ana Monaco",
-    "contractTitleName": "Short Project Agreement",
-    "businessRepresentative": "Tawanda Lewis Duck",
-    "claimsRepresentative": "Emmy Ferguson",
-    "prodSubType": "Short Project Agreement",
-    "madeFor": "Not Applicable",
-    "market": "Not Applicable",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "Los Angeles, CA United States"
-    ]
-  },
-  {
-    "id": "471127",
-    "production": "Long Distance Trip (Yr1)",
-    "type": "New Media",
-    "local": "Los Angeles",
-    "startEndDates": "08/02/2018 - TBD",
-    "signatoryName": "Amazing VR Productions",
-    "contractTitleName": "New Media Agreement",
-    "businessRepresentative": "Kamau Talbott",
-    "bgClaimsRepresentative": "Toloria Milner",
-    "claimsRepresentative": "Deborah Wonder",
-    "prodSubType": "Original Other",
-    "madeFor": "New Media - Deferrable",
-    "market": "YouTube",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "los angeles, CA United States"
-    ]
-  },
-  {
     "id": "473230",
     "production": "Loon Lake",
     "type": "New Media",
@@ -3991,6 +3880,24 @@
     "contributionPlan": "SAG",
     "shootingLocations": [
       "los angeles, CA United States"
+    ]
+  },
+  {
+    "id": "508082",
+    "production": "Loosey Goosey Fried Chicken Pitch",
+    "type": "Theatrical",
+    "local": "Los Angeles",
+    "startEndDates": "08/08/2020 - 10/08/2020",
+    "signatoryName": "Slapworks Animation LLC",
+    "contractTitleName": "Theatrical Independent Agreement",
+    "businessRepresentative": "Chanda Ulrich",
+    "claimsRepresentative": "Sabina Sanchez",
+    "prodSubType": "Theatrical - Animated",
+    "madeFor": "TH - Other",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Los Angeles, CA United States"
     ]
   },
   {
@@ -4027,24 +3934,6 @@
     "contributionPlan": "SAG",
     "shootingLocations": [
       "Burnaby, Canada"
-    ]
-  },
-  {
-    "id": "473401",
-    "production": "Loud House, The (18/19)",
-    "type": "Television Program",
-    "local": "Los Angeles",
-    "startEndDates": "08/03/2018 - TBD",
-    "signatoryName": "Nickelodeon Animation Studios, Inc.",
-    "contractTitleName": "TV Programs",
-    "businessRepresentative": "Rebecca Knowlton",
-    "claimsRepresentative": "Billie Murphy",
-    "prodSubType": "TV Series",
-    "madeFor": "Basic Cable",
-    "market": "Nickelodeon",
-    "contributionPlan": "AFTRA",
-    "shootingLocations": [
-      "Burbank, CA United States"
     ]
   },
   {
@@ -4125,6 +4014,24 @@
     ]
   },
   {
+    "id": "502114",
+    "production": "Lullaby",
+    "type": "Theatrical",
+    "local": "Los Angeles",
+    "startEndDates": "08/13/2020 - 10/19/2020",
+    "signatoryName": "Sleep Tight Productions, LLC",
+    "contractTitleName": "Theatrical Independent Agreement",
+    "businessRepresentative": "Johnathan Vu",
+    "claimsRepresentative": "Sabina Sanchez",
+    "prodSubType": "Theatrical Regular",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Toronto, ON Canada"
+    ]
+  },
+  {
     "id": "472328",
     "production": "Macabre (Yr1)",
     "type": "New Media",
@@ -4163,6 +4070,42 @@
     "alternateTitles": [
       "Mad About You: Reboot (19/20)",
       "Mad About You (Yr.1)"
+    ]
+  },
+  {
+    "id": "507867",
+    "production": "Mad World",
+    "type": "Agnostic",
+    "local": "Los Angeles",
+    "startEndDates": "08/17/2020 - 08/25/2020",
+    "signatoryName": "Lauri Kokoefer",
+    "contractTitleName": "Short Project Agreement",
+    "businessRepresentative": "Anna Pogosyan",
+    "claimsRepresentative": "Emmy Ferguson",
+    "prodSubType": "Short Project Agreement",
+    "madeFor": "Not Applicable",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Los Angeles, CA United States"
+    ]
+  },
+  {
+    "id": "508692",
+    "production": "Magnum P.I. (20/21)",
+    "type": "Television",
+    "local": "Los Angeles",
+    "startEndDates": "09/16/2020 - 04/29/2021",
+    "signatoryName": "Eye Productions Inc.",
+    "contractTitleName": "Television AMPTP Agreement",
+    "businessRepresentative": "Lisa Kyle",
+    "claimsRepresentative": "Billie Murphy",
+    "prodSubType": "TV - Series",
+    "madeFor": "Broadcast Network",
+    "market": "CBS",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Honolulu, HI United States"
     ]
   },
   {
@@ -4226,24 +4169,6 @@
     ]
   },
   {
-    "id": "470569",
-    "production": "Marisol Mcdonald",
-    "type": "New Media",
-    "local": "Los Angeles",
-    "startEndDates": "07/30/2018 - TBD",
-    "signatoryName": "Picrow, Inc.",
-    "contractTitleName": "New Media Agreement",
-    "businessRepresentative": "Joyce Grant",
-    "claimsRepresentative": "Deborah Wonder",
-    "prodSubType": "Original Pilot",
-    "madeFor": "New Media - Special Agreement",
-    "market": "Amazon",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "Los Angeles, CA United States"
-    ]
-  },
-  {
     "id": "487812",
     "production": "Mark'S Place The Webseries",
     "type": "New Media",
@@ -4277,24 +4202,6 @@
     "contributionPlan": "SAG",
     "shootingLocations": [
       "Los Angeles, CA United States"
-    ]
-  },
-  {
-    "id": "503770",
-    "production": "Master Of None (20/21)",
-    "type": "New Media",
-    "local": "Los Angeles",
-    "startEndDates": "04/27/2020 - 08/14/2020",
-    "signatoryName": "Universal Television LLC",
-    "contractTitleName": "Television AMPTP Agreement",
-    "businessRepresentative": "Joyce Grant",
-    "claimsRepresentative": "Deborah Wonder",
-    "prodSubType": "Original Series",
-    "madeFor": "New Media - High-Budget SVOD/Tier 1",
-    "market": "Netflix",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "London, United Kingdom"
     ]
   },
   {
@@ -4332,24 +4239,6 @@
     "contributionPlan": "SAG",
     "shootingLocations": [
       "North Hollywood, CA United States"
-    ]
-  },
-  {
-    "id": "501924",
-    "production": "Mayans Mc (20/21)",
-    "type": "Television Program",
-    "local": "Los Angeles",
-    "startEndDates": "04/01/2020 - 07/28/2020",
-    "signatoryName": "Pacific 21 Entertainment Group, Inc.",
-    "contractTitleName": "TV Programs",
-    "businessRepresentative": "Art Duarte",
-    "claimsRepresentative": "Billie Murphy",
-    "prodSubType": "TV Series",
-    "madeFor": "Basic Cable",
-    "market": "FX",
-    "contributionPlan": "AFTRA",
-    "shootingLocations": [
-      "Los Angeles, CA United States"
     ]
   },
   {
@@ -4422,6 +4311,42 @@
     "contributionPlan": "SAG",
     "shootingLocations": [
       "Burbank, CA United States"
+    ]
+  },
+  {
+    "id": "508171",
+    "production": "Middlemost Post (20/21)",
+    "type": "Television Program",
+    "local": "Los Angeles",
+    "startEndDates": "07/08/2020 - TBD",
+    "signatoryName": "Nickelodeon Animation Studios, Inc.",
+    "contractTitleName": "TV Programs",
+    "businessRepresentative": "Lisa Kyle",
+    "claimsRepresentative": "Billie Murphy",
+    "prodSubType": "TV Series",
+    "madeFor": "Basic Cable",
+    "market": "Nickelodeon",
+    "contributionPlan": "AFTRA",
+    "shootingLocations": [
+      "Burbank,, CA United States"
+    ]
+  },
+  {
+    "id": "507787",
+    "production": "Million Little Things, A (20/21)",
+    "type": "Television",
+    "local": "Los Angeles",
+    "startEndDates": "08/25/2020 - 05/13/2021",
+    "signatoryName": "Film 49 Productions, Inc.",
+    "contractTitleName": "Television AMPTP Agreement",
+    "businessRepresentative": "Art Duarte",
+    "claimsRepresentative": "Silvia Gerber",
+    "prodSubType": "TV - Series",
+    "madeFor": "Broadcast Network",
+    "market": "ABC",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Vancouver, Canada"
     ]
   },
   {
@@ -4673,6 +4598,24 @@
     ]
   },
   {
+    "id": "507091",
+    "production": "My Expedition",
+    "type": "Agnostic",
+    "local": "Los Angeles",
+    "startEndDates": "07/31/2020 - 08/20/2020",
+    "signatoryName": "WHOLESOME MOVIES LLC",
+    "contractTitleName": "Agnostic Independent Agreement SAG-AFTRA",
+    "businessRepresentative": "Chanda Ulrich",
+    "claimsRepresentative": "Emmy Ferguson",
+    "prodSubType": "Moderate Low Budget",
+    "madeFor": "Not Applicable",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Huntsville, UT United States"
+    ]
+  },
+  {
     "id": "503496",
     "production": "Mysterious Benedict Society, The (20/21)",
     "type": "New Media",
@@ -4728,21 +4671,22 @@
     ]
   },
   {
-    "id": "470401",
-    "production": "Nightmare Gate Box (18/19)",
-    "type": "New Media",
+    "id": "508126",
+    "production": "Ncis: Los Angeles (20/21)",
+    "type": "Television",
     "local": "Los Angeles",
-    "startEndDates": "07/16/2018 - TBD",
-    "signatoryName": "1 Media Productions L.L.C.",
-    "contractTitleName": "New Media Agreement",
-    "businessRepresentative": "Erin Cardillo",
+    "startEndDates": "09/03/2020 - 04/24/2021",
+    "signatoryName": "CBS Studios Inc.",
+    "contractTitleName": "Television AMPTP Agreement",
+    "businessRepresentative": "Lisa Kyle",
+    "bgClaimsRepresentative": "Toloria Milner",
     "claimsRepresentative": "Billie Murphy",
-    "prodSubType": "Original Series",
-    "madeFor": "New Media - Deferrable",
-    "market": "YouTube",
+    "prodSubType": "TV - Series",
+    "madeFor": "Broadcast Network",
+    "market": "CBS",
     "contributionPlan": "SAG",
     "shootingLocations": [
-      "Las Vegas, NV United States"
+      "Los Angeles, CA United States"
     ]
   },
   {
@@ -4764,6 +4708,66 @@
     ]
   },
   {
+    "id": "404544",
+    "production": "No Evidence Of Man (2020)",
+    "type": "New Media",
+    "local": "Los Angeles",
+    "startEndDates": "08/17/2020 - 08/23/2020",
+    "signatoryName": "The First Out, LLC",
+    "contractTitleName": "New Media Agreement",
+    "businessRepresentative": "Joyce Grant",
+    "claimsRepresentative": "Silvia Gerber",
+    "prodSubType": "Original Other",
+    "madeFor": "New Media - Deferrable",
+    "market": "Other New Media",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Berkeley, CA United States",
+      "Oakland, CA United States",
+      "Sacramento, CA United States",
+      "Lake Tahoe, CA United States"
+    ]
+  },
+  {
+    "id": "507880",
+    "production": "Nonessentials, The (20/21)",
+    "type": "New Media",
+    "local": "Los Angeles",
+    "startEndDates": "08/23/2020 - 09/13/2020",
+    "signatoryName": "FUGITIVE SISTER PRODUCTIONS LLC",
+    "contractTitleName": "New Media Agreement",
+    "businessRepresentative": "Rose Magcalas",
+    "claimsRepresentative": "Billie Murphy",
+    "prodSubType": "Original Series",
+    "madeFor": "New Media - Special Agreement",
+    "market": "Other New Media",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      ",",
+      "Los Angeles, CA United States",
+      "New York, NY United States",
+      "Atlanta, GA United States"
+    ]
+  },
+  {
+    "id": "497499",
+    "production": "North Star Tv: Owen And Jess",
+    "type": "Agnostic",
+    "local": "Los Angeles",
+    "startEndDates": "12/09/2019 - 09/19/2020",
+    "signatoryName": "Twenty2 Films Inc.",
+    "contractTitleName": "Short Project Agreement",
+    "businessRepresentative": "Tawanda Lewis Duck",
+    "claimsRepresentative": "Emmy Ferguson",
+    "prodSubType": "Short Project Agreement",
+    "madeFor": "Not Applicable",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Los Angeles, CA United States"
+    ]
+  },
+  {
     "id": "488289",
     "production": "Now Apocalypse (19/20)",
     "type": "Television",
@@ -4776,24 +4780,6 @@
     "prodSubType": "TV - Series",
     "madeFor": "Pay TV",
     "market": "Starz!",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "Los Angeles, CA United States"
-    ]
-  },
-  {
-    "id": "469354",
-    "production": "Obituarist, The",
-    "type": "Theatrical",
-    "local": "Los Angeles",
-    "startEndDates": "08/02/2018 - TBD",
-    "signatoryName": "Shannan Reeve",
-    "contractTitleName": "Short Film Agreement",
-    "businessRepresentative": "Chanda Ulrich",
-    "claimsRepresentative": "Chanda Ulrich",
-    "prodSubType": "Short Film",
-    "madeFor": "TH - Other",
-    "market": "Not Applicable",
     "contributionPlan": "SAG",
     "shootingLocations": [
       "Los Angeles, CA United States"
@@ -4821,22 +4807,21 @@
     ]
   },
   {
-    "id": "470344",
-    "production": "Only Woman In The World, The",
-    "type": "New Media",
+    "id": "507771",
+    "production": "Once Upon A Main Street (2020)",
+    "type": "Television",
     "local": "Los Angeles",
-    "startEndDates": "07/21/2018 - TBD",
-    "signatoryName": "THE ONLY WOMAN IN THE WORLD LLC",
-    "contractTitleName": "New Media Agreement",
-    "businessRepresentative": "Kamau Talbott",
-    "bgClaimsRepresentative": "Toloria Milner",
-    "claimsRepresentative": "Deborah Wonder",
-    "prodSubType": "Original Pilot",
-    "madeFor": "New Media - Deferrable",
-    "market": "YouTube",
+    "startEndDates": "08/17/2020 - 09/04/2020",
+    "signatoryName": "Christmas Reservations Inc.",
+    "contractTitleName": "Television Independent Agreement",
+    "businessRepresentative": "Rose Magcalas",
+    "claimsRepresentative": "Billie Murphy",
+    "prodSubType": "TV - Movie",
+    "madeFor": "Basic Cable",
+    "market": "Lifetime",
     "contributionPlan": "SAG",
     "shootingLocations": [
-      "los angeles, CA United States"
+      "Reno, NV United States"
     ]
   },
   {
@@ -4891,24 +4876,6 @@
     "contributionPlan": "AFTRA",
     "shootingLocations": [
       "South Park, CO United States"
-    ]
-  },
-  {
-    "id": "469677",
-    "production": "Outerbounds, The",
-    "type": "New Media",
-    "local": "Los Angeles",
-    "startEndDates": "07/18/2018 - TBD",
-    "signatoryName": "Picrow, Inc.",
-    "contractTitleName": "New Media Agreement",
-    "businessRepresentative": "Joyce Grant",
-    "claimsRepresentative": "Deborah Wonder",
-    "prodSubType": "Original Other",
-    "madeFor": "New Media - Special Agreement",
-    "market": "Amazon",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "Los Angeles, CA United States"
     ]
   },
   {
@@ -5039,6 +5006,24 @@
     ]
   },
   {
+    "id": "508174",
+    "production": "Patrick Star Show, The (20/21)",
+    "type": "Television Program",
+    "local": "Los Angeles",
+    "startEndDates": "07/29/2020 - TBD",
+    "signatoryName": "Nickelodeon Animation Studios, Inc.",
+    "contractTitleName": "TV Programs",
+    "businessRepresentative": "Lisa Kyle",
+    "claimsRepresentative": "Billie Murphy",
+    "prodSubType": "TV Series",
+    "madeFor": "Basic Cable",
+    "market": "Nickelodeon",
+    "contributionPlan": "AFTRA",
+    "shootingLocations": [
+      "Burbank, CA United States"
+    ]
+  },
+  {
     "id": "487635",
     "production": "Pepper: Ricochet (19/20)",
     "type": "New Media",
@@ -5046,32 +5031,14 @@
     "startEndDates": "06/01/2019 - TBD",
     "signatoryName": "The Pepper Project Pilot Inc.",
     "contractTitleName": "New Media Agreement",
-    "businessRepresentative": "Kamau Talbott",
-    "claimsRepresentative": "Erica Santucci",
+    "businessRepresentative": "Joyce Grant",
+    "claimsRepresentative": "William Dreyer",
     "prodSubType": "Original Series",
     "madeFor": "New Media - Deferrable",
     "market": "Other New Media",
     "contributionPlan": "SAG",
     "shootingLocations": [
       "New York, CA United States"
-    ]
-  },
-  {
-    "id": "470418",
-    "production": "Pet Peeve Police (18/19)",
-    "type": "New Media",
-    "local": "Los Angeles",
-    "startEndDates": "08/01/2018 - TBD",
-    "signatoryName": "Sarah Barrezueta",
-    "contractTitleName": "New Media Agreement",
-    "businessRepresentative": "Erin Cardillo",
-    "claimsRepresentative": "Billie Murphy",
-    "prodSubType": "Original Series",
-    "madeFor": "New Media - Deferrable",
-    "market": "Other New Media",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "Lawndale, CA United States"
     ]
   },
   {
@@ -5109,6 +5076,24 @@
     "contributionPlan": "SAG",
     "shootingLocations": [
       "los angeles, CA United States"
+    ]
+  },
+  {
+    "id": "508173",
+    "production": "Pj Sparkleton (Pilot)",
+    "type": "Television Program",
+    "local": "Los Angeles",
+    "startEndDates": "07/01/2020 - TBD",
+    "signatoryName": "Nickelodeon Animation Studios, Inc.",
+    "contractTitleName": "TV Programs",
+    "businessRepresentative": "Lisa Kyle",
+    "claimsRepresentative": "Billie Murphy",
+    "prodSubType": "TV - Pilot",
+    "madeFor": "Basic Cable",
+    "market": "Nickelodeon",
+    "contributionPlan": "AFTRA",
+    "shootingLocations": [
+      "Burbank, CA United States"
     ]
   },
   {
@@ -5206,25 +5191,6 @@
     ]
   },
   {
-    "id": "472008",
-    "production": "Poz Roz (Yr1)",
-    "type": "New Media",
-    "local": "Los Angeles",
-    "startEndDates": "08/16/2018 - TBD",
-    "signatoryName": "Poz Roz LLC",
-    "contractTitleName": "New Media Agreement",
-    "businessRepresentative": "Kamau Talbott",
-    "bgClaimsRepresentative": "Toloria Milner",
-    "claimsRepresentative": "Deborah Wonder",
-    "prodSubType": "Original Series",
-    "madeFor": "New Media - Deferrable",
-    "market": "Other New Media",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "los angeles, CA United States"
-    ]
-  },
-  {
     "id": "479755",
     "production": "Preacher (19/20)",
     "type": "Television Program",
@@ -5315,22 +5281,39 @@
     ]
   },
   {
-    "id": "470339",
-    "production": "Public Relations",
-    "type": "New Media",
+    "id": "507725",
+    "production": "Punch",
+    "type": "Agnostic",
     "local": "Los Angeles",
-    "startEndDates": "07/21/2018 - TBD",
-    "signatoryName": "Thomas Stewart",
-    "contractTitleName": "New Media Agreement",
-    "businessRepresentative": "Kamau Talbott",
-    "bgClaimsRepresentative": "Toloria Milner",
-    "claimsRepresentative": "Deborah Wonder",
-    "prodSubType": "Original Pilot",
-    "madeFor": "New Media - Deferrable",
-    "market": "YouTube",
+    "startEndDates": "08/17/2020 - 08/31/2020",
+    "signatoryName": "The School of Night",
+    "contractTitleName": "Short Project Agreement",
+    "businessRepresentative": "Chanda Ulrich",
+    "claimsRepresentative": "Silvia Gerber",
+    "prodSubType": "Short Project Agreement",
+    "madeFor": "Not Applicable",
+    "market": "Not Applicable",
     "contributionPlan": "SAG",
     "shootingLocations": [
-      "los angeles, CA United States"
+      "Los Angeles, CA United States"
+    ]
+  },
+  {
+    "id": "508392",
+    "production": "Punky Brewster (20/21)",
+    "type": "New Media",
+    "local": "Los Angeles",
+    "startEndDates": "10/12/2020 - 12/16/2020",
+    "signatoryName": "Universal Content Productions LLC",
+    "contractTitleName": "Television AMPTP Agreement",
+    "businessRepresentative": "Joyce Grant",
+    "claimsRepresentative": "Billie Murphy",
+    "prodSubType": "Original Series",
+    "madeFor": "New Media - High-Budget SVOD/Tier 1",
+    "market": "Peacock",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Los Angeles, CA United States"
     ]
   },
   {
@@ -5389,6 +5372,24 @@
     ]
   },
   {
+    "id": "507993",
+    "production": "Question What You Know",
+    "type": "Agnostic",
+    "local": "Los Angeles",
+    "startEndDates": "08/20/2020 - 08/21/2020",
+    "signatoryName": "Amira Francis",
+    "contractTitleName": "Short Project Agreement",
+    "businessRepresentative": "Tawanda Lewis Duck",
+    "claimsRepresentative": "Silvia Gerber",
+    "prodSubType": "Short Project Agreement",
+    "madeFor": "Not Applicable",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Los Angeles, CA United States"
+    ]
+  },
+  {
     "id": "504607",
     "production": "Random Rings (20/21)",
     "type": "Television",
@@ -5404,24 +5405,6 @@
     "contributionPlan": "SAG",
     "shootingLocations": [
       "Burbank, CA United States"
-    ]
-  },
-  {
-    "id": "471426",
-    "production": "Randy'S Lyin'",
-    "type": "Agnostic",
-    "local": "Los Angeles",
-    "startEndDates": "08/18/2018 - TBD",
-    "signatoryName": "Staci Fletcher",
-    "contractTitleName": "Short Project Agreement",
-    "businessRepresentative": "Erin Cardillo",
-    "claimsRepresentative": "Billie Murphy",
-    "prodSubType": "Short Project Agreement",
-    "madeFor": "Not Applicable",
-    "market": "Not Applicable",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "North Hollywood, CA United States"
     ]
   },
   {
@@ -5458,6 +5441,42 @@
     "contributionPlan": "SAG",
     "shootingLocations": [
       ", United Kingdom"
+    ]
+  },
+  {
+    "id": "507810",
+    "production": "Rick And Morty (20/21)",
+    "type": "Television Program",
+    "local": "Los Angeles",
+    "startEndDates": "02/01/2020 - 09/30/2020",
+    "signatoryName": "Rick and Morty LLC",
+    "contractTitleName": "TV Programs",
+    "businessRepresentative": "Lisa Kyle",
+    "claimsRepresentative": "Silvia Gerber",
+    "prodSubType": "TV Series",
+    "madeFor": "Basic Cable",
+    "market": "Cartoon Network",
+    "contributionPlan": "AFTRA",
+    "shootingLocations": [
+      "Burbank, CA United States"
+    ]
+  },
+  {
+    "id": "507395",
+    "production": "Right Plan/Wrong Man",
+    "type": "Agnostic",
+    "local": "Los Angeles",
+    "startEndDates": "08/12/2020 - 08/24/2020",
+    "signatoryName": "Magic Lantern Films, L.L.C.",
+    "contractTitleName": "Agnostic Independent Agreement SAG-AFTRA",
+    "businessRepresentative": "Joyce Grant",
+    "claimsRepresentative": "Emmy Ferguson",
+    "prodSubType": "Ultra Low Budget",
+    "madeFor": "Not Applicable",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Idaho Springs, CO United States"
     ]
   },
   {
@@ -5552,23 +5571,6 @@
     ],
     "alternateTitles": [
       ""
-    ]
-  },
-  {
-    "id": "470444",
-    "production": "Rocketman",
-    "type": "Theatrical",
-    "local": "Los Angeles",
-    "startEndDates": "08/02/2018 - TBD",
-    "signatoryName": "Paramount Overseas Productions, Inc.",
-    "contractTitleName": "Theatrical AMPTP Agreement",
-    "claimsRepresentative": "Sabina Sanchez",
-    "prodSubType": "Theatrical Regular",
-    "madeFor": "Theatrical Regular",
-    "market": "Not Applicable",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      ", United Kingdom"
     ]
   },
   {
@@ -5684,46 +5686,6 @@
     ]
   },
   {
-    "id": "501719",
-    "production": "Rutherford Falls (20/21)",
-    "type": "New Media",
-    "local": "Los Angeles",
-    "startEndDates": "03/30/2020 - 07/24/2020",
-    "signatoryName": "Universal Television LLC",
-    "contractTitleName": "Television AMPTP Agreement",
-    "businessRepresentative": "Joyce Grant",
-    "claimsRepresentative": "Deborah Wonder",
-    "prodSubType": "Original Series",
-    "madeFor": "New Media - High-Budget SVOD/Tier 2",
-    "market": "Other New Media",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "los angeles, CA United States"
-    ]
-  },
-  {
-    "id": "469097",
-    "production": "S.W.A.T. (18/19)",
-    "type": "Television",
-    "local": "Los Angeles",
-    "startEndDates": "07/18/2018 - TBD",
-    "signatoryName": "Topanga Productions, Inc.",
-    "contractTitleName": "Television AMPTP Agreement",
-    "businessRepresentative": "Rose Magcalas",
-    "bgClaimsRepresentative": "Donna Reed",
-    "claimsRepresentative": "Silvia Gerber",
-    "prodSubType": "TV - Series",
-    "madeFor": "Broadcast Network",
-    "market": "CBS",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "Los Angeles, CA United States"
-    ],
-    "alternateTitles": [
-      ""
-    ]
-  },
-  {
     "id": "472206",
     "production": "S2 (18/19)",
     "type": "New Media",
@@ -5757,25 +5719,6 @@
     "shootingLocations": [
       "Paris, France",
       "Los Angeles, CA United States"
-    ]
-  },
-  {
-    "id": "470720",
-    "production": "Sanctuary, The (Yr 1)",
-    "type": "New Media",
-    "local": "Los Angeles",
-    "startEndDates": "07/28/2018 - TBD",
-    "signatoryName": "Bernadette Speakes",
-    "contractTitleName": "New Media Agreement",
-    "businessRepresentative": "Kamau Talbott",
-    "bgClaimsRepresentative": "Toloria Milner",
-    "claimsRepresentative": "Deborah Wonder",
-    "prodSubType": "Original Series",
-    "madeFor": "New Media - Deferrable",
-    "market": "YouTube",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "los angeles, CA United States"
     ]
   },
   {
@@ -5895,6 +5838,24 @@
     ]
   },
   {
+    "id": "507103",
+    "production": "Searching For Toby",
+    "type": "Agnostic",
+    "local": "Los Angeles",
+    "startEndDates": "07/20/2020 - 08/20/2020",
+    "signatoryName": "Summon The Bear, LLC",
+    "contractTitleName": "Agnostic Independent Agreement SAG-AFTRA",
+    "businessRepresentative": "Tawanda Lewis Duck",
+    "claimsRepresentative": "Melissa Sexton",
+    "prodSubType": "Ultra Low Budget",
+    "madeFor": "Not Applicable",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Los Angeles, CA United States"
+    ]
+  },
+  {
     "id": "505518",
     "production": "See Rock City",
     "type": "New Media",
@@ -5947,6 +5908,45 @@
     "contributionPlan": "SAG",
     "shootingLocations": [
       "los angeles, CA"
+    ]
+  },
+  {
+    "id": "507226",
+    "production": "Shark Beach (2020)",
+    "type": "Television Program",
+    "local": "Los Angeles",
+    "startEndDates": "08/31/2020 - 09/19/2020",
+    "signatoryName": "355 Productions, LLC",
+    "contractTitleName": "TV Programs",
+    "businessRepresentative": "Lisa Kyle",
+    "claimsRepresentative": "Silvia Gerber",
+    "prodSubType": "TV Program",
+    "madeFor": "Basic Cable",
+    "contributionPlan": "AFTRA",
+    "shootingLocations": [
+      "Byron Bay, Australia",
+      ","
+    ]
+  },
+  {
+    "id": "506903",
+    "production": "Shark Tank (20/21)",
+    "type": "Television Program",
+    "local": "Los Angeles",
+    "startEndDates": "08/03/2020 - 09/16/2020",
+    "signatoryName": "208 Productions, LLC",
+    "contractTitleName": "TV Programs",
+    "businessRepresentative": "Rose Magcalas",
+    "claimsRepresentative": "Billie Murphy",
+    "prodSubType": "TV Series",
+    "madeFor": "Broadcast Network",
+    "market": "ABC",
+    "contributionPlan": "AFTRA",
+    "shootingLocations": [
+      "Culver City, CA United States"
+    ],
+    "alternateTitles": [
+      ""
     ]
   },
   {
@@ -6003,41 +6003,22 @@
     ]
   },
   {
-    "id": "470717",
-    "production": "Sketchy Af",
-    "type": "New Media",
+    "id": "506965",
+    "production": "Silk Road Rally, The",
+    "type": "Theatrical",
     "local": "Los Angeles",
-    "startEndDates": "07/28/2018 - TBD",
-    "signatoryName": "Jennifer Johnson",
-    "contractTitleName": "New Media Agreement",
-    "businessRepresentative": "Kamau Talbott",
-    "bgClaimsRepresentative": "Toloria Milner",
-    "claimsRepresentative": "Deborah Wonder",
-    "prodSubType": "Original Series",
-    "madeFor": "New Media - Deferrable",
-    "market": "YouTube",
+    "startEndDates": "08/03/2020 - 07/31/2021",
+    "signatoryName": "SRRQC Productions Inc.",
+    "contractTitleName": "Theatrical Independent Agreement",
+    "businessRepresentative": "Johnathan Vu",
+    "claimsRepresentative": "Sabina Sanchez",
+    "prodSubType": "Theatrical - Animated",
+    "madeFor": "TH - Other",
+    "market": "Not Applicable",
     "contributionPlan": "SAG",
     "shootingLocations": [
-      "los angeles, CA United States"
-    ]
-  },
-  {
-    "id": "469108",
-    "production": "Sneaky Pete (18/19)",
-    "type": "New Media",
-    "local": "Los Angeles",
-    "startEndDates": "08/18/2018 - TBD",
-    "signatoryName": "MESQUITE PRODUCTIONS INC",
-    "contractTitleName": "Television AMPTP Agreement",
-    "businessRepresentative": "Rose Magcalas",
-    "claimsRepresentative": "Erica Santucci",
-    "prodSubType": "Original Series",
-    "madeFor": "New Media - High-Budget SVOD/Tier 1",
-    "market": "Amazon",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "New York, NY United States",
-      "Los Angeles, CA United States"
+      "Montreal, QB Canada",
+      "London, EG United Kingdom"
     ]
   },
   {
@@ -6059,40 +6040,22 @@
     ]
   },
   {
-    "id": "504726",
-    "production": "Social Distance (20/21)",
-    "type": "New Media",
+    "id": "502259",
+    "production": "Soggy Bottom",
+    "type": "Theatrical",
     "local": "Los Angeles",
-    "startEndDates": "06/08/2020 - TBD",
-    "signatoryName": "Netflix Productions, LLC",
-    "contractTitleName": "New Media Netflix Agreement",
-    "businessRepresentative": "Anny Edinchikyan",
-    "claimsRepresentative": "Emmy Ferguson",
-    "prodSubType": "Original Series",
-    "madeFor": "New Media - Special Agreement",
-    "market": "Netflix",
+    "startEndDates": "07/29/2020 - 11/11/2020",
+    "signatoryName": "Soggy Bottom Enterprises",
+    "contractTitleName": "Theatrical Independent Agreement",
+    "businessRepresentative": "Johnathan Vu",
+    "bgClaimsRepresentative": "Louis Hemphill",
+    "claimsRepresentative": "Sabina Sanchez",
+    "prodSubType": "Theatrical Regular",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
     "contributionPlan": "SAG",
     "shootingLocations": [
       "Los Angeles, CA United States"
-    ]
-  },
-  {
-    "id": "471128",
-    "production": "Sole",
-    "type": "New Media",
-    "local": "Los Angeles",
-    "startEndDates": "08/06/2018 - TBD",
-    "signatoryName": "All Us Productions LLC",
-    "contractTitleName": "New Media Agreement",
-    "businessRepresentative": "Kamau Talbott",
-    "bgClaimsRepresentative": "Toloria Milner",
-    "claimsRepresentative": "Deborah Wonder",
-    "prodSubType": "Original Pilot",
-    "madeFor": "New Media - Special Agreement",
-    "market": "Other New Media",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "los angeles, CA United States"
     ]
   },
   {
@@ -6150,27 +6113,6 @@
     ]
   },
   {
-    "id": "470086",
-    "production": "Sonic The Hedgehog",
-    "type": "Theatrical",
-    "local": "Los Angeles",
-    "startEndDates": "07/30/2018 - TBD",
-    "signatoryName": "Hedgehog Films Inc.",
-    "contractTitleName": "Theatrical AMPTP Agreement",
-    "claimsRepresentative": "Sabina Sanchez",
-    "prodSubType": "Theatrical Regular",
-    "madeFor": "Theatrical Regular",
-    "market": "Not Applicable",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "Vancouver, Canada"
-    ],
-    "alternateTitles": [
-      "Sonic The Hedgehog",
-      "Casino Nights"
-    ]
-  },
-  {
     "id": "506980",
     "production": "Southland Sessions (20/21)",
     "type": "Television Program",
@@ -6204,25 +6146,6 @@
     "contributionPlan": "SAG",
     "shootingLocations": [
       "Los Angeles, CA United States"
-    ]
-  },
-  {
-    "id": "470795",
-    "production": "Space Castle",
-    "type": "New Media",
-    "local": "Los Angeles",
-    "startEndDates": "07/28/2018 - TBD",
-    "signatoryName": "Crystal Hughes",
-    "contractTitleName": "New Media Agreement",
-    "businessRepresentative": "Kamau Talbott",
-    "bgClaimsRepresentative": "Toloria Milner",
-    "claimsRepresentative": "Deborah Wonder",
-    "prodSubType": "Original Pilot",
-    "madeFor": "New Media - Deferrable",
-    "market": "YouTube",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "los angeles, CA United States"
     ]
   },
   {
@@ -6299,24 +6222,6 @@
     ]
   },
   {
-    "id": "472167",
-    "production": "Spit Rock High (Yr1)",
-    "type": "New Media",
-    "local": "Los Angeles",
-    "startEndDates": "08/13/2018 - TBD",
-    "signatoryName": "Cartuna, LLC",
-    "contractTitleName": "New Media Agreement",
-    "businessRepresentative": "Kamau Talbott",
-    "claimsRepresentative": "Deborah Wonder",
-    "prodSubType": "Original Series",
-    "madeFor": "New Media - Special Agreement",
-    "market": "Other New Media",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "los angeles, CA"
-    ]
-  },
-  {
     "id": "506589",
     "production": "Star Trek (20/21)",
     "type": "Television Program",
@@ -6357,25 +6262,6 @@
     ]
   },
   {
-    "id": "472127",
-    "production": "Still Watching (Yr1)",
-    "type": "New Media",
-    "local": "Los Angeles",
-    "startEndDates": "08/17/2018 - TBD",
-    "signatoryName": "Andrew Forrest",
-    "contractTitleName": "New Media Agreement",
-    "businessRepresentative": "Kamau Talbott",
-    "bgClaimsRepresentative": "Toloria Milner",
-    "claimsRepresentative": "Deborah Wonder",
-    "prodSubType": "Original Series",
-    "madeFor": "New Media - Deferrable",
-    "market": "Other New Media",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "los angeles, CA United States"
-    ]
-  },
-  {
     "id": "483192",
     "production": "Stillwater (19/20)",
     "type": "New Media",
@@ -6393,23 +6279,6 @@
       "los angeles, CA United States",
       "Hollywood, CA United States",
       "Tokyo, Japan"
-    ]
-  },
-  {
-    "id": "467929",
-    "production": "Story Of Cool (Yr 1)",
-    "type": "Television Program",
-    "local": "Los Angeles",
-    "startEndDates": "07/25/2018 - TBD",
-    "signatoryName": "Verite Entertainment LLC",
-    "contractTitleName": "TV Programs",
-    "businessRepresentative": "Joyce Grant",
-    "claimsRepresentative": "Billie Murphy",
-    "prodSubType": "TV Series",
-    "madeFor": "Basic Cable",
-    "contributionPlan": "AFTRA",
-    "shootingLocations": [
-      "Los Angeles, CA United States"
     ]
   },
   {
@@ -6563,22 +6432,39 @@
     ]
   },
   {
-    "id": "470719",
-    "production": "Surviving The Band",
-    "type": "New Media",
+    "id": "488922",
+    "production": "Swat (19/20)",
+    "type": "Television",
     "local": "Los Angeles",
-    "startEndDates": "07/28/2018 - TBD",
-    "signatoryName": "Vincenzo Lucciola",
-    "contractTitleName": "New Media Agreement",
-    "businessRepresentative": "Kamau Talbott",
-    "bgClaimsRepresentative": "Toloria Milner",
-    "claimsRepresentative": "Deborah Wonder",
-    "prodSubType": "Original Pilot",
-    "madeFor": "New Media - Deferrable",
-    "market": "YouTube",
+    "startEndDates": "07/18/2019 - TBD",
+    "signatoryName": "Topanga Productions, Inc.",
+    "contractTitleName": "Television AMPTP Agreement",
+    "businessRepresentative": "Rose Magcalas",
+    "claimsRepresentative": "Silvia Gerber",
+    "prodSubType": "TV - Series",
+    "madeFor": "Broadcast Network",
+    "market": "CBS",
     "contributionPlan": "SAG",
     "shootingLocations": [
-      "los angeles, CA United States"
+      "Los Angeles, CA United States"
+    ]
+  },
+  {
+    "id": "507919",
+    "production": "Swat (20/21)",
+    "type": "Television",
+    "local": "Los Angeles",
+    "startEndDates": "08/04/2020 - TBD",
+    "signatoryName": "Topanga Productions, Inc.",
+    "contractTitleName": "Television AMPTP Agreement",
+    "businessRepresentative": "Rose Magcalas",
+    "claimsRepresentative": "Silvia Gerber",
+    "prodSubType": "TV - Series",
+    "madeFor": "Broadcast Network",
+    "market": "CBS",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Los Angeles, CA United States"
     ]
   },
   {
@@ -6618,6 +6504,24 @@
     ]
   },
   {
+    "id": "502584",
+    "production": "Symone (20/21)",
+    "type": "New Media",
+    "local": "Los Angeles",
+    "startEndDates": "08/01/2020 - 08/30/2020",
+    "signatoryName": "4 Hearts Entertainment, LLC",
+    "contractTitleName": "New Media Agreement",
+    "businessRepresentative": "Rose Magcalas",
+    "claimsRepresentative": "Emmy Ferguson",
+    "prodSubType": "Original Series",
+    "madeFor": "New Media - Deferrable",
+    "market": "YouTube",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Los Angeles, CA United States"
+    ]
+  },
+  {
     "id": "474565",
     "production": "Synchronicity",
     "type": "New Media",
@@ -6637,6 +6541,42 @@
     ]
   },
   {
+    "id": "508162",
+    "production": "T.O.T.S. (19/20)",
+    "type": "Television",
+    "local": "Los Angeles",
+    "startEndDates": "07/07/2019 - 04/03/2021",
+    "signatoryName": "Robin Red Breast Inc.",
+    "contractTitleName": "Basic Cable Agreement for Animated Motion Pictures",
+    "businessRepresentative": "Art Duarte",
+    "claimsRepresentative": "Silvia Gerber",
+    "prodSubType": "TV - Animated Series",
+    "madeFor": "Basic Cable",
+    "market": "Other",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Los Angeles, CA United States"
+    ]
+  },
+  {
+    "id": "506272",
+    "production": "Take Back (2020)",
+    "type": "Agnostic",
+    "local": "Los Angeles",
+    "startEndDates": "08/01/2020 - 08/25/2020",
+    "signatoryName": "TAKE BACK FILM LLC",
+    "contractTitleName": "Agnostic Independent Agreement SAG-AFTRA",
+    "businessRepresentative": "Rose Magcalas",
+    "claimsRepresentative": "Sabina Sanchez",
+    "prodSubType": "Moderate Low Budget Diversity",
+    "madeFor": "Not Applicable",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Greater Palm Springs, CA United States"
+    ]
+  },
+  {
     "id": "501500",
     "production": "Tale Dark & Grimm, A (20/21)",
     "type": "New Media",
@@ -6652,43 +6592,6 @@
     "contributionPlan": "SAG",
     "shootingLocations": [
       "los angeles, CA United States"
-    ]
-  },
-  {
-    "id": "470090",
-    "production": "Tale Of Two Sisters, A",
-    "type": "New Media",
-    "local": "Los Angeles",
-    "startEndDates": "07/21/2018 - TBD",
-    "signatoryName": "TEA TIME PRODUCTIONS",
-    "contractTitleName": "New Media Agreement",
-    "businessRepresentative": "Kamau Talbott",
-    "bgClaimsRepresentative": "Toloria Milner",
-    "claimsRepresentative": "Deborah Wonder",
-    "prodSubType": "Original Pilot",
-    "madeFor": "New Media - Deferrable",
-    "market": "YouTube",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "los angeles, CA United States"
-    ]
-  },
-  {
-    "id": "496257",
-    "production": "Talk, The (19/20)",
-    "type": "Television Program",
-    "local": "Los Angeles",
-    "startEndDates": "09/09/2019 - 07/29/2020",
-    "signatoryName": "CBS STUDIOS INC.",
-    "contractTitleName": "TV Programs",
-    "businessRepresentative": "Rebecca Knowlton",
-    "claimsRepresentative": "Billie Murphy",
-    "prodSubType": "TV Series",
-    "madeFor": "Broadcast Network",
-    "market": "CBS",
-    "contributionPlan": "AFTRA",
-    "shootingLocations": [
-      "Studio City, CA United States"
     ]
   },
   {
@@ -6731,25 +6634,6 @@
     ]
   },
   {
-    "id": "470797",
-    "production": "That Background Guy (Yr 1)",
-    "type": "New Media",
-    "local": "Los Angeles",
-    "startEndDates": "07/29/2018 - TBD",
-    "signatoryName": "That Background Guy, LLC",
-    "contractTitleName": "New Media Agreement",
-    "businessRepresentative": "Kamau Talbott",
-    "bgClaimsRepresentative": "Toloria Milner",
-    "claimsRepresentative": "Deborah Wonder",
-    "prodSubType": "Original Series",
-    "madeFor": "New Media - Deferrable",
-    "market": "YouTube",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "los angeles, CA United States"
-    ]
-  },
-  {
     "id": "489581",
     "production": "Them: Covenant (19/20)",
     "type": "New Media",
@@ -6767,7 +6651,7 @@
       "Los Angeles, CA United States",
       "Pomona, CA United States",
       "Pacoima, CA United States",
-      ","
+      "Santa Fe, NM United States"
     ]
   },
   {
@@ -6804,6 +6688,23 @@
     "contributionPlan": "SAG",
     "shootingLocations": [
       "los angeles, CA United States"
+    ]
+  },
+  {
+    "id": "507274",
+    "production": "Thinking About Water (2020)",
+    "type": "Television Program",
+    "local": "Los Angeles",
+    "startEndDates": "08/31/2020 - 08/31/2020",
+    "signatoryName": "355 Productions, LLC",
+    "contractTitleName": "TV Programs",
+    "businessRepresentative": "Lisa Kyle",
+    "claimsRepresentative": "Billie Murphy",
+    "prodSubType": "Special",
+    "madeFor": "Basic Cable",
+    "contributionPlan": "AFTRA",
+    "shootingLocations": [
+      "Los Angelees, CA United States"
     ]
   },
   {
@@ -6883,6 +6784,24 @@
     ]
   },
   {
+    "id": "503495",
+    "production": "Till Death",
+    "type": "Theatrical",
+    "local": "Los Angeles",
+    "startEndDates": "07/25/2020 - 09/05/2020",
+    "signatoryName": "Nu Boyana Grave EOOD",
+    "contractTitleName": "Theatrical Independent Agreement",
+    "businessRepresentative": "Johnathan Vu",
+    "claimsRepresentative": "Melissa Sexton",
+    "prodSubType": "Theatrical Regular",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Sofia, Bulgaria"
+    ]
+  },
+  {
     "id": "500047",
     "production": "Tokyo Vice (20/21)",
     "type": "New Media",
@@ -6917,6 +6836,24 @@
     "shootingLocations": [
       ", United Kingdom",
       "new york, NY United States"
+    ]
+  },
+  {
+    "id": "504195",
+    "production": "Tosh.0 (20/21)",
+    "type": "Television Program",
+    "local": "Los Angeles",
+    "startEndDates": "02/17/2020 - 11/13/2020",
+    "signatoryName": "CENTRAL PRODUCTIONS LLC",
+    "contractTitleName": "TV Programs",
+    "businessRepresentative": "Lisa Kyle",
+    "claimsRepresentative": "Billie Murphy",
+    "prodSubType": "TV Series",
+    "madeFor": "Basic Cable",
+    "market": "Comedy Central",
+    "contributionPlan": "AFTRA",
+    "shootingLocations": [
+      "Culver City, CA United States"
     ]
   },
   {
@@ -6956,6 +6893,24 @@
     ]
   },
   {
+    "id": "507177",
+    "production": "Tuca & Bertie (20/21)",
+    "type": "Television",
+    "local": "Los Angeles",
+    "startEndDates": "06/01/2020 - 05/14/2021",
+    "signatoryName": "T&amp;B PRODUCTIONS LLC",
+    "contractTitleName": "Basic Cable Agreement for Animated Motion Pictures",
+    "businessRepresentative": "Lisa Kyle",
+    "claimsRepresentative": "Emmy Ferguson",
+    "prodSubType": "TV - Animated Series",
+    "madeFor": "Basic Cable",
+    "market": "Comedy Central",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Los Angeles, CA United States"
+    ]
+  },
+  {
     "id": "502155",
     "production": "Ugh! (Pilot)",
     "type": "Television",
@@ -6971,42 +6926,6 @@
     "contributionPlan": "SAG",
     "shootingLocations": [
       "Burbank, CA United States"
-    ]
-  },
-  {
-    "id": "503498",
-    "production": "Ultimate Surfer, The (20/21)",
-    "type": "Television Program",
-    "local": "Los Angeles",
-    "startEndDates": "07/06/2020 - 07/28/2020",
-    "signatoryName": "Project X Productions, LLC",
-    "contractTitleName": "TV Programs",
-    "businessRepresentative": "Art Duarte",
-    "claimsRepresentative": "Silvia Gerber",
-    "prodSubType": "TV Series",
-    "madeFor": "Broadcast Network",
-    "market": "ABC",
-    "contributionPlan": "AFTRA",
-    "shootingLocations": [
-      "Lemoore, CA United States"
-    ]
-  },
-  {
-    "id": "506753",
-    "production": "Unfiltered",
-    "type": "Agnostic",
-    "local": "Los Angeles",
-    "startEndDates": "07/17/2020 - 07/19/2020",
-    "signatoryName": "Alexandria Marasigan",
-    "contractTitleName": "Short Project Agreement",
-    "businessRepresentative": "Tawanda Lewis Duck",
-    "claimsRepresentative": "Silvia Gerber",
-    "prodSubType": "Short Project Agreement",
-    "madeFor": "Not Applicable",
-    "market": "Not Applicable",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "Los Angeles, CA United States"
     ]
   },
   {
@@ -7069,6 +6988,42 @@
     ]
   },
   {
+    "id": "505645",
+    "production": "Unknown Episode 1: Geraldine Washington",
+    "type": "Agnostic",
+    "local": "Los Angeles",
+    "startEndDates": "08/14/2020 - 08/20/2020",
+    "signatoryName": "Kendra Hill",
+    "contractTitleName": "Short Project Agreement",
+    "businessRepresentative": "Joyce Grant",
+    "claimsRepresentative": "Silvia Gerber",
+    "prodSubType": "Short Project Agreement",
+    "madeFor": "Not Applicable",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Los Angeles, CA United States"
+    ]
+  },
+  {
+    "id": "496256",
+    "production": "Unplugging",
+    "type": "Theatrical",
+    "local": "Los Angeles",
+    "startEndDates": "08/03/2020 - 09/12/2020",
+    "signatoryName": "Comatose Chicken Inc",
+    "contractTitleName": "Theatrical Independent Agreement",
+    "businessRepresentative": "Anna Pogosyan",
+    "claimsRepresentative": "Melissa Sexton",
+    "prodSubType": "Low Budget Affirmative Action",
+    "madeFor": "TH - Other",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Los Angeles, CA United States"
+    ]
+  },
+  {
     "id": "480580",
     "production": "Unseen Realm, The (2019)",
     "type": "New Media",
@@ -7114,6 +7069,7 @@
     "signatoryName": "Silhouette Pictures, LLC",
     "contractTitleName": "Theatrical Netflix Agreement",
     "businessRepresentative": "Anna Pogosyan",
+    "bgClaimsRepresentative": "Toloria Milner",
     "claimsRepresentative": "Melissa Sexton",
     "prodSubType": "Theatrical Regular",
     "madeFor": "Theatrical Regular",
@@ -7124,22 +7080,22 @@
     ]
   },
   {
-    "id": "470886",
-    "production": "Uproar",
+    "id": "506878",
+    "production": "Usagi Yojimbo (20/21)",
     "type": "New Media",
     "local": "Los Angeles",
-    "startEndDates": "08/01/2018 - TBD",
-    "signatoryName": "COMMODORE INDEPENDENT FILMWORKS, LLC",
-    "contractTitleName": "New Media Agreement",
-    "businessRepresentative": "Kamau Talbott",
-    "bgClaimsRepresentative": "Toloria Milner",
-    "claimsRepresentative": "Deborah Wonder",
-    "prodSubType": "Original Pilot",
-    "madeFor": "New Media - Deferrable",
-    "market": "Other New Media",
+    "startEndDates": "08/04/2020 - TBD",
+    "signatoryName": "Usagi Productions LLC",
+    "contractTitleName": "High Budget New Media Animation Agreement",
+    "businessRepresentative": "Anny Edinchikyan",
+    "claimsRepresentative": "Emmy Ferguson",
+    "prodSubType": "Original Series",
+    "madeFor": "New Media - High-Budget SVOD/Tier 2",
+    "market": "Netflix",
     "contributionPlan": "SAG",
     "shootingLocations": [
-      "los angeles, CA United States"
+      "Los Angeles, CA United States",
+      "Paris, FR France"
     ]
   },
   {
@@ -7256,22 +7212,21 @@
     ]
   },
   {
-    "id": "470589",
-    "production": "Wake",
-    "type": "New Media",
+    "id": "506472",
+    "production": "Voice, The (20/21)",
+    "type": "Television Program",
     "local": "Los Angeles",
-    "startEndDates": "08/14/2018 - TBD",
-    "signatoryName": "Wake Pictures LLC",
-    "contractTitleName": "New Media Agreement",
-    "businessRepresentative": "Joyce Grant",
-    "bgClaimsRepresentative": "Toloria Milner",
-    "claimsRepresentative": "Deborah Wonder",
-    "prodSubType": "Original Other",
-    "madeFor": "New Media - Special Agreement",
-    "market": "Amazon",
-    "contributionPlan": "SAG",
+    "startEndDates": "08/03/2020 - 12/19/2020",
+    "signatoryName": "208 Productions, LLC",
+    "contractTitleName": "TV Programs",
+    "businessRepresentative": "Rose Magcalas",
+    "claimsRepresentative": "Billie Murphy",
+    "prodSubType": "TV Program",
+    "madeFor": "Broadcast Network",
+    "market": "NBC",
+    "contributionPlan": "AFTRA",
     "shootingLocations": [
-      "Los Angeles, CA United States"
+      "Universal City, CA United States"
     ]
   },
   {
@@ -7291,6 +7246,24 @@
     "contributionPlan": "SAG",
     "shootingLocations": [
       "los angeles, CA United States"
+    ]
+  },
+  {
+    "id": "508154",
+    "production": "Watchers",
+    "type": "Agnostic",
+    "local": "Los Angeles",
+    "startEndDates": "08/28/2020 - 08/28/2020",
+    "signatoryName": "Leslee Crisman",
+    "contractTitleName": "Short Project Agreement",
+    "businessRepresentative": "Sara Lissner",
+    "claimsRepresentative": "Emmy Ferguson",
+    "prodSubType": "Short Project Agreement",
+    "madeFor": "Not Applicable",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Van Nuys, CA United States"
     ]
   },
   {
@@ -7408,22 +7381,39 @@
     ]
   },
   {
-    "id": "506432",
-    "production": "Wear A Mask!",
+    "id": "507320",
+    "production": "Weakest Link (20/21)",
+    "type": "Television Program",
+    "local": "Los Angeles",
+    "startEndDates": "08/28/2020 - 09/03/2020",
+    "signatoryName": "Lime Grove Productions, LLC",
+    "contractTitleName": "TV Programs",
+    "businessRepresentative": "Art Duarte",
+    "claimsRepresentative": "Billie Murphy",
+    "prodSubType": "TV Series",
+    "madeFor": "Broadcast Network",
+    "market": "NBC",
+    "contributionPlan": "AFTRA",
+    "shootingLocations": [
+      "Los Angeles, CA United States"
+    ]
+  },
+  {
+    "id": "507773",
+    "production": "Weekend, The",
     "type": "Agnostic",
     "local": "Los Angeles",
-    "startEndDates": "07/02/2020 - 07/31/2020",
-    "signatoryName": "Mark Lutwak",
-    "contractTitleName": "Short Project Agreement",
-    "businessRepresentative": "Miranda Wilcox",
-    "claimsRepresentative": "Emmy Ferguson",
-    "prodSubType": "Short Project Agreement",
+    "startEndDates": "08/20/2020 - 08/31/2020",
+    "signatoryName": "mentalounge",
+    "contractTitleName": "Agnostic Independent Agreement SAG-AFTRA",
+    "businessRepresentative": "Rose Magcalas",
+    "claimsRepresentative": "Melissa Sexton",
+    "prodSubType": "Ultra Low Budget",
     "madeFor": "Not Applicable",
     "market": "Not Applicable",
     "contributionPlan": "SAG",
     "shootingLocations": [
-      "Seattle, WA United States",
-      "Seattle, WA United States"
+      "Denver, CO United States"
     ]
   },
   {
@@ -7443,6 +7433,42 @@
     "contributionPlan": "SAG",
     "shootingLocations": [
       "los angeles, CA United States"
+    ]
+  },
+  {
+    "id": "508090",
+    "production": "Wheel Of Fortune (20/21)",
+    "type": "Television Program",
+    "local": "Los Angeles",
+    "startEndDates": "08/05/2020 - 06/21/2021",
+    "signatoryName": "QUADRA PRODUCTIONS INC. (CA)",
+    "contractTitleName": "TV Programs",
+    "businessRepresentative": "Rose Magcalas",
+    "claimsRepresentative": "Silvia Gerber",
+    "prodSubType": "TV Series",
+    "madeFor": "Syndication",
+    "market": "Syndication",
+    "contributionPlan": "AFTRA",
+    "shootingLocations": [
+      "Culver City, CA United States"
+    ]
+  },
+  {
+    "id": "506947",
+    "production": "Wheel, The",
+    "type": "Agnostic",
+    "local": "Los Angeles",
+    "startEndDates": "07/26/2020 - 08/21/2020",
+    "signatoryName": "Eastern Blocc LLC",
+    "contractTitleName": "Agnostic Independent Agreement SAG-AFTRA",
+    "businessRepresentative": "Joyce Grant",
+    "claimsRepresentative": "Emmy Ferguson",
+    "prodSubType": "Ultra Low Budget",
+    "madeFor": "Not Applicable",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Navarro, CA United States"
     ]
   },
   {
@@ -7498,6 +7524,24 @@
     "contributionPlan": "SAG",
     "shootingLocations": [
       "San Francisco, CA United States"
+    ]
+  },
+  {
+    "id": "508345",
+    "production": "Who Wants To Be A Millionaire (20/21) Cycle 2",
+    "type": "Television Program",
+    "local": "Los Angeles",
+    "startEndDates": "08/24/2020 - 08/27/2020",
+    "signatoryName": "VANDAM PRODUCTIONS, LLC",
+    "contractTitleName": "TV Programs",
+    "businessRepresentative": "Rose Magcalas",
+    "claimsRepresentative": "Silvia Gerber",
+    "prodSubType": "TV Series",
+    "madeFor": "Broadcast Network",
+    "market": "ABC",
+    "contributionPlan": "AFTRA",
+    "shootingLocations": [
+      "Los Angeles, CA United States"
     ]
   },
   {
@@ -7598,22 +7642,22 @@
     ]
   },
   {
-    "id": "470342",
-    "production": "Yana'S World (Yr 1)",
-    "type": "New Media",
+    "id": "505858",
+    "production": "Wrong Reasons (2020)",
+    "type": "Agnostic",
     "local": "Los Angeles",
-    "startEndDates": "07/23/2018 - TBD",
-    "signatoryName": "Yana Zinovyeva",
-    "contractTitleName": "New Media Agreement",
-    "businessRepresentative": "Kamau Talbott",
-    "bgClaimsRepresentative": "Toloria Milner",
-    "claimsRepresentative": "Deborah Wonder",
-    "prodSubType": "Original Series",
-    "madeFor": "New Media - Deferrable",
-    "market": "YouTube",
+    "startEndDates": "08/23/2020 - 09/27/2020",
+    "signatoryName": "Gun To A Knife Fight, LLC",
+    "contractTitleName": "Agnostic Independent Agreement SAG-AFTRA",
+    "businessRepresentative": "Rose Magcalas",
+    "claimsRepresentative": "Melissa Sexton",
+    "prodSubType": "Ultra Low Budget",
+    "madeFor": "Not Applicable",
+    "market": "Not Applicable",
     "contributionPlan": "SAG",
     "shootingLocations": [
-      "los angeles, CA United States"
+      "Los Angeles, CA United States",
+      "Idyllwild, CA United States"
     ]
   },
   {
@@ -7654,43 +7698,6 @@
     ]
   },
   {
-    "id": "488465",
-    "production": "Yellowstone (19/20)",
-    "type": "Television Program",
-    "local": "Los Angeles",
-    "startEndDates": "06/17/2019 - 07/31/2020",
-    "signatoryName": "Fire And Ice Productions, Inc.",
-    "contractTitleName": "TV Programs",
-    "businessRepresentative": "Lisa Kyle",
-    "claimsRepresentative": "Billie Murphy",
-    "prodSubType": "TV Series",
-    "madeFor": "Basic Cable",
-    "market": "Spike TV",
-    "contributionPlan": "AFTRA",
-    "shootingLocations": [
-      "Park City, UT United States"
-    ]
-  },
-  {
-    "id": "472109",
-    "production": "Yelpers (Yr1)",
-    "type": "New Media",
-    "local": "Los Angeles",
-    "startEndDates": "08/19/2018 - TBD",
-    "signatoryName": "Katherine Hall",
-    "contractTitleName": "New Media Agreement",
-    "businessRepresentative": "Kamau Talbott",
-    "bgClaimsRepresentative": "Toloria Milner",
-    "claimsRepresentative": "Deborah Wonder",
-    "prodSubType": "Original Series",
-    "madeFor": "New Media - Deferrable",
-    "market": "Other New Media",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "los angeles, CA United States"
-    ]
-  },
-  {
     "id": "478103",
     "production": "You'Re Not A Monster (18/19)",
     "type": "New Media",
@@ -7706,6 +7713,24 @@
     "contributionPlan": "SAG",
     "shootingLocations": [
       ", CA United States"
+    ]
+  },
+  {
+    "id": "507523",
+    "production": "Young Nurse",
+    "type": "Agnostic",
+    "local": "Los Angeles",
+    "startEndDates": "08/05/2020 - 08/24/2020",
+    "signatoryName": "Tyler Friesen",
+    "contractTitleName": "Short Project Agreement",
+    "businessRepresentative": "Rebecca Knowlton",
+    "claimsRepresentative": "Silvia Gerber",
+    "prodSubType": "Short Project Agreement",
+    "madeFor": "Not Applicable",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Sonora, CA United States"
     ]
   },
   {
