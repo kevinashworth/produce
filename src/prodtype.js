@@ -1,5 +1,7 @@
 const fs = require('fs');
 const glob = require('glob');
+const difference = require('lodash/difference');
+const remove = require('lodash/remove');
 const mkdirp = require('mkdirp');
 const path = require('path');
 const puppeteer = require('puppeteer');
@@ -9,11 +11,8 @@ const error = chalk.bold.red;
 const success = chalk.bold.green;
 const verbose = chalk.bold.yellow;
 
-const difference = require('lodash/difference');
-const remove = require('lodash/remove');
-
-const CREDENTIALS = require('./credentials.js');
 const CONFIG = require('./config.js');
+const CREDENTIALS = require('./credentials.js');
 
 const USERNAME_SELECTOR = '#edit-name';
 const PASSWORD_SELECTOR = '#edit-pass';
