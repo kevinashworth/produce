@@ -22,7 +22,7 @@ const LOCATION_SELECTOR = 'select#edit-location';
 const LISTINGS_AVAILABLE = '#production_listings_results #production_listings';
 const LISTINGS_SELECTOR = '#production_listings > [id^=row]';
 
-const LOCATION = 'GA';
+const LOCATION = 'NM';
 const OUTPUT_DIR = `./output/location/${LOCATION}`; // assumes we run `node src/location.js`
 
 // reminder: runs in browser context
@@ -195,7 +195,7 @@ const handleDetailsPageFn = (detailsElement) => {
       if (err) throw err;
       const timeWrite = new Date();
       const duration = Math.floor((timeWrite - timeStart) / 1000);
-      console.log(verbose(`${i} of ${listings.length} (${duration} s) ${outFile} was saved:`));
+      console.log(verbose(`${i+1} of ${listings.length} (${duration} s) ${outFile} was saved:`));
       console.log(listing);
     });
 
