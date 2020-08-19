@@ -1,17 +1,18 @@
 [
   {
-    "id": "506373",
-    "production": "Frontline: Fixing The Force",
-    "type": "Television Program",
+    "id": "508102",
+    "production": "Here Comes The Break (20/21)",
+    "type": "New Media",
     "local": "New England",
-    "startEndDates": "07/01/2020 - 07/30/2020",
-    "signatoryName": "WGBH EDUCATIONAL FOUNDATION",
-    "contractTitleName": "TV Programs",
-    "claimsRepresentative": "Jessica Maher",
-    "prodSubType": "TV Program",
-    "madeFor": "Public TV",
-    "market": "Public TV",
-    "contributionPlan": "AFTRA",
+    "startEndDates": "08/10/2020 - 08/21/2020",
+    "signatoryName": "DG Entertainment Media, Inc.",
+    "contractTitleName": "Television AMPTP Agreement",
+    "businessRepresentative": "Timothy Kuhl",
+    "claimsRepresentative": "Emmy Ferguson",
+    "prodSubType": "Original Podcast",
+    "madeFor": "New Media - Negotiable",
+    "market": "Other New Media",
+    "contributionPlan": "SAG",
     "shootingLocations": [
       "Boston, MA United States"
     ]
@@ -35,23 +36,21 @@
     ]
   },
   {
-    "id": "497991",
-    "production": "Mnemosyne",
-    "type": "Theatrical",
+    "id": "508645",
+    "production": "Loretta And Will",
+    "type": "Agnostic",
     "local": "New England",
-    "startEndDates": "12/07/2019 - 07/31/2020",
-    "signatoryName": "B Bros Productions, LLC",
-    "contractTitleName": "Theatrical Independent Agreement",
-    "businessRepresentative": "Amanda Shapiro",
-    "claimsRepresentative": "Pearl Brady",
-    "prodSubType": "Ultra Low Budget",
-    "madeFor": "TH - Other",
+    "startEndDates": "08/20/2020 - 08/30/2020",
+    "signatoryName": "Donna Sorbello",
+    "contractTitleName": "Short Project Agreement",
+    "businessRepresentative": "Jessica Maher",
+    "claimsRepresentative": "Jessica Maher",
+    "prodSubType": "Short Project Agreement",
+    "madeFor": "Not Applicable",
     "market": "Not Applicable",
     "contributionPlan": "SAG",
     "shootingLocations": [
-      ", ME United States",
-      ", NH United States",
-      ", NY United States"
+      "Boston, MA"
     ]
   },
   {
@@ -71,21 +70,39 @@
     ]
   },
   {
-    "id": "505911",
-    "production": "Royal Holiday (2020)",
-    "type": "Television",
+    "id": "508390",
+    "production": "Nova: Follow The Dna",
+    "type": "Television Program",
     "local": "New England",
-    "startEndDates": "07/07/2020 - 07/29/2020",
-    "signatoryName": "Royal Productions, LLC",
-    "contractTitleName": "Television Independent Agreement",
-    "businessRepresentative": "Rose Magcalas",
+    "startEndDates": "08/11/2020 - 08/30/2020",
+    "signatoryName": "WGBH EDUCATIONAL FOUNDATION",
+    "contractTitleName": "TV Programs",
     "claimsRepresentative": "Jessica Maher",
-    "prodSubType": "TV - Movie",
-    "madeFor": "Basic Cable",
-    "market": "Hallmark Channel",
+    "prodSubType": "TV Program",
+    "madeFor": "Public TV",
+    "market": "Public TV",
+    "contributionPlan": "AFTRA",
+    "shootingLocations": [
+      "Boston, MA United States"
+    ]
+  },
+  {
+    "id": "507036",
+    "production": "Salesman",
+    "type": "Agnostic",
+    "local": "New England",
+    "startEndDates": "07/28/2020 - 08/20/2020",
+    "signatoryName": "3 Gatos LLC",
+    "contractTitleName": "Agnostic Independent Agreement SAG-AFTRA",
+    "businessRepresentative": "Amanda Shapiro",
+    "claimsRepresentative": "Jessica Maher",
+    "prodSubType": "Ultra Low Budget",
+    "madeFor": "Not Applicable",
+    "market": "Not Applicable",
     "contributionPlan": "SAG",
     "shootingLocations": [
-      "Putnam, CT United States"
+      "Boston, MA United States",
+      "Boston, MA United States"
     ]
   },
   {
@@ -108,6 +125,25 @@
     "alternateTitles": [
       "Wonderland",
       "Spenser: Confidential"
+    ]
+  },
+  {
+    "id": "507520",
+    "production": "Unidentified Objects",
+    "type": "Agnostic",
+    "local": "New England",
+    "startEndDates": "08/11/2020 - 08/28/2020",
+    "signatoryName": "UNIDENTIFIED OBJECTS FILM, LLC",
+    "contractTitleName": "Agnostic Independent Agreement SAG-AFTRA",
+    "businessRepresentative": "Amanda Shapiro",
+    "claimsRepresentative": "Jessica Maher",
+    "prodSubType": "Ultra Low Budget",
+    "madeFor": "Not Applicable",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "unspecified, ME United States",
+      "Unspecified, ME United States"
     ]
   }
 ]
