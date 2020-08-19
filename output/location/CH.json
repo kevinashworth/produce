@@ -1,41 +1,5 @@
 [
   {
-    "id": "505591",
-    "production": "Complete Bull (20/21)",
-    "type": "New Media",
-    "local": "Chicago",
-    "startEndDates": "05/31/2020 - 07/24/2020",
-    "signatoryName": "Complete Bull LLC",
-    "contractTitleName": "New Media Special Agreement",
-    "businessRepresentative": "Anny Edinchikyan",
-    "claimsRepresentative": "Emmy Ferguson",
-    "prodSubType": "Original Series",
-    "madeFor": "New Media - Special Agreement",
-    "market": "Other New Media",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "Dubuque, IA United States"
-    ]
-  },
-  {
-    "id": "502655",
-    "production": "Counterfeit",
-    "type": "Agnostic",
-    "local": "Chicago",
-    "startEndDates": "07/25/2020 - 07/26/2020",
-    "signatoryName": "Spilled Ink Cinema, LLC.",
-    "contractTitleName": "Short Project Agreement",
-    "businessRepresentative": "Sanaa Sayyed",
-    "prodSubType": "Short Project Agreement",
-    "madeFor": "Not Applicable",
-    "market": "Not Applicable",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "Clive, IA",
-      "De Soto, IA"
-    ]
-  },
-  {
     "id": "500297",
     "production": "Donkey Hodie (19/21)",
     "type": "Television Program",
@@ -57,30 +21,12 @@
     ]
   },
   {
-    "id": "505578",
-    "production": "Emporia (20/21)",
-    "type": "Television",
-    "local": "Chicago",
-    "startEndDates": "09/14/2020 - 11/03/2020",
-    "signatoryName": "Most of the Time, LLC",
-    "contractTitleName": "Television Independent Agreement",
-    "businessRepresentative": "Lisa Kyle",
-    "claimsRepresentative": "Kathy Byrne",
-    "prodSubType": "TV - Series",
-    "madeFor": "Pay TV",
-    "market": "Home Box Office",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "Chcago, IL United States"
-    ]
-  },
-  {
-    "id": "506790",
-    "production": "Fan Girl",
+    "id": "507978",
+    "production": "Forced Out Sizzle Reel",
     "type": "Agnostic",
     "local": "Chicago",
-    "startEndDates": "07/13/2020 - 07/29/2020",
-    "signatoryName": "GRAPH PAPER PRODUCTS LLC",
+    "startEndDates": "08/22/2020 - 09/25/2020",
+    "signatoryName": "Creamy Pea Productions LLC",
     "contractTitleName": "Short Project Agreement",
     "businessRepresentative": "Kathy Byrne",
     "prodSubType": "Short Project Agreement",
@@ -88,16 +34,16 @@
     "market": "Not Applicable",
     "contributionPlan": "SAG",
     "shootingLocations": [
-      "Chicago, IL United States"
+      "Wilmette, IL United States"
     ]
   },
   {
-    "id": "505039",
-    "production": "Farm, The",
+    "id": "499972",
+    "production": "Help Wanted",
     "type": "Agnostic",
     "local": "Chicago",
-    "startEndDates": "07/29/2020 - 07/31/2020",
-    "signatoryName": "MAB Crew Productions, LLC.",
+    "startEndDates": "08/21/2020 - 08/25/2020",
+    "signatoryName": "Right Brain Cinema, LLC.",
     "contractTitleName": "Short Project Agreement",
     "businessRepresentative": "Sanaa Sayyed",
     "prodSubType": "Short Project Agreement",
@@ -105,7 +51,7 @@
     "market": "Not Applicable",
     "contributionPlan": "SAG",
     "shootingLocations": [
-      "LaPorte, IN"
+      "Detroit, MI"
     ]
   },
   {
@@ -166,6 +112,25 @@
     ]
   },
   {
+    "id": "507788",
+    "production": "Life Ain'T Like The Movies",
+    "type": "Agnostic",
+    "local": "Chicago",
+    "startEndDates": "08/10/2020 - 08/21/2020",
+    "signatoryName": "Robert Butler",
+    "contractTitleName": "Agnostic Independent Agreement SAG-AFTRA",
+    "businessRepresentative": "Tawanda Lewis Duck",
+    "claimsRepresentative": "Sabina Sanchez",
+    "prodSubType": "Ultra Low Budget",
+    "madeFor": "Not Applicable",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Los Angeles, CA United States",
+      "Detroit, MI United States"
+    ]
+  },
+  {
     "id": "486284",
     "production": "Manhunt: Lone Wolf (19/20)",
     "type": "New Media",
@@ -205,20 +170,22 @@
     ]
   },
   {
-    "id": "504603",
-    "production": "Pray They Stand Down",
-    "type": "Agnostic",
+    "id": "507743",
+    "production": "Paulie Go",
+    "type": "Theatrical",
     "local": "Chicago",
-    "startEndDates": "06/30/2020 - 07/30/2020",
-    "signatoryName": "Hometown E, LLC.",
-    "contractTitleName": "Short Project Agreement",
-    "businessRepresentative": "Sanaa Sayyed",
-    "prodSubType": "Short Project Agreement",
-    "madeFor": "Not Applicable",
+    "startEndDates": "08/16/2020 - 09/17/2020",
+    "signatoryName": "Paulie's Film LLC",
+    "contractTitleName": "Theatrical Independent Agreement",
+    "businessRepresentative": "Chanda Ulrich",
+    "claimsRepresentative": "Sabina Sanchez",
+    "prodSubType": "Low Budget",
+    "madeFor": "TH - Other",
     "market": "Not Applicable",
     "contributionPlan": "SAG",
     "shootingLocations": [
-      "Branson, MO"
+      "Park Rapids, MN United States",
+      "Minneapolis, MN United States"
     ]
   },
   {
@@ -279,6 +246,23 @@
     ]
   },
   {
+    "id": "506953",
+    "production": "The Quarantine Diaries 2: On Hold",
+    "type": "Agnostic",
+    "local": "Chicago",
+    "startEndDates": "07/23/2020 - 08/23/2020",
+    "signatoryName": "Barbara Silberstein",
+    "contractTitleName": "Short Project Agreement",
+    "businessRepresentative": "Kathy Byrne",
+    "prodSubType": "Short Project Agreement",
+    "madeFor": "Not Applicable",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Chicago, IL United States"
+    ]
+  },
+  {
     "id": "506464",
     "production": "There'S No Place Like Home",
     "type": "Agnostic",
@@ -293,6 +277,44 @@
     "contributionPlan": "SAG",
     "shootingLocations": [
       "Chicago, IL United States"
+    ]
+  },
+  {
+    "id": "505891",
+    "production": "They/Them/Us",
+    "type": "Agnostic",
+    "local": "Chicago",
+    "startEndDates": "07/25/2020 - 08/31/2020",
+    "signatoryName": "BLENDED FAMILY PRODUCTIONS L.L.C.",
+    "contractTitleName": "Agnostic Independent Agreement SAG-AFTRA",
+    "businessRepresentative": "Johnathan Vu",
+    "claimsRepresentative": "Melissa Sexton",
+    "prodSubType": "Moderate Low Budget",
+    "madeFor": "Not Applicable",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Columbus, OH United States",
+      ","
+    ]
+  },
+  {
+    "id": "506139",
+    "production": "Those Who Walk Away",
+    "type": "Agnostic",
+    "local": "Chicago",
+    "startEndDates": "08/30/2020 - 09/12/2020",
+    "signatoryName": "One Shot Ltd.",
+    "contractTitleName": "Agnostic Independent Agreement SAG-AFTRA",
+    "businessRepresentative": "Amanda Shapiro",
+    "claimsRepresentative": "Leif Larson",
+    "prodSubType": "Ultra Low Budget",
+    "madeFor": "Not Applicable",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Chillicothe, IL United States",
+      "Chillicothe, IL United States"
     ]
   },
   {
