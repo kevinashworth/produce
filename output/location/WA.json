@@ -19,21 +19,23 @@
     ]
   },
   {
-    "id": "504829",
-    "production": "Three Busy Debras (20/21)",
-    "type": "Television",
+    "id": "495145",
+    "production": "Saturn",
+    "type": "Theatrical",
     "local": "Seattle",
-    "startEndDates": "08/01/2020 - 10/31/2020",
-    "signatoryName": "Alive And Kicking, Inc.",
-    "contractTitleName": "Television AMPTP Agreement",
-    "businessRepresentative": "Lisa Kyle",
-    "claimsRepresentative": "Chris Comte",
-    "prodSubType": "TV - Series",
-    "madeFor": "Basic Cable",
-    "market": "Cartoon Network",
+    "startEndDates": "01/05/2020 - 08/27/2020",
+    "signatoryName": "Saturn Movie, LLC",
+    "contractTitleName": "Theatrical Independent Agreement",
+    "businessRepresentative": "Oliver Bundy",
+    "claimsRepresentative": "Melissa Sexton",
+    "prodSubType": "Ultra Low Budget",
+    "madeFor": "TH - Other",
+    "market": "Not Applicable",
     "contributionPlan": "SAG",
     "shootingLocations": [
-      "Seattle, WA United States"
+      "Seabrook, WA United States",
+      "Elma, WA United States",
+      "Olympia, WA United States"
     ]
   },
   {
@@ -53,26 +55,6 @@
     "shootingLocations": [
       "Los Angeles, CA United States",
       "Bellingham, WA United States"
-    ]
-  },
-  {
-    "id": "505756",
-    "production": "Zero Road",
-    "type": "Agnostic",
-    "local": "Seattle",
-    "startEndDates": "07/06/2020 - 07/25/2020",
-    "signatoryName": "CHANCE ENTERTAINMENT LLC",
-    "contractTitleName": "Agnostic Independent Agreement SAG-AFTRA",
-    "businessRepresentative": "Amanda Shapiro",
-    "claimsRepresentative": "Leif Larson",
-    "prodSubType": "Ultra Low Budget",
-    "madeFor": "Not Applicable",
-    "market": "Not Applicable",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "Kallispell, MT United States",
-      "New York, NY United States",
-      "Philadelphia, PA United States"
     ]
   }
 ]
