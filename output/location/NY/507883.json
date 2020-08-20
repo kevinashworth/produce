@@ -1,23 +1,19 @@
 {
-  "id": "501930",
-  "production": "Alma'S Way (20/21)",
+  "id": "507883",
+  "production": "No Child Written By Nilaja Sun (2020)",
   "type": "Television Program",
   "local": "New York",
-  "startEndDates": "08/10/2020 - 07/08/2022",
-  "signatoryName": "2339554 Ontario Inc.",
+  "startEndDates": "08/24/2020 - 08/24/2020",
+  "signatoryName": "CHAUTAUQUA INSTITUTION",
   "contractTitleName": "TV Programs",
   "businessRepresentative": "Lisa Kyle",
   "bgClaimsRepresentative": "David Lotz",
   "claimsRepresentative": "David Lotz",
-  "prodSubType": "TV Series",
+  "prodSubType": "TV Program",
   "madeFor": "Public TV",
   "market": "Public TV",
   "contributionPlan": "AFTRA",
   "shootingLocations": [
-    "New York, NY United States"
-  ],
-  "alternateTitles": [
-    "Alma'S Mind (Yr.1)",
-    "Alma'S World (Yr.1)"
+    "Buffalo, NY United States"
   ]
 }
