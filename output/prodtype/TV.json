@@ -1,5 +1,24 @@
 [
   {
+    "id": "508366",
+    "production": "$100,000 Pyramid, The (20/21)",
+    "type": "Television Program",
+    "local": "New York",
+    "startEndDates": "08/24/2020 - 08/28/2020",
+    "signatoryName": "TRACKDOWN PRODUCTIONS INC.",
+    "contractTitleName": "TV Programs",
+    "businessRepresentative": "Rose Magcalas",
+    "bgClaimsRepresentative": "Alice Vosmek",
+    "claimsRepresentative": "Alice Vosmek",
+    "prodSubType": "TV Series",
+    "madeFor": "Broadcast Network",
+    "market": "ABC",
+    "contributionPlan": "AFTRA",
+    "shootingLocations": [
+      "New Yoirk, NY United States"
+    ]
+  },
+  {
     "id": "494443",
     "production": "2019 Artists Of The Year (2019)",
     "type": "Television Program",
@@ -30,6 +49,48 @@
     "prodSubType": "Award Show",
     "madeFor": "Basic Cable",
     "market": "CMT",
+    "contributionPlan": "AFTRA",
+    "shootingLocations": [
+      "Nashville, TN United States"
+    ]
+  },
+  {
+    "id": "508002",
+    "production": "2020 Mtv Video Music Awards",
+    "type": "Television Program",
+    "local": "New York",
+    "startEndDates": "08/13/2020 - 08/30/2020",
+    "signatoryName": "MOON MAN PRODUCTIONS INC",
+    "contractTitleName": "TV Programs",
+    "businessRepresentative": "Lisa Kyle",
+    "bgClaimsRepresentative": "David Lotz",
+    "claimsRepresentative": "David Lotz",
+    "prodSubType": "Award Show",
+    "madeFor": "Basic Cable",
+    "market": "MTV",
+    "contributionPlan": "AFTRA",
+    "shootingLocations": [
+      "New York, CA United States",
+      "Los Angeles, CA United States"
+    ],
+    "alternateTitles": [
+      "2020 Mtv Video Music Awards (2020)",
+      "2020 Mtv Music Awards"
+    ]
+  },
+  {
+    "id": "503252",
+    "production": "55th Annual Academy Of Country Music Awards (2020)",
+    "type": "Television Program",
+    "local": "Los Angeles",
+    "startEndDates": "09/16/2020 - 09/16/2020",
+    "signatoryName": "dick clark productions, llc",
+    "contractTitleName": "TV Programs",
+    "businessRepresentative": "Lisa Kyle",
+    "claimsRepresentative": "Jenna Dosch",
+    "prodSubType": "Award Show",
+    "madeFor": "Broadcast Network",
+    "market": "CBS",
     "contributionPlan": "AFTRA",
     "shootingLocations": [
       "Nashville, TN United States"
@@ -329,6 +390,24 @@
     ]
   },
   {
+    "id": "508573",
+    "production": "Baby Shark (20/21)",
+    "type": "Television Program",
+    "local": "Los Angeles",
+    "startEndDates": "08/14/2020 - TBD",
+    "signatoryName": "Nickelodeon Animation Studios, Inc.",
+    "contractTitleName": "TV Programs",
+    "businessRepresentative": "Lisa Kyle",
+    "claimsRepresentative": "Billie Murphy",
+    "prodSubType": "TV Series",
+    "madeFor": "Basic Cable",
+    "market": "Nickelodeon",
+    "contributionPlan": "AFTRA",
+    "shootingLocations": [
+      "Burbank, CA United States"
+    ]
+  },
+  {
     "id": "507420",
     "production": "Bachelorette, The (20/21)",
     "type": "Television Program",
@@ -347,6 +426,24 @@
     ]
   },
   {
+    "id": "508581",
+    "production": "Batwoman (20/21)",
+    "type": "Television",
+    "local": "Los Angeles",
+    "startEndDates": "09/03/2020 - 05/10/2021",
+    "signatoryName": "NS Pictures, Inc.",
+    "contractTitleName": "Television AMPTP Agreement",
+    "businessRepresentative": "Lisa Kyle",
+    "claimsRepresentative": "Emmy Ferguson",
+    "prodSubType": "TV - Series",
+    "madeFor": "Broadcast Non-Network (WB/UPN/CW)",
+    "market": "The CW",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Vancouver, Canada"
+    ]
+  },
+  {
     "id": "492020",
     "production": "Beef House (19/20)",
     "type": "Television",
@@ -362,6 +459,24 @@
     "contributionPlan": "SAG",
     "shootingLocations": [
       "Los Angeles, CA United States"
+    ]
+  },
+  {
+    "id": "508223",
+    "production": "Ben Franklin Film Project, The (19/20)",
+    "type": "Television Program",
+    "local": "Los Angeles",
+    "startEndDates": "01/01/2019 - TBD",
+    "signatoryName": "The Ben Franklin Film Project, LLC",
+    "contractTitleName": "TV Programs",
+    "businessRepresentative": "Lisa Kyle",
+    "claimsRepresentative": "Billie Murphy",
+    "prodSubType": "Mini-Series",
+    "madeFor": "Public TV",
+    "market": "Public TV",
+    "contributionPlan": "AFTRA",
+    "shootingLocations": [
+      "Various, CA United States"
     ]
   },
   {
@@ -404,6 +519,25 @@
     ]
   },
   {
+    "id": "507433",
+    "production": "Between The World And Me (2020)",
+    "type": "Television Program",
+    "local": " ",
+    "startEndDates": "08/06/2020 - 08/31/2020",
+    "signatoryName": "One Story Up LLC",
+    "contractTitleName": "TV Programs",
+    "businessRepresentative": "Lisa Kyle",
+    "claimsRepresentative": "Billie Murphy",
+    "prodSubType": "TV Program",
+    "madeFor": "Pay TV",
+    "market": "HBO",
+    "contributionPlan": "AFTRA",
+    "shootingLocations": [
+      "Los Angeles, CA United States",
+      "New Jersey, NJ United States"
+    ]
+  },
+  {
     "id": "507694",
     "production": "Big Brother (20/21)",
     "type": "Television Program",
@@ -437,6 +571,24 @@
     "contributionPlan": "SAG",
     "shootingLocations": [
       "Burbank, CA United States"
+    ]
+  },
+  {
+    "id": "508489",
+    "production": "Big Sky, The (20/21)",
+    "type": "Television",
+    "local": "Los Angeles",
+    "startEndDates": "08/24/2020 - 01/01/2021",
+    "signatoryName": "Twentieth Century Fox Film Corporation",
+    "contractTitleName": "Television AMPTP Agreement",
+    "businessRepresentative": "Art Duarte",
+    "claimsRepresentative": "Silvia Gerber",
+    "prodSubType": "TV - Series",
+    "madeFor": "Broadcast Network",
+    "market": "ABC",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Vancouver, BC Canada"
     ]
   },
   {
@@ -655,24 +807,6 @@
     "contributionPlan": "AFTRA",
     "shootingLocations": [
       "Burbank, CA United States"
-    ]
-  },
-  {
-    "id": "505328",
-    "production": "Celebrity Show Off (20/21)",
-    "type": "Television Program",
-    "local": "Los Angeles",
-    "startEndDates": "06/25/2020 - 08/20/2020",
-    "signatoryName": "ACK Productions, Inc",
-    "contractTitleName": "TV Programs",
-    "businessRepresentative": "Lisa Kyle",
-    "claimsRepresentative": "Silvia Gerber",
-    "prodSubType": "TV Series",
-    "madeFor": "Basic Cable",
-    "market": "TBS",
-    "contributionPlan": "AFTRA",
-    "shootingLocations": [
-      "Los Angeles, CA United States"
     ]
   },
   {
@@ -1279,7 +1413,7 @@
     "id": "502624",
     "production": "Good Trouble (20/21)",
     "type": "Television Program",
-    "local": "Los Angeles",
+    "local": " ",
     "startEndDates": "09/08/2020 - 11/25/2020",
     "signatoryName": "Hop, Skip &amp; Jump Productions, Inc",
     "contractTitleName": "TV Programs",
@@ -1290,6 +1424,7 @@
     "market": "ABC Family Channel",
     "contributionPlan": "AFTRA",
     "shootingLocations": [
+      ",",
       "Burbank, CA United States"
     ]
   },
@@ -1309,22 +1444,6 @@
     "contributionPlan": "SAG",
     "shootingLocations": [
       "Los Angeles, CA United States",
-      "Burbank, CA United States"
-    ]
-  },
-  {
-    "id": "507897",
-    "production": "Guess Whose House (Pilot)",
-    "type": "Television Program",
-    "local": "Los Angeles",
-    "startEndDates": "08/13/2020 - 08/15/2020",
-    "signatoryName": "FOX SQUARE PRODUCTIONS",
-    "contractTitleName": "TV Programs",
-    "businessRepresentative": "Art Duarte",
-    "claimsRepresentative": "Silvia Gerber",
-    "prodSubType": "TV - Pilot",
-    "contributionPlan": "AFTRA",
-    "shootingLocations": [
       "Burbank, CA United States"
     ]
   },
@@ -1471,6 +1590,24 @@
     "contributionPlan": "AFTRA",
     "shootingLocations": [
       "New York, NY United States"
+    ]
+  },
+  {
+    "id": "508182",
+    "production": "Interns Of The Nsa (20/21)",
+    "type": "Television Program",
+    "local": "Los Angeles",
+    "startEndDates": "08/24/2020 - 10/01/2020",
+    "signatoryName": "OCP Television, LLC",
+    "contractTitleName": "TV Programs",
+    "businessRepresentative": "Lisa Kyle",
+    "claimsRepresentative": "Billie Murphy",
+    "prodSubType": "TV Series",
+    "madeFor": "Basic Cable",
+    "market": "Tru TV",
+    "contributionPlan": "AFTRA",
+    "shootingLocations": [
+      "Hollywood, CA United States"
     ]
   },
   {
@@ -1679,6 +1816,24 @@
     ]
   },
   {
+    "id": "508692",
+    "production": "Magnum P.I. (20/21)",
+    "type": "Television",
+    "local": "Los Angeles",
+    "startEndDates": "09/16/2020 - 04/29/2021",
+    "signatoryName": "Eye Productions Inc.",
+    "contractTitleName": "Television AMPTP Agreement",
+    "businessRepresentative": "Lisa Kyle",
+    "claimsRepresentative": "Billie Murphy",
+    "prodSubType": "TV - Series",
+    "madeFor": "Broadcast Network",
+    "market": "CBS",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Honolulu, HI United States"
+    ]
+  },
+  {
     "id": "490521",
     "production": "Match Day (19/20)",
     "type": "Television Program",
@@ -1694,6 +1849,23 @@
     "contributionPlan": "AFTRA",
     "shootingLocations": [
       "New York, NY United States"
+    ]
+  },
+  {
+    "id": "508783",
+    "production": "Maury (20/21)",
+    "type": "Television Program",
+    "local": "New York",
+    "startEndDates": "08/20/2020 - 02/12/2021",
+    "signatoryName": "STAMFORD MEDIA CENTER &amp; PRODUCTIONS LLC",
+    "contractTitleName": "TV Programs",
+    "businessRepresentative": "Joyce Grant",
+    "claimsRepresentative": "Alice Vosmek",
+    "prodSubType": "TV Series",
+    "madeFor": "Syndication",
+    "contributionPlan": "AFTRA",
+    "shootingLocations": [
+      "Stamford, CT United States"
     ]
   },
   {
@@ -1749,6 +1921,27 @@
     "contributionPlan": "AFTRA",
     "shootingLocations": [
       "New York, NY United States"
+    ]
+  },
+  {
+    "id": "508785",
+    "production": "Mental Samurai (20/21)",
+    "type": "Television Program",
+    "local": "Los Angeles",
+    "startEndDates": "08/26/2020 - 08/30/2020",
+    "signatoryName": "DMS Productions, Inc.",
+    "contractTitleName": "TV Programs",
+    "businessRepresentative": "Lisa Kyle",
+    "claimsRepresentative": "Billie Murphy",
+    "prodSubType": "TV Series",
+    "madeFor": "Broadcast Network",
+    "market": "FOX",
+    "contributionPlan": "AFTRA",
+    "shootingLocations": [
+      "Lisbon, Portugal"
+    ],
+    "alternateTitles": [
+      ""
     ]
   },
   {
@@ -1888,6 +2081,24 @@
     ]
   },
   {
+    "id": "507891",
+    "production": "Ncis (20/21)",
+    "type": "Television",
+    "local": "Los Angeles",
+    "startEndDates": "09/09/2020 - 06/02/2021",
+    "signatoryName": "CBS Studios Inc.",
+    "contractTitleName": "Television AMPTP Agreement",
+    "businessRepresentative": "Lisa Kyle",
+    "claimsRepresentative": "Billie Murphy",
+    "prodSubType": "TV - Series",
+    "madeFor": "Broadcast Network",
+    "market": "CBS",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Los Angeles, CA"
+    ]
+  },
+  {
     "id": "508126",
     "production": "Ncis: Los Angeles (20/21)",
     "type": "Television",
@@ -1923,6 +2134,25 @@
     "contributionPlan": "AFTRA",
     "shootingLocations": [
       "New York, NY United States"
+    ]
+  },
+  {
+    "id": "507883",
+    "production": "No Child Written By Nilaja Sun (2020)",
+    "type": "Television Program",
+    "local": "New York",
+    "startEndDates": "08/24/2020 - 08/24/2020",
+    "signatoryName": "CHAUTAUQUA INSTITUTION",
+    "contractTitleName": "TV Programs",
+    "businessRepresentative": "Lisa Kyle",
+    "bgClaimsRepresentative": "David Lotz",
+    "claimsRepresentative": "David Lotz",
+    "prodSubType": "TV Program",
+    "madeFor": "Public TV",
+    "market": "Public TV",
+    "contributionPlan": "AFTRA",
+    "shootingLocations": [
+      "Buffalo, NY United States"
     ]
   },
   {
@@ -1992,6 +2222,24 @@
     "contributionPlan": "SAG",
     "shootingLocations": [
       "Reno, NV United States"
+    ]
+  },
+  {
+    "id": "508507",
+    "production": "One Strange Rock (20/21)",
+    "type": "Television Program",
+    "local": "Los Angeles",
+    "startEndDates": "08/27/2020 - 09/03/2020",
+    "signatoryName": "355 Productions, LLC",
+    "contractTitleName": "TV Programs",
+    "businessRepresentative": "Lisa Kyle",
+    "claimsRepresentative": "Silvia Gerber",
+    "prodSubType": "TV Series",
+    "madeFor": "Basic Cable",
+    "market": "History Ch",
+    "contributionPlan": "AFTRA",
+    "shootingLocations": [
+      "Various, Iceland"
     ]
   },
   {
@@ -2568,7 +2816,7 @@
   },
   {
     "id": "508019",
-    "production": "Saints And Sinners (20/21)",
+    "production": "Saints & Sinners (20/21)",
     "type": "Television",
     "local": "Atlanta",
     "startEndDates": "08/10/2020 - 09/28/2020",
@@ -2600,24 +2848,6 @@
     "contributionPlan": "SAG",
     "shootingLocations": [
       "New York, NY United States"
-    ]
-  },
-  {
-    "id": "471958",
-    "production": "Schooled (18/19)",
-    "type": "Television",
-    "local": "Los Angeles",
-    "startEndDates": "08/20/2018 - TBD",
-    "signatoryName": "Topanga Productions, Inc.",
-    "contractTitleName": "Television AMPTP Agreement",
-    "businessRepresentative": "Rose Magcalas",
-    "claimsRepresentative": "Silvia Gerber",
-    "prodSubType": "TV - Series",
-    "madeFor": "Broadcast Network",
-    "market": "ABC",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "Los Angeles, CA United States"
     ]
   },
   {
@@ -2790,6 +3020,24 @@
     ]
   },
   {
+    "id": "508706",
+    "production": "Sweet Autumn (2020)",
+    "type": "Television",
+    "local": "Los Angeles",
+    "startEndDates": "08/25/2020 - 09/12/2020",
+    "signatoryName": "Sweet Autumn Pictures Inc",
+    "contractTitleName": "Television Independent Agreement",
+    "businessRepresentative": "Art Duarte",
+    "claimsRepresentative": "Emmy Ferguson",
+    "prodSubType": "TV - Movie",
+    "madeFor": "Basic Cable",
+    "market": "Hallmark Channel",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Winnipeg, Canada"
+    ]
+  },
+  {
     "id": "503120",
     "production": "Sydney To The Max (20/21)",
     "type": "Television Program",
@@ -2900,6 +3148,23 @@
     ]
   },
   {
+    "id": "508271",
+    "production": "Top Elf (20/21)",
+    "type": "Television Program",
+    "local": "Los Angeles",
+    "startEndDates": "09/16/2020 - 09/28/2020",
+    "signatoryName": "Dusty Rose Pictures, LLC",
+    "contractTitleName": "TV Programs",
+    "businessRepresentative": "Lisa Kyle",
+    "claimsRepresentative": "Billie Murphy",
+    "prodSubType": "TV Series",
+    "madeFor": "Basic Cable",
+    "contributionPlan": "AFTRA",
+    "shootingLocations": [
+      "Simi Valley, CA United States"
+    ]
+  },
+  {
     "id": "504195",
     "production": "Tosh.0 (20/21)",
     "type": "Television Program",
@@ -2915,6 +3180,23 @@
     "contributionPlan": "AFTRA",
     "shootingLocations": [
       "Culver City, CA United States"
+    ]
+  },
+  {
+    "id": "500921",
+    "production": "Triumph Insult Comic Dog - Trump Impeachment",
+    "type": "Television Program",
+    "local": "Wash-Mid Atlantic",
+    "startEndDates": "01/29/2020 - 08/21/2020",
+    "signatoryName": "New Ideas Productions, LLC",
+    "contractTitleName": "TV Programs",
+    "businessRepresentative": "Lisa Kyle",
+    "claimsRepresentative": "Jane Love",
+    "prodSubType": "TV Program",
+    "madeFor": "Unknown",
+    "contributionPlan": "AFTRA",
+    "shootingLocations": [
+      "Washington, DC United States"
     ]
   },
   {
@@ -2951,6 +3233,24 @@
     "contributionPlan": "SAG",
     "shootingLocations": [
       "Burbank, CA United States"
+    ]
+  },
+  {
+    "id": "508737",
+    "production": "Unicorn (20/21)",
+    "type": "Television",
+    "local": "Los Angeles",
+    "startEndDates": "10/05/2020 - 01/29/2021",
+    "signatoryName": "CBS Studios Inc.",
+    "contractTitleName": "Television AMPTP Agreement",
+    "businessRepresentative": "Lisa Kyle",
+    "claimsRepresentative": "Billie Murphy",
+    "prodSubType": "TV - Series",
+    "madeFor": "Broadcast Network",
+    "market": "CBS",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Los Angeles, CA United States"
     ]
   },
   {
@@ -3176,6 +3476,24 @@
     "contributionPlan": "SAG",
     "shootingLocations": [
       "los angeles, CA United States"
+    ]
+  },
+  {
+    "id": "491625",
+    "production": "Your Honor (19/20)",
+    "type": "Television",
+    "local": "New Orleans",
+    "startEndDates": "09/16/2019 - 11/30/2020",
+    "signatoryName": "CBS Studios Inc.",
+    "contractTitleName": "Television AMPTP Agreement",
+    "businessRepresentative": "Lisa Kyle",
+    "claimsRepresentative": "Handy Rivera",
+    "prodSubType": "TV - Series",
+    "madeFor": "Pay TV",
+    "market": "Showtime",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "New Orleans, LA United States"
     ]
   }
 ]
