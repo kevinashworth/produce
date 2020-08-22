@@ -342,6 +342,24 @@
     ]
   },
   {
+    "id": "508744",
+    "production": "Don'T Worry Darling",
+    "type": "Theatrical",
+    "local": "Los Angeles",
+    "startEndDates": "10/22/2020 - TBD",
+    "signatoryName": "New Line Productions, Inc.",
+    "contractTitleName": "Theatrical AMPTP Agreement",
+    "claimsRepresentative": "Sabina Sanchez",
+    "prodSubType": "Theatrical Regular",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Los Angeles, CA United States",
+      "Palm Springs, CA United States"
+    ]
+  },
+  {
     "id": "501733",
     "production": "Dotty And Soul",
     "type": "Theatrical",
@@ -357,23 +375,6 @@
     "contributionPlan": "SAG",
     "shootingLocations": [
       "Oklahoma City, OK United States"
-    ]
-  },
-  {
-    "id": "470697",
-    "production": "Dreamland",
-    "type": "Theatrical",
-    "local": " ",
-    "startEndDates": "08/20/2018 - TBD",
-    "signatoryName": "Wei Qian",
-    "contractTitleName": "Student Agreement",
-    "businessRepresentative": "Aniela Coveleski",
-    "prodSubType": "Student",
-    "madeFor": "TH - Other",
-    "market": "Not Applicable",
-    "contributionPlan": "SAG",
-    "shootingLocations": [
-      "New York,"
     ]
   },
   {
@@ -837,6 +838,24 @@
     ]
   },
   {
+    "id": "499479",
+    "production": "Nightingale - A Melody Of Life",
+    "type": "Theatrical",
+    "local": "Los Angeles",
+    "startEndDates": "03/02/2020 - 08/26/2020",
+    "signatoryName": "Genius Entertainment Factory LLC",
+    "contractTitleName": "Theatrical Independent Agreement",
+    "businessRepresentative": "Oliver Bundy",
+    "claimsRepresentative": "Sabina Sanchez",
+    "prodSubType": "Ultra Low Budget",
+    "madeFor": "TH - Other",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Los Angeles, CA United States"
+    ]
+  },
+  {
     "id": "481589",
     "production": "Old Guard, The",
     "type": "Theatrical",
@@ -1045,6 +1064,24 @@
     ]
   },
   {
+    "id": "502244",
+    "production": "Savannah Haunting, A",
+    "type": "Theatrical",
+    "local": "Atlanta",
+    "startEndDates": "08/27/2020 - 09/09/2020",
+    "signatoryName": "A Savannah Haunting LLC",
+    "contractTitleName": "Theatrical Independent Agreement",
+    "businessRepresentative": "Oliver Bundy",
+    "claimsRepresentative": "Sabina Sanchez",
+    "prodSubType": "Low Budget",
+    "madeFor": "TH - Other",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Savannah, GA United States"
+    ]
+  },
+  {
     "id": "482483",
     "production": "Scoob!",
     "type": "Theatrical",
@@ -1229,6 +1266,24 @@
     "alternateTitles": [
       "Wonderland",
       "Spenser: Confidential"
+    ]
+  },
+  {
+    "id": "501029",
+    "production": "Spooky Movie",
+    "type": "Theatrical",
+    "local": "Los Angeles",
+    "startEndDates": "02/18/2020 - 09/11/2020",
+    "signatoryName": "Happy Hunters LLC",
+    "contractTitleName": "Theatrical Independent Agreement",
+    "businessRepresentative": "Johnathan Vu",
+    "claimsRepresentative": "Melissa Sexton",
+    "prodSubType": "Theatrical Regular",
+    "madeFor": "Theatrical Regular",
+    "market": "Not Applicable",
+    "contributionPlan": "SAG",
+    "shootingLocations": [
+      "Los Angeles, CA United States"
     ]
   },
   {
