@@ -108,7 +108,7 @@ const handleDetailsPageFn = (detailsElement) => {
     width: CONFIG.WIDTH,
     height: CONFIG.HEIGHT
   });
-  await page.goto('https://www.sagaftra.org/contracts-industry-resources/production-listings');
+  await page.goto(CONFIG.START_URL);
   await page.type(USERNAME_SELECTOR, CREDENTIALS.username);
   await page.type(PASSWORD_SELECTOR, CREDENTIALS.password);
   await page.click(LOGIN_BUTTON_SELECTOR);
