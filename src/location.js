@@ -12,15 +12,8 @@ const success = chalk.bold.green;
 const verbose = chalk.bold.yellow;
 
 const CONFIG = require('./config.js');
+const CONSTANTS = require('./constants.js');
 const CREDENTIALS = require('./credentials.js');
-
-const USERNAME_SELECTOR = '#edit-name';
-const PASSWORD_SELECTOR = '#edit-pass';
-const LOGIN_BUTTON_SELECTOR = '#sagaftra-login-button-submit';
-const SEARCH_BUTTON = '#edit-submit';
-const LOCATION_SELECTOR = 'select#edit-location';
-const LISTINGS_AVAILABLE = '#production_listings_results #production_listings';
-const LISTINGS_SELECTOR = '#production_listings > [id^=row]';
 
 const LOCATION = 'LA';
 const OUTPUT_DIR = `./output/location/${LOCATION}`; // assumes we run `node src/location.js`
@@ -109,18 +102,18 @@ const handleDetailsPageFn = (detailsElement) => {
     height: CONFIG.HEIGHT
   });
   await page.goto(CONFIG.START_URL);
-  await page.type(USERNAME_SELECTOR, CREDENTIALS.username);
-  await page.type(PASSWORD_SELECTOR, CREDENTIALS.password);
-  await page.click(LOGIN_BUTTON_SELECTOR);
+  await page.type(CONSTANTS.USERNAME_SELECTOR, CREDENTIALS.username);
+  await page.type(CONSTANTS.PASSWORD_SELECTOR, CREDENTIALS.password);
+  await page.click(CONSTANTS.LOGIN_BUTTON_SELECTOR);
   await page.waitForNavigation();
   console.log(success('Logged in to Production Listings.'));
   await page.addScriptTag({
     url: 'https://cdn.jsdelivr.net/npm/lodash@4/lodash.min.js'
   });
-  await page.select(LOCATION_SELECTOR, LOCATION);
-  await page.click(SEARCH_BUTTON);
-  await page.waitForSelector(LISTINGS_AVAILABLE);
-  var listings = await page.$$eval(LISTINGS_SELECTOR, handleListingsPageFn);
+  await page.select(CONSTANTS.LOCATION_SELECTOR, LOCATION);
+  await page.click(CONSTANTS.SEARCH_BUTTON);
+  await page.waitForSelector(CONSTANTS.LISTINGS_AVAILABLE);
+  var listings = await page.$$eval(CONSTANTS.LISTINGS_SELECTOR, handleListingsPageFn);
   if (!listings) {
     console.log(error('No listings for', LOCATION));
   }
