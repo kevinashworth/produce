@@ -78,7 +78,7 @@ const handlers = require('./handlers.js');
   } else if (isThePage) {
     console.log(success('Cookies got us to the page; no need to log in.'));
   } else {
-    console.log(error('WTF?'))
+    console.log(error('WTF?'));
   }
 
   // save session cookies
@@ -87,7 +87,7 @@ const handlers = require('./handlers.js');
   fs.writeFile(cookiesFile, JSON.stringify(cookies, null, 2), (err) => {
     if (err) throw err;
     console.log(verbose('Cookies have been saved to', cookiesFile));
-  })
+  });
 
   await page.addScriptTag({
     url: 'https://cdn.jsdelivr.net/npm/lodash@4/lodash.min.js'

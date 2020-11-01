@@ -1,8 +1,9 @@
-var puppeteer = require('puppeteer');
+const puppeteer = require('puppeteer');
 
 (async () => {
   const browser = await puppeteer.launch({
     headless: false,
+    slowMo: 200,
     timeout: 0,
     devtools: true
   });
@@ -20,14 +21,14 @@ var puppeteer = require('puppeteer');
     return divs;
   });
   for (let i = 0; i < divs.length; i++) {
-    var randomSeconds = Math.floor(Math.random() * 20000) + 2000; // between 2 and 22 seconds, to appear human
+    const randomSeconds = Math.floor(Math.random() * 20000) + 2000; // between 2 and 22 seconds, to appear human
     await page.waitFor(randomSeconds);
   }
 
   // eslint-disable-next-line
   // debugger;
   console.log(divCount);
-  randomSeconds = Math.floor(Math.random() * 20000) + 2000; // between 2 and 22 seconds, to appear human
+  const randomSeconds = Math.floor(Math.random() * 20000) + 2000; // between 2 and 22 seconds, to appear human
   await page.waitFor(randomSeconds);
   await browser.close();
 })();
