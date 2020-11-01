@@ -113,7 +113,7 @@ const handleDetailsPageFn = (detailsElement) => {
   await page.select(CONSTANTS.PRODTYPE_SELECTOR, PRODTYPE);
   await page.click(CONSTANTS.SEARCH_BUTTON);
   await page.waitForSelector(CONSTANTS.LISTINGS_AVAILABLE);
-  var listings = await page.$$eval(CONSTANTS.LISTINGS_SELECTOR, handleListingsPageFn);
+  const listings = await page.$$eval(CONSTANTS.LISTINGS_SELECTOR, handleListingsPageFn);
   if (!listings) {
     console.log(error('No listings for', PRODTYPE));
   }
@@ -194,7 +194,7 @@ const handleDetailsPageFn = (detailsElement) => {
 
     // add details back in to listings array for writing to an all-in-one file
     listings[i] = listing;
-    var randomSeconds = Math.floor(Math.random() * 7000) + 3000; // 3 to 10 seconds
+    const randomSeconds = Math.floor(Math.random() * 7000) + 3000; // 3 to 10 seconds
     await page.waitFor(randomSeconds);
   }
 

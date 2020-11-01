@@ -1,8 +1,9 @@
 const fs = require('fs');
 const glob = require('glob');
 const difference = require('lodash/difference');
+const pull = require('lodash/pull');
 const remove = require('lodash/remove');
-const mkdirp = require('mkdirp');
+const homedir = require('os').homedir();
 const path = require('path');
 const puppeteer = require('puppeteer');
 
@@ -14,78 +15,24 @@ const verbose = chalk.bold.yellow;
 const CONFIG = require('./config.js');
 const CONSTANTS = require('./constants.js');
 const CREDENTIALS = require('./credentials.js');
+const PAGE_CONFIG = require('./page-config.js');
+const SELECTORS = require('./selectors.js');
 
-const LOCATION = 'LA';
-const OUTPUT_DIR = `./output/location/${LOCATION}`; // assumes we run `node src/location.js`
+const PRODTYPE = CONSTANTS.PRODTYPES[0].value; // 0 - ALL
+const LOCATION = CONSTANTS.LOCATIONS[6].value; // 1 - GA, 8 - LA, 17 - NY, 22 - SF
 
-// reminder: runs in browser context
-const handleListingsPageFn = (nodeListArray) => {
-  return nodeListArray.map(listing => {
-    const [id] = listing.id.match(/\d+/g);
-    return {
-      id,
-      production: listing.children[1].innerText,
-      type: listing.children[2].innerText,
-      local: listing.children[3].innerText,
-      startEndDates: listing.children[4].innerText
-    };
-  });
-};
+const OUTPUT_DIR = path.join(homedir, CONFIG.OUTPUT_DIR, 'location', LOCATION);
+const OUTPUT_DIR_ARCHIVE = path.join(OUTPUT_DIR, 'archive');
+fs.mkdirSync(OUTPUT_DIR_ARCHIVE, { recursive: true });
+console.log(verbose('Output files will be in', OUTPUT_DIR));
 
-// reminder: runs in browser context
-const handleDetailsPageFn = (detailsElement) => {
-  const results = {};
-  const shootingLocations = [];
-  const alternateTitles = [];
-  const children = Array.from(detailsElement.children);
-  children.pop(); // last child is always an empty 'p' tag
-
-  for (let i = 0; i < children.length; i++) {
-    const child = children[i];
-    if (child.children[0]) {
-      // first, deal with two-parters here (shootingLocations, alternateTitles)
-      if (i < children.length - 1) {
-        const nextChild = children[i + 1];
-        const nextChildren = nextChild && nextChild.children && Array.from(nextChild.children);
-        if (nextChildren && nextChildren[0] && nextChildren[0].tagName === 'LI') {
-          if (child.innerText.indexOf('Shooting Locations') === 0) {
-            nextChildren.forEach(location => {
-              shootingLocations.push(location.innerText);
-            });
-            results.shootingLocations = shootingLocations;
-          } else if (child.innerText.indexOf('Alternate Titles') === 0) {
-            nextChildren.forEach(title => {
-              alternateTitles.push(title.innerText);
-            });
-            results.alternateTitles = alternateTitles;
-          }
-          // important next two lines
-          i++;
-          continue;
-        }
-      }
-      // else, deal with one-parters
-      const name = child.children[0].innerText.replace(/\W/g, '');
-      const nameKey = _.camelCase(name);
-      const nameFull = child.innerHTML;
-      const nameSpan = child.children[0].outerHTML;
-      const nameValue = nameFull.substring(nameSpan.length).trim();
-      results[nameKey] = nameValue;
-    }
-  }
-  return results;
-};
+const handlers = require('./handlers.js');
 
 (async () => {
   const timeStart = new Date();
-  console.log('Start time:', timeStart);
+  console.log('Start time:', timeStart.toLocaleString());
 
   let existingFiles = null;
-  mkdirp(OUTPUT_DIR + '/archive').then(made => {
-    if (made) {
-      console.log(verbose(`mkdirp ${made}`));
-    }
-  });
   glob(OUTPUT_DIR + '/*.json', null, function (err, files) {
     if (err) throw err;
     existingFiles = files.map(file => path.basename(file)).sort();
@@ -95,25 +42,62 @@ const handleDetailsPageFn = (detailsElement) => {
 
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
-  console.log(verbose('Created page.'));
-  await page.setUserAgent(CONFIG.USER_AGENT);
+  console.log(verbose('Created the Puppeteer Page object.'));
+  await page.setUserAgent(PAGE_CONFIG.USER_AGENT);
   await page.setViewport({
-    width: CONFIG.WIDTH,
-    height: CONFIG.HEIGHT
+    width: PAGE_CONFIG.WIDTH,
+    height: PAGE_CONFIG.HEIGHT
   });
+
+  // if cookies file exists, read cookies
+  const cookiesFile = path.join(homedir, CONFIG.OUTPUT_DIR) + '/cookies.json';
+  const previousSession = fs.existsSync(cookiesFile);
+  if (previousSession) {
+    const content = fs.readFileSync(cookiesFile);
+    const cookies = JSON.parse(content);
+    if (cookies.length !== 0) {
+      for (const cookie of cookies) {
+        await page.setCookie(cookie);
+      }
+      console.log('Cookies have been loaded in the browser.');
+    }
+  }
+
   await page.goto(CONFIG.START_URL);
-  await page.type(CONSTANTS.USERNAME_SELECTOR, CREDENTIALS.username);
-  await page.type(CONSTANTS.PASSWORD_SELECTOR, CREDENTIALS.password);
-  await page.click(CONSTANTS.LOGIN_BUTTON_SELECTOR);
-  await page.waitForNavigation();
-  console.log(success('Logged in to Production Listings.'));
+
+  // did cookies log us in?
+  const isLogInForm = await page.$(SELECTORS.USERNAME_SELECTOR);
+  const isThePage = await page.$(SELECTORS.PRODTYPE_SELECTOR);
+
+  if (isLogInForm) {
+    await page.type(SELECTORS.USERNAME_SELECTOR, CREDENTIALS.USER);
+    await page.type(SELECTORS.PASSWORD_SELECTOR, CREDENTIALS.PASS);
+    await page.click(SELECTORS.LOGIN_BUTTON_SELECTOR);
+    await page.waitForNavigation();
+    console.log(success('Logged in to Production Listings.'));
+  } else if (isThePage) {
+    console.log(success('Cookies got us to the page; no need to log in.'));
+  } else {
+    console.log(error('WTF?'))
+  }
+
+  // save session cookies
+  const cookies = await page.cookies();
+  cookies.sort((a, b) => a.name.localeCompare(b.name));
+  fs.writeFile(cookiesFile, JSON.stringify(cookies, null, 2), (err) => {
+    if (err) throw err;
+    console.log(verbose('Cookies have been saved to', cookiesFile));
+  })
+
   await page.addScriptTag({
     url: 'https://cdn.jsdelivr.net/npm/lodash@4/lodash.min.js'
   });
-  await page.select(CONSTANTS.LOCATION_SELECTOR, LOCATION);
-  await page.click(CONSTANTS.SEARCH_BUTTON);
-  await page.waitForSelector(CONSTANTS.LISTINGS_AVAILABLE);
-  var listings = await page.$$eval(CONSTANTS.LISTINGS_SELECTOR, handleListingsPageFn);
+  await page.select(SELECTORS.PRODTYPE_SELECTOR, PRODTYPE);
+  await page.select(SELECTORS.LOCATION_SELECTOR, LOCATION);
+  await page.click(SELECTORS.SEARCH_BUTTON);
+  await page.waitForSelector(SELECTORS.LISTINGS_AVAILABLE);
+
+  const listings = await page.$$eval(SELECTORS.LISTINGS_SELECTOR, handlers.handleListings);
   if (!listings) {
     console.log(error('No listings for', LOCATION));
   }
@@ -123,15 +107,16 @@ const handleDetailsPageFn = (detailsElement) => {
   console.log(verbose(`${listingsIds.length} listings on page:`));
   console.log(listingsIds);
   const toArchive = difference(existingFiles, listingsIds);
+  pull(toArchive, 'zero.json'); // (`pull` mutates `toArchive`)
   if (toArchive.length > 0) {
     console.log(verbose(`${toArchive.length} being moved to archive:`));
     console.log(toArchive);
     for (let i = 0; i < toArchive.length; i++) {
       const file = toArchive[i];
       const fromPath = OUTPUT_DIR + '/' + file;
-      const toPath = OUTPUT_DIR + '/archive/' + file;
+      const toPath = OUTPUT_DIR_ARCHIVE + '/' + file;
       fs.renameSync(fromPath, toPath);
-      console.log('Moved %s to %s', fromPath, toPath);
+      console.log('Moved %s to %s', file, toPath);
     }
     // remove archive files before going thru listings (`remove` mutates `listings`)
     remove(listings, (listing) => {
@@ -175,7 +160,7 @@ const handleDetailsPageFn = (detailsElement) => {
       continue;
     }
     try {
-      const details = await page.$eval(detailsSelector, handleDetailsPageFn);
+      const details = await page.$eval(detailsSelector, handlers.handleDetails);
       listing = { ...listing, ...details };
     } catch (e) {
       console.log(error(`page.$eval error, ${id}:`));
@@ -194,8 +179,8 @@ const handleDetailsPageFn = (detailsElement) => {
 
     // add details back in to listings array for writing to an all-in-one file
     listings[i] = listing;
-    var randomSeconds = Math.floor(Math.random() * 7000) + 3000; // 3 to 10 seconds
-    await page.waitFor(randomSeconds);
+    const randomSeconds = Math.floor(Math.random() * 7000) + 3000; // 3 to 10 seconds
+    await page.waitForTimeout(randomSeconds);
   }
 
   console.log(success('Finished with', listings.length, 'listings.'));
@@ -205,10 +190,10 @@ const handleDetailsPageFn = (detailsElement) => {
     console.log(success(outFile, 'has been saved.'));
   });
 
-  await page.waitFor(1500);
+  await page.waitForTimeout(1500);
   await browser.close();
   const timeStop = new Date();
-  console.log('Stop time:', timeStop);
+  console.log('Stop time:', timeStop.toLocaleString());
   const duration = Math.floor((timeStop - timeStart) / 1000);
   console.log(`Program took ${duration} seconds.`);
 })();
