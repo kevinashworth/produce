@@ -21,6 +21,7 @@ const PRODTYPES = [
   }
 ];
 
+// there 25 locations, plus All
 const LOCATIONS = [
   {
     label: 'All',
@@ -128,7 +129,20 @@ const LOCATIONS = [
   }
 ];
 
+// 21 locations
+const LOCATIONS_AT_ONCE = [
+  'AZ', 'CO', 'TX', 'HI', 'HU', 'FL', 'DE', 'MKN', 'TN', 'NV',
+  'BO', 'NM', 'LS', 'OA', 'PH', 'OR', 'SD', 'SF', 'WA', 'MN', 'DC'
+];
+
+// 3 locations (LA is separate)
+const LOCATIONS_OTHERS = [
+  'GA', 'CH', 'NY'
+];
+
 module.exports = {
   LOCATIONS,
+  LOCATIONS_AT_ONCE,
+  LOCATIONS_OTHERS,
   PRODTYPES
 };
