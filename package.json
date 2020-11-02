@@ -20,9 +20,7 @@
     "puppeteer": "^5.4.1",
     "semistandard": "^16.0.0"
   },
-  "devDependencies": {
-    "ndb": "^1.1.5"
-  },
+  "devDependencies": {},
   "semistandard": {
     "globals": [
       "_"
