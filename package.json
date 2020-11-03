@@ -1,22 +1,19 @@
 {
   "name": "produce",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Helps me produce some listings",
   "scripts": {
-    "start": "semistandard && ndb index.js",
     "lint": "semistandard --verbose",
     "lint:fix": "semistandard --fix --verbose",
     "lint:nofix": "semistandard --verbose"
   },
   "keywords": [],
-  "author": "",
+  "author": "Kevin Ashworth",
   "license": "ISC",
   "dependencies": {
     "chalk": "^4.1.0",
     "glob": "^7.1.6",
     "lodash": "^4.17.20",
-    "mkdirp": "^1.0.4",
     "puppeteer": "^5.4.1",
     "semistandard": "^16.0.0"
   },
