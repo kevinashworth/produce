@@ -11,14 +11,38 @@ const error = chalk.bold.red;
 const success = chalk.bold.green;
 const verbose = chalk.bold.yellow;
 
+const yargs = require('yargs/yargs');
+const { hideBin } = require('yargs/helpers');
+const argv = yargs(hideBin(process.argv))
+  .option('locations', {
+    alias: 'l',
+    type: 'string',
+    description: 'Locations to query',
+    demandOption: true,
+    choices: ['LA', 'three', 'rest']
+  })
+  .usage('Usage: node $0 --locations=<LA/three/rest>')
+  .usage('Usage: node $0 -l <LA/three/rest>')
+  .help()
+  .argv;
+
 const CONFIG = require('./config/config.js');
 const CONSTANTS = require('./common/constants.js');
 const SELECTORS = require('./common/selectors.js');
 
 const PRODTYPE_ALL = CONSTANTS.PRODTYPES[0].value;
-// const LOCATIONS = CONSTANTS.LOCATIONS_AT_ONCE;
-// const LOCATIONS = CONSTANTS.LOCATIONS_OTHERS;
-const LOCATIONS = ['LA'];
+let LOCATIONS = ['LA'];
+switch (argv.locations) {
+  case 'LA':
+    break;
+  case 'three':
+    LOCATIONS = CONSTANTS.LOCATIONS_OTHERS;
+    break;
+  case 'rest':
+    LOCATIONS = CONSTANTS.LOCATIONS_AT_ONCE;
+    break;
+}
+console.log('Will run with locations', LOCATIONS);
 
 const handlers = require('./common/handlers.js');
 const hooks = require('./common/hooks.js');

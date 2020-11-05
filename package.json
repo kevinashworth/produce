@@ -15,7 +15,8 @@
     "glob": "^7.1.6",
     "lodash": "^4.17.20",
     "puppeteer": "^5.4.1",
-    "semistandard": "^16.0.0"
+    "semistandard": "^16.0.0",
+    "yargs": "^16.1.0"
   },
   "devDependencies": {},
   "semistandard": {

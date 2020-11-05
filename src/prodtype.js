@@ -11,10 +11,26 @@ const error = chalk.bold.red;
 const success = chalk.bold.green;
 const verbose = chalk.bold.yellow;
 
+const yargs = require('yargs/yargs');
+const { hideBin } = require('yargs/helpers');
+const argv = yargs(hideBin(process.argv))
+  .option('prodtype', {
+    alias: 'p',
+    type: 'string',
+    description: 'Production types to query',
+    demandOption: true,
+    choices: ['AG', 'NMA', 'TV', 'TH']
+  })
+  .usage('Usage: node $0 --prodtype=<AG/NMA/TV/TH>')
+  .usage('Usage: node $0 -p <AG/NMA/TV/TH>')
+  .help()
+  .argv;
+
 const CONFIG = require('./config/config.js');
 const SELECTORS = require('./common/selectors.js');
 
-const PRODTYPE = 'AG';
+const PRODTYPE = argv.prodtype;
+console.log('Will run with production type', PRODTYPE);
 
 const OUTPUT_DIR = path.join(homedir, CONFIG.OUTPUT_DIR, 'prodtype', PRODTYPE);
 const OUTPUT_DIR_ARCHIVE = path.join(OUTPUT_DIR, 'archive');
