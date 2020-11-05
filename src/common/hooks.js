@@ -8,9 +8,9 @@ const error = chalk.bold.red;
 const success = chalk.bold.green;
 const verbose = chalk.bold.yellow;
 
-const CREDENTIALS = require('./credentials.js');
-const CONFIG = require('./config.js');
-const PAGE_CONFIG = require('./page-config.js');
+const CREDENTIALS = require('../config/credentials.js');
+const CONFIG = require('../config/config.js');
+const PAGE_CONFIG = require('../config/page-config.js');
 const SELECTORS = require('./selectors.js');
 
 const before = async () => {

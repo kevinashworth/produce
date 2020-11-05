@@ -11,8 +11,8 @@ const error = chalk.bold.red;
 const success = chalk.bold.green;
 const verbose = chalk.bold.yellow;
 
-const CONFIG = require('./config.js');
-const SELECTORS = require('./selectors.js');
+const CONFIG = require('./config/config.js');
+const SELECTORS = require('./common/selectors.js');
 
 const PRODTYPE = 'AG';
 
@@ -21,8 +21,8 @@ const OUTPUT_DIR_ARCHIVE = path.join(OUTPUT_DIR, 'archive');
 fs.mkdirSync(OUTPUT_DIR_ARCHIVE, { recursive: true });
 console.log('Output files will be in', OUTPUT_DIR);
 
-const handlers = require('./handlers.js');
-const hooks = require('./hooks.js');
+const handlers = require('./common/handlers.js');
+const hooks = require('./common/hooks.js');
 
 (async () => {
   const {

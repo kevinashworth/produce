@@ -11,17 +11,17 @@ const error = chalk.bold.red;
 const success = chalk.bold.green;
 const verbose = chalk.bold.yellow;
 
-const CONFIG = require('./config.js');
-const CONSTANTS = require('./constants.js');
-const SELECTORS = require('./selectors.js');
+const CONFIG = require('./config/config.js');
+const CONSTANTS = require('./common/constants.js');
+const SELECTORS = require('./common/selectors.js');
 
 const PRODTYPE_ALL = CONSTANTS.PRODTYPES[0].value;
 // const LOCATIONS = CONSTANTS.LOCATIONS_AT_ONCE;
 // const LOCATIONS = CONSTANTS.LOCATIONS_OTHERS;
 const LOCATIONS = ['LA'];
 
-const handlers = require('./handlers.js');
-const hooks = require('./hooks.js');
+const handlers = require('./common/handlers.js');
+const hooks = require('./common/hooks.js');
 
 (async () => {
   const {
