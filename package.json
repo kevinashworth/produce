@@ -14,9 +14,9 @@
     "chalk": "^4.1.0",
     "glob": "^7.1.6",
     "lodash": "^4.17.20",
-    "puppeteer": "^5.4.1",
+    "puppeteer": "^5.5.0",
     "semistandard": "^16.0.0",
-    "yargs": "^16.1.0"
+    "yargs": "^16.1.1"
   },
   "devDependencies": {},
   "semistandard": {
