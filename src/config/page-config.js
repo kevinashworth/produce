@@ -3,7 +3,7 @@ const getRandomInt = (min, max) => {
 };
 
 module.exports = {
-  USER_AGENT: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+  USER_AGENT: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
   WIDTH: getRandomInt(1340, 1440),
   HEIGHT: getRandomInt(666, 766)
 };
