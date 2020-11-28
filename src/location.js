@@ -95,7 +95,6 @@ const hooks = require('./common/hooks.js');
         const fromPath = OUTPUT_DIR + '/' + file;
         const toPath = OUTPUT_DIR_ARCHIVE + '/' + file;
         fs.renameSync(fromPath, toPath);
-        console.log('Moved %s to %s', file, toPath);
       }
       // remove archive files before going thru listings (`remove` mutates `listings`)
       remove(listings, (listing) => {
