@@ -6,7 +6,7 @@
 
 ---
 
-Agnostic Independent Agreement
+Agnostic Independent Agreement SAG-AFTRA
 
 - Moderate Low Budget
 - Moderate Low Budget Diversity

@@ -140,9 +140,14 @@ const LOCATIONS_OTHERS = [
   'GA', 'CH', 'NY'
 ];
 
+const LOCATIONS_TEST = [
+  'AZ', 'DC', 'FL'
+];
+
 module.exports = {
   LOCATIONS,
   LOCATIONS_AT_ONCE,
   LOCATIONS_OTHERS,
+  LOCATIONS_TEST,
   PRODTYPES
 };

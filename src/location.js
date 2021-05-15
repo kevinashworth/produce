@@ -19,10 +19,10 @@ const argv = yargs(hideBin(process.argv))
     type: 'string',
     description: 'Locations to query',
     demandOption: true,
-    choices: ['LA', 'three', 'rest']
+    choices: ['LA', 'three', 'rest', 'acdc']
   })
-  .usage('Usage: node $0 --locations=<LA/three/rest>')
-  .usage('Usage: node $0 -l <LA/three/rest>')
+  .usage('Usage: node $0 --locations=<LA/three/rest/acdc>')
+  .usage('Usage: node $0 -l <LA/three/rest/acdc>')
   .help()
   .argv;
 
@@ -34,6 +34,9 @@ const PRODTYPE_ALL = CONSTANTS.PRODTYPES[0].value;
 let LOCATIONS = ['LA'];
 switch (argv.locations) {
   case 'LA':
+    break;
+  case 'acdc':
+    LOCATIONS = CONSTANTS.LOCATIONS_TEST;
     break;
   case 'three':
     LOCATIONS = CONSTANTS.LOCATIONS_OTHERS;
@@ -60,7 +63,9 @@ const hooks = require('./common/hooks.js');
 
     const OUTPUT_DIR = path.join(homedir, CONFIG.OUTPUT_DIR, 'location', location);
     const OUTPUT_DIR_ARCHIVE = path.join(OUTPUT_DIR, 'archive');
+    const OUTPUT_DIR_MICRO_BUDGET = path.join(OUTPUT_DIR, 'micro-budget');
     fs.mkdirSync(OUTPUT_DIR_ARCHIVE, { recursive: true });
+    fs.mkdirSync(OUTPUT_DIR_MICRO_BUDGET, { recursive: true });
     console.log('Output files will be in', OUTPUT_DIR);
 
     let existingFiles = null;
@@ -143,7 +148,12 @@ const hooks = require('./common/hooks.js');
         console.log('The "for" loop will now continue.');
         continue;
       }
-      const outFile = OUTPUT_DIR + '/' + id + '.json';
+      let outFile;
+      if (listing.contractTitleName === 'Agnostic Micro-Budget Agreement') {
+        outFile = OUTPUT_DIR_MICRO_BUDGET + '/' + id + '.json';
+      } else {
+        outFile = OUTPUT_DIR + '/' + id + '.json';
+      }
       fs.writeFile(outFile, JSON.stringify(listing, null, 2), (err) => {
         if (err) throw err;
         const timeWrite = new Date();

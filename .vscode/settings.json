@@ -2,5 +2,6 @@
   "workbench.colorCustomizations": {
     "titleBar.activeBackground": "#fed100",
     "titleBar.activeForeground": "#000"
-  }
+  },
+  "prettier.enable": false
 }
