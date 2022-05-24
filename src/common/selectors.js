@@ -1,4 +1,4 @@
-module.exports = {
+const SELECTORS = {
   USERNAME_SELECTOR: '#edit-name',
   PASSWORD_SELECTOR: '#edit-pass',
   LOGIN_BUTTON_SELECTOR: '#edit-actions > div > input',
@@ -8,3 +8,5 @@ module.exports = {
   LISTINGS_AVAILABLE: '#production_listings_results #production_listings',
   LISTINGS_SELECTOR: '#production_listings > [id^=row]'
 };
+
+export default SELECTORS;

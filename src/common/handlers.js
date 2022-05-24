@@ -1,7 +1,7 @@
 // these functions run in browser context, not node.js
 // (lodash has been added to the browser)
 
-const handleListings = (nodeListArray) => {
+export const handleListings = (nodeListArray) => {
   return nodeListArray.map(listing => {
     const [id] = listing.id.match(/\d+/g);
     return {
@@ -14,7 +14,7 @@ const handleListings = (nodeListArray) => {
   });
 };
 
-const handleDetails = (detailsElement) => {
+export const handleDetails = (detailsElement) => {
   const results = {};
   const shootingLocations = [];
   const alternateTitles = [];
@@ -55,9 +55,4 @@ const handleDetails = (detailsElement) => {
     }
   }
   return results;
-};
-
-module.exports = {
-  handleDetails,
-  handleListings
 };

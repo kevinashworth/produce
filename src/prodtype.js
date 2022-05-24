@@ -1,18 +1,20 @@
-const fs = require('fs');
-const glob = require('glob');
-const difference = require('lodash/difference');
-const pull = require('lodash/pull');
-const remove = require('lodash/remove');
-const homedir = require('os').homedir();
-const path = require('path');
+import * as fs from 'fs';
+import glob from 'glob';
+import _ from 'lodash';
+import homedir from 'os';
+import path from 'path';
+import chalk from 'chalk';
+import yargs from 'yargs';
+import { hideBin } from 'yargs/helpers';
+import CONFIG from './config/config';
+import SELECTORS from './common/selectors';
+import handlers from './common/handlers';
+import hooks from './common/hooks';
 
-const chalk = require('chalk');
 const error = chalk.bold.red;
 const success = chalk.bold.green;
 const verbose = chalk.bold.yellow;
 
-const yargs = require('yargs/yargs');
-const { hideBin } = require('yargs/helpers');
 const argv = yargs(hideBin(process.argv))
   .option('prodtype', {
     alias: 'p',
@@ -26,9 +28,6 @@ const argv = yargs(hideBin(process.argv))
   .help()
   .argv;
 
-const CONFIG = require('./config/config.js');
-const SELECTORS = require('./common/selectors.js');
-
 const PRODTYPE = argv.prodtype;
 console.log('Will run with production type', PRODTYPE);
 
@@ -36,9 +35,6 @@ const OUTPUT_DIR = path.join(homedir, CONFIG.OUTPUT_DIR, 'prodtype', PRODTYPE);
 const OUTPUT_DIR_ARCHIVE = path.join(OUTPUT_DIR, 'archive');
 fs.mkdirSync(OUTPUT_DIR_ARCHIVE, { recursive: true });
 console.log('Output files will be in', OUTPUT_DIR);
-
-const handlers = require('./common/handlers.js');
-const hooks = require('./common/hooks.js');
 
 (async () => {
   const {
@@ -72,8 +68,8 @@ const hooks = require('./common/hooks.js');
   const listingsIds = listings.map((listing) => listing.id + '.json').sort();
   console.log(verbose(`${listingsIds.length} listings on page:`));
   console.log(listingsIds);
-  const toArchive = difference(existingFiles, listingsIds);
-  pull(toArchive, 'zero.json'); // (`pull` mutates `toArchive`)
+  const toArchive = _.difference(existingFiles, listingsIds);
+  _.pull(toArchive, 'zero.json'); // (`pull` mutates `toArchive`)
   if (toArchive.length > 0) {
     console.log(verbose(`${toArchive.length} being moved to archive:`));
     console.log(toArchive);
@@ -84,7 +80,7 @@ const hooks = require('./common/hooks.js');
       fs.renameSync(fromPath, toPath);
     }
     // remove archive files before going thru listings (`remove` mutates `listings`)
-    remove(listings, (listing) => {
+    _.remove(listings, (listing) => {
       return (toArchive.indexOf(listing.id + '.json') > -1);
     });
   } else {

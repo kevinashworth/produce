@@ -1,4 +1,4 @@
-const PRODTYPES = [
+export const PRODTYPES = [
   {
     label: 'All',
     value: 'ALL'
@@ -22,7 +22,7 @@ const PRODTYPES = [
 ];
 
 // there 25 locations, plus All
-const LOCATIONS = [
+export const LOCATIONS = [
   {
     label: 'All',
     value: 'ALL'
@@ -130,24 +130,16 @@ const LOCATIONS = [
 ];
 
 // 21 locations
-const LOCATIONS_AT_ONCE = [
+export const LOCATIONS_AT_ONCE = [
   'AZ', 'CO', 'TX', 'HI', 'HU', 'FL', 'DE', 'MKN', 'TN', 'NV',
   'BO', 'NM', 'LS', 'OA', 'PH', 'OR', 'SD', 'SF', 'WA', 'MN', 'DC'
 ];
 
 // 3 locations (LA is separate)
-const LOCATIONS_OTHERS = [
+export const LOCATIONS_OTHERS = [
   'GA', 'CH', 'NY'
 ];
 
-const LOCATIONS_TEST = [
+export const LOCATIONS_TEST = [
   'AZ', 'DC', 'FL'
 ];
-
-module.exports = {
-  LOCATIONS,
-  LOCATIONS_AT_ONCE,
-  LOCATIONS_OTHERS,
-  LOCATIONS_TEST,
-  PRODTYPES
-};

@@ -1,19 +1,18 @@
-const fs = require('fs');
-const homedir = require('os').homedir();
-const path = require('path');
-const puppeteer = require('puppeteer');
+import chalk from 'chalk';
+import fs from 'fs';
+import path from 'path';
+import puppeteer from 'puppeteer';
+import homedir from 'os';
+import CREDENTIALS from '../config/credentials.js';
+import CONFIG from '../config/config.js';
+import PAGE_CONFIG from '../config/page-config.js';
+import SELECTORS from './selectors.js';
 
-const chalk = require('chalk');
 const error = chalk.bold.red;
 const success = chalk.bold.green;
 const verbose = chalk.bold.yellow;
 
-const CREDENTIALS = require('../config/credentials.js');
-const CONFIG = require('../config/config.js');
-const PAGE_CONFIG = require('../config/page-config.js');
-const SELECTORS = require('./selectors.js');
-
-const before = async () => {
+export const before = async () => {
   // 1 setup
   const timeStart = new Date();
   console.log('Start time:', timeStart.toLocaleString());
@@ -21,6 +20,7 @@ const before = async () => {
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
   console.log('Created the Puppeteer Page.');
+  await page.setDefaultNavigationTimeout(0);
   await page.setUserAgent(PAGE_CONFIG.USER_AGENT);
   await page.setViewport({
     width: PAGE_CONFIG.WIDTH,
@@ -71,7 +71,7 @@ const before = async () => {
   };
 };
 
-const beforeEach = async ({ page, msg }) => {
+export const beforeEach = async ({ page, msg }) => {
   if (msg) {
     console.log(verbose(msg));
   }
@@ -83,13 +83,13 @@ const beforeEach = async ({ page, msg }) => {
   }
 };
 
-const afterEach = ({ msg }) => {
+export const afterEach = ({ msg }) => {
   if (msg) {
     console.log(success(msg));
   }
 };
 
-const after = async ({
+export const after = async ({
   browser,
   cookiesFile,
   page,
@@ -109,11 +109,4 @@ const after = async ({
   console.log('Stop time:', timeStop.toLocaleString());
   const duration = Math.floor((timeStop - timeStart) / 1000);
   console.log(`Program took ${duration} seconds.`);
-};
-
-module.exports = {
-  before,
-  beforeEach,
-  afterEach,
-  after
 };
