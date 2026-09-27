@@ -12,12 +12,12 @@
   "author": "Kevin Ashworth",
   "license": "ISC",
   "dependencies": {
-    "chalk": "5.0.1",
-    "glob": "8.0.3",
-    "lodash": "4.17.21",
-    "puppeteer": "14.1.1",
-    "semistandard": "16.0.1",
-    "yargs": "17.5.1"
+    "chalk": "6.0.0",
+    "glob": "13.0.6",
+    "lodash": "4.18.1",
+    "puppeteer": "25.11.0",
+    "semistandard": "17.0.0",
+    "yargs": "18.2.0"
   },
   "devDependencies": {},
   "semistandard": {
